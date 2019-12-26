@@ -1,0 +1,35 @@
+{
+  "name": "rabatten-scraper",
+  "version": "1.0.0",
+  "description": "Used to do web scraping of data for repo rabatten",
+  "main": "index.js",
+  "scripts": {
+    "watchfile:index": "nodemon ./index.js",
+    "index": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zinen/rabatten-scraper.git"
+  },
+  "homepage": "https://github.com/zinen/rabatten-scraper#readme",
+  "bugs": {
+    "url": "https://github.com/zinen/rabatten-scraper/issues"
+  },
+  "author": "zinen",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.0",
+    "puppeteer": "2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  }
+}
