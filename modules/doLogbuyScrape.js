@@ -29,7 +29,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       scrapeData.push(...await page.evaluate(() => {
         // Class .add is used at adds placed within serach results
         // Class .add is used for short limited discound and is not relevant
-        const tableWithData = document.querySelectorAll('div.searchwrapper:not(.add) a > :not(specialoffer)')
+        const tableWithData = document.querySelectorAll('div.searchwrapper:not(.add) a > :not(.specialoffer)')
         // const tableWithData = document.querySelector('div.searchwrapper:not(.add)').children
         const sectionList = []
         for (const element of tableWithData) {
@@ -136,7 +136,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         if (dataPoint.localLink) {
           if (masterData) {
             const index = masterData.findIndex(element => element.localLink === dataPoint.localLink)
-            if (index > 0 && masterData[index].remoteLink) {
+            if (index > -1 && masterData[index].remoteLink) {
               dataPoint.remoteLink = masterData[index].remoteLink
               dataPoint.masterData = true
               continue
@@ -214,7 +214,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       //   page.waitFor(2000).then(() => { throw new Error('Final screenshot failed') }) // End if screenshot is not done in 5 seconds
       // ])
       // Debug: dont end browser
-      // await browser.close()
+      await browser.close()
     } catch (error) {
       console.log(error.message)
     }
