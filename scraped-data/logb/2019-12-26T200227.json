@@ -34,7 +34,9 @@
     "name": "SATS",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19278&AddressId=162168&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "17 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.sats.com/"
   },
   {
     "name": "SATS",
@@ -159,7 +161,9 @@
     "name": "HVIDOVRE ANTIRUST CENTER",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18540&AddressId=161126&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "30 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://hvidovreantirustcenter.dk/"
   },
   {
     "name": "SteamRex",
@@ -172,7 +176,9 @@
     "name": "Carglass A/S",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=160147&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.carglass.dk/"
   },
   {
     "name": "Malgodt",
@@ -214,7 +220,8 @@
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19055&AddressId=161801&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
     "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=19055&addressId=161801",
-    "err4": "Priority 1 link following failed. No link 2 found"
+    "err4": "Priority 1 link following failed. No link 2 found",
+    "errKV": "No website manually"
   },
   {
     "name": "Pilgrim",
@@ -1072,7 +1079,9 @@
     "name": "Fri Bikeshop KBH NV & KBH Ø",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3085&AddressId=116899&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 - 15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.fribikeshop.dk"
   },
   {
     "name": "H.C. Andersen Eventyrhuset",
@@ -1245,7 +1254,9 @@
     "name": "Zirup cafe og bar",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18037&AddressId=159996&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 - 15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://zirup.dk/"
   },
   {
     "name": "Okko Café",
@@ -1467,7 +1478,9 @@
     "name": "Spotlight",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2243&AddressId=162129&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 - 20 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://spotlight.dk"
   },
   {
     "name": "Jackie Phillip & Co. Advokatfirma",
@@ -1647,7 +1660,9 @@
     "name": "H. Lynggaard Guld - Sølv A/S",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17909&AddressId=159875&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.lynggaard-shop.com"
   },
   {
     "name": "Flying Superkids",
@@ -1872,7 +1887,7 @@
     "name": "EuroFlorist",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1363&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "remoteLink": "http://clk.tradedoubler.com/click?p(238481)a(1991995)g(21293100)",
+    "remoteLink": "https://www.euroflorist.dk/",
     "masterData": true
   },
   {
@@ -1886,7 +1901,7 @@
     "name": "MyTrendyPhone",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1552&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(58553)a(1991995)g(0)epi(620614)",
+    "remoteLink": "https://www.mytrendyphone.dk/shop/frontpage.html?utm_source=TD_DK&utm_campaign=1991995&utm_content=0&tduid=6dec9e4c4862a0ae3f45b10bb0b3e7aa",
     "masterData": true
   },
   {
@@ -1970,7 +1985,7 @@
     "name": "Alperejser",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2116&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "kr 96 - 320",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(194262)a(1991995)g(0)epi(620618)url(http://clk.tradedoubler.com/click?p(194262)a(1991995)g(18882066)url(http://www.alperejser.dk/?cookieChecked=true))",
+    "remoteLink": "https://www.alperejser.dk/",
     "masterData": true
   },
   {
@@ -1984,7 +1999,7 @@
     "name": "Inkclub.com",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2122&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "remoteLink": "http://clk.tradedoubler.com/click?p=11752&a=1991995&g=69533",
+    "remoteLink": "https://www.inkclub.com/",
     "masterData": true
   },
   {
@@ -1998,14 +2013,14 @@
     "name": "Nelly",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "3 %",
-    "remoteLink": "chrome-error://chromewebdata/",
+    "remoteLink": "https://nelly.com/",
     "masterData": true
   },
   {
     "name": "One.com",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2148&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "kr 60",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(15400)a(1991995)g(0)epi(620622)",
+    "remoteLink": "https://www.one.com/",
     "masterData": true
   },
   {
@@ -2033,7 +2048,7 @@
     "name": "Skobox",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2377&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(213538)a(1991995)g(0)epi(620624)url(http://clk.tradedoubler.com/click?p(213538)a(1991995)g(20046956)url(http://www.skobox.dk/))",
+    "remoteLink": "https://www.skobox.dk/",
     "masterData": true
   },
   {
@@ -2068,7 +2083,7 @@
     "name": "Ohminus",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2545&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "12 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(199360)a(1991995)g(0)epi(620625)",
+    "remoteLink": "https://www.ohminus.com/shop/frontpage.html",
     "masterData": true
   },
   {
@@ -2117,7 +2132,7 @@
     "name": "Supersaver",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2577&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "kr 100 - 160",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(24023)a(1991995)g(0)epi(620626)url(http://clk.tradedoubler.com/click?p(24023)a(1991995)g(1129892)url(https://www.supersaver.dk/fly))",
+    "remoteLink": "https://www.supersaver.dk/",
     "masterData": true
   },
   {
@@ -2145,7 +2160,7 @@
     "name": "Zooplus",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2953&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "2 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(226889)a(1991995)g(0)epi(620627)",
+    "remoteLink": "https://www.zooplus.dk/",
     "masterData": true
   },
   {
@@ -2250,7 +2265,7 @@
     "name": "Bodystore",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3563&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "4 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(212130)a(1991995)g(0)epi(620630)url(http://clk.tradedoubler.com/click?p(212130)a(1991995)g(19955566)url(http://bodystore.dk/))",
+    "remoteLink": "https://bodystore.dk/",
     "masterData": true
   },
   {
@@ -2271,7 +2286,7 @@
     "name": "NLY Man",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3608&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "3 %",
-    "remoteLink": "chrome-error://chromewebdata/",
+    "remoteLink": "https://nlyman.com/",
     "masterData": true
   },
   {
@@ -2313,20 +2328,21 @@
     "name": "Radisson blu",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3733&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "chrome-error://chromewebdata/",
+    "remoteLink": "https://www.radissonhotels.com/",
     "masterData": true
   },
   {
     "name": "Danland feriecenter",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3795&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.danland.dk/"
   },
   {
     "name": "Itasker",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(214909)a(1991995)g(0)epi(620635)url(http://clk.tradedoubler.com/click?p(214909)a(1991995)g(20151290))",
     "masterData": true
   },
   {
@@ -2459,14 +2475,14 @@
     "name": "Mini in the Box",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=16531&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(248636)a(1991995)g(0)epi(620637)",
+    "remoteLink": "https://miniinthebox.com/",
     "masterData": true
   },
   {
     "name": "Olka Express",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=16637&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(258566)a(1991995)g(0)epi(620638)url(http://clk.tradedoubler.com/click?p(258566)a(1991995)g(22376732)url(http://www.olkaexpress.dk/))",
+    "remoteLink": "https://www.olkaexpress.dk/",
     "masterData": true
   },
   {
@@ -2536,7 +2552,7 @@
     "name": "RoyalDesign",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17088&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "6 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(295046)a(1991995)g(0)epi(620640)url(http://clk.tradedoubler.com/click?p(295046)a(1991995)g(24464636))",
+    "remoteLink": "https://royaldesign.dk/",
     "masterData": true
   },
   {
@@ -2564,7 +2580,7 @@
     "name": "Sarenza",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17229&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(268943)a(1991995)g(0)epi(620642)url(http://clk.tradedoubler.com/click?p(268943)a(1991995)g(23019628)url(http://www.sarenza.dk/))",
+    "remoteLink": "https://www.sarenza.dk/?ectrans=1",
     "masterData": true
   },
   {
@@ -2861,7 +2877,7 @@
     "name": "Park Inn",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18242&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "chrome-error://chromewebdata/",
+    "remoteLink": "https://www.radissonhotels.com/",
     "masterData": true
   },
   {
@@ -2947,7 +2963,7 @@
     "name": "Dækekspert.dk",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18296&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "2 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(278959)a(1991995)g(0)epi(620646)url(http://clk.tradedoubler.com/click?p(278959)a(1991995)g(23778378)url(http://www.daekekspert.dk))",
+    "remoteLink": "https://www.daekekspert.dk/",
     "masterData": true
   },
   {
@@ -3191,14 +3207,14 @@
     "name": "Na-kd",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18497&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(270160)a(1991995)g(0)epi(620649)url(http://clk.tradedoubler.com/click?p=270160&a=1991995&g=0%22%20target=%22_blank%22%3ENakd%3C/a%3E)",
+    "remoteLink": "https://www.na-kd.com/",
     "masterData": true
   },
   {
     "name": "Easyshoes",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18498&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(283234)a(1991995)g(0)epi(620650)url(http://clk.tradedoubler.com/click?p=283234&a=1991995&g=0%22%20target=%22_blank%22%3Eeasyshoes%3C/a%3E)",
+    "remoteLink": "https://easyshoes.dk/",
     "masterData": true
   },
   {
@@ -3219,7 +3235,7 @@
     "name": "e.l.f. Cosmetics",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18501&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(282284)a(1991995)g(1991995)epi(620651)url(http://clk.tradedoubler.com/click?p=282284&a=1991995&g=0&url=logbuy%22%20target=%22_blank%22%3Eelfcosmetics.dk%3C/a%3E)",
+    "remoteLink": "https://elfcosmetics.dk/",
     "masterData": true
   },
   {
@@ -3233,7 +3249,7 @@
     "name": "Gina Tricot",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18509&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "6 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(283871)a(1991995)g(0)epi(620653)url(%3Ca%20href=%22http://clk.tradedoubler.com/click?p=283871&a=1991995&g=0%22%20target=%22_blank%22%3Eginatricot%3C/a%3E)",
+    "remoteLink": "https://www.ginatricot.com/",
     "masterData": true
   },
   {
@@ -3422,7 +3438,7 @@
     "name": "Sephora",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18670&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(285930)a(1991995)g(0)epi(620661)url(http://clk.tradedoubler.com/click?p(285930)a(1991995)g(24118302)url(https://www.sephora.dk))",
+    "remoteLink": "https://www.sephora.dk/",
     "masterData": true
   },
   {
@@ -3436,21 +3452,21 @@
     "name": "Wolford",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18674&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(284766)a(1991995)g(0)epi(620662)url(http://clk.tradedoubler.com/click?p(284766)a(1991995)g(24076238)url(http://www.wolfordshop.dk/))",
+    "remoteLink": "https://www.wolfordshop.dk/",
     "masterData": true
   },
   {
     "name": "Ivyrevel",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18675&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(286241)a(1991995)g(0)epi(620663)url(http://clk.tradedoubler.com/click?p(286241)a(1991995)g(24134184)url(https://www.ivyrevel.com/dk/home))",
+    "remoteLink": "https://www.ivyrevel.com/",
     "masterData": true
   },
   {
     "name": "SF Anytime",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18676&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "3 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(284643)a(1991995)g(0)epi(620664)url(http://clk.tradedoubler.com/click?p(284643)a(1991995)g(24070248)url(https://www.sfanytime.com/da))",
+    "remoteLink": "https://www.sfanytime.com/",
     "masterData": true
   },
   {
@@ -3464,7 +3480,7 @@
     "name": "richmond & finch",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18680&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "12 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(288091)a(1991995)g(0)epi(620665)url(http://clk.tradedoubler.com/click?p(288091)a(1991995)g(24228232)url(https://www.richmondfinch.com/eu/))",
+    "remoteLink": "https://www.richmondfinch.com/",
     "masterData": true
   },
   {
@@ -3478,7 +3494,7 @@
     "name": "LensWay",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18683&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "6 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(22327)a(1991995)g(0)epi(620667)url(http://clk.tradedoubler.com/click?p(22327)a(1991995)g(16264234)url(https://www.lensway.dk/))",
+    "remoteLink": "https://www.lensway.dk/",
     "masterData": true
   },
   {
@@ -3779,27 +3795,27 @@
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18789&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
     "remoteLink0": "https://www.mylogbuy.com/WebPages/BuyCashBack/CashbackRedirect.aspx?dealId=35432",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(283838)a(1991995)g(0)epi(621034)url(http://clk.tradedoubler.com/click?p(283838)a(1991995)g(24076904)url(http://www.tiffany.dk/))"
+    "remoteLink": "https://www.tiffany.dk/"
   },
   {
     "name": "SF Kids",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18790&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "kr 13",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(278601)a(1991995)g(0)epi(620669)url(http://clk.tradedoubler.com/click?p(278601)a(1991995)g(23825596)url(https://www.sfkids.com/da))",
+    "remoteLink": "https://www.sfkids.com/",
     "masterData": true
   },
   {
     "name": "MM Sports",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18791&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "6 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(291840)a(1991995)g(0)epi(620670)url(http://clk.tradedoubler.com/click?p(291840)a(1991995)g(24349222)url(https://www.mmsportsstore.dk/))",
+    "remoteLink": "https://www.mmsportsstore.dk/",
     "masterData": true
   },
   {
     "name": "Johannesens",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18792&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "6 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(287884)a(1991995)g(0)epi(620671)url(http://clk.tradedoubler.com/click?p(287884)a(1991995)g(24267320)url(https://www.johannesens.se/dk/))",
+    "remoteLink": "https://www.johannesens.se/",
     "masterData": true
   },
   {
@@ -3827,7 +3843,7 @@
     "name": "Flightfinder",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18796&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "kr 69",
-    "remoteLink": "https://clk.tradedoubler.com/click?p=286841&a=3009811&g=24169052&url=http://clk.tradedoubler.com/click?p(272036)a(1991995)g(23411492)url(http://flightfinder.dk/)",
+    "remoteLink": "https://flightfinder.dk/",
     "masterData": true
   },
   {
@@ -3841,7 +3857,7 @@
     "name": "Rentalcars",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18802&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(279802)a(1991995)g(0)epi(620673)url(http://clk.tradedoubler.com/click?p(279802)a(1991995)g(23829734)url(http://www.rentalcars.com/))",
+    "remoteLink": "https://www.rentalcars.com/",
     "masterData": true
   },
   {
@@ -3981,7 +3997,7 @@
     "name": "PUMA",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18835&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(289768)a(1991995)g(0)epi(620685)url(http://clk.tradedoubler.com/click?p(289768)a(1991995)g(24280914)url(https://eu.puma.com/dk/da/home))",
+    "remoteLink": "https://eu.puma.com/",
     "masterData": true
   },
   {
@@ -4002,28 +4018,28 @@
     "name": "Tezenis",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18840&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(293386)a(1991995)g(0)epi(620688)url(http://clk.tradedoubler.com/click?p(293386)a(1991995)g(24371114)url(https://dk.tezenis.com/))",
+    "remoteLink": "https://www.tezenis.com/",
     "masterData": true
   },
   {
     "name": "Intimissimi",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18841&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(293281)a(1991995)g(0)epi(620689)url(http://clk.tradedoubler.com/click?p(293281)a(1991995)g(24368514)url(https://dk.intimissimi.com/))",
+    "remoteLink": "https://www.intimissimi.com/",
     "masterData": true
   },
   {
     "name": "Falconeri",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18842&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(293422)a(1991995)g(0)epi(620690)url(http://clk.tradedoubler.com/click?p(293422)a(1991995)g(24372540)url(https://dk.falconeri.com/))",
+    "remoteLink": "https://dk.falconeri.com/",
     "masterData": true
   },
   {
     "name": "Calzedonia",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18843&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "8 %",
-    "remoteLink": "chrome-error://chromewebdata/",
+    "remoteLink": "https://dk.calzedonia.com/",
     "masterData": true
   },
   {
@@ -4086,7 +4102,7 @@
     "name": "KidsBrandStore",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18873&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(292937)a(1991995)g(0)epi(620695)url(http://clk.tradedoubler.com/click?p(292937)a(1991995)g(24358308)url(http://kidsbrandstore.dk))",
+    "remoteLink": "https://kidsbrandstore.dk/",
     "masterData": true
   },
   {
@@ -4142,7 +4158,7 @@
     "name": "Bogreolen",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18889&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 %",
-    "remoteLink": "http://clkuk.tradedoubler.com/click?p(292001)a(1991995)g(0)epi(620696)url(http://clk.tradedoubler.com/click?p(292001)a(1991995)g(24367444)url(https://bogreolen.dk/))",
+    "remoteLink": "https://bogreolen.dk/",
     "masterData": true
   },
   {
@@ -4664,7 +4680,9 @@
     "name": "Helsingør & Hillerød Pava Center",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19002&AddressId=161718&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://pava.dk/"
   },
   {
     "name": "Au2clean",
@@ -4811,7 +4829,9 @@
     "name": "Fri Bikeshop Ringsted",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17545&AddressId=159568&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.fribikeshop.dk"
   },
   {
     "name": "Colourplus",
@@ -5014,7 +5034,9 @@
     "name": "iMakeiPhones",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18999&AddressId=161714&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 - 20 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://imakeiphones.dk"
   },
   {
     "name": "Landal GreenParks",
@@ -5173,7 +5195,9 @@
     "name": "Peters Farver",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3513&AddressId=135364&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "15 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.webmaling.dk/"
   },
   {
     "name": "Fri Bikeshop Odense C",
@@ -5407,7 +5431,9 @@
     "name": "Fri BikeShop Århus",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17180&AddressId=143832&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.fribikeshop.dk"
   },
   {
     "name": "Lystorvet",
@@ -5631,7 +5657,9 @@
     "name": "Corfitz",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18123&AddressId=160069&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "10 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://corfitz.dk"
   },
   {
     "name": "Scandic Hotels - Scandic Bygholm Park",
@@ -5755,7 +5783,9 @@
     "name": "Fjordhotel Augustenborg",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18595&AddressId=161294&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "5 - 10 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.fjordhotel.dk"
   },
   {
     "name": "Lysmesteren Vejle",
@@ -5966,7 +5996,9 @@
     "name": "Flügger Farver Engesvang",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3737&AddressId=138512&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "15 - 25 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.flugger.dk"
   },
   {
     "name": "Zjoos",
@@ -6257,7 +6289,9 @@
     "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=36767",
     "err4": "Priority 1 link following failed. Trying link 2",
     "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=19019&addressId=161746",
-    "err2": "Err02: Search for remote link: Error"
+    "err2": "Err02: Search for remote link: Error",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.weber.com/DK/da/logbuy/weber-273981.html"
   },
   {
     "name": "By Hviid",
@@ -6578,7 +6612,9 @@
     "name": "Skousen Esbjerg",
     "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18977&AddressId=161694&SupplierClickArea=SearchList&ViewType=Normal",
     "discount": "25 %",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.skousen.dk"
   },
   {
     "name": "Massage Nord",

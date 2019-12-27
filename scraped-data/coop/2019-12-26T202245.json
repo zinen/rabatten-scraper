@@ -136,7 +136,9 @@
     "name": "TIVOLI",
     "localLink": "https://partnerfordele.coop.dk/tivoli/",
     "discount": "Bonus hos Tivoli",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.tivoli.dk"
   },
   {
     "name": "LALANDIA",
@@ -149,19 +151,25 @@
     "name": "KNUTHENBORG SAFARIPARK",
     "localLink": "https://partnerfordele.coop.dk/knuthenborg/",
     "discount": "Lukket for sæsonen",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.knuthenborg.dk"
   },
   {
     "name": "LEGOLAND®",
     "localLink": "https://partnerfordele.coop.dk/legoland/",
     "discount": "Lukket for sæsonen",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.legoland.dk"
   },
   {
     "name": "KNUTHENBORG CAMP",
     "localLink": "https://partnerfordele.coop.dk/knuthenborg-camp/",
     "discount": "10% rabat + 10% bonus",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.knuthenborg.dk/knuthenborg-camp"
   },
   {
     "name": "FÅRUP SOMMERLAND",
@@ -202,7 +210,9 @@
     "name": "HOTELS.COM",
     "localLink": "https://partnerfordele.coop.dk/hotelscom/",
     "discount": "Op til 8% bonus",
-    "err3": "No link to external site was found on local element page"
+    "err3": "No link to external site was found on local element page",
+    "errKV": "Manual found website",
+    "remoteLink": "https://www.hotels.com"
   },
   {
     "name": "SEVERIN",

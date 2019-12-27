@@ -95,7 +95,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     //   },
     //   {
     //     name: '7: Accepter ikke tradedoubler.com links, afvent redirect',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2097&SupplierClickArea=SearchList&ViewType=Normal'
+    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal'
     //   },
     //   {
     //     name: '8: Siden henter ikke færdig, scrape fejler derfor',
@@ -110,11 +110,15 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19019&AddressId=161746&SupplierClickArea=SearchList&ViewType=Normal'
     //   },
     //   {
+    //     name: '11: Endte på chromewebdata',
+    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal'
+    //   },
+    //   {
     //     name: 'test',
     //     localLink: 'about:blank'
     //   }
     // ]
-    // const scrapeData = [testData[10]]
+    // const scrapeData = [testData[7]]
     // Debugpart, end
     // Loop scraped data and find the link the the external site
     page.setDefaultTimeout(15000)
@@ -210,7 +214,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       //   page.waitFor(2000).then(() => { throw new Error('Final screenshot failed') }) // End if screenshot is not done in 5 seconds
       // ])
       // Debug: dont end browser
-      await browser.close()
+      // await browser.close()
     } catch (error) {
       console.log(error.message)
     }
@@ -227,11 +231,19 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
    * @returns {string}
    */
   async function evalRedirects (URL, page) {
-    if (URL.includes('tradedoubler.com')) {
+    const reDirectSites = [
+      'tradedoubler.com/',
+      'doubleclick.net/',
+      'chrome-error://'
+    ]
+    if (reDirectSites.some(resource => URL.indexOf(resource) !== -1)) {
       try {
         await page.waitForNavigation()
       } catch (error) {
-        console.log('Waited for at redirects, but it didnt happend at: ' + URL)
+        if (reDirectSites.some(resource => page.url().indexOf(resource) !== -1)) {
+          console.log('Waited for at redirects, but it didnt happend at: ' + URL)
+          throw new Error('Ended at redirection site')
+        }
       }
       return page.url()
     } else {

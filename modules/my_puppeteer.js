@@ -5,13 +5,13 @@ module.exports = {
   setupBrowser: async function (browserHolder) {
     if (!browserHolder) {
       browserHolder = await puppeteer.launch({
-        headless: false, // default is true
+        // headless: false, // default is true
         // slowMo: 50, // only for debugging
         devtools: false, // default is false
         ignoreHTTPSErrors: true, // default is false
         args: [
           '--disable-infobars',
-          '--window-position=960,10',
+          // '--window-position=960,10',
           '--ignore-certifcate-errors',
           '--ignore-certifcate-errors-spki-list',
           '--no-sandbox',
@@ -50,7 +50,7 @@ module.exports = {
     const skippedResources = [
       'quantserve',
       'adzerk',
-      'doubleclick',
+      // 'doubleclick', // Uses for redirections sometimes
       'adition',
       'exelator',
       'sharethrough',

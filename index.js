@@ -23,23 +23,40 @@ async function analyseData (filePath) {
   let iSame = 0
   let iDif = 0
   let iNone = 0
-  // Clean links:
+  const occurHolder = {}
   data.forEach(point => {
-    point.remoteLink0 = point.remoteLink0 ? point.remoteLink0.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase() : null
-    point.remoteLink = point.remoteLink ? point.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1') : null
     if (!point.remoteLink) {
       point.remoteLinkResult = 'none'
       iNone++
-    } else if (point.remoteLink0 === point.remoteLink) {
-      point.remoteLinkResult = 'same'
-      iSame++
     } else {
-      point.remoteLinkResult = 'diff'
-      iDif++
+      // Clean links:
+      point.remoteLink0 = point.remoteLink0 ? point.remoteLink0.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase() : null
+      point.remoteLink = point.remoteLink ? point.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1') : null
+      if (point.remoteLink0 === point.remoteLink) {
+        point.remoteLinkResult = 'same'
+        iSame++
+      } else {
+        point.remoteLinkResult = 'diff'
+        iDif++
+      }
+      if (occurHolder[point.remoteLink]) {
+        occurHolder[point.remoteLink]++
+      } else {
+        occurHolder[point.remoteLink] = 1
+      }
     }
     i1 += point.err1 ? 1 : 0
     i2 += point.err2 ? 1 : 0
   })
+  // Count re-occurrences of a a remnoteLink
+  const keys = Object.keys(occurHolder)
+  for (const key of keys) {
+    // 3 or more re-occurrences is relevant
+    if (occurHolder[key] < 3) {
+      delete occurHolder[key]
+    }
+  }
+
   // Add notes to files
   data.push({
     name: '_analyse',
@@ -49,6 +66,7 @@ async function analyseData (filePath) {
     countSame: iSame,
     countDif: iDif,
     countNone: iNone,
+    countOccur: occurHolder,
     timestamp: new Date().toISOString()
   })
   return data

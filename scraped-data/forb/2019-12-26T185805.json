@@ -1040,7 +1040,8 @@
     "localLink": "https://www.forbrugsforeningen.dk/businesssearch//1002092983",
     "discount": "10 %",
     "remoteLink0": "http://www.alarmoglys.dk",
-    "err2": "Err02: Search for remote link: Error"
+    "err2": "Err02: Search for remote link: Error",
+    "remoteLink": "http://www.alarmoglys.dk"
   },
   {
     "name": "Dickies To Wear",
@@ -1880,7 +1881,8 @@
     "localLink": "https://www.forbrugsforeningen.dk/businesssearch//1001931993",
     "discount": "9 %",
     "remoteLink0": "http://www.gaardmester.dk",
-    "err2": "Err02: Search for remote link: TimeoutError"
+    "err2": "Err02: Search for remote link: TimeoutError",
+    "remoteLink": "http://www.gaardmester.dk"
   },
   {
     "name": "Sommerland Sjælland",
@@ -1908,7 +1910,8 @@
     "localLink": "https://www.forbrugsforeningen.dk/businesssearch//1001919371",
     "discount": "10 %",
     "remoteLink0": "http://www.strikaf.dk",
-    "err2": "Err02: Search for remote link: Error"
+    "err2": "Err02: Search for remote link: Error",
+    "remoteLink": "http://www.strikaf.dk"
   },
   {
     "name": "4Hotdogs - Hundeartikler og Foder",
@@ -3567,7 +3570,8 @@
     "localLink": "https://www.forbrugsforeningen.dk/businesssearch//1001099958",
     "discount": "9 %",
     "remoteLink0": "http://www.gavernesverden.dk",
-    "err2": "Err02: Search for remote link: Error"
+    "err2": "Err02: Search for remote link: Error",
+    "remoteLink": "http://www.gavernesverden.dk"
   },
   {
     "name": "Jardex",
