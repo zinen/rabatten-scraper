@@ -20,6 +20,8 @@ async function analyseData (filePath) {
   const lengthData = data.length
   let i1 = 0
   let i2 = 0
+  let i3 = 0
+  let i4 = 0
   let iSame = 0
   let iDif = 0
   let iNone = 0
@@ -47,6 +49,8 @@ async function analyseData (filePath) {
     }
     i1 += point.err1 ? 1 : 0
     i2 += point.err2 ? 1 : 0
+    i3 += point.err3 ? 1 : 0
+    i4 += point.err4 ? 1 : 0
   })
   // Count re-occurrences of a a remnoteLink
   const keys = Object.keys(occurHolder)
@@ -63,6 +67,8 @@ async function analyseData (filePath) {
     length: lengthData,
     countErr1: i1,
     countErr2: i2,
+    countErr3: i3,
+    countErr4: i4,
     countSame: iSame,
     countDif: iDif,
     countNone: iNone,
