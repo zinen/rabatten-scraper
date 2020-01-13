@@ -15,11 +15,56 @@ async function doForbrugScrape (browserHolder, masterData = null) {
   try {
     const browser = await myPuppeteer.setupBrowser(browserHolder)
     const page = await myPuppeteer.setupPage(browser)
+    // No login page here
+    // ....
     // Go to the page with search result of all webshops
+    let scrapeData = await scrapeMainPage(page)
+    // Debug: Insert test data from a predefined object
+    // let scrapeData = testDataConst()
+    // Loop scraped data and find the link the the external site
+    scrapeData = await scrapeElementPages(page, scrapeData, masterData)
+    try {
+      await browser.close()
+    } catch (error) {
+      console.log(error.message)
+    }
+    return scrapeData
+  } catch (err) {
+    console.log('--Error---')
+    console.log(err)
+    console.log('---------')
+  }
+  function testDataConst () {// eslint-disable-line
+    const testData = [
+      {
+        name: '0: Err02: Search for remote link: TypeError',
+        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
+      },
+      {
+        name: '1: Err02: Search for remote link: TimeoutError',
+        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
+      },
+      {
+        name: '2: Err02: Search for remote link: Error',
+        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
+      },
+      {
+        name: '3: Err02: Search for remote link: TypeError',
+        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
+      },
+      {
+        name: 'test',
+        localLink: 'about:blank'
+      }
+    ]
+    return [testData[0], testData[3]]
+  }
+
+  async function scrapeMainPage (page) {
     console.log('Data scrape search page starting')
     await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
     // Wait for first data to be retrived
-    await page.waitFor('.grouped-list__group-content')
+    await page.waitFor('.grouped-list__group-content:nth-of-type(2)')
     await page.waitFor(1000)
     // Fix: Press down and wait, the page might reload for some weird reson
     await page.keyboard.press('PageDown')
@@ -54,33 +99,10 @@ async function doForbrugScrape (browserHolder, masterData = null) {
       })
       return sectionList
     })
-    // Debugpart, start
-    // const testData = [
-    //   {
-    //     name: '0: Err02: Search for remote link: TypeError',
-    //     localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
-    //   },
-    //   {
-    //     name: '1: Err02: Search for remote link: TimeoutError',
-    //     localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
-    //   },
-    //   {
-    //     name: '2: Err02: Search for remote link: Error',
-    //     localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
-    //   },
-    //   {
-    //     name: '3: Err02: Search for remote link: TypeError',
-    //     localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
-    //   },
-    //   {
-    //     name: 'test',
-    //     localLink: 'about:blank'
-    //   }
-    // ]
-    // const scrapeData = [testData[0], testData[3]]
-    // Debugpart, end
+    return scrapeData
+  }
 
-    // Loop scraped data and find the link the the external site
+  async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(10000)
     const dataLenght = scrapeData.length
     let i1 = 0
@@ -96,7 +118,7 @@ async function doForbrugScrape (browserHolder, masterData = null) {
         if (dataPoint.localLink) {
           if (masterData) {
             const index = masterData.findIndex(element => element.localLink === dataPoint.localLink)
-            if (index > 0 && masterData[index].remoteLink) {
+            if (index > -1 && masterData[index].remoteLink) {
               dataPoint.remoteLink = masterData[index].remoteLink
               dataPoint.masterData = true
               continue
@@ -123,22 +145,9 @@ async function doForbrugScrape (browserHolder, masterData = null) {
       }
     }
     console.log('Data scrape external sites done')
-    try {
-      // await Promise.race([
-      //   page.screenshot({ path: 'example.png' }), // Take screenshot
-      //   page.waitFor(2000).then(() => { throw new Error('Final screenshot failed') }) // End if screenshot is not done in 5 seconds
-      // ])
-      // Debug: dont end browser
-      await browser.close()
-    } catch (error) {
-      console.log(error.message)
-    }
     return scrapeData
-  } catch (err) {
-    console.log('--Error---')
-    console.log(err)
-    console.log('---------')
   }
+
   async function fetchForbrugLink (url) {
     let resonse
     // Try the fetching two times

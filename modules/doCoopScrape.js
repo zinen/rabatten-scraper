@@ -15,10 +15,27 @@ async function doCoopScrape (browserHolder, masterData = null) {
   try {
     const browser = await myPuppeteer.setupBrowser(browserHolder)
     const page = await myPuppeteer.setupPage(browser)
-    // Go to the page with search result of all webshops
+    // No login page here
+    // ....
+    // Go to search page and scrape the content
+    let scrapeData = await scrapeMainPage(page)
+    // Loop scraped data and find the link the the external site
+    scrapeData = await scrapeElementPages(page, scrapeData, masterData)
+    console.log('Data scrape external sites done')
+    try {
+      await browser.close()
+    } catch (error) {
+      console.log(error.message)
+    }
+    return scrapeData
+  } catch (err) {
+    console.log('--Error---')
+    console.log(err)
+    console.log('---------')
+  }
+  async function scrapeMainPage (page) {
     console.log('Data scrape search page starting')
     await page.goto('https://partnerfordele.coop.dk/?tag=alle', { waitUntil: 'networkidle2' })
-
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {
       const sectionList = []
@@ -40,7 +57,9 @@ async function doCoopScrape (browserHolder, masterData = null) {
       })
       return sectionList
     })
-    // Loop scraped data and find the link the the external site
+    return scrapeData
+  }
+  async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(10000)
     const dataLenght = scrapeData.length
     let i1 = 0
@@ -56,7 +75,7 @@ async function doCoopScrape (browserHolder, masterData = null) {
         if (dataPoint.localLink) {
           if (masterData) {
             const index = masterData.findIndex(element => element.localLink === dataPoint.localLink)
-            if (index > 0 && masterData[index].remoteLink) {
+            if (index > -1 && masterData[index].remoteLink) {
               dataPoint.remoteLink = masterData[index].remoteLink
               dataPoint.masterData = true
               continue
@@ -82,23 +101,9 @@ async function doCoopScrape (browserHolder, masterData = null) {
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
       }
     }
-    console.log('Data scrape external sites done')
-    try {
-      // await Promise.race([
-      //   page.screenshot({ path: 'example.png' }), // Take screenshot
-      //   page.waitFor(2000).then(() => { throw new Error('Final screenshot failed') }) // End if screenshot is not done in 5 seconds
-      // ])
-      // Debug: dont end browser
-      await browser.close()
-    } catch (error) {
-      console.log(error.message)
-    }
     return scrapeData
-  } catch (err) {
-    console.log('--Error---')
-    console.log(err)
-    console.log('---------')
   }
+
   async function fetchLink (url) {
     let resonse
     // Try the fetching two times

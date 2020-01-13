@@ -1,18 +1,40 @@
 'use strict'
 const myPuppeteer = require('./my_puppeteer.js')
-// const myfs = require('../modules/my_filesystem.js') // Used while debuging
+const my = require('../../common-zinen/index.js') // Used while debuging
 
 /**
  * Perform scape of data
  * @param {Object} browserHolder Puppeteer browser object
- * @param {Array<Object>} [masterData=null] Option array containing objects with erlier results
+ * @param {Array<Object>} [masterData=null] Optional array containing objects with erlier results
  * @returns {Array<Object>} Array containing objects with results
  */
 async function doLogbuyScrape (browserHolder, masterData = null) {
   try {
     const browser = await myPuppeteer.setupBrowser(browserHolder)
     const page = await myPuppeteer.setupPage(browser)
-    // Go to login iframe
+    // Go to login page and login
+    await goLogin(page)
+    // Go to search page and scrape the content
+    let scrapeData = await scrapeMainPage(page)
+    // Debug: Insert test data from a file
+    // let scrapeData = await testDataFile()
+    // Debug: Insert test data from a predefined object
+    // let scrapeData = testDataConst()
+    // Loop scraped data and find the link the the external site
+    scrapeData = await scrapeElementPages(page, scrapeData, masterData)
+    try {
+      await browser.close()
+    } catch (error) {
+      console.log(error.message)
+    }
+    return scrapeData
+  } catch (err) {
+    console.log('--Error---')
+    console.log(err)
+    console.log('---------')
+  }
+
+  async function goLogin (page) {
     await page.goto('https://www.mylogbuy.com/WebPages/Login/loginFrame.aspx?ReturnUrl=', { waitUntil: 'networkidle2' })
     await page.type('#ctl00_ctl00_Content_content_TextBox_Email', process.env.LOGBUY_USER)
     await page.type('#ctl00_ctl00_Content_content_TextBox_Password', process.env.LOGBUY_PASS)
@@ -20,7 +42,9 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       page.waitForNavigation(),
       page.click('#ctl00_ctl00_Content_content_LinkButton_Login')
     ])
-    // Go to empty search page and scrape the content
+  }
+
+  async function scrapeMainPage (page) {
     await page.goto('https://www.mylogbuy.com/WebPages/Search/List.aspx?q=', { waitUntil: 'networkidle2' })
     const scrapeData = []
     do {
@@ -47,8 +71,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         }
         return sectionList
       }))
-    }
-    while (
+    } while (
       // Swith to next page
       await page.$$eval('.pagingwrapper a.pageLink', elements => {
         if (elements[elements.length - 1].innerText === 'Næste >') {
@@ -57,70 +80,74 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         } else {
           return false
         }
-      })
-    )
-    // Debugpart, start
-    // const fileContent = await myfs.readFile('./20190905-rabat-scrape/data/2019-12-24T161927 - all error.json')
-    // const scrapeData = JSON.parse(fileContent)
-    // Debugpart, end
-    // Debugpart, start
-    // const testData = [
-    //   {
-    //     name: '0: Har både direkte link og sekundær',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19244&AddressId=162104&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '1: Har kun sekundær link(det i en iframe)',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2233&AddressId=161146&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '2: Har både direkte link og sekundær, men det direkte link virker ikke - nu virker det igen',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '3: Intet hjemmeside link',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=160147&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '4: Ingen net forbindelse til siden',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18403&AddressId=160471&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '5: Sekundær link knap er lille',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19038&AddressId=161777&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '6: Timeout fejl, scrape den forsøgte sides URL',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17695&AddressId=159707&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '7: Accepter ikke tradedoubler.com links, afvent redirect',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '8: Siden henter ikke færdig, scrape fejler derfor',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '9: Siden giver timeout flere gange i træk',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18730&AddressId=161417&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '10: Siden giver ingen URL fra sig',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19019&AddressId=161746&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: '11: Endte på chromewebdata',
-    //     localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal'
-    //   },
-    //   {
-    //     name: 'test',
-    //     localLink: 'about:blank'
-    //   }
-    // ]
-    // const scrapeData = [testData[7]]
-    // Debugpart, end
-    // Loop scraped data and find the link the the external site
+      }))
+    return scrapeData
+  }
+
+  async function testDataFile () {// eslint-disable-line
+    const fileContent = await my.readFile('./20190905-rabat-scrape/data/2019-12-24T161927 - all error.json')
+    return JSON.parse(fileContent)
+  }
+
+  function testDataConst () {// eslint-disable-line
+    const testData = [
+      {
+        name: '0: Har både direkte link og sekundær',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19244&AddressId=162104&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '1: Har kun sekundær link(det i en iframe)',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2233&AddressId=161146&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '2: Har både direkte link og sekundær, men det direkte link virker ikke - nu virker det igen',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '3: Intet hjemmeside link',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=160147&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '4: Ingen net forbindelse til siden',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18403&AddressId=160471&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '5: Sekundær link knap er lille',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19038&AddressId=161777&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '6: Timeout fejl, scrape den forsøgte sides URL',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17695&AddressId=159707&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '7: Accepter ikke tradedoubler.com links, afvent redirect',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '8: Siden henter ikke færdig, scrape fejler derfor',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '9: Siden giver timeout flere gange i træk',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18730&AddressId=161417&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '10: Siden giver ingen URL fra sig',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19019&AddressId=161746&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: '11: Endte på chromewebdata',
+        localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal'
+      },
+      {
+        name: 'test',
+        localLink: 'about:blank'
+      }
+    ]
+    return [testData[7]]
+  }
+
+  async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(15000)
     const dataLenght = scrapeData.length
     let i1 = 0
@@ -203,27 +230,13 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
           dataPoint.err1 = 'No link was found from result page'
         }
       } catch (error) {
-        console.log(error)
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
       }
     }
     console.log('Data scrape external sites done')
-    try {
-      // await Promise.race([
-      //   page.screenshot({ path: 'example.png' }), // Take screenshot
-      //   page.waitFor(2000).then(() => { throw new Error('Final screenshot failed') }) // End if screenshot is not done in 5 seconds
-      // ])
-      // Debug: dont end browser
-      await browser.close()
-    } catch (error) {
-      console.log(error.message)
-    }
     return scrapeData
-  } catch (err) {
-    console.log('--Error---')
-    console.log(err)
-    console.log('---------')
   }
+
   /**
    * Look for knows redirect sited, and waits for a navigaton before returning the URL
    * @param {string} URL
