@@ -1,0 +1,253 @@
+[
+  {
+    "name": "COOP FORSIKRINGER FRA TOPDANMARK",
+    "localLink": "https://partnerfordele.coop.dk/coop-forsikringer-fra-topdanmark/",
+    "discount": "Bonus på forsikring",
+    "remoteLink": "https://www.coopforsikringer.dk/?utm_source=cooppartner&utm_medium=partnerside&utm_campaign=statisk&utm_content=om-os",
+    "masterData": true
+  },
+  {
+    "name": "YOUSEE",
+    "localLink": "https://partnerfordele.coop.dk/yousee/",
+    "discount": "5% bonus på telefoni",
+    "remoteLink": "https://kampagne.yousee.dk/coop",
+    "masterData": true
+  },
+  {
+    "name": "OK BRÆNDSTOF",
+    "localLink": "https://partnerfordele.coop.dk/ok-braendstof/",
+    "discount": "Bonus på brændstof og bilvask",
+    "remoteLink": "https://www.ok.dk/privat/paa-tanken/find-tank?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "REJS MED BONUS",
+    "localLink": "https://partnerfordele.coop.dk/rejs-med-bonus/",
+    "discount": "Bonus på alle rejser",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "HURTIGRUTEN",
+    "localLink": "https://partnerfordele.coop.dk/hurtigruten/",
+    "discount": "5% bonus på din rejse",
+    "remoteLink": "https://www.hurtigruten.dk/coop/?utm_source=coop.dk&utm_medium=referral&utm_campaign=coop.dk",
+    "masterData": true
+  },
+  {
+    "name": "TUI",
+    "localLink": "https://partnerfordele.coop.dk/tui-rejser/",
+    "discount": "5% bonus på din rejse",
+    "remoteLink": "https://www.tui.dk/tilbud/coop/?agent=coop&utm_source=coop&utm_medium=partner&utm_campaign=8%20%7C%20Travelsearch_bk_br_Sales%20push&utm_content=utm&utm_term=al",
+    "masterData": true
+  },
+  {
+    "name": "FOTOPRODUKTER FRA CEWE",
+    "localLink": "https://partnerfordele.coop.dk/cewe/",
+    "discount": "10% bonus",
+    "remoteLink": "https://coop.cewe.dk/?cref=om_rp_home_landingpage-partnerskaber-bestilfotoprodukter_44262_x",
+    "masterData": true
+  },
+  {
+    "name": "OK EL",
+    "localLink": "https://partnerfordele.coop.dk/ok-el/",
+    "discount": "250 kr, velkomst-bonus",
+    "remoteLink": "https://www.ok.dk/privat/produkter/el?coop_el=1&utm_source=coop-partner-el&utm_medium=banner&utm_campaign=coop",
+    "masterData": true
+  },
+  {
+    "name": "G4S",
+    "localLink": "https://partnerfordele.coop.dk/g4s/",
+    "discount": "1,500 kr, i velkomst- bonus",
+    "remoteLink": "https://g4s-connect.formstack.com/forms/coop&utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "FLÜGGER FARVER",
+    "localLink": "https://partnerfordele.coop.dk/fluegger-farver/",
+    "discount": "10% bonus",
+    "remoteLink": "https://www.flugger.dk/find-butik",
+    "masterData": true
+  },
+  {
+    "name": "SEAS-NVE - EL",
+    "localLink": "https://partnerfordele.coop.dk/seas-nve-el/",
+    "discount": "Velkomst- bonus + årlig bonus",
+    "remoteLink": "https://coopkortekstra.seas-nve.dk/?utm_source=cooppartner&utm_medium=partnerside#/0",
+    "masterData": true
+  },
+  {
+    "name": "SEAS-NVE - NATURGAS",
+    "localLink": "https://partnerfordele.coop.dk/seas-nve-naturgas/",
+    "discount": "Velkomst- bonus + årlig bonus",
+    "remoteLink": "https://www.seas-nve.dk/coopbonusgas?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "SYNOPTIK",
+    "localLink": "https://partnerfordele.coop.dk/synoptik/",
+    "discount": "Op til 10% bonus",
+    "remoteLink": "https://www.synoptik.dk/tilbud/coop/?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "OK NATURGAS",
+    "localLink": "https://partnerfordele.coop.dk/ok-naturgas/",
+    "discount": "250 kr, velkomst-bonus + årlig bonus",
+    "remoteLink": "https://www.ok.dk/privat/produkter/naturgas/variabel-pris?utm_source=coop-partner-side-naturgas&utm_medium=email&utm_campaign",
+    "masterData": true
+  },
+  {
+    "name": "OK VARMEPUMPE",
+    "localLink": "https://partnerfordele.coop.dk/ok-varmepumpe/",
+    "discount": "500 kr, i bonus",
+    "remoteLink": "https://www.ok.dk/privat/produkter/varmepumper",
+    "masterData": true
+  },
+  {
+    "name": "OK FYRINGSOLIE",
+    "localLink": "https://partnerfordele.coop.dk/ok-fyringsolie/",
+    "discount": "75  kr, bonus pr, 100 l",
+    "remoteLink": "https://www.ok.dk/privat/bestil/fyringsolie?fdb=1&utm_source=coop-partner-side-fgo&utm_medium=email&utm_campaign=fgo",
+    "masterData": true
+  },
+  {
+    "name": "LOOP FITNESS",
+    "localLink": "https://partnerfordele.coop.dk/loop-fitness/",
+    "discount": "Velkomst- bonus + årlig bonus",
+    "remoteLink": "https://coop.loopfitness.dk/",
+    "masterData": true
+  },
+  {
+    "name": "COOP BANK",
+    "localLink": "https://partnerfordele.coop.dk/coop-bank/",
+    "discount": "20% mere i bonus",
+    "remoteLink": "https://coopbank.dk/kort/?utm_source=coop.dk&utm_medium=partnerfordele&utm_term=opgrader%20coop-kort",
+    "masterData": true
+  },
+  {
+    "name": "HAPPY HELPER",
+    "localLink": "https://partnerfordele.coop.dk/happy-helper-bookerne/",
+    "discount": "5% bonus",
+    "remoteLink": "https://happyhelper.dk/coop?utm_source=coop&utm_medium=partnership&utm_campaign=booker_partnerside",
+    "masterData": true
+  },
+  {
+    "name": "TIVOLI",
+    "localLink": "https://partnerfordele.coop.dk/tivoli/",
+    "discount": "Bonus hos Tivoli",
+    "remoteLink": "https://www.tivoli.dk",
+    "masterData": true
+  },
+  {
+    "name": "LALANDIA",
+    "localLink": "https://partnerfordele.coop.dk/lalandia/",
+    "discount": "5% bonus",
+    "remoteLink": "https://www.lalandia.dk/da-dk/Landingpage/Coop%20medlemstilbud?utm_source=coop&utm_medium=web&utm_campaign=coop_web",
+    "masterData": true
+  },
+  {
+    "name": "KNUTHENBORG SAFARIPARK",
+    "localLink": "https://partnerfordele.coop.dk/knuthenborg/",
+    "discount": "20% bonus",
+    "remoteLink": "https://www.knuthenborg.dk",
+    "masterData": true
+  },
+  {
+    "name": "MAMMA MIA!",
+    "localLink": "https://partnerfordele.coop.dk/billetlugen-mamma-mia/",
+    "discount": "10% bonus",
+    "remoteLink0": "https://www.billetlugen.dk/tickets.html?affiliate=pe9&esid=2662197&fun=page&pagename=eventseries",
+    "remoteLink": "https://www.billetlugen.dk/tickets.html?affiliate=pe9&esid=2662197&fun=page&pagename=eventseries"
+  },
+  {
+    "name": "LEGOLAND®",
+    "localLink": "https://partnerfordele.coop.dk/legoland/",
+    "discount": "Lukket for sæsonen",
+    "remoteLink": "https://www.legoland.dk",
+    "masterData": true
+  },
+  {
+    "name": "KNUTHENBORG CAMP",
+    "localLink": "https://partnerfordele.coop.dk/knuthenborg-camp/",
+    "discount": "10% bonus",
+    "remoteLink": "https://www.knuthenborg.dk/knuthenborg-camp",
+    "masterData": true
+  },
+  {
+    "name": "FÅRUP SOMMERLAND",
+    "localLink": "https://partnerfordele.coop.dk/faarup-sommerland/",
+    "discount": "Lukket for sæson",
+    "remoteLink": "https://shop.faarupsommerland.dk/da/partner/coop",
+    "masterData": true
+  },
+  {
+    "name": "DANLAND",
+    "localLink": "https://partnerfordele.coop.dk/danland/",
+    "discount": "10% bonus",
+    "remoteLink": "https://www.danland.dk/coop/?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "DANCENTER",
+    "localLink": "https://partnerfordele.coop.dk/dancenter/",
+    "discount": "10% bonus",
+    "remoteLink": "https://www.dancenter.dk/coop/?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "DANHOSTEL",
+    "localLink": "https://partnerfordele.coop.dk/danhostel/",
+    "discount": "10% bonus",
+    "remoteLink": "https://www.danhostel.dk/?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "RISSKOV BILFERIE",
+    "localLink": "https://partnerfordele.coop.dk/risskov-bilferie/",
+    "discount": "4% bonus",
+    "remoteLink": "https://www.risskov-bilferie.dk/?kampagne=coop",
+    "masterData": true
+  },
+  {
+    "name": "HOTELS.COM",
+    "localLink": "https://partnerfordele.coop.dk/hotelscom/",
+    "discount": "Op til 8% bonus",
+    "remoteLink": "https://www.hotels.com",
+    "masterData": true
+  },
+  {
+    "name": "SEVERIN",
+    "localLink": "https://partnerfordele.coop.dk/severin/",
+    "discount": "10% bonus",
+    "remoteLink": "https://severinkursuscenter.dk/coop/",
+    "masterData": true
+  },
+  {
+    "name": "OSCAR BILUDLEJNING",
+    "localLink": "https://partnerfordele.coop.dk/oscar-biludlejning/",
+    "discount": "Ny partner! 10% bonus",
+    "remoteLink": "https://hejoscar.dk/?utm_source=cooppartner&utm_medium=partnerside",
+    "masterData": true
+  },
+  {
+    "name": "SUPER DÆK SERVICE",
+    "localLink": "https://partnerfordele.coop.dk/super-daek-service/",
+    "discount": "10% bonus",
+    "remoteLink": "https://sds.dk/privat/",
+    "masterData": true
+  },
+  {
+    "name": "TECTYL",
+    "localLink": "https://partnerfordele.coop.dk/tectyl/",
+    "discount": "10% bonus",
+    "remoteLink": "https://tectyldanmark.dk/undervognsbehandling/?utm_source=Coop-Partner&utm_medium=Partnerside",
+    "masterData": true
+  },
+  {
+    "name": "HAPPY HELPER - BLIV HELPER",
+    "localLink": "https://partnerfordele.coop.dk/happy-helper-helperne/",
+    "discount": "100 kr, i bonus",
+    "remoteLink": "https://happyhelper.dk/coop-helper?utm_source=coop&utm_medium=partnership&utm_campaign=helper_partnerside",
+    "masterData": true
+  }
+]
