@@ -1,0 +1,3563 @@
+[
+  {
+    "name": "FODTERAPEUT LONNIE CORELL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Fodterapeut-lonnie-corell-tilbud",
+    "discount": "380 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "NORDENS STØRSTE FUGLEPARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/besog-fugleparken",
+    "discount": "110 kr,",
+    "remoteLink": "https://www.fugleparken.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPAR PENGE PÅ FRILUFTSUDSTYR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/friluftsland",
+    "discount": "10%",
+    "remoteLink": "https://www.friluftsland.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MODNE MÆND FRA FORLAGET HEATHERHILL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/forlaget-heatherhill-modne-maend",
+    "discount": "100 kr,",
+    "remoteLink": "https://forlaget-heatherhill.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MODNE KVINDER FRA FORLAGET HEATHERHILL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/forlaget-heatherhill-modne-kvinder",
+    "discount": "100 kr,",
+    "remoteLink": "https://forlaget-heatherhill.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FODBEHANDLING I SILKEBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fodbehandling-fodterapeuterne-nygade",
+    "discount": "10%",
+    "remoteLink": "http://www.fod-nygade.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FODTERAPEUT KARIN BORNHØFT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Fodterapeuterne-vestergade-karin-bornhoeft-tilbud",
+    "discount": "10%",
+    "remoteLink": "https://www.fodterapeuterne-vestergade.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FODTERAPEUT HELLE JEPSEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Fodterapeuterne-vestergade-helle-jepsen-tilbud",
+    "discount": "10%",
+    "remoteLink": "http://www.fodterapeuterne-vestergade.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FLYT MED FLYTTEBILEN.DK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-flytning-Flyttebilen",
+    "discount": "15%",
+    "remoteLink": "http://www.flyttebilen.dk/pris.htm",
+    "masterData": true
+  },
+  {
+    "name": "FJORD & BÆLT - FÅ ET HAV AF OPLEVELSER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Fjord-og-baelt",
+    "discount": "20%",
+    "remoteLink": "http://www.fjordbaelt.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD HOS FITSHOP - TRÆNINGSMASKINER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fitshop-traeningsudstyr-til-hjemmebrug",
+    "discount": "8%",
+    "remoteLink": "https://www.fitshop.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "FISKERNES FORSIKRING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-forsikring-fiskernes-forsikring",
+    "discount": "Spar 15%",
+    "remoteLink": "https://www.ff-gs.dk/fartoejsforsikring/andre-fartoejer/",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL KOLDING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-kolding",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL ATLANTIC",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-atlantic",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL KONG FREDERIK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-kong-frederik",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL TWENTYSEVEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-twentyseven",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL GRAND - ODENSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-grand",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "FIRST HOTEL MAYFAIR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-mayfair",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "HOLD FERIE PÅ FERIECENTER RÅGELEJE KLIT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/raageleje-klit",
+    "discount": "Spar op til 200 kr,",
+    "remoteLink": "https://raageleje-klit.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BREDBÅND FRA FASTNET.NU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fastnet-nu-Internet",
+    "discount": "211 kr,",
+    "remoteLink": "https://www.fastnet.nu/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ FASTNET HOS FASTNET.NU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-fastnet-fastnet-nu-fastnettelefoni",
+    "err1": "Err01: Scraping search result page: TypeError",
+    "remoteLink": "https://www.fastnet.nu/",
+    "masterData": true
+  },
+  {
+    "name": "FLEX-SERVICE HOS FASTNET.NU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fastnet-nu-flexabonnement-mrm2609",
+    "discount": "Nyt koncept",
+    "remoteLink": "https://www.fastnet.nu/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ MOBILABONNEMENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fastnet-nu-mobiltelefoni",
+    "discount": "Mest populære abonnement 69 kr,",
+    "remoteLink": "https://www.fastnet.nu/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG FÆNGSLET I HORSENS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-faengslet-horsens",
+    "discount": "75 kr,",
+    "remoteLink": "https://faengslet.dk/museum/",
+    "masterData": true
+  },
+  {
+    "name": "DESIGN DIT EGET UNIKKE BORD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-borde-med-natursten-FALKE-ApS",
+    "discount": "25%",
+    "remoteLink": "https://falkegranit.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØB GRAVSTEN HOS FALKE APS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-FALKE-ApS-paa-mindesten",
+    "discount": "3,995 kr,",
+    "remoteLink": "https://falkegranit.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BORDPLADER I NATURSTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-bordplader-hos-FALKE-ApS",
+    "discount": "25%",
+    "remoteLink": "https://falkegranit.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FALKE CHAUSSER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-Chausser-hos-FALKE-ApS",
+    "discount": "10%",
+    "remoteLink": "https://falkegranit.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MEDLEMSTILBUD PÅ FREGATTEN JYLLAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-fregatten-jylland",
+    "discount": "20%",
+    "remoteLink": "http://www.fregatten-jylland.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG FUNKY MONKEY PARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-funky-monkey-park",
+    "discount": "20%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "FIRST HOTEL AALBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-first-hotel-aalborg",
+    "discount": "20%",
+    "remoteLink": "https://www.firsthotels.dk/?booking-code=FHCAELDRE",
+    "masterData": true
+  },
+  {
+    "name": "BESØG FREDERIKSHAVN KUNSTMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-frederikshavn-kunstmuseum",
+    "discount": "40 kr,",
+    "remoteLink": "https://frederikshavnkunstmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ FIK-RET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-fik-ret",
+    "discount": "25%",
+    "remoteLink": "https://www.fik-ret.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OPLEV MAMMA MIA I TIVOLI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mamma-mia-billetlugen-tilbud-5-2019",
+    "discount": "291 kr,",
+    "remoteLink": "https://www.billetlugen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ BRAMSLEV BAKKER CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-bramslev-bakker-camping",
+    "discount": "15%",
+    "remoteLink": "http://www.bramslevbakker.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - PRØV BRØD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-broed",
+    "discount": "25%",
+    "remoteLink": "http://www.xn--brd-1na.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CHARTERREJSER - SPAR 6% MED BRAVO TOURS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Charterrejse-tilbud-bravo-tours",
+    "discount": "6%",
+    "remoteLink": "https://www.bravotours.dk/",
+    "masterData": true
+  },
+  {
+    "name": "AZORERNE – HVALSAFARI OG 2 DAGES Ø-TUR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-charterrejse-azorerne-bravo-tours-tilbud-6-2019",
+    "discount": "7,698 kr,",
+    "remoteLink": "https://www.bravotours.dk/rejseformer/laserrejser/",
+    "masterData": true
+  },
+  {
+    "name": "JORDANS HISTORISKE VINGESUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Rabat-paa-charterrejse-jordan-bravo-tours-tilbud-4-2019",
+    "discount": "11,998 kr,",
+    "remoteLink": "https://www.bravotours.dk/rejseformer/laserrejser/",
+    "masterData": true
+  },
+  {
+    "name": "CHARTERREJSE TIL KRETA MED BRAVO TOURS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-rejse--til-kreta-bravo-tours-tilbud-6-2019",
+    "discount": "2,998 kr,",
+    "remoteLink": "https://www.bravotours.dk/rejseformer/laserrejser/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ BØSØRE STRAND FERIEPARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-boesoere-strand-feriepark",
+    "discount": "10%",
+    "remoteLink": "https://www.bosore.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ BJERGE SYDSTRAND CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-bjerge-sydstrand-camping",
+    "discount": "209 kr,",
+    "remoteLink": "http://www.bjergesydstrand.dk-camp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BISSERUP CAMPING - EN LILLE BID AF PARADIS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-bisserup-camping",
+    "discount": "82 kr,",
+    "remoteLink": "https://www.bisserupcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DAMEMODE FRA BUTIK KORNUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/butik-kornum-dec17",
+    "discount": "Find dem i Valby og Roskilde,",
+    "remoteLink": "https://www.butikkornum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ FITNESSUDSTYR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/billige-fitness-produkter",
+    "discount": "Spar 10%",
+    "remoteLink": "https://www.billig-fitness.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ BILLUM KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-billum-kro",
+    "discount": "25%",
+    "remoteLink": "https://billum-kro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "25% RABAT PÅ MADEN PÅ BIE'S RESTAURANT I HOBRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-bies-restaurant",
+    "discount": "25%",
+    "remoteLink": "http://www.biesrestaurant.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KRYDSTOGT PÅ MOSEL & RHINEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Krydstogt-paa-Mosel-Rhinen-best-travel-tilbud-6-2019",
+    "discount": "10,495 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "AMALFIKYSTEN MED BEST TRAVEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-charterrejse-amalfikysten-best-travel-tilbud-6-2019",
+    "discount": "7,495 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "MADEIRA MED FLY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-charterrejse-madeira-best-travel-tilbud-4-2019",
+    "discount": "5,695 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "BLOMSTERKRYDSTOGT I HOLLAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/best-travel-holland-tilbud-5-2019",
+    "discount": "7,495 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "ANDALUSIEN MED BEST TRAVEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-charterrejse-andalusien-tilbud-6-2019",
+    "discount": "7,695 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "11 DAGES KRYDSTOGT PÅ DONAU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/krydstogt-paa-donau-best-travel-tilbud-4-2019",
+    "discount": "13,495 kr,",
+    "remoteLink": "https://www.besttravel.dk/tema/aeldresagen-rejsetilbud",
+    "masterData": true
+  },
+  {
+    "name": "VÆRDIG AFSKED",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Tilbud-begravelse-vaerdig-afsked",
+    "discount": "10,112 kr,",
+    "remoteLink": "https://vabegravelse.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OVERNAT PÅ BED AND BREAKFAST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-bed-and-breakfast",
+    "discount": "10%",
+    "remoteLink": "https://bedandbreakfastguide.dk/dk/bed-and-breakfast-overnatning-i-danmark-og-nordtyskland/1",
+    "masterData": true
+  },
+  {
+    "name": "BAUHAUS - RABAT I BUTIK OG WEBSHOP",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bauhaus",
+    "discount": "6%",
+    "remoteLink": "https://www.bauhaus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MONTAGESERVICE HOS BAUHAUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bauhaus-monteringsservice",
+    "discount": "Der ydes ikke rabat på montageservice,",
+    "remoteLink": "https://www.bauhaus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ BARBERBLADE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-barberblade-barberskabet",
+    "discount": "50%",
+    "remoteLink": "https://barberskabet.dk/pages/aeldresagen?utm_campaign=aeldresagen&utm_medium=webtilbud&utm_source=aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "JULEGAVEIDE TIL MANDEN - GRAFENTECH-BOXERSHORTS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-Grafentech-boxershorts-barberskabet-tilbud-6-2019",
+    "discount": "499 kr,",
+    "remoteLink": "https://barberskabet.dk/pages/aeldresagen?utm_campaign=aeldresagen&utm_medium=webtilbud&utm_source=aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "SÆRTILBUD UDVALGTE BØRNEBØGER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/buster-nordic-udvalgte-boerneboeger-mrm2611",
+    "discount": "Spar 15%",
+    "remoteLink": "http://busternordic.com/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ BRASSERIE UNDERHUSET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-brasserie-underhuset",
+    "discount": "25%",
+    "remoteLink": "http://underhuset.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ BRYGGERIET APOLLO VED TIVOLI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-bryggeriet-apollo",
+    "discount": "25%",
+    "remoteLink": "https://bryggeriet.dk/apollo/",
+    "masterData": true
+  },
+  {
+    "name": "NÅR DU SKIFTER BOLIG – FÅ ADVOKATHJÆLP",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-boligraadgivning",
+    "discount": "1,750 kr,",
+    "remoteLink": "https://www.mittestamente.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MIT TESTAMENTE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mit-testamente",
+    "discount": "2,750 kr,",
+    "remoteLink": "https://www.mittestamente.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ FULDMAGT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-fuldmagter",
+    "discount": "2,250 kr,",
+    "remoteLink": "https://www.mittestamente.dk/",
+    "masterData": true
+  },
+  {
+    "name": "PÅ SKINNER TIL STOCKHOLM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/togrejse-til-stockholm-albatros-tilbud-5-2019",
+    "discount": "5,398 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "FERIE ALENE - JAPAN – SOLENS RIGE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Ferie-alene-japan-solensrige-albatros-tilbud-6-2109",
+    "discount": "17,298 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "REJS MED ALBATROS TIL AMALFIKYSTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Albatros-amalfikysten-tilbud-4-2019",
+    "discount": "7,598 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "FERIE ALENE - OPLEV KIRGISISTAN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/albatros-kirgisistan-tilbud-5-2019",
+    "discount": "14,498 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "DEN STORE JAPAN ODYSSÉ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Albatros-japan-tilbud-6-2019",
+    "discount": "29,998 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "FRA FJORDE I SYD TIL ARKTIS I NORD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Albatros-Norge-tilbud-6-2019",
+    "discount": "17,998 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "LOFOTEN OG NORDKAP TIL LANDS OG TIL VANDS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Lofoten-og-nordkap-albatros-tilbud-5-2019",
+    "discount": "11,198 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "CANADA OG ROCKY MOUNTAINS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/canada-og-rocky-mountains-albatros-tilbud-4-2019",
+    "discount": "16,998 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "ZARENS RUSLAND MED ALBATROS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/albatros-zarens-rusland-tilbud-4-2019",
+    "discount": "12,498 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "SYDAFRIKA ZEBRA LODGE - FERIE ALENE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/albatros-ferie-alene-sydafrika-zebra-lodge-mrm2805",
+    "discount": "9,798 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "THAILAND – RUNDREJSE OG BADEFERIE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Albatros-thailand-tilbud-3-2019",
+    "discount": "13,498 kr,",
+    "remoteLink": "https://www.albatros-travel.dk/rejser/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "AQUA AKVARIUM & DYREPARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsespark-Aqua-akvarium-og-dyrepark",
+    "discount": "136 kr,",
+    "remoteLink": "https://www.visitaqua.dk/",
+    "masterData": true
+  },
+  {
+    "name": "APPLUS BILSYN - SYN OG TEST AF DIN BIL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-bilsyn-Applus",
+    "discount": "Spar 10-15%",
+    "remoteLink": "https://www.applusbilsyn.dk/aeldre-sagen",
+    "masterData": true
+  },
+  {
+    "name": "CAMPINGFERIE PÅ ATTRUP CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-attrup-camping",
+    "discount": "10%",
+    "remoteLink": "http://www.attrupcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG ARBEJDERMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-arbejdermuseet",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.arbejdermuseet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "ARKEN - MUSEUM FOR MODERNE KUNST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/arken-rabat-paa-entre",
+    "discount": "10%",
+    "remoteLink": "https://www.arken.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CAMPINGFERIE PÅ AUNING CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-auning-camping",
+    "discount": "10%",
+    "remoteLink": "https://auningcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MANGE FORDELE SOM MEDLEM AROS KLUBBEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-Aros",
+    "discount": "100 kr, introrabat",
+    "remoteLink": "https://www.aros.dk/da/",
+    "masterData": true
+  },
+  {
+    "name": "LEJ BIL HOS AVIS I DANMARK OG EUROPA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/avis-billeje",
+    "discount": "Spar 10-15%",
+    "remoteLink": "https://production.rent-at-avis.com/avisonline/dk/IBE.nsf/ReservationStep1?OpenForm&%3bMST=DC8850702229646EC1256AA2004189D8%22%20target=",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ AXELBORG BODEGA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/axelborg-bodega",
+    "discount": "25%",
+    "remoteLink": "https://www.axelborgbodega.dk/dansk/forside/",
+    "masterData": true
+  },
+  {
+    "name": "KØB BLOMSTER HOS AARSTIDENS BLOMSTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-blomster",
+    "discount": "10%",
+    "remoteLink": "https://aarstidens-blomster.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG GEOMUSEUM FAXE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-geomuseum-faxe",
+    "discount": "40 kr,",
+    "remoteLink": "https://kalklandet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KOLDKRIGSMUSEUM STEVNSFORT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-koldkrigsmuseum-stevnsfort",
+    "discount": "40 kr,",
+    "remoteLink": "https://kalklandet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ CAFE KONRAD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-konrad",
+    "discount": "25%",
+    "remoteLink": "https://cafekonrad.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UD PÅ CAFE MAURITZ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-cafe-mauritz",
+    "discount": "25%",
+    "remoteLink": "https://cafemauritz.dk/cafeer-menukort/",
+    "masterData": true
+  },
+  {
+    "name": "KØB BILLETTER TIL CIRKUSREVYEN 2020",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/forestilling-cirkusrevyen-forpremiere2020-tilbud-1-2020",
+    "discount": "560 kr,",
+    "remoteLink": "https://cirkusrevyen.dk/aeldre-sagen-2020",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL HOLTE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-holte",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL BORUPGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-borupgaard",
+    "discount": "400 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL HVIDE HUS AALBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-hvide-hus-aalborg",
+    "discount": "400 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KORSØR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-korsoer",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL AARHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-aarhus",
+    "discount": "520 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KELLERS PARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatnig-comwell-kellers-park",
+    "discount": "400 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KLARSKOVGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-klarskovgaard",
+    "discount": "320 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KØGE STRAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-koege-strand",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KOLDING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-kolding",
+    "discount": "320 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL KONGEBROGAARDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-kongebrogaarden",
+    "discount": "400 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL MIDDELFART",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-middelfart",
+    "discount": "320 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL REBILD BAKKER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-rebild-bakker",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL ROSKILDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-roskilde",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "OPHOLD PÅ COMWELL SORØ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-comwell-soroe",
+    "discount": "360 kr,",
+    "remoteLink": "https://comwell.com/?utm_source=ekstern&utm_medium=cpc&utm_campaign=cw-ekstern-barbb_20_procent-websitetraffic-05082019&utm_term=cho_a-barbb_20_procent-int.aeldresagen-05082019&utm_content=-barbb_20_procent-cor_stemningsbilleder-05082019",
+    "masterData": true
+  },
+  {
+    "name": "BESØG CLAY KERAMIKMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-clay-keramikmuseum",
+    "discount": "90 kr,",
+    "remoteLink": "https://claymuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CODAN FORSIKRINGS-PRODUKTER ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-forsikring-Codan",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.codan.dk/seniorforsikringen/",
+    "masterData": true
+  },
+  {
+    "name": "CODAN OVERFALDSFORSIKRING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/overfaldsforsikring-saertilbud-codan",
+    "discount": "Gratis overfaldsforsikring,",
+    "remoteLink": "https://www.codan.dk/seniorforsikringen/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ CAFE CARLTON",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-carlton",
+    "discount": "25%",
+    "remoteLink": "http://www.carltonkbhv.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ MUSEUM - BESØG CIRKUSMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-cirkusmuseet",
+    "discount": "48 kr,",
+    "remoteLink": "https://cirkusmuseet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GÅ PÅ OPDAGELSE PÅ CHRISTIANSBORG SLOT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-chr-borg-slotsforvaltning",
+    "discount": "20% rabat",
+    "remoteLink": "https://kongeligeslotte.dk/da/slotte-og-haver/christiansborg-slot/besoeg-christiansborg-slot/aabningstider-for-christiansborg-slot.html",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ CAFÉ VIVALDI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-vivaldi",
+    "discount": "25%",
+    "remoteLink": "https://cafevivaldi.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - UNDER URET I SVENDBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-under-uret-svendborg",
+    "discount": "25%",
+    "remoteLink": "https://under-uret.com/",
+    "masterData": true
+  },
+  {
+    "name": "CAMP HVERRINGE BØGEBJERG STRAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-camp-hverringe-bogebjerg-strand",
+    "discount": "10%",
+    "remoteLink": "http://www.camphverringe.dk/camphverringe",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - CAFÉ MATHISEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-mathisen",
+    "discount": "25%",
+    "remoteLink": "https://brasseriemathisen.dk/?id=1",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ CAFE KRÆZ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-cafe-kraez",
+    "discount": "25%",
+    "remoteLink": "https://kraez.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - CAFÉ FAUST AARHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-faust-aarhus",
+    "discount": "25%",
+    "remoteLink": "https://cafefaust.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ CAFÉ KAISER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-kaiser",
+    "discount": "25%",
+    "remoteLink": "https://cafekaiser.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FOTOPRODUKTER FRA CEWE.DK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/cewe-danmark",
+    "discount": "10%",
+    "remoteLink": "https://www.cewe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OPLEV ET FORRYGENDE SHOW I WALLMANS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-dinnershow-wallmanns",
+    "discount": "399 kr,",
+    "remoteLink": "https://wallmans.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG WELLINGS LANDSBYMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-wellings-landsbymuseum",
+    "discount": "40 kr,",
+    "remoteLink": "http://wellings.dk/da_DK/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD FRA WEBAPOTEKET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-hos-webapoteket",
+    "discount": "5%",
+    "remoteLink": "https://www.webapoteket.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ KONTORARTIKLER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-kontorartikler-vesterbro-kontorforsyning",
+    "discount": "15%",
+    "remoteLink": "https://vesterbro-kontorforsyning.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MAYLAND KALENDER - SÆRTILBUD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/vesterbro-kontorforsyning-mayland-seniorkalender-mrm2611",
+    "discount": "Spar 55-80 kr,",
+    "remoteLink": "https://vesterbro-kontorforsyning.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG VIBORG KUNSTHAL OG FÅ RABAT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Viborg-Kunsthal",
+    "discount": "Spar 40% på entré",
+    "remoteLink": "https://viborgkunsthal.viborg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG VADEHAVSCENTRET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/vadehavscentret",
+    "discount": "80 kr,",
+    "remoteLink": "https://www.vadehavscentret.dk/forside",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ VIKÆR STRAND CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-vikaer-strand-camping",
+    "discount": "10%",
+    "remoteLink": "https://vikaercamp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HIRTSHALS MUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hirtshals-museum",
+    "discount": "20%",
+    "remoteLink": "https://vhm.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG VENDSYSSEL HISTORISKE MUSEER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/vendsyssel-historiske-museum",
+    "discount": "64 kr,",
+    "remoteLink": "https://vhm.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ RABAT HOS VITAL-SKO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Vital-sko",
+    "discount": "Spar 10%",
+    "remoteLink": "https://www.vital-sko.dk/shop/frontpage.html",
+    "masterData": true
+  },
+  {
+    "name": "FÅ RABAT HOS BUTIK VIVI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/vivi-mode",
+    "err1": "Err01: Scraping search result page: TypeError",
+    "remoteLink": "http://vivimode.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ VEDERSØ KLIT CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Rabat-paa-campingferie-vedersoe-klit-camping",
+    "discount": "68 kr,",
+    "remoteLink": "https://www.klitcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ ELITE CAMP VESTBIRK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Rabat-paa-campingferie-vestbirk-camping",
+    "discount": "15%",
+    "remoteLink": "http://vestbirk.dk-camp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ RABAT HOS VUFFELI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-vuffeli",
+    "discount": "15%",
+    "remoteLink": "https://vuffeli.dk/blogs/landingpages/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "BESØG ENERGI MUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-besoeg-energi-museet",
+    "discount": "90 kr,",
+    "remoteLink": "https://energimuseet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ BOLIGSALG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-boligsalg-EDC",
+    "discount": "Fra 500 kr, i rabat",
+    "remoteLink": "https://www.edc.dk/aeldresagen/",
+    "masterData": true
+  },
+  {
+    "name": "EGESKOV - ET SLOT MED LIV I",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsesparker-egeskov-slot",
+    "discount": "10%",
+    "remoteLink": "https://www.egeskov.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CIRKUSREVYEN 2020 - EGONS REJSEBUREAU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Busrejse-til-cirkusrevyen-egons-rejsebureau-tilbud-5-2019",
+    "discount": "2,499 kr,",
+    "remoteLink": "https://egons-rejser.dk/",
+    "masterData": true
+  },
+  {
+    "name": "4 DAGES BUSREJSE TIL ÆRØ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/busrejse-aero-egons-rejsebureau-tilbud-5-2019",
+    "discount": "2,999 kr,",
+    "remoteLink": "https://egons-rejser.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BUSREJSE TIL SKAGEN MED EGONS REJSEBUREAU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/busrejse-til-skagen-egons-rejsebureau",
+    "discount": "2,599 kr,",
+    "remoteLink": "https://egons-rejser.dk/",
+    "masterData": true
+  },
+  {
+    "name": "3 DAGES BUSREJSE TIL FANØ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/busrejse-til-fanoe-egons-rejsebureau-tilbud-5-2019",
+    "discount": "2,699 kr,",
+    "remoteLink": "https://egons-rejser.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FISKETUR PÅ ØRESUND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/elida-fishing-fisketur-mrm2806",
+    "discount": "Spar 50-80 kr,",
+    "remoteLink": "http://fishing.dk/",
+    "masterData": true
+  },
+  {
+    "name": "ELSEGÅRDE CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-elsegaarde-camping",
+    "discount": "15%",
+    "remoteLink": "https://www.egcamp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ DÆK, FÆLGE OG SERVICE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-Euromaster",
+    "discount": "Spar 10%",
+    "remoteLink": "https://www.euromaster.dk/privat",
+    "masterData": true
+  },
+  {
+    "name": "EVALD BRASSERIE & CAFÉ - SILKEBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-evald-brasserie-og-cafe",
+    "discount": "25%",
+    "remoteLink": "https://evald.nu/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG EHLERS SAMLINGEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-ehlers-samlingen",
+    "discount": "54 kr,",
+    "remoteLink": "https://historiehaderslev.dk/ehlers-samlingen/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT LAGUNA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-paa-restaurant-laguna",
+    "discount": "25%",
+    "remoteLink": "https://www.restaurantlaguna.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RISTORANTE NINO E FRANCO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-ristorante-nino-e-franco",
+    "discount": "25%",
+    "remoteLink": "https://www.ninoefranco.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT TOSCANA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-toscana",
+    "discount": "25%",
+    "remoteLink": "https://toscana-restaurant.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ RINGKØBING CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-ringkoebing-camping",
+    "discount": "10%",
+    "remoteLink": "https://www.ringkobingcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "REALDANIA BY & BYG KLUBBEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemskab-realdania-byg-klubben",
+    "discount": "Få 25% rabat",
+    "remoteLink": "https://www.realdaniabyogbygklubben.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ ​RISTORANTE ITALIANO POMPEI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-ristorante-italiano-pompei",
+    "discount": "25%",
+    "remoteLink": "http://www.ristorante-pompei.dk/bordbestilling.aspx",
+    "masterData": true
+  },
+  {
+    "name": "4 DAGE PÅ RØDVIG KRO & BADEHOTEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ophold-rodvig-kro",
+    "discount": "1,975 kr,",
+    "remoteLink": "https://www.roedvigkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ RÅBJERG MILE CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-raabjerg-mile-camping",
+    "discount": "20%",
+    "remoteLink": "https://raabjergmilecamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT BRDR. PRICE I TIVOLI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-brdr-price-tivoli",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT PÅFUGLEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-spisesteder-Restaurant-Paafuglen",
+    "discount": "Rabat på frokostplatte",
+    "remoteLink": "http://www.paafuglen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT ZORBA, SILKEBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-zorba",
+    "discount": "25%",
+    "remoteLink": "https://zorba-silkeborg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG RIBE KUNSTMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Ribe-Kunstmuseum",
+    "discount": "Rabat på entré",
+    "remoteLink": "https://ribekunstmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT BRDR. PRICE I AALBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-brdr-price-aalborg",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/aalborg",
+    "masterData": true
+  },
+  {
+    "name": "REBILDCENTRET MED THINGBÆK KALKMINER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-rebildcentret",
+    "discount": "20%",
+    "remoteLink": "http://www.rebildcentret.com/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RISTORANTE L'IMPERATORE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ristorante-imperatore-maj17",
+    "discount": "25%",
+    "remoteLink": "https://limperatore.dk/",
+    "masterData": true
+  },
+  {
+    "name": "ROSENVOLD STRAND CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-rosenvold-strand-camping",
+    "discount": "10%",
+    "remoteLink": "https://rosenvoldcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ RANDERS FJORD CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-randers-fjord-camping",
+    "discount": "15%",
+    "remoteLink": "http://www.randersfjord.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT ANKARA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-ankara",
+    "discount": "25%",
+    "remoteLink": "https://www.ankaracity.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG REBILD CAMPING***SAFARI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-rebild-safari-camping",
+    "discount": "15%",
+    "remoteLink": "http://safari.dk-camp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT BRDR. PRICE - HERNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-brdr-price-herning",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/herning",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT PILEKÆLDEREN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-pilekaelderen",
+    "discount": "25%",
+    "remoteLink": "http://www.pilekaelderen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT HELLERUP SEJLKLUB",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-hellerup-sejlklub",
+    "discount": "25%",
+    "remoteLink": "http://www.restauranthellerupsejlklub.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT HEREFORDSTEAK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-Herefordsteak",
+    "discount": "25%",
+    "remoteLink": "https://herefordsteak.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RESTAURANT KARLA - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-Karla",
+    "discount": "25%",
+    "remoteLink": "http://karla.nu/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT KLINTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-klinten",
+    "discount": "25%",
+    "remoteLink": "https://www.klinten-faaborg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT LILLEHEDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-Lilleheden",
+    "discount": "25%",
+    "remoteLink": "https://www.restaurantlilleheden.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT NORDSTJERNEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-nordstjernen",
+    "discount": "25%",
+    "remoteLink": "http://www.restaurantnordstjernen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT DUBROVNIK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-dubrovnik",
+    "discount": "25%",
+    "remoteLink": "http://restaurant-dubrovnik.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT FLAMMEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-flammen",
+    "discount": "25%",
+    "remoteLink": "https://www.restaurant-flammen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GRUPPEVANDREFERIE TIL MADEIRA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/vandreferie-paa-madeira-ruby-rejser-tilbud-6-2019",
+    "discount": "11,498 kr,",
+    "remoteLink": "https://ruby-rejser.dk/seniorrejser",
+    "masterData": true
+  },
+  {
+    "name": "VINTEREVENTYR I GÅLÅ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Ruby-rejser-vinterferie-i-norge-tilbud-5-2019",
+    "discount": "6,498 kr,",
+    "remoteLink": "https://ruby-rejser.dk/seniorrejser",
+    "masterData": true
+  },
+  {
+    "name": "TULIPANER OG CYKELKRYDSTOGT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ruby-rejser-krydstogt-holland-tilbud-5-2019",
+    "discount": "8,498 kr,",
+    "remoteLink": "https://ruby-rejser.dk/seniorrejser",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT FURESØBAD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-furesoebad",
+    "discount": "25%",
+    "remoteLink": "https://marina-en.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG RIBE VIKINGECENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-ribe-vikingecenter",
+    "discount": "110 kr,",
+    "remoteLink": "https://www.ribevikingecenter.dk/da/forside.aspx",
+    "masterData": true
+  },
+  {
+    "name": "SELSKAB HOS BRDR. PRICE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-middagsselskab-hos-brdr-price",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT OLIVETO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-oliveto",
+    "discount": "25%",
+    "remoteLink": "https://oliveto.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RESTAURANT & CAFÉ KONGENS HAVE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-og-cafe-kongens-have",
+    "discount": "25%",
+    "remoteLink": "https://kgshave.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT AMADEUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-restaurant-amadeus",
+    "discount": "25%",
+    "remoteLink": "http://www.cafe-amadeus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GÅ PÅ OPDAGELSE I DET NYE UNIVERSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Universe",
+    "discount": "25%",
+    "remoteLink": "https://universe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KEY FINDER - MÆRK DINE NØGLER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/maerk-dine-noegler-aug16",
+    "discount": "15%",
+    "remoteLink": "https://tag-it.nu/",
+    "masterData": true
+  },
+  {
+    "name": "LUKSURIØS VELVÆRE - UDENDØRSSPA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/udespa-og-living-softub-spa-okt17",
+    "discount": "39,500 kr,",
+    "remoteLink": "https://udespa-living.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BRING KØKKENHAVEN INDENFOR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-fra-tiny-garden",
+    "discount": "10%",
+    "remoteLink": "https://tinygardens.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG TARP BUNKERMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-tarp-bunkermuseum",
+    "discount": "50 kr,",
+    "remoteLink": "http://www.bunker75665.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TAG I PLANETARIUM OG BLIV UNDERHOLDT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Tycho-brahe-planetarium",
+    "discount": "128 kr,",
+    "remoteLink": "https://planetarium.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG TEGLVÆRKET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-teglvaerket",
+    "discount": "25%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "FIND MODETØJ HOS TYGESEN WOMEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Tygesen-Woman",
+    "discount": "Spar 10%",
+    "remoteLink": "http://tygesen-women.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ 5% RABAT PÅ DIN FERIE MED TUI!",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Charterrejse-tilbud-tui-5procent-rabat",
+    "discount": "5%",
+    "remoteLink": "https://www.tui.dk/find-din-rejse/?agent=af",
+    "masterData": true
+  },
+  {
+    "name": "TRUUST KRO - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Truust-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.truustkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TRINITY HOTEL & KONFERENCE CENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Trinity-hotel",
+    "discount": "25%",
+    "remoteLink": "https://trinity.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TRAVEL FREAK - FIND REJSETILBEHØR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rejsetilbehor",
+    "discount": "Spar 15%",
+    "remoteLink": "https://freakshop.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ MUSEUM - BESØG TRAPHOLT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-trapholt",
+    "discount": "90 kr,",
+    "remoteLink": "https://trapholt.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TRAP DANMARK BOGVÆRK I 34 BIND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/trap-danmark-nov17",
+    "discount": "11,495 kr,",
+    "remoteLink": "https://trap.dk/abonnement/aeldresagen/",
+    "masterData": true
+  },
+  {
+    "name": "THORSVANG DANMARKS SAMLERMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-thorsvang-danmarks-samlermuseum",
+    "discount": "50 kr,",
+    "remoteLink": "https://www.thorsvangsamlermuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ BRILLER - PÅ EN KOMPLET BRILLE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-briller-thiele",
+    "err1": "Err01: Scraping search result page: TypeError",
+    "remoteLink": "https://www.seniorsyn.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ BESØG AF TEXTILRINGENS GARDINBUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-gardiner-Textilringen",
+    "discount": "20%",
+    "remoteLink": "https://www.textilringen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPAR 10% HOS TEAM BORNHOLM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/team-bornholm-spar-10-procent",
+    "discount": "10%",
+    "remoteLink": "https://teambornholm.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "TARM CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-tarm-camping",
+    "discount": "8%",
+    "remoteLink": "http://www.tarm-camping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TRAKTØRSTEDET GJORSLEV BØGESKOV",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Traktorstedet-gjorslev-bogeskov",
+    "discount": "25%",
+    "remoteLink": "https://traktoerstedet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØB TILBEHØR HOS TRENDHIM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/trendhim",
+    "discount": "Spar 10%",
+    "remoteLink": "https://www.trendhim.dk/?thcode=sagen",
+    "masterData": true
+  },
+  {
+    "name": "BESØG TEDDY BEAR ART MUSEUM I BILLUND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-teddy-bear-artmuseum",
+    "discount": "80 kr,",
+    "remoteLink": "http://www.teddybearartmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE TORVE-HALLEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-torve-hallen-soenderborg",
+    "discount": "25%",
+    "remoteLink": "https://torve-hallen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ BILEN REPARERET HOS QUICKPOT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Quickpot",
+    "discount": "10%",
+    "remoteLink": "https://www.quickpot.dk/%C3%A6ldresagen/",
+    "masterData": true
+  },
+  {
+    "name": "EL-SCOOTER - KØB DEN HOS PEGASUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Pegasus-elscooter",
+    "discount": "26,500 kr,",
+    "remoteLink": "https://www.pegasus-mobility.dk/",
+    "masterData": true
+  },
+  {
+    "name": "NYT TV UDEN ALT BESVÆRET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Panasonic",
+    "discount": "Spar 5 % på ALL inclusive PLUS",
+    "remoteLink": "https://www.panasoniccenter.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ PRICES DINER I TIVOLI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-prices-diner",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/prices-diner/menu",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ PRICES DINER I LYNGBY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-prices-diner-lyngby",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/prices-diner-lyngby",
+    "masterData": true
+  },
+  {
+    "name": "RENSNING AF TAGRENDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/nanostone-tagrende-rens-tilbud-5-2019",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.nanostone.dk/kaelder-fugt/",
+    "masterData": true
+  },
+  {
+    "name": "ALGEBEHANDLING AF TAG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/nanostone-algebehandling-tag-mrm2509",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.nanostone.dk/kaelder-fugt/",
+    "masterData": true
+  },
+  {
+    "name": "IMPRÆGNERING AF FLISER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rensning-af-fliser-nanastone",
+    "discount": "2,516 kr,",
+    "remoteLink": "https://www.nanostone.dk/kaelder-fugt/",
+    "masterData": true
+  },
+  {
+    "name": "DORO MOBILTELEFON OG FASTNETTELEFONER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/doro-mobiltelefon-netbutik-nu",
+    "discount": "Spar 10%",
+    "remoteLink": "https://netbutik.nu/shop/frontpage.html",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ NAKSKOV FJORD CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-nakskov-fjord-camping",
+    "discount": "10%",
+    "remoteLink": "https://nakskovfjordcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG NATURAMA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Naturama",
+    "discount": "Få rabat på entréen",
+    "remoteLink": "http://www.naturama.dk/",
+    "masterData": true
+  },
+  {
+    "name": "LEJ EN FERIEBOLIG I EUROPA HOS NOVASOL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Novasol",
+    "discount": "199 kr,",
+    "remoteLink": "https://www.novasol.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG NATURHISTORISK MUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-naturhistorisk-museum-aarhus",
+    "discount": "120 kr,",
+    "remoteLink": "https://www.naturhistoriskmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TIL VERDENS ENDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/noerrebro-teater-til-verdens-ende-mrm",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.nbt.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG RESTAURANT DET GAMLE RÅDHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-det-gamle-raedhus",
+    "discount": "25%",
+    "remoteLink": "https://graastenraadhus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HØJSKOLEOPHOLD PÅ NØRGAARDS HØJSKOLE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Noergaards-hoejskole",
+    "discount": "3,995 kr,",
+    "remoteLink": "https://nrgaard.dk/korte-kurser/",
+    "masterData": true
+  },
+  {
+    "name": "KLASSISK, OPERAER OG BALLETTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Naxos",
+    "discount": "Få 25% rabat",
+    "remoteLink": "https://naxosdirect.dk/campaigns/velkommen-til-siden-for-%C3%A6ldresagens-medlemmer-2699",
+    "masterData": true
+  },
+  {
+    "name": "RIGOLETTO I OPERA HEDELAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/opera-hedeland-rigoletto2020-mrm2910",
+    "discount": "Spar 15-25%",
+    "remoteLink": "https://operahedeland.dk/",
+    "masterData": true
+  },
+  {
+    "name": "EN HYLDEST TIL JOHN MOGENSEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ose-john-mogensen-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.ticketmaster.dk/event/en-hyldest-til-john-mogensen-sunget-af-stig-rossen-billetter/471259?camefrom=ldresagen&brand=dk_lc",
+    "masterData": true
+  },
+  {
+    "name": "CÆCILIE NORDBY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ose-caecilie-nordby-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.ticketmaster.dk/event/caecilie-norby-billetter/474279?camefrom=ldresagen&brand=dk_lc",
+    "masterData": true
+  },
+  {
+    "name": "THE BOOTLEG BEATLES",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ose-the-bootleg-beatles-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.ticketmaster.dk/event/nytarskoncert-the-bootleg-beatles-in-concert-fa-billetter-billetter/463559?camefrom=ldresagen&brand=dk_lc",
+    "masterData": true
+  },
+  {
+    "name": "BESØG ODENSE ZOO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Odense-zoo",
+    "discount": "50%",
+    "remoteLink": "https://www.odensezoo.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ HUNDE- OG KATTEFODER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Olivers-Petfood",
+    "discount": "Spar op til 25%",
+    "remoteLink": "https://www.olivers.dk/sagen",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DRØHSES HUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-droshes-hus",
+    "discount": "50 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KULTURHISTORIE AABENRAA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-kulturhistorie-aabenraa",
+    "discount": "50 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG ARKÆOLOGI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-Arkaeologi",
+    "discount": "60 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG SØNDERBORG SLOT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-%20soenderborg-slot",
+    "discount": "80 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KUNSTMUSEET I TØNDER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-kunstmuseum-toender",
+    "discount": "70 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG CATHRINESMINDE TEGLVÆRK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-cathrinesminde-teglvaerk",
+    "discount": "50 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KUNSTMUSEET BRUNDLUND SLOT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-brundlund-slot",
+    "discount": "60 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG GRAM LERGRAV",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-gram-lergrav",
+    "discount": "50 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KULTURHISTORIE I TØNDER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-kulturhistorie-i-toender",
+    "discount": "70 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HØJER MØLLE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-hoejer-moelle",
+    "discount": "50 kr,",
+    "remoteLink": "https://msj.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG TEKSTILMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-tekstilmuseet",
+    "discount": "55 kr,",
+    "remoteLink": "https://museummidtjylland.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HERNINGSHOLM MUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-herningsholm-museum",
+    "discount": "25 kr,",
+    "remoteLink": "https://museummidtjylland.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG MUSEET FOR SAMTIDSKUNST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Museet-for-Samtidskunst",
+    "discount": "Rabat på entré",
+    "remoteLink": "http://samtidskunst.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OPLEV DANSK STØBERIMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dansk-stoeberimuseum",
+    "discount": "60 kr,",
+    "remoteLink": "https://museummors.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DUEHOLM KLOSTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dueholm-kloster",
+    "discount": "60 kr,",
+    "remoteLink": "https://museummors.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG FOSSIL- OG MOLERMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fossil-og-moler",
+    "discount": "60 kr,",
+    "remoteLink": "https://museummors.dk/",
+    "masterData": true
+  },
+  {
+    "name": "LANDBRUGSMUSEET SKARREGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/skarregaard",
+    "discount": "60 kr,",
+    "remoteLink": "https://museummors.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DORF MØLLEGÅRD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-besoeg-dorf-moellegaard",
+    "discount": "48 kr,",
+    "remoteLink": "http://www.bkmuseer.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OPLEV MOSEDE FORT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Mosede-fort",
+    "discount": "Rabat på entré",
+    "remoteLink": "https://danmark1914-18.dk/",
+    "masterData": true
+  },
+  {
+    "name": "VEGAS LED LAMPE FRA MØBLÉR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-vegas-led-lampe-mobler-tilbud-6-2019",
+    "discount": "999 kr,",
+    "remoteLink": "https://mobler.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FARSTRUP EDGE LÆNESTOL FRA MØBLÉR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-Farstrup-Edge-laenestol-mobler-tilbud-6-2019",
+    "discount": "11,907 kr,",
+    "remoteLink": "https://mobler.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BOLOGNA SOFASÆT FRA MØBLÉR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-Bologna-sofa-mobler-tilbud-6-2019",
+    "discount": "14,999 kr,",
+    "remoteLink": "https://mobler.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MITHIOF BEGRAVELSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Mithiof-begravelsesforretning",
+    "discount": "Særpris",
+    "remoteLink": "https://www.dinlokalebedemand.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MEDIGROUP - HJÆLP TIL EN NEMMERE HVERDAG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Medigroup",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.hjemmetest.dk/shop/cms-medlemsshop.html",
+    "masterData": true
+  },
+  {
+    "name": "KØB DINE GAVER HOS METZ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/metz-okt16",
+    "discount": "Spar op til 60%",
+    "remoteLink": "https://shop.metz.dk/aeldre-sagen/da",
+    "masterData": true
+  },
+  {
+    "name": "BØGER FRA MUUSMANN'FORLAG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/muusmann-boger",
+    "discount": "20%",
+    "remoteLink": "https://muusmann-forlag.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ M/S MUSEET FOR SØFART, HELSINGØR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-museet-for-soefart",
+    "discount": "20%",
+    "remoteLink": "https://mfs.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MUSEET SOGNEFOGEDGÅRDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-museet-sognefogedgaarden",
+    "discount": "20 kr,",
+    "remoteLink": "https://www.xn--sognefogedgrden-rlb.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MEMPHIS MANSION - A DREAM COME TRUE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Memphis-mansion",
+    "discount": "Rabat på entré",
+    "remoteLink": "https://www.memphismansion.dk/museum/",
+    "masterData": true
+  },
+  {
+    "name": "LÆKKERT KØD OG GOD VIN PÅ MENUEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Meat-market",
+    "discount": "Få 2% rabat på alle varer",
+    "remoteLink": "https://meat-market.dk/shop/",
+    "masterData": true
+  },
+  {
+    "name": "SÆLG DIN BOLIG OG FÅ HJÆLP",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Min-bolighandel",
+    "discount": "20%",
+    "remoteLink": "https://minbolighandel.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MBT - FODTØJ AF HØJ KVALITET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/MBT",
+    "discount": "15%",
+    "remoteLink": "http://kampagne.mbtshop.dk/5836/%c3%86ldre%20Sagen",
+    "masterData": true
+  },
+  {
+    "name": "CAMPINGFERIE PÅ MARIAGER CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-mariager-camping",
+    "discount": "10%",
+    "remoteLink": "https://www.mariagercamping.dk/dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ MARIELYST FAMILIECAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-marielyst-familiecamping",
+    "discount": "15%",
+    "remoteLink": "http://www.marielystfamiliecamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MARIANNE LYNGE KUNST OG GAVER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/kunsthaandvaerk-og-design-marianne-lynge",
+    "discount": "15%",
+    "remoteLink": "https://www.mariannelynge.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ HØJBEDE OG ALTANKASSER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Land-Hoejbede",
+    "discount": "Få 10% rabat",
+    "remoteLink": "https://www.landhave.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ RABAT HOS LIRUM LARUM LEG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/lirum-larum-leg",
+    "discount": "10%",
+    "remoteLink": "https://www.lirumlarumleg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "LÆR ALT OM IT - LÆR DET NEMT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alt-om-it-libris",
+    "discount": "Spar 15%",
+    "remoteLink": "https://www.libris.dk/pages/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "BESØG MUSEUM FOR PAPIRKUNST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-besoeg-museum-for-papirkunst",
+    "discount": "70 kr,",
+    "remoteLink": "https://museumforpapirkunst.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG MØLLEBÆKKENS KØBMANDSGÅRD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-moellebaekkens-koebmandsgaard",
+    "discount": "10%",
+    "remoteLink": "http://dengamlekoebmand.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG OSTELADEN I KARLSLUNDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-osteladen-i-karlslunde",
+    "discount": "10%",
+    "remoteLink": "http://dengamlekoebmand.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ LÆGÅRDENS CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-laegaardens-camping",
+    "discount": "10%",
+    "remoteLink": "https://laegaardenscamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ LØGBALLE CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-loegballe-camping",
+    "discount": "10%",
+    "remoteLink": "http://www.logballe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MAD TIL JULEBORDET FRA MEYERS KØKKEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-julefrokosten-meyers-koekken",
+    "discount": "179 kr,",
+    "remoteLink": "https://meyers.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ LIMFJORDSMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/limfjordsmuseet",
+    "discount": "30 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "LIVETSOMSENIOR - HJÆLPEMIDLER TIL DIG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/livet-som-senior",
+    "discount": "10%",
+    "remoteLink": "https://www.livetsomsenior.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT HOS LE CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingudstyr-og-serviceydelser-le-camping",
+    "discount": "7%",
+    "remoteLink": "http://www.le-camping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ RABAT PÅ OLIE OG ADDITIVER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-olie-og-bilprodukter-hos-industrikemi",
+    "discount": "15%",
+    "remoteLink": "https://www.weboil.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ LØGSTØR PARKHOTEL - LØGSTØR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-logstor-parkhotel",
+    "discount": "25%",
+    "remoteLink": "https://www.logstorparkhotel.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ FERIEBOLIG HOS INTERHOME",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/interhome-feriebolig-i-udlandet",
+    "discount": "489 kr,",
+    "remoteLink": "https://www.interhome.dk/?partnerid=DK1000086",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HYGGE TASTE OF DENMARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-hygge-taste-of-denmark",
+    "discount": "25%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "RABAT HOS HEDENSTED CARAVAN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingudstyr-hedensted-caravan",
+    "discount": "7%",
+    "remoteLink": "https://hedenstedcaravan.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HOTEL THINGGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hotel-thinggaard",
+    "discount": "25%",
+    "remoteLink": "https://hotelthinggaard.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ HANSTHOLM CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-hanstholm-camping",
+    "discount": "10%",
+    "remoteLink": "https://hanstholm-camping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HOTEL TROENSE - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hotel-troense",
+    "discount": "25%",
+    "remoteLink": "https://www.hoteltroense.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ VIKING HOTEL & SPA - SÆBY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Viking-hotel-og-spa",
+    "discount": "25%",
+    "remoteLink": "https://hotelviking.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HASLE CAMPING & HYTTEBY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-hasle-camping-og-hytteby",
+    "discount": "15%",
+    "remoteLink": "https://www.haslecamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HOTEL POSTGAARDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-postgaarden-fredericia",
+    "discount": "25%",
+    "remoteLink": "https://www.postgaarden.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ HOTEL DAGMAR - RIBE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-dagmar",
+    "discount": "25%",
+    "remoteLink": "https://www.hoteldagmar.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HOTEL SVANEN - BILLUND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-svanen",
+    "discount": "25%",
+    "remoteLink": "http://www.hotelsvanen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HUDEVAD SMEDJEMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/besog-hudevad-smedjemuseum",
+    "discount": "Spar 10 kr, på entréen",
+    "remoteLink": "http://hudevadsmedjemuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HOTEL CHRISTIAN IV I KØBENHAVN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-hotel-christianiv",
+    "discount": "15%",
+    "remoteLink": "https://www.hotelchristianiv.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HUMLUM KRO - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-humlum-kro",
+    "discount": "25%",
+    "remoteLink": "https://humlumkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BILUDLEJNING HOS HERTZ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/biludlejning-hertz",
+    "discount": "Få op til 15% rabat",
+    "remoteLink": "http://hertzdanmark.dk/2158942244/",
+    "masterData": true
+  },
+  {
+    "name": "REJSER FOR KØRESTOLSBRUGERE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/HandiTours",
+    "discount": "Spar 350 kr,",
+    "remoteLink": "https://www.handitours.eu/",
+    "masterData": true
+  },
+  {
+    "name": "HOTEL SKIBELUND KRAT I VEJEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hotel-skibelund-krat-spis-ud",
+    "discount": "25%",
+    "remoteLink": "https://skibelundkrat.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ HEJLSMINDE STRAND CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-hejlsminde-strand-camping",
+    "discount": "10%",
+    "remoteLink": "http://hejlsmindecamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - HEREFORD VILLAGE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hereford-village",
+    "discount": "25%",
+    "remoteLink": "https://herefordvillage.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ HJARBÆK FJORD CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-hjarbaek-fjord-camping",
+    "discount": "10%",
+    "remoteLink": "https://www.hjarbaek.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DAMETØJ FRA HL MODE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/HL-Mode",
+    "discount": "10%",
+    "remoteLink": "http://hl-mode.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BEST WESTERN HOTEL FREDERICIA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hotel-fredericia-ophold",
+    "discount": "870 kr,",
+    "remoteLink": "https://hotelfredericia.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ HOTEL FREDERICIA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-fredericia",
+    "discount": "25%",
+    "remoteLink": "https://hotelfredericia.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HOTEL RIBE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-ribe",
+    "discount": "25%",
+    "remoteLink": "http://hotelribe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ HORSENS CITY CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-horsens-city-camping",
+    "discount": "10%",
+    "remoteLink": "https://www.horsenscitycamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG HOLGERS KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-holgers-kro",
+    "discount": "25%",
+    "remoteLink": "https://holgerskro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ HOTEL SØRUP HERREGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-soerup-herregaard",
+    "discount": "25%",
+    "remoteLink": "https://www.sorup.dk/",
+    "masterData": true
+  },
+  {
+    "name": "A HEREFORD BEEFSTOUW - SKOVSHOVED HOTEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hereford-beefstouw-skovshoved",
+    "discount": "25%",
+    "remoteLink": "https://book.easytablebooking.com/book/?id=6c875&lang=da",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HEMPEL GLASMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-hempel-glasmuseum",
+    "discount": "50 kr,",
+    "remoteLink": "http://hempelglasmuseum.dk/da/",
+    "masterData": true
+  },
+  {
+    "name": "A HEREFORD BEEFSTOUW - HERNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hereford-beefstouw-herning",
+    "discount": "25%",
+    "remoteLink": "https://book.easytablebooking.com/book/?id=b9049&lang=da",
+    "masterData": true
+  },
+  {
+    "name": "TAG FAMILIEN MED I JUMPINGFUN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsespark-jumpingfun",
+    "discount": "20%",
+    "remoteLink": "https://jumpingfun.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MODETØJ OG LINGERI HOS JOHS. CLAUSEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Dametoj-hos-johs-clausen",
+    "discount": "Få 10% rabat",
+    "remoteLink": "https://www.johsfashion.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TAG BØRNEBØRNENE MED I JESPERHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsespark-jesperhus",
+    "discount": "130 kr,",
+    "remoteLink": "https://www.jesperhus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE KØBENHAVN | CAFÉ & BISTRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-koebenhavn-bistro-cafe",
+    "discount": "25%",
+    "remoteLink": "http://www.cafe-bistro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ JENSEN BØFHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-jensens-boefhus",
+    "discount": "25%",
+    "remoteLink": "https://www.jensens.com/da/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ DIT BESØG HOS KØGE MUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Koge-museum",
+    "discount": "Rabat på entré",
+    "remoteLink": "http://www.koegemuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KONGERNES FERIEPARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-kongernes-feriepark",
+    "discount": "10%",
+    "remoteLink": "https://kongernesferiepark.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KAREN BLIXEN MUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-karen-blixen-museet",
+    "discount": "80 kr,",
+    "remoteLink": "https://blixen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BOOKSEAT TIL HÅNDFRI LÆSNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bookseat-pude",
+    "discount": "249 kr,",
+    "remoteLink": "https://kimbrer-ide.dk/pages/koeb-en-bookseat?utm_source=partner&utm_medium=aeldresagen&utm_campaign=weblink",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ KYSTMUSEET OG OPLEV 4 MUSEER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Kystmuseet",
+    "discount": "Særpris",
+    "remoteLink": "https://www.kystmuseet.dk/forsiden/",
+    "masterData": true
+  },
+  {
+    "name": "FODBEHANDLING HOS HELLE THRYSØE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/klinik-for-fodterapi-helle-thrysoe",
+    "discount": "325 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "FERIE PÅ KALUNDBORG CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-kalundborg",
+    "discount": "10%",
+    "remoteLink": "https://kalundborg-camping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ MUSEUM BESØG KYSTCENTRET THYBORØN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museer-kystcentret-thyboroen",
+    "discount": "Få 20% rabat",
+    "remoteLink": "https://www.kystcentret.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KUNSTCENTRET SILKEBORG BAD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-kunstcentret-silkeborg-bad",
+    "discount": "65 kr,",
+    "remoteLink": "http://www.silkeborgbad.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KRAGENÆS MARINA LYSTCAMP***",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-kragenaes-marina-lystcamp",
+    "discount": "10%",
+    "remoteLink": "http://www.marinalystcamp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG KOLDINGHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-koldinghus",
+    "discount": "20%",
+    "remoteLink": "https://www.koldinghus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ SEJLADS MED HURTIGRUTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hurtigruten-5-procent",
+    "discount": "5%",
+    "remoteLink": "https://www.krydstogteksperten.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT HOS KØGE CARAVAN CENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingudstyr-koege-caravan-center",
+    "discount": "7%",
+    "remoteLink": "https://kocc.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FODTERAPI VED HENRIK VESTERGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/fodterapi-ved-henrik-vestergaard",
+    "discount": "10%",
+    "remoteLink": "https://www.fodterapi-aalborgc.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KRYDSORD OG SUDOKU FRA TANKESPORT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/keesing-tankesport",
+    "discount": "20%",
+    "remoteLink": "https://www.tankesport.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ KÆRSHOLM FODTERAPI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/kaersholm-fodterapi-tilbud",
+    "discount": "10%",
+    "remoteLink": "https://www.xn--krsholmfodterapi-uob.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KUNSTFORENINGEN GL. STRAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-kunstforeningen-gl-strand",
+    "discount": "95 kr,",
+    "remoteLink": "http://www.glstrand.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT HOS GLOSTRUP FODTERAPI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-fodbehandling",
+    "discount": "355 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "HØJSKOLEOPHOLD PÅ GERLEV",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hojskoleophold-gerlev-tilbud-6-2019",
+    "discount": "3,675 kr,",
+    "remoteLink": "https://gerlev.dk/",
+    "masterData": true
+  },
+  {
+    "name": "OPLEV GRØNLANDS MAGISKE ISFJELDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/groenlands-magiske-isfjelde-groenlandsrejsebureau-mrm2805",
+    "discount": "14,995 kr,",
+    "remoteLink": "https://www.greenland-travel.dk/rejser/groenlands-magiske-isfjelde/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG GARDERHØJFORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/garderhoejfortet-museumsbesoeg",
+    "discount": "45 kr,",
+    "remoteLink": "https://garderhojfort.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DIT LIVS GRØNLANDSREJSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dit-livs-groenlandsrejse-groenlands-rejsebureau-tilbud-4-2019",
+    "discount": "16,495 kr,",
+    "remoteLink": "https://www.greenland-travel.dk/rejser/dit-livs-groenlandsrejse-foraar/",
+    "masterData": true
+  },
+  {
+    "name": "GRØNNINGHOVED STRAND CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-groenninghoved-strand-camping",
+    "discount": "10%",
+    "remoteLink": "http://gronninghoved.dk/da/home/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ GL. ÅLBO CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-gl-aalbo-camping",
+    "discount": "8%",
+    "remoteLink": "https://gl-aalbo.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SÆRLIG DÆKNING AF TRICKTYVERI I HJEMMET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Tilbud-paa-tricktyveriforsikring-gf-forsikring",
+    "discount": "Særlig dækning mod tricktyveri",
+    "remoteLink": "https://www.gfforsikring.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "REJS TRYGT OG SIKKERT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-rejseforsikring-gf-forsikring",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.gfforsikring.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "FÅ SÆRLIGE FORDELE I GF FORSIKRING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-forsikring-gf-forsikring",
+    "discount": "Kun for Ældre Sagen medlemmer",
+    "remoteLink": "https://www.gfforsikring.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "AALBÆK GL. KRO - 25% RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-gl-aalbaek-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.aalbaek-kro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ GUDENÅENS CAMPING - SILKEBORG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-gudenaaens-camping",
+    "discount": "25%",
+    "remoteLink": "https://gudenaaenscamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ BØGER FRA GADS FORLAG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Gads-Forlag",
+    "discount": "20% Rabat",
+    "remoteLink": "https://gad.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GIGTFORENINGENS WEBSHOP",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Gigtforeningen",
+    "discount": "Op til 23% rabat",
+    "remoteLink": "https://www.gigtforeningen.dk/webshop/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG GAVNØ SLOT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Gavno-slot",
+    "discount": "20%",
+    "remoteLink": "https://www.gavnoe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FIND GAVEN TIL HENDE ELLER HAM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Gaver-uden-graenser",
+    "discount": "Særtilbud",
+    "remoteLink": "http://www.tilbudogfordele.dk/default.aspx",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ GULDAGER CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-guldager-camping",
+    "discount": "72 kr,",
+    "remoteLink": "https://www.guldagercamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "2 LEDNINGSFRI STØVSUGERE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/lediningsfri-stovsuger-gtech-shop-tilbud-6-2019",
+    "discount": "3,999 kr,",
+    "remoteLink": "https://www.gtech-shop.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "UDLEJNING MELLEM PRIVATE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/udlejning-mellem-private-shareone",
+    "discount": "30%",
+    "remoteLink": "https://shareone.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ BENZIN OG DIESEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-benzin-og-diesel-faa-shell-card",
+    "discount": "Spar 19 øre pr, liter",
+    "remoteLink": "https://secure.shellcard.dk/ansoeg/",
+    "masterData": true
+  },
+  {
+    "name": "SILKEBORG SØ CAMPING & FERIEHUSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-camping-silkeborg-soe-camping-og-feriehuse",
+    "discount": "690 kr,",
+    "remoteLink": "https://seacamp.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SMYKKER FRA SPINNING JEWELRY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-smykker-spinning-jewelry",
+    "discount": "15%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "MARITIMT OPLEVELSESCENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/springeren",
+    "discount": "Spar 20% på entréen",
+    "remoteLink": "https://springeren-maritimt.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ 15-20% RABAT MED STENA LINE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Faergeoverfart-med-rabat",
+    "discount": "15%",
+    "remoteLink": "https://www.stenaline.dk/aeldresagen",
+    "masterData": true
+  },
+  {
+    "name": "BØGER OM KUNST, ARKITEKTUR OG DESIGN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Strandberg-publishing-boger",
+    "discount": "Spar 20%",
+    "remoteLink": "https://strandbergpublishing.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CAMPINGFERIE PÅ SYDFYN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-svendborgsund-camping",
+    "discount": "190 kr,",
+    "remoteLink": "http://www.svendborgsund-camping.dk/booking-campingplads-svendborg-fyn",
+    "masterData": true
+  },
+  {
+    "name": "AFBUDSREJSER MED SPIES",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/afbudsrejser-med-spies",
+    "discount": "250 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "SPIES - RUTEFLY OG CHARTERREJSER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Charterrejse-tilbud-spies",
+    "discount": "250 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "SÆRTILBUD FRA SPIES",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/saertilbud-fra-spies",
+    "discount": "250 kr,",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "SPIS PÅ SCHACKENBORG SLOTSKRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Schackenborg-slotskro",
+    "discount": "25%",
+    "remoteLink": "https://www.slotskro.dk/da/",
+    "masterData": true
+  },
+  {
+    "name": "MICROFERIE PÅ SDR. OMME KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/miniferie-sdr-omme-kro-small-danish-hotels-tilbud-6-2019",
+    "discount": "363 kr,",
+    "remoteLink": "https://www.smalldanishhotels.dk/skabeloner/aeldresagen/?promocode=2248&referrer=2248",
+    "masterData": true
+  },
+  {
+    "name": "MINIFERIE PÅ TYRSTRUP KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/miniferie-tyrstrup-kro-small-danish-hotels-tilbud-6-2019",
+    "discount": "1,455 kr,",
+    "remoteLink": "https://www.smalldanishhotels.dk/skabeloner/aeldresagen/?promocode=2248&referrer=2248",
+    "masterData": true
+  },
+  {
+    "name": "SMALL DANISH HOTELS - FERIE I DANMARK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-Small-danish-hotels",
+    "discount": "9%",
+    "remoteLink": "https://www.smalldanishhotels.dk/skabeloner/aeldresagen/?promocode=2248&referrer=2248",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ SKAAL BEER & FOOD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/skaal-beer-og-food-okt17",
+    "discount": "25%",
+    "remoteLink": "https://www.skaal.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ BRILLER HOS SYNOPTIK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-briller-synoptik",
+    "discount": "20%",
+    "remoteLink": "https://www.synoptik.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SEJS BAKKER CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-sejs-bakker-camping",
+    "discount": "15%",
+    "remoteLink": "https://www.sejs-bakker-camping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MÆRK DINE EJENDELE MED DNA-VÆSKE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dna-maerkning",
+    "discount": "695 kr,",
+    "remoteLink": "https://www.selectadna.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SEXLEGETØJ OG HJÆLPEMIDLER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-Sinful",
+    "discount": "10%",
+    "remoteLink": "https://www.sinful.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ SKANDERBORG SØ CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-skanderborg-soe-camping",
+    "discount": "20%",
+    "remoteLink": "https://campingskanderborg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ SKIVEREN CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-skiveren-camping",
+    "discount": "10%",
+    "remoteLink": "https://www.skiveren.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ SEVEL CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-sevel-camping",
+    "discount": "10%",
+    "remoteLink": "http://www.sevelcamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MINIFERIE I SKAGEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/miniferie-rabat-paa-skagenstrand",
+    "discount": "Spar op til 1,295 kr,",
+    "remoteLink": "http://www.skagenstrand.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CAMPINGFERIE PÅ SINDAL CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-sindal-camping",
+    "discount": "60 kr,",
+    "remoteLink": "https://sindal-camping.dk/da/forside/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ ORDNET FØDDER HOS SØBORG FODTERAPI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Soeborg-fodterapi-tilbud",
+    "discount": "450 kr,",
+    "remoteLink": "https://soeborgfodterapi.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FÅ DIN BIL RENGJORT IND- OG UDVENDIGT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-rengoering-af-bil-steamrex",
+    "discount": "799 kr,",
+    "remoteLink": "https://steamrex.com/aeldresagen/medlemstilbud",
+    "masterData": true
+  },
+  {
+    "name": "FÅ DIN BIL RENGJORT INDVENDIGT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-indvendig-rengoering-af-bilen-steamrex",
+    "discount": "499 kr,",
+    "remoteLink": "https://steamrex.com/aeldresagen/medlemstilbud",
+    "masterData": true
+  },
+  {
+    "name": "RABAT HOS DIN TØJMAND",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-hos-din-toejmand",
+    "discount": "10%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "RABAT HOS DANTAXI 4X48",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-taxikoersel-dantaxi",
+    "discount": "10%",
+    "remoteLink": "https://dantaxi4x48.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØB NATURGAS HOS DCC ENERGI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/DCC-energi",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.dccenergi.dk/handelsbetingelser",
+    "masterData": true
+  },
+  {
+    "name": "HOBBITTEN - DET KGL. TEATER I ULVEDALENE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/det-kongelige-teater-hobbitten-mrm2910",
+    "discount": "Spar 10%",
+    "remoteLink": "https://kglteater.dk/",
+    "masterData": true
+  },
+  {
+    "name": "LA TRAVIATA I OPERAEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/det-kongelige-teater-la-traviata-mrm2611",
+    "discount": "Spar 10%",
+    "remoteLink": "https://kglteater.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KOM OG MÆRK HISTORIENS VINGESUS!",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/flymuseum",
+    "discount": "Spar 10 kr,",
+    "remoteLink": "http://www.flymuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DRONNINGLUND KUNSTCENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-dronninglund-kunstcenter",
+    "discount": "17%",
+    "remoteLink": "https://dronninglund-kunstcenter.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ DRAGØR BADEHOTEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-dragoer-badehotel",
+    "discount": "25%",
+    "remoteLink": "https://www.badehotellet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DANLAND - FERIE I VANDKANTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dl",
+    "discount": "Spar 10%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "FÅ VEJHJÆLP HOS DK-ASSISTANCE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dk-assistance-vejhjaelp",
+    "discount": "Få op til 18% på vejhjælp,",
+    "remoteLink": "https://dkvejhjaelp.dk/aeldresagen/",
+    "masterData": true
+  },
+  {
+    "name": "TRANSPORT MED DFDS TIL OSLO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/DFDS-rabat-paa-transport",
+    "discount": "405 kr,",
+    "remoteLink": "https://www.dfds.com/da-dk/passagerfaerger/partner/aeldresagen?utm_source=%C3%86ldredagen&utm_medium=website&utm_campaign=Rabat%20til%20medlemmer",
+    "masterData": true
+  },
+  {
+    "name": "KASPERSKY ANTIVIRUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/duka-kaperski-anitvirus-tilbud-1-2019",
+    "discount": "149 kr,",
+    "remoteLink": "https://www.duka.dk/medlem/",
+    "masterData": true
+  },
+  {
+    "name": "LEJ EN DUKANEMT COMPUTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-computer-inkl-bredbaand-duka",
+    "discount": "510 kr,",
+    "remoteLink": "https://www.duka.dk/medlem/",
+    "masterData": true
+  },
+  {
+    "name": "DUKAPRO – NEM COMPUTERLØSNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/duka-lej%20en%20dukaPRO-computer",
+    "discount": "299 kr,",
+    "remoteLink": "https://www.duka.dk/medlem/",
+    "masterData": true
+  },
+  {
+    "name": "DUKANEMT – NEM COMPUTERLØSNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Duka-lej-en-dukaNEMT",
+    "discount": "299 kr,",
+    "remoteLink": "https://www.duka.dk/medlem/",
+    "masterData": true
+  },
+  {
+    "name": "DILLING - UNDERTØJ I MERINO ULD OG BOMULD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dilling-underwear-undertoj-okt16",
+    "discount": "136 kr,",
+    "remoteLink": "https://www.dilling-underwear.dk/aeldresagen/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ CYKLER OG TILBEHØR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-cykler-og-tilbehoer-design-cykler",
+    "discount": "12%",
+    "remoteLink": "https://www.designcykler.dk/shop/frontpage.html",
+    "masterData": true
+  },
+  {
+    "name": "LEJ SOMMERHUS HOS DANSOMMER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-koer-selv-ferie-Dansommer",
+    "discount": "1,275 kr,",
+    "remoteLink": "https://www.dansommer.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DANSK PLAKATKUNST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dansk-plakatkunst",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.danskplakatkunst.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SIKKER OPBEVARING AF DINE VÆRDIGENSTANDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dansk-pengeskabs-industri-sikring-af-hjemmet",
+    "discount": "5,300 kr,",
+    "remoteLink": "https://www.danskpengeskabsindustri.dk/",
+    "masterData": true
+  },
+  {
+    "name": "REPARATION AF STENSLAG",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Dansk-Bilglas",
+    "discount": "Spar 20%",
+    "remoteLink": "https://bilglas.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ FORSIKRING AF DRIVHUSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/dansk-glasforsikring",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.danskglasforsikring.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TAG FAMILIEN MED PÅ JERNBANEMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-danmarks-jernbanemuseum",
+    "discount": "Spar 25%",
+    "remoteLink": "https://www.jernbanemuseet.dk/forside/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DANMARKS FORSORGSMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-danmarks-forsorgsmuseum",
+    "discount": "45 kr,",
+    "remoteLink": "https://www.svendborgmuseum.dk/danmarksforsorgsmuseum",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DANMARKS INDUSTRIMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-danmarks-industrimuseum",
+    "discount": "Rabat på entré",
+    "remoteLink": "http://industrimuseet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DANMARKS BORGCENTER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-danmarks-borgcenter",
+    "discount": "90 kr,",
+    "remoteLink": "http://www.danmarksborgcenter.dk/da",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RISTORANTE SOLE D´ITALIA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-sole-d-italia",
+    "discount": "25%",
+    "remoteLink": "https://soleditalia.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT COULOIR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-couloir",
+    "discount": "25%",
+    "remoteLink": "http://www.couloir.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT LYNETTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-lynetten",
+    "discount": "25%",
+    "remoteLink": "http://www.restaurantlynetten.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG CAFÉ SIRIUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-sirius",
+    "discount": "25%",
+    "remoteLink": "https://www.cafesirius.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT ARTI'KOK - HVIDOVRE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-artikok",
+    "discount": "25%",
+    "remoteLink": "https://www.artikok.com/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ TORVE CAFÉ I HVIDOVRE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Torve-cafe",
+    "discount": "25%",
+    "remoteLink": "http://www.torvecafe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - CAFÉ ROTUNDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-rotunden",
+    "discount": "25%",
+    "remoteLink": "https://caferotunden.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG BAKKENS PERLE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-bakkens-perle",
+    "discount": "25%",
+    "remoteLink": "http://www.bakkensperle.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BALLERUP BOWLING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-ballerup-bowling",
+    "discount": "25%",
+    "remoteLink": "https://ballerupbowling.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG RESTAURANT FREGATTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-fregatten",
+    "discount": "25%",
+    "remoteLink": "https://www.fregatten.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RUNGSTED KRO - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-restaurant-rungsted-kro",
+    "discount": "25%",
+    "remoteLink": "http://rungstedkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HOTEL SØFRYD - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-hotel-sofryd",
+    "discount": "25%",
+    "remoteLink": "https://hotel-sofryd.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SKJALM HVIDEHOTEL - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Skjalm-hvidehotel",
+    "discount": "25%",
+    "remoteLink": "https://shh.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ TRAKTØRSTEDET MALERKLEMMEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-traktorstedet-malerklemmen",
+    "discount": "25%",
+    "remoteLink": "https://malerklemmen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RØDVIG KRO & BADEHOTEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spisude-rodvig-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.roedvigkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE BESØG RESTAURANT KO & CO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-restaurant-ko-og-co",
+    "discount": "25%",
+    "remoteLink": "https://www.koogco.com/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT THE GRILL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-the-grill-bowl-n-fun",
+    "discount": "25%",
+    "remoteLink": "http://svendborg.thegrill.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT VINHUSKÆLDEREN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-vinhuset",
+    "discount": "25%",
+    "remoteLink": "https://www.hotelvinhuset.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HOTEL MENSTRUP KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-menstrup-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.menstrupkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - CAFÉ CARAMEL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cafe-caramel",
+    "discount": "25%",
+    "remoteLink": "https://www.caramel.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT PULCINELLA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-Pulcinella",
+    "discount": "25%",
+    "remoteLink": "https://www.pulcinella.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG RESTAURANT KONGSNÆS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/restaurant-kongsnaes",
+    "discount": "25%",
+    "remoteLink": "http://www.kongsnaes.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - RESTAURANT GISSELØRE ",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-gisselore",
+    "discount": "25%",
+    "remoteLink": "https://restaurant-gisseloere.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ BURGERMANIA I ODENSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-burgermania-odense",
+    "discount": "25%",
+    "remoteLink": "http://www.burgermania.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - HOTEL CHRISTIANSMINDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hotel-christiansminde",
+    "discount": "25%",
+    "remoteLink": "https://christiansminde.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RESTAURANT KRINSEN - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-Krinsen",
+    "discount": "25%",
+    "remoteLink": "https://hotelsvendborg.dk/",
+    "masterData": true
+  },
+  {
+    "name": "VINTERTILBUD TANNISHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/hotel-tannishus-vintertilbud-mrm1712",
+    "discount": "409 kr,",
+    "remoteLink": "https://tannishus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE BESØG BURGERMANIA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-burgermania",
+    "discount": "25%",
+    "remoteLink": "http://www.burgermania.dk/",
+    "masterData": true
+  },
+  {
+    "name": "MINIFERIE - DET HELE FOR DET HALVE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/loegstoer-parkhotel-miniferie-1712",
+    "discount": "699 kr,",
+    "remoteLink": "https://www.logstorparkhotel.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - GREEN SOLUTION HOUSE I RØNNE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-green-solution-house",
+    "discount": "25%",
+    "remoteLink": "http://www.greensolutionhouse.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BEETHOVEN 250 ÅR",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mogens-dahl-beethoven-250-aar-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://mogensdahl.dk/",
+    "masterData": true
+  },
+  {
+    "name": "A HEREFORD BEEFSTOUW - AARHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hereford-beefstouw-aarhus",
+    "discount": "25%",
+    "remoteLink": "https://book.easytablebooking.com/book/?id=0e87c&lang=da",
+    "masterData": true
+  },
+  {
+    "name": "FOREDRAG & SANG MED EN KENDT DANSKER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mogens-dahl-foredragsaftner-2020-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://mogensdahl.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - AUNING KRO - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-auning-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.auningkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KAMMERKONCERT I MOGENS DAHL KONCERTSAL",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mogens-dahl-kammerkoncerter-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://mogensdahl.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ GL. BRYDEGAARD - HÅRBY",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-gl-brydegaard",
+    "discount": "25%",
+    "remoteLink": "https://www.gammelbrydegaard.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG NØRRE VISSING KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Norrevissing-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.nr-vissing-kro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "EIN DEUTSCHES REQUIEM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mogens-dahl-ein-deutsches-requiem-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://mogensdahl.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RESTAURANT VITA - RABAT PÅ MENUKORTET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-vita",
+    "discount": "25%",
+    "remoteLink": "https://restaurantvita.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RETAURANT ELS I NYHAVN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-retaurant-els",
+    "discount": "25%",
+    "remoteLink": "http://restaurant-els.dk/",
+    "masterData": true
+  },
+  {
+    "name": "WYNTON MARSALIS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/musikkens-hus-wynton-marsalis-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.musikkenshus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS PÅ RESTAURANT JACOBSEN - KULTORVET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Restaurant-jacobsen-kultorvet",
+    "discount": "25%",
+    "remoteLink": "http://www.restaurant-jacobsen.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KIRSEBÆRHAVEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/noerrebro-teater-kirsebaerhaven-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://www.nbt.dk/",
+    "masterData": true
+  },
+  {
+    "name": "JAPANSK KERAMIK / RAKU",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bosei-japansk-keramik-raku-mrm1712",
+    "discount": "1,955 kr,",
+    "remoteLink0": "www.bosei.dk/korte-kurser",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "RETREAT MED LANGSOMME STING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bosei-retreat-mrm1712",
+    "discount": "1,955 kr,",
+    "remoteLink0": "www.bosei.dk/korte-kurser",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "SUMI E - JAPANSK TUSCHMALING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bosei-sumi-e-mrm1712",
+    "discount": "1,955 kr,",
+    "remoteLink0": "www.bosei.dk/korte-kurser",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "ZEN MEDITATION, TE OG BLID BEVÆGELSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bosei-zen-meditation-mrm1712",
+    "discount": "1,955 kr,",
+    "remoteLink0": "www.bosei.dk/korte-kurser",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "9 TO 5 MUSICALPAKKE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mch-9-to-5-musicalpakke-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink0": "www.mch.dk",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "SPIS UDE - CAFÉ DIAMANTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/cafe-diamanten-spis-ude",
+    "discount": "25%",
+    "remoteLink": "http://cafediamanten.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG GL. HOLTEGAARD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-gl-holtegaard",
+    "discount": "65 kr,",
+    "remoteLink": "https://glholtegaard.dk/da/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT HOS DIN HØRESPECIALIST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-hoereapparater-din-hoerespecialist",
+    "discount": "10%",
+    "remoteLink": "https://www.dinhs.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIEDAGE I SCHLESWIG HOLSTEIN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/saertilbud-julekalender-schleswig-holstein-happydays",
+    "discount": "1,169 kr,",
+    "remoteLink": "https://www.happydays.nu/dk/tilbud/aeldretilbud/tyskland/nordtyskland/schleswig-holstein/dersau/leibers-galerie-hotel-5010/1423",
+    "masterData": true
+  },
+  {
+    "name": "SOMMERHUSFERIE MED RABAT",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-koer-selvferie-Dancenter",
+    "discount": "Spar 10%",
+    "remoteLink": "https://www.dancenter.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ MALING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-maling-Beck-og-joergensen",
+    "discount": "Spar 40%",
+    "remoteLink": "http://danskmalingsamhandel.dk/adresseliste/",
+    "masterData": true
+  },
+  {
+    "name": "BEDEMAND HEICK & LARSEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-bedemand-henrik-heick-og-larsen",
+    "discount": "15%",
+    "remoteLink": "https://bedemandgrindsted.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØB FYRINGSOLIE HOS DCC ENERGI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/DCC-fyringsolie",
+    "discount": "Særtilbud",
+    "remoteLink": "https://www.dccenergi.dk/handelsbetingelser",
+    "masterData": true
+  },
+  {
+    "name": "FERIE ALENE - RHODOS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/ferie-alene-rhodos-spies-tilbud-6-2019",
+    "discount": "5,499 kr,",
+    "remoteLink0": " https://form.jotformeu.com/93153223617352",
+    "remoteLink": "https://form.jotformeu.com/93153223617352"
+  },
+  {
+    "name": "RABAT PÅ FITNESS - TRÆN I LOOP FITNESS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-fitness-loop-fitness",
+    "discount": "Træn for 179 kr,",
+    "remoteLink": "https://loopfitness.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RABAT PÅ FITNESS HOS SATS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-fitness-SATS",
+    "discount": "25%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "PRISON POEMS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/mogens-dahl-prison-poems-mrm1712",
+    "discount": "Spar 20%",
+    "remoteLink": "https://mogensdahl.dk/",
+    "masterData": true
+  },
+  {
+    "name": "H. C. ANDERSEN EVENTYRHUSET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-hc-andersens-eventyrhus",
+    "discount": "52 kr,",
+    "remoteLink": "https://www.ripleys.com/copenhagen/",
+    "masterData": true
+  },
+  {
+    "name": "RIBE OPHOLD MED FORPLEJNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Ribe-byferie-ophold-med-forplejning",
+    "discount": "1,103 kr,",
+    "remoteLink": "https://www.ribe-byferie.dk/",
+    "masterData": true
+  },
+  {
+    "name": "THE MYSTIC EXPLORATORIUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-the-mystic-exploratorium",
+    "discount": "52 kr,",
+    "remoteLink": "https://www.ripleys.com/copenhagen/",
+    "masterData": true
+  },
+  {
+    "name": "FERIE PÅ DANHOSTELS VANDRERHJEM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-danhostel",
+    "discount": "10%",
+    "remoteLink": "https://www.danhostel.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPEEDLOCK LIVREM, HURTIG, NEM & TRINLØS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/speedlock-belt-godeideer-dk",
+    "discount": "340 kr,",
+    "remoteLink": "https://godeideer.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BEDSTEFORÆLDREDAGE I CIRKUS ARENA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsespark-cirkus-arena-bedsteforaeldredage",
+    "discount": "170 kr,",
+    "remoteLink": "http://www.arena.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - PÅ RESTAURANT CAP HORN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-cap-horn",
+    "discount": "25%",
+    "remoteLink": "https://www.caphorn.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GUINNESS WORLD OF RECORDS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-guinness-world-records",
+    "discount": "88 kr,",
+    "remoteLink": "https://www.ripleys.com/copenhagen/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - PÅ RESTAURANT PEDER OXE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-peder-oxe",
+    "discount": "25%",
+    "remoteLink": "https://www.pederoxe.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - PÅ NYHAVNS FÆRGEKRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-nyhavns-faergekro",
+    "discount": "25%",
+    "remoteLink": "https://www.nyhavnsfaergekro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RIPLEY´S BELIEVE IT OR NOT!",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-Ripleys-believe-it-or-not",
+    "discount": "88 kr,",
+    "remoteLink": "https://www.ripleys.com/copenhagen/",
+    "masterData": true
+  },
+  {
+    "name": "SPEEDWAY VOJENS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/speedway-vojens-billetlugen",
+    "discount": "100 kr,",
+    "remoteLink0": "https://www.billetlugen.dk/",
+    "remoteLink": "https://www.billetlugen.dk/"
+  },
+  {
+    "name": "TASKER, CLUTCHES OG PUNGE FRA OCTOPUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/octopus-tasker-jun17",
+    "discount": "15%",
+    "remoteLink": "https://www.octopusdenmark.com/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG HOTEL TANNISHUS",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Hotel-tannishus",
+    "discount": "20%",
+    "remoteLink": "https://tannishus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ JELLING KRO",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-jelling-kro",
+    "discount": "25%",
+    "remoteLink": "https://www.jellingkro.dk/",
+    "masterData": true
+  },
+  {
+    "name": "RIBE BYFERIE - SÆLSAFARI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Koer-selv-ferie-saelsafari-ribe-byferie",
+    "discount": "1,598 kr,",
+    "remoteLink": "https://www.ribe-byferie.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TRYGHEDSALARM FRA SENIORTRYGHED.DK",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/seniortrygheddk-tryghedsalarm-dec16",
+    "discount": "Rabat på Tryghedsalarm",
+    "remoteLink": "https://www.seniortryghed.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG NATIONALMUSEET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-nationalmuseet",
+    "discount": "76 kr,",
+    "remoteLink": "https://natmus.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FERIELEJLIGHED I RIBE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Ribe-byferie-ophold-uden-forplejning",
+    "discount": "860 kr,",
+    "remoteLink": "https://www.ribe-byferie.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ RESTAURANT AMALFI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-restaurant-Amalfi",
+    "discount": "25%",
+    "remoteLink": "https://www.restaurantamalfi.dk/",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BESØG VINVÆRTEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-vinvaerten",
+    "discount": "25%",
+    "remoteLink": "https://vinvaerten.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD PÅ INDLÆGSSÅLER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Tilbud-paa-ortopaedisk-fodtoj",
+    "discount": "15%",
+    "remoteLink": "http://skomageren.dk/",
+    "masterData": true
+  },
+  {
+    "name": "HJÆLP TIL DEN RETTE HØRELØSNING?",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Oticon",
+    "discount": "særlig tryghedsordning",
+    "remoteLink": "https://www.seniorhoerelse.dk/",
+    "masterData": true
+  },
+  {
+    "name": "A HEREFORD BEEFSTOUW VED TIVOLI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-hereford-beefstouw-koebenhavn",
+    "discount": "25%",
+    "remoteLink": "https://book.easytablebooking.com/book/?id=0be64&lang=da",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE PÅ BØF & OST",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/spis-ude-paa-boef-og-ost",
+    "discount": "25%",
+    "remoteLink": "https://boef-ost.dk/",
+    "masterData": true
+  },
+  {
+    "name": "GAVEN TIL HAM ELLER HENDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/medlemstilbud-godeideer-dk",
+    "discount": "20%",
+    "remoteLink": "https://godeideer.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG VIKINGESKIBSMUSEET I ROSKILDE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-vikingeskibsmuseet",
+    "discount": "125 kr,",
+    "remoteLink": "https://www.vikingeskibsmuseet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "FITNESSMEDLEMSSKAB HOS FITNESS WORLD",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-fitness-fitnessworld",
+    "discount": "Rabat",
+    "remoteLink": "https://www.fitnessworld.com/dk2/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG DANMARKS TEKNISKE MUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-danmarks-tekniske-museum",
+    "discount": "Spar 25%",
+    "remoteLink": "https://tekniskmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DANISH SPEEDWAY GRANDPRIX 2020",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Danish-Speedway-Grandprix-billetlugen",
+    "discount": "60 kr,",
+    "remoteLink0": "https://www.billetlugen.dk/",
+    "remoteLink": "https://www.billetlugen.dk/"
+  },
+  {
+    "name": "TRÆN DIG GLAD 2",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/traen-dig-glad",
+    "discount": "90 kr,",
+    "remoteLink": "https://www.aeldresagen.dk/webshop",
+    "masterData": true
+  },
+  {
+    "name": "SPIS UDE - BRDR. PRICE I ROSENBORGGADE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Spis-ude-brdr-price-rosenborggade",
+    "discount": "25%",
+    "remoteLink": "https://brdr-price.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØB EN ELCYKEL FRA WINTHER",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-aeldre-sagen-elcykel-hf-christiansen",
+    "discount": "12,999 kr,",
+    "remoteLink0": "/tilbud-og-rabatter/tilbud/kort",
+    "err2": "Err02: Search for remote link: Error"
+  },
+  {
+    "name": "SPAR 10% HOS LEGEAKADEMIET",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/legeakademiet-feb17",
+    "discount": "10%",
+    "remoteLink": "https://legeakademiet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "TILBUD HOS NORDSØEN OCEANARIUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Nordsoen-oceanarium",
+    "err1": "Err01: Scraping search result page: TypeError",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "RABAT PÅ PAVA RUSTBESKYTTELSE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Pava",
+    "discount": "15%",
+    "remoteLink": "https://pava.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØR SELV OPHOLD - RÜGEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/happydays-rugen-mrm1712",
+    "discount": "1,669 kr,",
+    "remoteLink": "https://www.happydays.nu/dk/tilbud/aeldremail/tyskland/nordtyskland/rugen/seebad-juliusruh/aquamaris-strandresidenz-rugen-5586/2278",
+    "masterData": true
+  },
+  {
+    "name": "BO GODT PÅ RIBE CAMPING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-campingferie-ribe-camping",
+    "discount": "10%",
+    "remoteLink": "https://ribecamping.dk/",
+    "masterData": true
+  },
+  {
+    "name": "UVILDIG RÅDGIVNING OM SENIORØKONOMI",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/Willis-towers-watson",
+    "discount": "Særtilbud på økonomisk rådgivning,",
+    "remoteLink": "https://sagen.willisweb.dk/",
+    "masterData": true
+  },
+  {
+    "name": "PLUDSELIG ALENE MED ØKONOMIEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/raadgivning-willis-towers-watson",
+    "discount": "35%",
+    "remoteLink": "https://sagen.willisweb.dk/",
+    "masterData": true
+  },
+  {
+    "name": "EN VERDENSOMSEJLING UNDER OVERFLADEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/den-blaa-planet",
+    "discount": "Rabat på entré",
+    "remoteLink": "https://denblaaplanet.dk/",
+    "masterData": true
+  },
+  {
+    "name": "BESØG FUGLSANG KUNSTMUSEUM",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-museum-Fuglsang-Kunstmuseum",
+    "discount": "Rabat på entré",
+    "remoteLink": "https://www.fuglsangkunstmuseum.dk/",
+    "masterData": true
+  },
+  {
+    "name": "CIRKUS I FØLGE BUBBER 2",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-forlystelsespark-cirkus-arena-2020",
+    "discount": "Spar 35 kr, pr, billet,",
+    "remoteLink": "http://www.arena.dk/",
+    "masterData": true
+  },
+  {
+    "name": "DRØMMESAFARI I KENYA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/bravo-tours-kenya-tilbud-5-2019",
+    "discount": "16,998 kr,",
+    "remoteLink": "https://www.bravotours.dk/rejseformer/laserrejser/",
+    "masterData": true
+  },
+  {
+    "name": "MAGISKE MADEIRA",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-charterrejse-madeira-bravo-tours-tilbud-5-2019",
+    "discount": "8,198 kr,",
+    "remoteLink": "https://www.bravotours.dk/rejseformer/laserrejser/",
+    "masterData": true
+  },
+  {
+    "name": "SKRIDSIKKER BELÆGNING",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/skridsikker-underlag-swissgrip",
+    "discount": "945 kr,",
+    "remoteLink": "https://www.grip-danmark.dk/",
+    "masterData": true
+  },
+  {
+    "name": "KØLIG HAVBRISE TIL VARME DAGE",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/tilbud-paa-evapolar-bws-distribution",
+    "discount": "15%",
+    "err3": "No link to external site was found on local element page"
+  },
+  {
+    "name": "SCANDIC I DANMARK OG NORDEN",
+    "localLink": "https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/rabat-paa-overnatning-scandic",
+    "discount": "Spar fra 15 til 20%",
+    "remoteLink": "https://www.scandichotels.dk/tilbud-og-hotelpakker/aldresagen-partnertilbud-20",
+    "masterData": true
+  }
+]
