@@ -2,6 +2,7 @@
   "name": "rabatten-scraper",
   "version": "1.0.2",
   "description": "Used to do web scraping of data for repo rabatten",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "watchfile:index": "nodemon ./index.js",
@@ -25,6 +26,7 @@
     "puppeteer": "2.0.0"
   },
   "devDependencies": {
+    "inquirer": "^7.0.1",
     "nodemon": "^2.0.2"
   },
   "nodemonConfig": {

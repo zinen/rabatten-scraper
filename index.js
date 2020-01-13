@@ -2,10 +2,11 @@
 const { doForbrugScrape } = require('./modules/doForbrugScrape.js')
 const { doLogbuyScrape } = require('./modules/doLogbuyScrape.js')
 const { doCoopScrape } = require('./modules/doCoopScrape.js')
-// const my = require('./modules/my_filesystem.js')
+const { doAeldreScrape } = require('./modules/doAeldreScrape.js')
 const my = require('../common-zinen/index.js')
 const { lastFileContent } = require('../common-zinen/index.js')
 require('dotenv').config()
+const inquirer = require('inquirer')
 
 let browserHolder
 
@@ -33,7 +34,7 @@ async function analyseData (filePath) {
     } else {
       // Clean links:
       point.remoteLink0 = point.remoteLink0 ? point.remoteLink0.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase() : null
-      point.remoteLink = point.remoteLink ? point.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1') : null
+      point.remoteLink = point.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1')
       if (point.remoteLink0 === point.remoteLink) {
         point.remoteLinkResult = 'same'
         iSame++
@@ -107,6 +108,11 @@ const holderService = [
     name: 'coop',
     scrapeOutPath: './scraped-data/coop/',
     distOutFile: 'coop.json'
+  },
+  {
+    name: 'aeldresagen',
+    scrapeOutPath: './scraped-data/aeld/',
+    distOutFile: 'aeld.json'
   }
 ]
 
@@ -133,55 +139,90 @@ async function makeDistData () {
   }
 }
 
+var questions = [
+  {
+    type: 'list',
+    name: 'action',
+    message: 'Action to perform?',
+    choices: ['Scrape data from web', 'Analyse ealier data scraped', 'Build distribution']
+  },
+  {
+    type: 'list',
+    name: 'scrapeThis',
+    message: 'Where to scrape data from?',
+    choices: ['Forbrugsforeningen', 'Logbuy', 'Coop', 'Aeldresagen'],
+    filter: function (val) {
+      return val.toLowerCase()
+    },
+    when: async function (answers) {
+      return answers.action === 'Scrape data from web'
+    }
+  },
+  // {
+  //   type: 'confirm',
+  //   name: 'scrapeMasterData',
+  //   message: 'Allow the scrape to reley on eairler scrapes result?',
+  //   default: true,
+  //   when: async function (answers) {
+  //     return answers.action === 'Scrape data from web'
+  //   }
+  // },
+  {
+    type: 'list',
+    name: 'analyseThis',
+    message: 'Which analyse to run?',
+    choices: ['Look though all data', 'Return only data with errors'],
+    when: function (answers) {
+      return answers.action === 'Analyse ealier data scraped'
+    }
+  }]
+
 // TODO:Convert to data expeted by rabatten
-(async () => {
+async function init () {
+  const answers = await inquirer.prompt(questions)
+  // const answers = {
+  //   action: 'Scrape data from web',
+  //   scrapeThis: 'aeldresagen',
+  //   scrapeMasterData: true
+  // }
+  console.log(JSON.stringify(answers, null, '  '))
   const startTime = new Date().toISOString()
-  const runForbrugScrape = false
-  const runLogbuyScrape = false
-  const runCoopScrape = false
-  const runAnalys = false
-  const onlyErrors = false
-  const saveResult = false
-  const makeDist = true
   let filePath = './scraped-data/test/'
   let result
-  if (makeDist) {
+  if (answers.action === 'Build distribution') {
     makeDistData()
     return
-  } else if (runForbrugScrape) {
+  } else if (answers.scrapeThis === 'forbrugsforeningen') {
     filePath = './scraped-data/forb/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doForbrugScrape(browserHolder, lastScrapedData)
-  } else if (runLogbuyScrape) {
+  } else if (answers.scrapeThis === 'logbuy') {
     filePath = './scraped-data/logb/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
-    // lastScrapedData not testet yet
     result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  } else if (runCoopScrape) {
+  } else if (answers.scrapeThis === 'coop') {
     filePath = './scraped-data/coop/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doCoopScrape(browserHolder, lastScrapedData)
-  } else if (runAnalys) {
+  } else if (answers.scrapeThis === 'aeldresagen') {
+    filePath = './scraped-data/aeld/'
+    const lastScrapedData = JSON.parse(await lastFileContent(filePath))
+    result = await doAeldreScrape(browserHolder, lastScrapedData)
+  } else if (answers.analyseThis === 'Look though all data') {
     result = await analyseData(filePath)
-  } else if (onlyErrors) {
+  } else if (answers.analyseThis === 'Return only data with errors') {
     result = await returnErrors(filePath)
   }
-  if (saveResult) {
-    if (!result) { throw new Error('No screaped data to save') }
+  if (result) {
     const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
     const jsonContent = JSON.stringify(result, null, 2) // Convert to JSON
     const datestring = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
     const setFilename = filePath + datestring + '.json'
     await my.writeFile(setFilename, jsonContent)
+  } else {
+    console.log('No data to save')
   }
   // Print to console both start and finish time
   console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
-})()
-
-// Before time loop 2,671
-// Async (2xawait)for loop 2,089
-// Async generator 2,064
-
-// Test fetch:
-// const resonse = await fetch('https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=34940')
-// console.log(await resonse.text())
+}
+init()
