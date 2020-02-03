@@ -177,6 +177,18 @@ var questions = [
     }
   }]
 
+async function saveScrape (input, filePath) {
+  if (input) {
+    const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
+    const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
+    const datestring = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
+    const setFilename = filePath + datestring + '.json'
+    await my.writeFile(setFilename, jsonContent)
+  } else {
+    console.log('No data to save')
+  }
+}
+
 // TODO:Convert to data expeted by rabatten
 async function init () {
   const answers = await inquirer.prompt(questions)
@@ -213,16 +225,37 @@ async function init () {
   } else if (answers.analyseThis === 'Return only data with errors') {
     result = await returnErrors(filePath)
   }
-  if (result) {
-    const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
-    const jsonContent = JSON.stringify(result, null, 2) // Convert to JSON
-    const datestring = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
-    const setFilename = filePath + datestring + '.json'
-    await my.writeFile(setFilename, jsonContent)
-  } else {
-    console.log('No data to save')
-  }
+  saveScrape(result, filePath)
   // Print to console both start and finish time
   console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
 }
-init()
+// init()
+
+async function runAll () {
+  let filePath = './scraped-data/forb/'
+  let lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  let result = await doForbrugScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+  filePath = './scraped-data/logb/'
+  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  result = await doLogbuyScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+  filePath = './scraped-data/coop/'
+  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  result = await doCoopScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+  filePath = './scraped-data/aeld/'
+  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  result = await doAeldreScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+  await makeDistData()
+  console.log(new Date().toISOString() + ' Runing all scrapes ended')
+}
+
+// Deside how to run code
+if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
+  console.log(new Date().toISOString() + ' Runing all scrapes now')
+  runAll()
+} else {
+  init()
+}
