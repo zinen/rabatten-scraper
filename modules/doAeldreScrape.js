@@ -18,12 +18,14 @@ async function doAeldreScrape (browserHolder, masterData = null) {
     // No login page here
     // ....
     // Go to search page and scrape the content
+    console.log('Aeldresagen: Data scrape search page starting')
     let scrapeData = await scrapeMainPage(page)
+    console.log('Aeldresagen: Data scrape search page ending')
     // Loop scraped data and find the link the the external site
     scrapeData = await scrapeElementPages(page, scrapeData, masterData)
-    console.log('Data scrape external sites done')
+    console.log('Aeldresagen: Data scrape external sites done')
     try {
-      // await browser.close()
+      await browser.close()
     } catch (error) {
       console.log(error.message)
     }
@@ -34,7 +36,6 @@ async function doAeldreScrape (browserHolder, masterData = null) {
     console.log('---------')
   }
   async function scrapeMainPage (page) {
-    console.log('Data scrape search page starting')
     page.setDefaultTimeout(120 * 1000)
     await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/soeg?side=1000&liste=fa37#list', { waitUntil: 'domcontentloaded' })
     await page.waitFor(30 * 1000)
@@ -70,7 +71,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
       i1++
       i2++
       if (i1 > 19) {
-        console.log('External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+        console.log('Aeldresagen: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
         i1 = 0
       }
       try {

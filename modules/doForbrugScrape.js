@@ -18,11 +18,14 @@ async function doForbrugScrape (browserHolder, masterData = null) {
     // No login page here
     // ....
     // Go to the page with search result of all webshops
+    console.log('Forbrugsforeningen: Data scrape search page starting')
     let scrapeData = await scrapeMainPage(page)
+    console.log('Forbrugsforeningen: Data scrape search page ending')
     // Debug: Insert test data from a predefined object
     // let scrapeData = testDataConst()
     // Loop scraped data and find the link the the external site
     scrapeData = await scrapeElementPages(page, scrapeData, masterData)
+    console.log('Forbrugsforeningen: Data scrape external sites done')
     try {
       await browser.close()
     } catch (error) {
@@ -61,7 +64,6 @@ async function doForbrugScrape (browserHolder, masterData = null) {
   }
 
   async function scrapeMainPage (page) {
-    console.log('Data scrape search page starting')
     await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
     // Wait for first data to be retrived
     await page.waitFor('.grouped-list__group-content:nth-of-type(2)')
@@ -77,7 +79,6 @@ async function doForbrugScrape (browserHolder, masterData = null) {
       await page.keyboard.press('PageDown')
       await page.waitFor(50)
     }
-    console.log('Data scrape search page ending')
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {
       const sectionList = []
@@ -105,13 +106,13 @@ async function doForbrugScrape (browserHolder, masterData = null) {
   async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(10000)
     const dataLenght = scrapeData.length
-    let i1 = 0
+    let i1 = 1000
     let i2 = 0
     for await (const dataPoint of scrapeData) {
       i1++
       i2++
       if (i1 > 19) {
-        console.log('External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+        console.log('Forbrugsforeningen: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
         i1 = 0
       }
       try {
@@ -144,7 +145,6 @@ async function doForbrugScrape (browserHolder, masterData = null) {
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
       }
     }
-    console.log('Data scrape external sites done')
     return scrapeData
   }
 

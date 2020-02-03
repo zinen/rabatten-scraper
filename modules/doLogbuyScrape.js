@@ -13,15 +13,19 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     const browser = await myPuppeteer.setupBrowser(browserHolder)
     const page = await myPuppeteer.setupPage(browser)
     // Go to login page and login
+    console.log('Logbuy: Performing login')
     await goLogin(page)
     // Go to search page and scrape the content
+    console.log('Logbuy: Data scrape search page starting')
     let scrapeData = await scrapeMainPage(page)
+    console.log('Logbuy: Data scrape search page ending')
     // Debug: Insert test data from a file
     // let scrapeData = await testDataFile()
     // Debug: Insert test data from a predefined object
     // let scrapeData = testDataConst()
     // Loop scraped data and find the link the the external site
     scrapeData = await scrapeElementPages(page, scrapeData, masterData)
+    console.log('Logbuy: Data scrape external sites done')
     try {
       await browser.close()
     } catch (error) {
@@ -150,13 +154,13 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
   async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(15000)
     const dataLenght = scrapeData.length
-    let i1 = 0
+    let i1 = 100
     let i2 = 0
     for await (const dataPoint of scrapeData) {
       i1++
       i2++
-      if (i1 > 19) {
-        console.log('External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+      if (i1 > 59) {
+        console.log('Logbuy: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
         i1 = 0
       }
       try {
@@ -233,7 +237,6 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
       }
     }
-    console.log('Data scrape external sites done')
     return scrapeData
   }
 

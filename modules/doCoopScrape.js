@@ -18,10 +18,12 @@ async function doCoopScrape (browserHolder, masterData = null) {
     // No login page here
     // ....
     // Go to search page and scrape the content
+    console.log('Coop: Data scrape search page starting')
     let scrapeData = await scrapeMainPage(page)
+    console.log('Coop: Data scrape search page ending')
     // Loop scraped data and find the link the the external site
     scrapeData = await scrapeElementPages(page, scrapeData, masterData)
-    console.log('Data scrape external sites done')
+    console.log('Coop: Data scrape external sites done')
     try {
       await browser.close()
     } catch (error) {
@@ -34,7 +36,6 @@ async function doCoopScrape (browserHolder, masterData = null) {
     console.log('---------')
   }
   async function scrapeMainPage (page) {
-    console.log('Data scrape search page starting')
     await page.goto('https://partnerfordele.coop.dk/?tag=alle', { waitUntil: 'networkidle2' })
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {
@@ -68,7 +69,7 @@ async function doCoopScrape (browserHolder, masterData = null) {
       i1++
       i2++
       if (i1 > 19) {
-        console.log('External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+        console.log('Coop: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
         i1 = 0
       }
       try {
