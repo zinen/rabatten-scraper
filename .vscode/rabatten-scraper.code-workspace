@@ -4,7 +4,9 @@
 			"path": "../."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"standard.autoFixOnSave": true
+	},
 	"extensions": {
 		"recommendations": [
 			"chenxsan.vscode-standardjs"
