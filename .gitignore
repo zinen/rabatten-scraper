@@ -102,3 +102,5 @@ typings/
 
 # TernJS port file
 .tern-port
+
+scraped-data/test/
