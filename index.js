@@ -4,7 +4,7 @@ const { doLogbuyScrape } = require('./modules/doLogbuyScrape.js')
 const { doCoopScrape } = require('./modules/doCoopScrape.js')
 const { doAeldreScrape } = require('./modules/doAeldreScrape.js')
 const my = require('../common-zinen/index.js')
-const { lastFileContent } = require('../common-zinen/index.js')
+const { lastFileContent, readDir, readFile } = require('../common-zinen/index.js')
 require('dotenv').config()
 const inquirer = require('inquirer')
 
@@ -79,6 +79,11 @@ async function analyseData (filePath) {
   return data
 }
 
+/**
+ * Return data points with errors in
+ * @param {string} filePath File path to do search in dir.
+ * @returns {Promise<Object>} Content of the file after analasys.
+ */
 async function returnErrors (filePath) {
   const data = JSON.parse(await lastFileContent(filePath))
   const newData = []
@@ -93,7 +98,53 @@ async function returnErrors (filePath) {
   return newData
 }
 
+/**
+ * Compare the 2 newest data scrapes
+ * @param {string} filePath File path to do search in dir.
+ * @returns {Promise<Object>} Content of the file after analasys.
+ */
+async function compareLast (filePath) {
+  const dirContent = await readDir(filePath)
+  if (dirContent.length > 1) {
+    console.log('Comparing 2 newest file content now')
+    const newestData = JSON.parse(await readFile(dirContent[dirContent.length - 1]))
+    const oldestData = JSON.parse(await readFile(dirContent[dirContent.length - 2]))
+    const newestLength = newestData.length
+    const oldestLength = oldestData.length
+    for (let index = newestData.length - 1; index >= 0; index--) {
+      const element = newestData[index]
+      for (let index2 = oldestData.length - 1; index2 >= 0; index2--) {
+        const element2 = oldestData[index2]
+        if (element.name === element2.name) {
+          newestData.splice(index, 1)
+          oldestData.splice(index2, 1)
+          break
+        }
+      }
+    }
+    return {
+      newServices: newestData,
+      removedServices: oldestData,
+      _analyse: {
+        oldFile: dirContent[dirContent.length - 1],
+        oldFileLength: oldestLength,
+        newFile: dirContent[dirContent.length - 2],
+        newFileLength: newestLength,
+        removedLength: oldestData.length,
+        addedLength: newestData.length,
+        timestamp: new Date().toISOString()
+      }
+    }
+  } else {
+    console.log(`Comparing require multible files, ${dirContent.length} was found`)
+  }
+}
+
 const holderService = [
+  {
+    name: 'test',
+    scrapeOutPath: './scraped-data/test/'
+  },
   {
     name: 'forbrugsforeningen',
     scrapeOutPath: './scraped-data/forb/',
@@ -121,6 +172,8 @@ async function makeDistData () {
   // [Remote link, company name, discount amount, local link]
   const outputFilePath = './dist/'
   for await (const service of holderService) {
+    // Skip test part of holderService
+    if (service.name === 'test') { continue }
     try {
       const holder = []
       const lastScrapedData = JSON.parse(await lastFileContent(service.scrapeOutPath))
@@ -148,9 +201,9 @@ var questions = [
   },
   {
     type: 'list',
-    name: 'scrapeThis',
+    name: 'scrapeService',
     message: 'Where to scrape data from?',
-    choices: ['Forbrugsforeningen', 'Logbuy', 'Coop', 'Aeldresagen'],
+    choices: ['Forbrugsforeningen', 'Logbuy', 'Coop', 'Aeldresagen', 'All'],
     filter: function (val) {
       return val.toLowerCase()
     },
@@ -169,13 +222,29 @@ var questions = [
   // },
   {
     type: 'list',
-    name: 'analyseThis',
+    name: 'analyseAction',
     message: 'Which analyse to run?',
-    choices: ['Look though all data', 'Return only data with errors'],
+    choices: ['Look though all data', 'Return only data with errors', 'Compare with last'],
     when: function (answers) {
       return answers.action === 'Analyse ealier data scraped'
     }
-  }]
+  },
+  {
+    type: 'list',
+    name: 'analyseService',
+    message: 'Where to analyse data from?',
+    choices: [
+      { name: holderService[0].name, value: holderService[0].scrapeOutPath },
+      { name: holderService[1].name, value: holderService[1].scrapeOutPath },
+      { name: holderService[2].name, value: holderService[2].scrapeOutPath },
+      { name: holderService[3].name, value: holderService[3].scrapeOutPath },
+      { name: holderService[4].name, value: holderService[4].scrapeOutPath }
+    ],
+    when: async function (answers) {
+      return answers.action === 'Analyse ealier data scraped'
+    }
+  }
+]
 
 async function saveScrape (input, filePath) {
   if (input) {
@@ -192,11 +261,13 @@ async function saveScrape (input, filePath) {
 // TODO:Convert to data expeted by rabatten
 async function init () {
   const answers = await inquirer.prompt(questions)
-  // const answers = {
-  //   action: 'Scrape data from web',
-  //   scrapeThis: 'aeldresagen',
-  //   scrapeMasterData: true
-  // }
+  // const answers =
+  //   {
+  //     action: 'Analyse ealier data scraped',
+  //     analyseAction: 'Compare with last',
+  //     analyseService: './scraped-data/logb/'
+  //   }
+
   console.log(JSON.stringify(answers, null, '  '))
   const startTime = new Date().toISOString()
   let filePath = './scraped-data/test/'
@@ -204,26 +275,31 @@ async function init () {
   if (answers.action === 'Build distribution') {
     makeDistData()
     return
-  } else if (answers.scrapeThis === 'forbrugsforeningen') {
+  } else if (answers.scrapeService === 'all') {
+    runAll()
+    return
+  } else if (answers.scrapeService === 'forbrugsforeningen') {
     filePath = './scraped-data/forb/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doForbrugScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeThis === 'logbuy') {
+  } else if (answers.scrapeService === 'logbuy') {
     filePath = './scraped-data/logb/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeThis === 'coop') {
+  } else if (answers.scrapeService === 'coop') {
     filePath = './scraped-data/coop/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doCoopScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeThis === 'aeldresagen') {
+  } else if (answers.scrapeService === 'aeldresagen') {
     filePath = './scraped-data/aeld/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doAeldreScrape(browserHolder, lastScrapedData)
-  } else if (answers.analyseThis === 'Look though all data') {
-    result = await analyseData(filePath)
-  } else if (answers.analyseThis === 'Return only data with errors') {
-    result = await returnErrors(filePath)
+  } else if (answers.analyseAction === 'Look though all data') {
+    result = await analyseData(answers.analyseService)
+  } else if (answers.analyseAction === 'Return only data with errors') {
+    result = await returnErrors(answers.analyseService)
+  } else if (answers.analyseAction === 'Compare with last') {
+    result = await compareLast(answers.analyseService)
   }
   saveScrape(result, filePath)
   // Print to console both start and finish time
@@ -232,6 +308,7 @@ async function init () {
 // init()
 
 async function runAll () {
+  console.log(new Date().toISOString() + ' Runing all scrapes now')
   let filePath = './scraped-data/forb/'
   let lastScrapedData = JSON.parse(await lastFileContent(filePath))
   let result = await doForbrugScrape(browserHolder, lastScrapedData)
@@ -254,7 +331,6 @@ async function runAll () {
 
 // Deside how to run code
 if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
-  console.log(new Date().toISOString() + ' Runing all scrapes now')
   runAll()
 } else {
   init()
