@@ -34,6 +34,7 @@ async function doCoopScrape (browserHolder, masterData = null) {
     console.log('--Error---')
     console.log(err)
     console.log('---------')
+    process.exitCode = 1
   }
   async function scrapeMainPage (page) {
     await page.goto('https://partnerfordele.coop.dk/?tag=alle', { waitUntil: 'networkidle2' })

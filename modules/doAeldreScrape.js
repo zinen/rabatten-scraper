@@ -34,6 +34,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
     console.log('--Error---')
     console.log(err)
     console.log('---------')
+    process.exitCode = 1
   }
   async function scrapeMainPage (page) {
     page.setDefaultTimeout(120 * 1000)

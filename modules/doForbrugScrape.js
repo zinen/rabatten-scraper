@@ -36,6 +36,7 @@ async function doForbrugScrape (browserHolder, masterData = null) {
     console.log('--Error---')
     console.log(err)
     console.log('---------')
+    process.exitCode = 1
   }
   function testDataConst () {// eslint-disable-line
     const testData = [

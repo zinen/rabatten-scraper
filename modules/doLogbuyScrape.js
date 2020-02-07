@@ -36,6 +36,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     console.log('--Error---')
     console.log(err)
     console.log('---------')
+    process.exitCode = 1
   }
 
   async function goLogin (page) {
