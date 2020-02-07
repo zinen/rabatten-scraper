@@ -203,7 +203,7 @@ var questions = [
     type: 'list',
     name: 'scrapeService',
     message: 'Where to scrape data from?',
-    choices: ['Forbrugsforeningen', 'Logbuy', 'Coop', 'Aeldresagen', 'All'],
+    choices: [holderService[1].name, holderService[2].name, holderService[3].name, holderService[4].name, 'All'],
     filter: function (val) {
       return val.toLowerCase()
     },
@@ -258,8 +258,7 @@ async function saveScrape (input, filePath) {
   }
 }
 
-// TODO:Convert to data expeted by rabatten
-async function init () {
+async function run () {
   const answers = await inquirer.prompt(questions)
   // const answers =
   //   {
@@ -275,6 +274,18 @@ async function init () {
   if (answers.action === 'Build distribution') {
     makeDistData()
     return
+  } else if (answers.action === 'Analyse ealier data scraped') {
+    switch (answers.analyseAction) {
+      case 'Look though all data':
+        result = await analyseData(answers.analyseService)
+        break
+      case 'Return only data with errors':
+        result = await returnErrors(answers.analyseService)
+        break
+      case 'Compare with last':
+        result = await compareLast(answers.analyseService)
+        break
+    }
   } else if (answers.scrapeService === 'all') {
     runAll()
     return
@@ -294,12 +305,6 @@ async function init () {
     filePath = './scraped-data/aeld/'
     const lastScrapedData = JSON.parse(await lastFileContent(filePath))
     result = await doAeldreScrape(browserHolder, lastScrapedData)
-  } else if (answers.analyseAction === 'Look though all data') {
-    result = await analyseData(answers.analyseService)
-  } else if (answers.analyseAction === 'Return only data with errors') {
-    result = await returnErrors(answers.analyseService)
-  } else if (answers.analyseAction === 'Compare with last') {
-    result = await compareLast(answers.analyseService)
   }
   saveScrape(result, filePath)
   // Print to console both start and finish time
@@ -333,5 +338,5 @@ async function runAll () {
 if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
   runAll()
 } else {
-  init()
+  run()
 }
