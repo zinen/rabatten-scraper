@@ -211,15 +211,15 @@ var questions = [
       return answers.action === 'Scrape data from web'
     }
   },
-  // {
-  //   type: 'confirm',
-  //   name: 'scrapeMasterData',
-  //   message: 'Allow the scrape to reley on eairler scrapes result?',
-  //   default: true,
-  //   when: async function (answers) {
-  //     return answers.action === 'Scrape data from web'
-  //   }
-  // },
+  {
+    type: 'confirm',
+    name: 'scrapeMasterData',
+    message: 'Allow the scrape to reley on eairler scrapes result?',
+    default: true,
+    when: async function (answers) {
+      return answers.action === 'Scrape data from web'
+    }
+  },
   {
     type: 'list',
     name: 'analyseAction',
@@ -287,47 +287,51 @@ async function run () {
         break
     }
   } else if (answers.scrapeService === 'all') {
-    runAll()
+    runAll(answers.scrapeMasterData)
     return
-  } else if (answers.scrapeService === 'forbrugsforeningen') {
-    filePath = './scraped-data/forb/'
-    const lastScrapedData = JSON.parse(await lastFileContent(filePath))
-    result = await doForbrugScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeService === 'logbuy') {
-    filePath = './scraped-data/logb/'
-    const lastScrapedData = JSON.parse(await lastFileContent(filePath))
-    result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeService === 'coop') {
-    filePath = './scraped-data/coop/'
-    const lastScrapedData = JSON.parse(await lastFileContent(filePath))
-    result = await doCoopScrape(browserHolder, lastScrapedData)
-  } else if (answers.scrapeService === 'aeldresagen') {
-    filePath = './scraped-data/aeld/'
-    const lastScrapedData = JSON.parse(await lastFileContent(filePath))
-    result = await doAeldreScrape(browserHolder, lastScrapedData)
+  } else if (answers.action === 'Scrape data from web') {
+    let lastScrapedData
+    if (answers.scrapeService === 'forbrugsforeningen') {
+      filePath = './scraped-data/forb/'
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      result = await doForbrugScrape(browserHolder, lastScrapedData)
+    } else if (answers.scrapeService === 'logbuy') {
+      filePath = './scraped-data/logb/'
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      result = await doLogbuyScrape(browserHolder, lastScrapedData)
+    } else if (answers.scrapeService === 'coop') {
+      filePath = './scraped-data/coop/'
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      result = await doCoopScrape(browserHolder, lastScrapedData)
+    } else if (answers.scrapeService === 'aeldresagen') {
+      filePath = './scraped-data/aeld/'
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      result = await doAeldreScrape(browserHolder, lastScrapedData)
+    }
   }
+
   saveScrape(result, filePath)
   // Print to console both start and finish time
   console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
 }
 // init()
 
-async function runAll () {
+async function runAll (masterData = true) {
   console.log(new Date().toISOString() + ' Runing all scrapes now')
   let filePath = './scraped-data/forb/'
-  let lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  let lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
   let result = await doForbrugScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
   filePath = './scraped-data/logb/'
-  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
   result = await doLogbuyScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
   filePath = './scraped-data/coop/'
-  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
   result = await doCoopScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
   filePath = './scraped-data/aeld/'
-  lastScrapedData = JSON.parse(await lastFileContent(filePath))
+  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
   result = await doAeldreScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
   await makeDistData()
