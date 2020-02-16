@@ -12,10 +12,10 @@ Most sites are scraped like this:
  5. Search the external site for the domain name
  
  ### Output data from a scrape
-Scraped data is stored as .json in the `./scraped-data/` folder. Including logs/info from scrape. Each new scrape is stored with ISO timestamp as filename.
+Scraped data are stored as .json in the `./scraped-data/` folder. Including logs/info from scrape. Each new scrape is stored with ISO timestamp as filename.
  
  ### Distribution data
-Data is cleaned and parsed to .json, the result is placed in the `./dist/` folder. Data is stored with the same file name at each new scrape and is avalible via [jsDelivr](http://www.jsdelivr.com) links here:
+Data is cleaned and parsed to .json, the result is placed in the `./dist/` folder. Data is stored with the same file name at each new scrape and the current data is avalible via [jsDelivr](http://www.jsdelivr.com) links here:
 - [forbrugsforeningen.json](https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/forbrugsforeningen.json)
 - [logbuy.json](https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/logbuy.json)
 - [coop.json](https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/coop.json)
