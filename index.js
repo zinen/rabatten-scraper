@@ -111,11 +111,23 @@ async function compareLast (filePath) {
     const oldestData = JSON.parse(await readFile(dirContent[dirContent.length - 2]))
     const newestLength = newestData.length
     const oldestLength = oldestData.length
+    const newLinkArray = []
     for (let index = newestData.length - 1; index >= 0; index--) {
       const element = newestData[index]
       for (let index2 = oldestData.length - 1; index2 >= 0; index2--) {
         const element2 = oldestData[index2]
         if (element.name === element2.name) {
+          if (element.remoteLink && element2.remoteLink) {
+            const URL1 = element.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
+            const URL2 = element2.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
+            if (URL1 !== URL2) {
+              newLinkArray.push({
+                name: element.name,
+                from: URL2,
+                to: URL1
+              })
+            }
+          }
           newestData.splice(index, 1)
           oldestData.splice(index2, 1)
           break
@@ -125,6 +137,7 @@ async function compareLast (filePath) {
     return {
       newServices: newestData,
       removedServices: oldestData,
+      newLink: newLinkArray,
       _analyse: {
         oldFile: dirContent[dirContent.length - 1],
         oldFileLength: oldestLength,
