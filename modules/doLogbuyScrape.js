@@ -192,10 +192,10 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
                 // A few pages requests images in a forever loop, this is a fix for that
                 await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
               }
-              dataPoint.remoteLink = page.url()
+              dataPoint.remoteLink = await page.evaluate('document.domain')
               if ((dataPoint.remoteLink).contains('tradedoubler.com')) {
                 await page.waitForNavigation()
-                dataPoint.remoteLink = await evalRedirects(page.url(), page)
+                dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
               }
               continue
             } catch (error) {
@@ -227,7 +227,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
               // A few pages requests images in a forever loop, this is a fix for that
               await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
             }
-            dataPoint.remoteLink = await evalRedirects(page.url(), page)
+            dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
           } else {
             dataPoint.err3 = 'No link to external site was found on local element page'
           }
@@ -251,6 +251,8 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     const reDirectSites = [
       'tradedoubler.com/',
       'doubleclick.net/',
+      'bit.ly/',
+      'salestring.com/',
       'chrome-error://'
     ]
     if (reDirectSites.some(resource => URL.indexOf(resource) !== -1)) {
@@ -262,7 +264,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
           throw new Error('Ended at redirection site')
         }
       }
-      return page.url()
+      return page.evaluate('document.domain')
     } else {
       return URL
     }

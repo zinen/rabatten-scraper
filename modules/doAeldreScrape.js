@@ -97,7 +97,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
             // A few pages requests images in a forever loop, this is a fix for that
             await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
           }
-          dataPoint.remoteLink = page.url()
+          dataPoint.remoteLink = await page.evaluate('document.domain')
         } else {
           dataPoint.err1 = 'No link was found'
         }
