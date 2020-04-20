@@ -47,7 +47,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
       sectionElms.forEach((sectionElements) => {
         const holderJson = {}
         try {
-          holderJson.name = sectionElements.querySelector('a').innerText
+          holderJson.name = sectionElements.querySelector('a h3').textContent
           // Mark the element in scope
           // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
           holderJson.localLink = sectionElements.querySelector('a').href
