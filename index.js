@@ -192,7 +192,16 @@ async function makeDistData () {
       const lastScrapedData = JSON.parse(await lastFileContent(service.scrapeOutPath))
       for await (const dataPoint of lastScrapedData) {
         if (dataPoint.name && dataPoint.localLink && dataPoint.discount && dataPoint.remoteLink) {
-          const URL = dataPoint.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
+          let URL = dataPoint.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
+          // Copied from chrome extension app v1.1.1
+          URL = URL.split('.')
+          if (URL[URL.length - 1] === 'uk') {
+            // Fix for uk domains, cant handel domain suffixes with only ".uk" but will handle domains like ".co.uk"
+            URL = URL.slice(-3).join('.')
+          } else {
+            URL = URL.slice(-2).join('.')
+          }
+          // Copy done
           holder.push([URL, dataPoint.name, dataPoint.discount, dataPoint.localLink])
         }
       }
@@ -274,11 +283,11 @@ async function saveScrape (input, filePath) {
 async function run () {
   const answers = await inquirer.prompt(questions)
   // const answers =
-  //   {
-  //     action: 'Analyse ealier data scraped',
-  //     analyseAction: 'Compare with last',
-  //     analyseService: './scraped-data/logb/'
-  //   }
+  // {
+  //   action: 'Scrape data from web',
+  //   scrapeService: 'coop',
+  //   scrapeMasterData: false
+  // }
 
   console.log(JSON.stringify(answers, null, '  '))
   const startTime = new Date().toISOString()
@@ -329,26 +338,47 @@ async function run () {
 }
 // init()
 
+async function initForb (masterData) {
+  const filePath = './scraped-data/forb/'
+  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const result = await doForbrugScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+}
+
+async function initLogb (masterData) {
+  const filePath = './scraped-data/logb/'
+  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const result = await doLogbuyScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+}
+
+async function initCoop (masterData) {
+  const filePath = './scraped-data/coop/'
+  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const result = await doCoopScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+}
+
+async function initAeld (masterData) {
+  const filePath = './scraped-data/aeld/'
+  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const result = await doAeldreScrape(browserHolder, lastScrapedData)
+  await saveScrape(result, filePath)
+}
+
 async function runAll (masterData = true) {
   console.log(new Date().toISOString() + ' Runing all scrapes now')
-  let filePath = './scraped-data/forb/'
-  let lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
-  let result = await doForbrugScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
-  filePath = './scraped-data/logb/'
-  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
-  result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
-  filePath = './scraped-data/coop/'
-  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
-  result = await doCoopScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
-  filePath = './scraped-data/aeld/'
-  lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
-  result = await doAeldreScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
-  await makeDistData()
-  console.log(new Date().toISOString() + ' Runing all scrapes ended')
+  Promise.all(
+    [
+      initForb(masterData),
+      initLogb(masterData),
+      initCoop(masterData),
+      initAeld(masterData)
+    ]
+  ).then(() => {
+    makeDistData()
+    console.log(new Date().toISOString() + ' Runing all scrapes ended')
+  })
 }
 
 // Deside how to run code
