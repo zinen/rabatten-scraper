@@ -37,9 +37,10 @@ async function doAeldreScrape (browserHolder, masterData = null) {
     process.exitCode = 1
   }
   async function scrapeMainPage (page) {
-    page.setDefaultTimeout(120 * 1000)
-    await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/soeg?side=1000&liste=fa37#list', { waitUntil: 'domcontentloaded' })
-    await page.waitFor(30 * 1000)
+    page.setDefaultTimeout(240 * 1000)
+    // Go to last page no 1000 on search page to load pages from 1-1000 in one go
+    await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludosort=date%3Ddesc&cludopage=1000', { waitUntil: 'domcontentloaded' })
+    await page.waitFor(220 * 1000)
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {
       const sectionList = []
@@ -47,7 +48,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
       sectionElms.forEach((sectionElements) => {
         const holderJson = {}
         try {
-          holderJson.name = sectionElements.querySelector('a h3').textContent
+          holderJson.name = sectionElements.querySelector('h2 a').textContent
           // Mark the element in scope
           // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
           holderJson.localLink = sectionElements.querySelector('a').href
