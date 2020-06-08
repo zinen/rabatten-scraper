@@ -276,7 +276,7 @@ async function saveScrape (input, filePath) {
     const setFilename = filePath + datestring + '.json'
     await my.writeFile(setFilename, jsonContent)
   } else {
-    console.log('No data to save')
+    console.log('No data to save to ' + filePath)
   }
 }
 
