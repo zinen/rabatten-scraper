@@ -67,7 +67,7 @@ async function doForbrugScrape (browserHolder, masterData = null) {
   async function scrapeMainPage (page) {
     await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
     // Wait for first data to be retrived
-    await page.waitFor('.grouped-list__group-content:nth-of-type(2)')
+    await page.waitFor('.grouped-list__group-content:nth-of-type(1)')
     await page.waitFor(1000)
     // Fix: Press down and wait, the page might reload for some weird reson
     await page.keyboard.press('PageDown')
