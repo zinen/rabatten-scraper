@@ -11,9 +11,9 @@ const inquirer = require('inquirer')
 let browserHolder
 
 /**
- * Run analys on last last file in dir, sorted by name.
+ * Analyse the last last file in dir, sorted by name.
  * @param {string} filePath File path to do search in dir.
- * @returns {Promise<Object>} Content of the file after analasys.
+ * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function analyseData (filePath) {
   const data = JSON.parse(await lastFileContent(filePath))
@@ -53,7 +53,7 @@ async function analyseData (filePath) {
     i3 += point.err3 ? 1 : 0
     i4 += point.err4 ? 1 : 0
   })
-  // Count re-occurrences of a a remnoteLink
+  // Count re-occurrences of a a remoteLink
   const keys = Object.keys(occurHolder)
   for (const key of keys) {
     // 3 or more re-occurrences is relevant
@@ -82,7 +82,7 @@ async function analyseData (filePath) {
 /**
  * Return data points with errors in
  * @param {string} filePath File path to do search in dir.
- * @returns {Promise<Object>} Content of the file after analasys.
+ * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function returnErrors (filePath) {
   const data = JSON.parse(await lastFileContent(filePath))
@@ -92,7 +92,7 @@ async function returnErrors (filePath) {
       // Keep this data
       newData.push(point)
     } else {
-      // Dont keep this data
+      // don't keep this data
     }
   }
   return newData
@@ -101,7 +101,7 @@ async function returnErrors (filePath) {
 /**
  * Compare the 2 newest data scrapes
  * @param {string} filePath File path to do search in dir.
- * @returns {Promise<Object>} Content of the file after analasys.
+ * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function compareLast (filePath) {
   const dirContent = await readDir(filePath)
@@ -149,7 +149,7 @@ async function compareLast (filePath) {
       }
     }
   } else {
-    console.log(`Comparing require multible files, ${dirContent.length} was found`)
+    console.log(`Comparing require multiple files, ${dirContent.length} was found`)
   }
 }
 
@@ -219,7 +219,7 @@ var questions = [
     type: 'list',
     name: 'action',
     message: 'Action to perform?',
-    choices: ['Scrape data from web', 'Analyse ealier data scraped', 'Build distribution']
+    choices: ['Scrape data from web', 'Analyse earlier data scraped', 'Build distribution']
   },
   {
     type: 'list',
@@ -236,7 +236,7 @@ var questions = [
   {
     type: 'confirm',
     name: 'scrapeMasterData',
-    message: 'Allow the scrape to reley on eairler scrapes result?',
+    message: 'Allow the scrape to rely on earlier scrapes result?',
     default: true,
     when: async function (answers) {
       return answers.action === 'Scrape data from web'
@@ -248,7 +248,7 @@ var questions = [
     message: 'Which analyse to run?',
     choices: ['Look though all data', 'Return only data with errors', 'Compare with last'],
     when: function (answers) {
-      return answers.action === 'Analyse ealier data scraped'
+      return answers.action === 'Analyse earlier data scraped'
     }
   },
   {
@@ -263,7 +263,7 @@ var questions = [
       { name: holderService[4].name, value: holderService[4].scrapeOutPath }
     ],
     when: async function (answers) {
-      return answers.action === 'Analyse ealier data scraped'
+      return answers.action === 'Analyse earlier data scraped'
     }
   }
 ]
@@ -272,8 +272,8 @@ async function saveScrape (input, filePath) {
   if (input) {
     const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
     const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
-    const datestring = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
-    const setFilename = filePath + datestring + '.json'
+    const dateString = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
+    const setFilename = filePath + dateString + '.json'
     await my.writeFile(setFilename, jsonContent)
   } else {
     console.log('No data to save to ' + filePath)
@@ -367,7 +367,7 @@ async function initAeld (masterData) {
 }
 
 async function runAll (masterData = true) {
-  console.log(new Date().toISOString() + ' Runing all scrapes now')
+  console.log(new Date().toISOString() + ' Running all scrapes now')
   Promise.all(
     [
       initForb(masterData),
@@ -377,11 +377,11 @@ async function runAll (masterData = true) {
     ]
   ).then(() => {
     makeDistData()
-    console.log(new Date().toISOString() + ' Runing all scrapes ended')
+    console.log(new Date().toISOString() + ' Running all scrapes ended')
   })
 }
 
-// Deside how to run code
+// Decide how to run code
 if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
   runAll()
 } else {

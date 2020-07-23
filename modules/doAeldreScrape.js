@@ -2,13 +2,13 @@
 const myPuppeteer = require('./my_puppeteer.js')
 // Add standard JS es6 fetch to node
 const fetch = require('node-fetch')
-// Chherio is a HTML interpretator
+// Cherio is a HTML interpreter
 const cheerio = require('cheerio')
 
 /**
  * Perform scape of data
  * @param {Object} browserHolder Puppeteer browser object
- * @param {Array<Object>} [masterData=null] Option array containing objects with erlier results
+ * @param {Array<Object>} [masterData=null] Option array containing objects with earlier results
  * @returns {Array<Object>} Array containing objects with results
  */
 async function doAeldreScrape (browserHolder, masterData = null) {
@@ -66,14 +66,14 @@ async function doAeldreScrape (browserHolder, masterData = null) {
   }
   async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(10000)
-    const dataLenght = scrapeData.length
+    const dataLength = scrapeData.length
     let i1 = 0
     let i2 = 0
     for await (const dataPoint of scrapeData) {
       i1++
       i2++
       if (i1 > 19) {
-        console.log('Aeldresagen: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+        console.log('Aeldresagen: External scrape at #' + i2 + ' out of: ' + dataLength + ' [' + Math.floor(i2 / dataLength * 100) + ' %]')
         i1 = 0
       }
       try {
@@ -110,24 +110,24 @@ async function doAeldreScrape (browserHolder, masterData = null) {
   }
 
   async function fetchLink (url) {
-    let resonse
+    let response
     // Try the fetching two times
     try {
-      resonse = await fetch(url)
+      response = await fetch(url)
     } catch (error1) {
       console.error('\x1b[31mResponse error. Trying again\x1b[0m')
       console.log(error1)
       try {
-        resonse = await fetch(url)
+        response = await fetch(url)
       } catch (error2) {
         console.error('\x1b[31mResponse error at second try.\x1b[0m')
         throw error2
       }
       console.info('\x1b[33mResponse ok at second try.\x1b[0m')
     }
-    const body = await resonse.text()
+    const body = await response.text()
     const $ = cheerio.load(body)
-    // Select elements with href dont start with "mailto"
+    // Select elements with href don't start with "mailto"
     return $('.box-unfold__section a:not([href^="mailto"])').attr('href')
   }
 }

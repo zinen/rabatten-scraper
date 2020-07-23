@@ -1,11 +1,11 @@
 'use strict'
 const myPuppeteer = require('./my_puppeteer.js')
-const my = require('../../common-zinen/index.js') // Used while debuging
+const my = require('../../common-zinen/index.js') // Used while debugging
 
 /**
  * Perform scape of data
  * @param {Object} browserHolder Puppeteer browser object
- * @param {Array<Object>} [masterData=null] Optional array containing objects with erlier results
+ * @param {Array<Object>} [masterData=null] Optional array containing objects with earlier results
  * @returns {Array<Object>} Array containing objects with results
  */
 async function doLogbuyScrape (browserHolder, masterData = null) {
@@ -56,8 +56,8 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       // Scrape result page's next page
       await page.waitFor('div.searchwrapper:not(.add)')
       scrapeData.push(...await page.evaluate(() => {
-        // Class .add is used at adds placed within serach results
-        // Class .add is used for short limited discound and is not relevant
+        // Class .add is used at adds placed within search results
+        // Class .add is used for short limited discount and is not relevant
         const tableWithData = document.querySelectorAll('div.searchwrapper:not(.add) a > :not(.specialoffer)')
         // const tableWithData = document.querySelector('div.searchwrapper:not(.add)').children
         const sectionList = []
@@ -77,7 +77,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         return sectionList
       }))
     } while (
-      // Swith to next page
+      // Switch to next page
       await page.$$eval('.pagingwrapper a.pageLink', elements => {
         if (elements[elements.length - 1].innerText === 'Næste >') {
           elements[elements.length - 1].click()
@@ -154,14 +154,14 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
 
   async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(15000)
-    const dataLenght = scrapeData.length
+    const dataLength = scrapeData.length
     let i1 = 100
     let i2 = 0
     for await (const dataPoint of scrapeData) {
       i1++
       i2++
       if (i1 > 59) {
-        console.log('Logbuy: External scrape at #' + i2 + ' out of: ' + dataLenght + ' [' + Math.floor(i2 / dataLenght * 100) + ' %]')
+        console.log('Logbuy: External scrape at #' + i2 + ' out of: ' + dataLength + ' [' + Math.floor(i2 / dataLength * 100) + ' %]')
         i1 = 0
       }
       try {
@@ -175,7 +175,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
             }
           }
           await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
-          // Debug: Destry primary link
+          // Debug: Destroy primary link
           // await page.evaluate(() => {
           //   document.querySelector('#ctl00_ctl00_Content_Content_HyperLink_WebSite:not(.displayNone)').href = 'https://gardenrestaurant.dk/'
           // })
@@ -242,7 +242,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
   }
 
   /**
-   * Look for knows redirect sited, and waits for a navigaton before returning the URL
+   * Look for knows redirect sited, and waits for a navigation before returning the URL
    * @param {string} URL
    * @param {Object} page - Puppeteer Page object
    * @returns {string}
@@ -260,7 +260,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         await page.waitForNavigation()
       } catch (error) {
         if (reDirectSites.some(resource => page.url().indexOf(resource) !== -1)) {
-          console.log('Waited for at redirects, but it didnt happend at: ' + URL)
+          console.log('Waited for at redirects, but it didn\'t happen at: ' + URL)
           throw new Error('Ended at redirection site')
         }
       }

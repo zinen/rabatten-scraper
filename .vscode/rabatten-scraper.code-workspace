@@ -5,7 +5,20 @@
 		}
 	],
 	"settings": {
-		"standard.autoFixOnSave": true
+		"standard.autoFixOnSave": true,
+		"cSpell.words": [
+			"Aeldre",
+			"Cherio",
+			"Delivr",
+			"Forbrug",
+			"Næste",
+			"Rabatten",
+			"domcontentloaded",
+			"networkidle",
+			"pagingwrapper",
+			"searchwrapper",
+			"specialoffer"
+		]
 	},
 	"extensions": {
 		"recommendations": [
