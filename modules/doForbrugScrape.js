@@ -11,27 +11,27 @@ const cheerio = require('cheerio')
  * @param {Array<Object>} [masterData=null] Option array containing objects with earlier results
  * @returns {Array<Object>} Array containing objects with results
  */
-async function doForbrugScrape (browserHolder, masterData = null) {
+async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
   try {
-    const browser = await myPuppeteer.setupBrowser(browserHolder)
-    const page = await myPuppeteer.setupPage(browser)
-    // No login page here
-    // ....
-    // Go to the page with search result of all web shops
-    console.log('Forbrugsforeningen: Data scrape search page starting')
-    let scrapeData = await scrapeMainPage(page)
-    console.log('Forbrugsforeningen: Data scrape search page ending')
+    // const browser = await myPuppeteer.setupBrowser(browserHolder)
+    let scrapeData
+    PupPool.use(async (browser) => {
+      const page = await myPuppeteer.setupPage(browser)
+      console.log('Forbrugsforeningen: Data scrape search page starting')
+      // No login page here
+      // ....
+      // Go to the page with search result of all webshops
+      scrapeData = await scrapeMainPage(page)
+      console.log('Forbrugsforeningen: Data scrape search page ending')
+      page.close()
+    }).then(async () => {
+      scrapeData = await scrapeElementPages(PupPool, scrapeData, masterData)
+      console.log('Forbrugsforeningen: Data scrape external sites done')
+    })
+
     // Debug: Insert test data from a predefined object
     // let scrapeData = testDataConst()
     // Loop scraped data and find the link the the external site
-    scrapeData = await scrapeElementPages(page, scrapeData, masterData)
-    console.log('Forbrugsforeningen: Data scrape external sites done')
-    try {
-      await browser.close()
-    } catch (error) {
-      console.log(error.message)
-    }
-    return scrapeData
   } catch (err) {
     console.log('--Error---')
     console.log(err)
@@ -106,9 +106,9 @@ async function doForbrugScrape (browserHolder, masterData = null) {
     return scrapeData
   }
 
-  async function scrapeElementPages (page, scrapeData, masterData) {
-    page.setDefaultTimeout(10000)
-    const dataLength = scrapeData.length
+  async function scrapeElementPages (pool, scrapeData, masterData) {
+    // page.setDefaultTimeout(10000)
+    const dataLenght = scrapeData.length
     let i1 = 1000
     let i2 = 0
     for await (const dataPoint of scrapeData) {
@@ -134,13 +134,16 @@ async function doForbrugScrape (browserHolder, masterData = null) {
             continue
           }
           dataPoint.remoteLink0 = foundLink
-          try {
-            await page.goto(foundLink, { waitUntil: 'networkidle2' })
-          } catch (error) {
-            // A few pages requests images in a forever loop, this is a fix for that
-            await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
-          }
-          dataPoint.remoteLink = await page.evaluate('document.domain')
+          pool.use(async (browser) => {
+            try {
+              const page = await myPuppeteer.setupPage(browser)
+              await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+              dataPoint.remoteLink = await page.evaluate('document.domain')
+              page.close()
+            } catch (error) {
+              dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
+            }
+          })
         } else {
           dataPoint.err1 = 'No link was found'
         }

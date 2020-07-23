@@ -7,9 +7,46 @@ const myFunc = require('./modules/myFunc.js')
 // const { lastFileContent, readDir, readFile } = require('./modules/myFunc.js')
 require('dotenv').config()
 const inquirer = require('inquirer')
-const { holderService } = require('./settings.js')
-
+const { initPuppeteerPool } = require('./modules/puppeteer-pool.js')
 let browserHolder
+
+// Returns a generic-pool instance
+const pool = initPuppeteerPool({
+  max: 7, // default
+  min: 0, // default
+  // how long a resource can stay idle in pool before being removed
+  idleTimeoutMillis: 30000, // default.
+  // maximum number of times an individual resource can be reused before being destroyed; set to 0 to disable
+  maxUses: 50, // default
+  // function to validate an instance prior to use; see https://github.com/coopernurse/node-pool#createpool
+  validator: () => Promise.resolve(true), // defaults to always resolving true
+  // validate resource before borrowing; required for `maxUses and `validator`
+  testOnBorrow: true, // default
+  // For all opts, see opts at https://github.com/coopernurse/node-pool#createpool
+  puppeteerArgs: {
+    headless: false, // default is true
+    // slowMo: 50, // only for debugging
+    devtools: false, // default is false
+    ignoreHTTPSErrors: true, // default is false
+    args: [
+      '--disable-infobars',
+      // '--window-position=960,10',
+      '--ignore-certifcate-errors',
+      '--ignore-certifcate-errors-spki-list',
+      '--no-sandbox',
+      '--disable-setuid-sandbox',
+      '--disable-dev-shm-usage',
+      '--disable-accelerated-2d-canvas',
+      '--disable-gpu',
+      // '--window-size=1280x800',
+      // '--hide-scrollbars',
+      '--lang=da-DK',
+      '--disable-notifications',
+      '--disable-extensions'
+    ]
+
+  }
+})
 
 /**
  * Analyse the last last file in dir, sorted by name.
@@ -289,8 +326,8 @@ async function run () {
     let lastScrapedData
     if (answers.scrapeService === 'forbrugsforeningen') {
       filePath = './scraped-data/forb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doForbrugScrape(browserHolder, lastScrapedData)
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      result = await doForbrugScrape(browserHolder, lastScrapedData, pool)
     } else if (answers.scrapeService === 'logbuy') {
       filePath = './scraped-data/logb/'
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
@@ -304,8 +341,7 @@ async function run () {
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
       result = await doAeldreScrape(browserHolder, lastScrapedData)
     }
-  } else {
-    throw new Error('No choices matched anything')
+    // pool.drain().then(() => pool.clear())
   }
 
   saveScrape(result, filePath)
@@ -316,8 +352,8 @@ async function run () {
 
 async function initForb (masterData) {
   const filePath = './scraped-data/forb/'
-  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doForbrugScrape(browserHolder, lastScrapedData)
+  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const result = await doForbrugScrape(browserHolder, lastScrapedData, pool)
   await saveScrape(result, filePath)
 }
 
@@ -353,7 +389,8 @@ async function runAll (masterData = true) {
     ]
   ).then(() => {
     makeDistData()
-    console.log(new Date().toISOString() + ' Running all scrapes ended')
+    console.log(new Date().toISOString() + ' Runing all scrapes ended')
+    pool.drain().then(() => pool.clear())
   })
 }
 
