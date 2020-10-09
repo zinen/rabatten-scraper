@@ -296,7 +296,7 @@ async function run () {
   if (answers.action === 'Build distribution') {
     makeDistData()
     return
-  } else if (answers.action === 'Analyse ealier data scraped') {
+  } else if (answers.action === 'Analyse earlier data scraped') {
     switch (answers.analyseAction) {
       case 'Look though all data':
         result = await analyseData(answers.analyseService)
@@ -330,6 +330,8 @@ async function run () {
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
       result = await doAeldreScrape(browserHolder, lastScrapedData)
     }
+  } else {
+    throw new Error('No choices matched anything')
   }
 
   saveScrape(result, filePath)
