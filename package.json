@@ -5,7 +5,7 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "watchfile:index": "nodemon ./index.js",
+    "watchFile:index": "nodemon ./index.js",
     "index all": "node ./index.js all",
     "index": "node ./index.js"
   },
