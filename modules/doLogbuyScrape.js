@@ -1,6 +1,6 @@
 'use strict'
 const myPuppeteer = require('./my_puppeteer.js')
-const my = require('../../common-zinen/index.js') // Used while debugging
+// const my = require('../../common-zinen/index.js') // Used while debugging
 
 /**
  * Perform scape of data
