@@ -12,22 +12,23 @@ on:
       - .github/workflows/scrape-all-to-pr.js.yml
 
 jobs:
-  main:
-
+  scrape:
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [12.x]
-
     steps:
     - name: Checkout 
       uses: actions/checkout@v2
+
+    - name: Create .env file
+      run: |
+          touch .env
+          echo LOGBUY_USER=${{ secrets.LOGBUY_USER }} >> .env
+          echo LOGBUY_PASS=${{ secrets.LOGBUY_PASS }} >> .env
+          cat .env
       
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Node install and run
       uses: actions/setup-node@v1
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: '12.x'
     - run: npm ci
     - run: npm run index all --if-present
     - run: npm test --if-present
