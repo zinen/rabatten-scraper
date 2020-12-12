@@ -1,12 +1,15 @@
-name: Scrape all site to a pull request
+name: Scrape all sites and make a pull request
 
 on:
-  push:
+#   push:
 #     branches: [ master ]
 #   pull_request:
 #     branches: [ master ]
-    paths: 
-      - .github/workflows/scrape-all-to-pr.js.yml
+#     paths: 
+#       - .github/workflows/scrape-all-to-pr.js.yml
+
+  schedule:
+    - cron:  '15 2 3 * *'
 
 jobs:
   scrape:
@@ -27,8 +30,8 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm ci
-#     - run: npm run index all --if-present
-    - run: npm run analyseLastScrape --if-present
+    - run: npm run index all
+    - run: npm run analyseLastScrape
 
     - name: Collect log files to make body for pull request
       id: get-pr-body
@@ -89,9 +92,19 @@ jobs:
 
           [1]: https://github.com/peter-evans/create-pull-request
         labels: auto-pr
-  
-    - name: Save log to as artifact
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
       uses: actions/upload-artifact@v2
       with:
-        name: my-artifact
-        path: ./logs/*
+        name: npm-logs
+        path: |
+          /home/runner/.npm/_logs/*
+  
+    - name: Save logs as artifact
+      if: ${{ always() }} # Perform this step no mattter any errors
+      uses: actions/upload-artifact@v2
+      with:
+        name: logs
+        path: |
+          ./logs/*
