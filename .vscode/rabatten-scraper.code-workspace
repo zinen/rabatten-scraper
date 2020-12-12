@@ -7,15 +7,26 @@
 	"settings": {
 		"standard.autoFixOnSave": true,
 		"cSpell.words": [
+			"Aeld",
 			"Aeldre",
 			"Cherio",
 			"Delivr",
 			"Forbrug",
+			"KHTML",
+			"Logb",
 			"Næste",
 			"Rabatten",
+			"aeld",
 			"domcontentloaded",
+			"doubleclick",
+			"fontawesome",
+			"imageset",
+			"infobars",
+			"logb",
+			"mixpanel",
 			"networkidle",
 			"pagingwrapper",
+			"redirections",
 			"searchwrapper",
 			"specialoffer"
 		]
