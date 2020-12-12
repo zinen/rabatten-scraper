@@ -43,40 +43,25 @@ jobs:
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
         countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
         countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo "Data for **aeldresagen**" >> $outputFile
-        echo " - Total entries $countNewFile" >> $outputFile
-        echo " - New entries $countAdded" >> $outputFile
-        echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" >> $outputFile # empty line
+        echo " - **aeldresagen** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
         #
         inputFile=./logs/analyse-coop.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
         countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
         countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo "Data for **coop**" >> $outputFile
-        echo " - Total entries $countNewFile" >> $outputFile
-        echo " - New entries $countAdded" >> $outputFile
-        echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" >> $outputFile # empty line
+        echo " - **coop** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
         #
         inputFile=./logs/analyse-forbrugsforeningen.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
         countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
         countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo "Data for **forbrugsforeningen**" >> $outputFile
-        echo " - Total entries $countNewFile" >> $outputFile
-        echo " - New entries $countAdded" >> $outputFile
-        echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" >> $outputFile # empty line
+        echo " - **forbrugsforeningen** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
         #
         inputFile=./logs/analyse-logbuy.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
         countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
         countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo "Data for **logbuy**" >> $outputFile
-        echo " - Total entries $countNewFile" >> $outputFile
-        echo " - New entries $countAdded" >> $outputFile
-        echo " - Removed entries $countRemoved" >> $outputFile
+        echo " - **logbuy** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
         cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
