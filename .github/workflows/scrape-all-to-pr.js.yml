@@ -89,3 +89,9 @@ jobs:
 
           [1]: https://github.com/peter-evans/create-pull-request
         labels: auto-pr
+  
+    - name: Save log to as artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-artifact
+        path: ./logs/*
