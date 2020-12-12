@@ -1,6 +1,5 @@
 'use strict'
 const myPuppeteer = require('./my_puppeteer.js')
-// const my = require('../../common-zinen/index.js') // Used while debugging
 
 /**
  * Perform scape of data
@@ -88,11 +87,6 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       }))
     return scrapeData
   }
-
-//   async function testDataFile () {// eslint-disable-line
-//     const fileContent = await my.readFile('./20190905-rabat-scrape/data/2019-12-24T161927 - all error.json')
-//     return JSON.parse(fileContent)
-//   }
 
   function testDataConst () {// eslint-disable-line
     const testData = [
