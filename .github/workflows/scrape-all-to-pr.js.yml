@@ -33,8 +33,6 @@ jobs:
     - name: Collect log files to make body for pull request
       id: get-pr-body
       run: |
-        pwd
-        ls -ld
         outputFile=./logs/report.log
         # Delete and make a new file
         rm -f $outputFile
@@ -75,6 +73,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
+        cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
         pr_body="${pr_body//'%'/'%25'}"
