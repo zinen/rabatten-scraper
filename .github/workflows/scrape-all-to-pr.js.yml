@@ -47,7 +47,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" # empty line
+        echo "" >> $outputFile # empty line
         #
         inputFile=./logs/analyse-coop.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
@@ -57,7 +57,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" # empty line
+        echo "" >> $outputFile # empty line
         #
         inputFile=./logs/analyse-forbrugsforeningen.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
@@ -67,7 +67,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
-        echo "" # empty line
+        echo "" >> $outputFile # empty line
         #
         inputFile=./logs/analyse-logbuy.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
