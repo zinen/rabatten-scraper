@@ -1,4 +1,4 @@
-name: Scrape all site to a pull request!
+name: Scrape all site to a pull request
 
 on:
   push:
