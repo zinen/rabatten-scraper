@@ -3,10 +3,11 @@ const { doForbrugScrape } = require('./modules/doForbrugScrape.js')
 const { doLogbuyScrape } = require('./modules/doLogbuyScrape.js')
 const { doCoopScrape } = require('./modules/doCoopScrape.js')
 const { doAeldreScrape } = require('./modules/doAeldreScrape.js')
-const my = require('./modules/common-zinen/index.js')
-const { lastFileContent, readDir, readFile } = require('./modules/common-zinen/index.js')
+const myFunc = require('./modules/myFunc.js')
+// const { lastFileContent, readDir, readFile } = require('./modules/myFunc.js')
 require('dotenv').config()
 const inquirer = require('inquirer')
+const { holderService } = require('./settings.js')
 
 let browserHolder
 
@@ -16,7 +17,7 @@ let browserHolder
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function analyseData (filePath) {
-  const data = JSON.parse(await lastFileContent(filePath))
+  const data = JSON.parse(await myFunc.lastFileContent(filePath))
   console.log('Length of data: ' + data.length)
   const lengthData = data.length
   let i1 = 0
@@ -85,7 +86,7 @@ async function analyseData (filePath) {
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function returnErrors (filePath) {
-  const data = JSON.parse(await lastFileContent(filePath))
+  const data = JSON.parse(await myFunc.lastFileContent(filePath))
   const newData = []
   for (const point of data) {
     if ((point.err2 || point.err1 || point.err3 || point.err4) && !point.remoteLink) {
@@ -104,11 +105,11 @@ async function returnErrors (filePath) {
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function compareLast (filePath) {
-  const dirContent = await readDir(filePath)
+  const dirContent = await myFunc.readDir(filePath)
   if (dirContent.length > 1) {
     console.log('Comparing 2 newest file content now')
-    const newestData = JSON.parse(await readFile(dirContent[dirContent.length - 1]))
-    const oldestData = JSON.parse(await readFile(dirContent[dirContent.length - 2]))
+    const newestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 1]))
+    const oldestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 2]))
     const newestLength = newestData.length
     const oldestLength = oldestData.length
     const newLinkArray = []
@@ -153,33 +154,6 @@ async function compareLast (filePath) {
   }
 }
 
-const holderService = [
-  {
-    name: 'test',
-    scrapeOutPath: './scraped-data/test/'
-  },
-  {
-    name: 'forbrugsforeningen',
-    scrapeOutPath: './scraped-data/forb/',
-    distOutFile: 'forbrugsforeningen.json'
-  },
-  {
-    name: 'logbuy',
-    scrapeOutPath: './scraped-data/logb/',
-    distOutFile: 'logbuy.json'
-  },
-  {
-    name: 'coop',
-    scrapeOutPath: './scraped-data/coop/',
-    distOutFile: 'coop.json'
-  },
-  {
-    name: 'aeldresagen',
-    scrapeOutPath: './scraped-data/aeld/',
-    distOutFile: 'aeld.json'
-  }
-]
-
 async function makeDistData () {
   // Format: Array, containing arrays of ..
   // [Remote link, company name, discount amount, local link]
@@ -189,7 +163,7 @@ async function makeDistData () {
     if (service.name === 'test') { continue }
     try {
       const holder = []
-      const lastScrapedData = JSON.parse(await lastFileContent(service.scrapeOutPath))
+      const lastScrapedData = JSON.parse(await myFunc.lastFileContent(service.scrapeOutPath))
       for await (const dataPoint of lastScrapedData) {
         if (dataPoint.name && dataPoint.localLink && dataPoint.discount && dataPoint.remoteLink) {
           let URL = dataPoint.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
@@ -205,7 +179,7 @@ async function makeDistData () {
           holder.push([URL, dataPoint.name, dataPoint.discount, dataPoint.localLink])
         }
       }
-      await my.writeFile(outputFilePath + service.distOutFile, JSON.stringify(holder))
+      await myFunc.writeFile(outputFilePath + service.distOutFile, JSON.stringify(holder))
     } catch (error) {
       console.log('--Error---')
       console.log(error)
@@ -274,7 +248,7 @@ async function saveScrape (input, filePath) {
     const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
     const dateString = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
     const setFilename = filePath + dateString + '.json'
-    await my.writeFile(setFilename, jsonContent)
+    await myFunc.writeFile(setFilename, jsonContent)
   } else {
     console.log('No data to save to ' + filePath)
   }
@@ -315,19 +289,19 @@ async function run () {
     let lastScrapedData
     if (answers.scrapeService === 'forbrugsforeningen') {
       filePath = './scraped-data/forb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
       result = await doForbrugScrape(browserHolder, lastScrapedData)
     } else if (answers.scrapeService === 'logbuy') {
       filePath = './scraped-data/logb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
       result = await doLogbuyScrape(browserHolder, lastScrapedData)
     } else if (answers.scrapeService === 'coop') {
       filePath = './scraped-data/coop/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
       result = await doCoopScrape(browserHolder, lastScrapedData)
     } else if (answers.scrapeService === 'aeldresagen') {
       filePath = './scraped-data/aeld/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
       result = await doAeldreScrape(browserHolder, lastScrapedData)
     }
   } else {
@@ -342,28 +316,28 @@ async function run () {
 
 async function initForb (masterData) {
   const filePath = './scraped-data/forb/'
-  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
   const result = await doForbrugScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
 }
 
 async function initLogb (masterData) {
   const filePath = './scraped-data/logb/'
-  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
   const result = await doLogbuyScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
 }
 
 async function initCoop (masterData) {
   const filePath = './scraped-data/coop/'
-  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
   const result = await doCoopScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
 }
 
 async function initAeld (masterData) {
   const filePath = './scraped-data/aeld/'
-  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
+  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
   const result = await doAeldreScrape(browserHolder, lastScrapedData)
   await saveScrape(result, filePath)
 }
