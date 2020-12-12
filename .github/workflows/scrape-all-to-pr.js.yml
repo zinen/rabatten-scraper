@@ -33,6 +33,7 @@ jobs:
     - name: Collect log files to make body for pull request
       id: get-pr-body
       run: |
+        touch trigger
         outputFile=./logs/report.log
         # Delete and make a new file
         rm -f $outputFile
