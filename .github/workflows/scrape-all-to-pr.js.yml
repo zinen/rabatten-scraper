@@ -33,7 +33,7 @@ jobs:
     - name: Collect log files to make body for pull request
       id: get-pr-body
       run: |
-        touch trigger
+        rm trigger #touch trigger
         outputFile=./logs/report.log
         # Delete and make a new file
         rm -f $outputFile
@@ -47,6 +47,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
+        echo "" # empty line
         #
         inputFile=./logs/analyse-coop.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
@@ -56,6 +57,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
+        echo "" # empty line
         #
         inputFile=./logs/analyse-forbrugsforeningen.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
@@ -65,6 +67,7 @@ jobs:
         echo " - Total entries $countNewFile" >> $outputFile
         echo " - New entries $countAdded" >> $outputFile
         echo " - Removed entries $countRemoved" >> $outputFile
+        echo "" # empty line
         #
         inputFile=./logs/analyse-logbuy.log
         countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
