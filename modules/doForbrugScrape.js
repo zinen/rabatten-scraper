@@ -38,31 +38,33 @@ async function doForbrugScrape (browserHolder, masterData = null) {
     console.log('---------')
     process.exitCode = 1
   }
-  function testDataConst () {// eslint-disable-line
-    const testData = [
-      {
-        name: '0: Err02: Search for remote link: TypeError',
-        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
-      },
-      {
-        name: '1: Err02: Search for remote link: TimeoutError',
-        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
-      },
-      {
-        name: '2: Err02: Search for remote link: Error',
-        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
-      },
-      {
-        name: '3: Err02: Search for remote link: TypeError',
-        localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
-      },
-      {
-        name: 'test',
-        localLink: 'about:blank'
-      }
-    ]
-    return [testData[0], testData[3]]
-  }
+
+// Debug: force test specific sites
+//   function testDataConst () {// eslint-disable-line
+//     const testData = [
+//       {
+//         name: '0: Err02: Search for remote link: TypeError',
+//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
+//       },
+//       {
+//         name: '1: Err02: Search for remote link: TimeoutError',
+//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
+//       },
+//       {
+//         name: '2: Err02: Search for remote link: Error',
+//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
+//       },
+//       {
+//         name: '3: Err02: Search for remote link: TypeError',
+//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
+//       },
+//       {
+//         name: 'test',
+//         localLink: 'about:blank'
+//       }
+//     ]
+//     return [testData[0], testData[3]]
+//   }
 
   async function scrapeMainPage (page) {
     await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
