@@ -2,9 +2,9 @@ name: Scrape all sites and make a pull request
 
 on:
 #   push:
-#     branches: [ master ]
+#     branches: [ main ]
 #   pull_request:
-#     branches: [ master ]
+#     branches: [ main ]
 #     paths: 
 #       - .github/workflows/scrape-all-to-pr.js.yml
 
@@ -68,9 +68,11 @@ jobs:
         cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
+        # Replace some badly handeld characters with Unicode characters
         pr_body="${pr_body//'%'/'%25'}"
         pr_body="${pr_body//$'\n'/'%0A'}"
         pr_body="${pr_body//$'\r'/'%0D'}" 
+        # Save varible as an output
         echo ::set-output name=body::$pr_body
 
     - name: Create Pull Request # Does so only if any files in repo have changed
