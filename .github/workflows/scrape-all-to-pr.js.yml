@@ -1,12 +1,12 @@
 name: Scrape all sites and make a pull request
 
 on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-#     paths: 
-#       - .github/workflows/scrape-all-to-pr.js.yml
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    paths: 
+      - .github/workflows/scrape-all-to-pr.js.yml
 
   schedule:
     - cron:  '15 2 3 * *'
@@ -30,49 +30,33 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm ci
-    - run: npm run index all
+    # - run: npm run index all
     - run: npm run analyseLastScrape
 
     - name: Collect log files to make body for pull request
       id: get-pr-body
       run: |
-        touch trigger
         outputFile=./logs/report.log
         # Delete and make a new file
         rm -f $outputFile
         touch $outputFile
-        #
-        inputFile=./logs/analyse-aeldresagen.log
-        countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-        countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-        countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo " - **aeldresagen** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
-        #
-        inputFile=./logs/analyse-coop.log
-        countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-        countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-        countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo " - **coop** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
-        #
-        inputFile=./logs/analyse-forbrugsforeningen.log
-        countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-        countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-        countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo " - **forbrugsforeningen** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
-        #
-        inputFile=./logs/analyse-logbuy.log
-        countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-        countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-        countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-        echo " - **logbuy** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
+        # Loop output files from analyse from last scrape
+        for inputFile in `find ./logs/analyseLastScrape/ -type f`
+        do
+          service=$(basename $inputFile .json)
+          countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
+          countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
+          countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
+          echo " - **$service** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
+        done
         cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
-        # Replace some badly handeld characters with Unicode characters
+        # Replace some badly handled characters with Unicode characters
         pr_body="${pr_body//'%'/'%25'}"
         pr_body="${pr_body//$'\n'/'%0A'}"
         pr_body="${pr_body//$'\r'/'%0D'}" 
-        # Save varible as an output
+        # Save variable as an output
         echo ::set-output name=body::$pr_body
 
     - name: Create Pull Request # Does so only if any files in repo have changed
@@ -104,7 +88,7 @@ jobs:
           /home/runner/.npm/_logs/*
   
     - name: Save logs as artifact
-      if: ${{ always() }} # Perform this step no mattter any errors
+      if: ${{ always() }} # Perform this step no matter any errors
       uses: actions/upload-artifact@v2
       with:
         name: logs
