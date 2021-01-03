@@ -62,7 +62,7 @@ async function run () {
     if (service.name === 'test') { continue }
     let result = await compareLast(service.scrapeOutPath)
     result = JSON.stringify(result, null, 2)
-    await myFunc.writeFile('./logs/analyse-' + service.name + '.json', result)
+    await myFunc.writeFile('./logs/analyseLastScrape/' + service.name + '.json', result)
   }
 }
 run()
