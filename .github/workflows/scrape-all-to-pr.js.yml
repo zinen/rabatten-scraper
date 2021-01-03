@@ -1,15 +1,16 @@
 name: Scrape all sites and make a pull request
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-    paths: 
-      - .github/workflows/scrape-all-to-pr.js.yml
+#   push:
+#     branches: [ main ]
+#   pull_request:
+#     branches: [ main ]
+#     paths: 
+#       - .github/workflows/scrape-all-to-pr.js.yml
 
   schedule:
     - cron:  '15 2 3 * *'
+    - cron:  '15 2 4 1 1'
 
 jobs:
   scrape:
@@ -30,7 +31,7 @@ jobs:
       with:
         node-version: '12.x'
     - run: npm ci
-    # - run: npm run index all
+    - run: npm run index all
     - run: npm run analyseLastScrape
 
     - name: Collect log files to make body for pull request
