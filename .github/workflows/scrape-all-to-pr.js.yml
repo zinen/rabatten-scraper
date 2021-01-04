@@ -10,7 +10,6 @@ on:
 
   schedule:
     - cron:  '15 2 3 * *'
-    - cron:  '15 2 4 1 1'
 
 jobs:
   scrape:
@@ -79,6 +78,7 @@ jobs:
 
           [1]: https://github.com/peter-evans/create-pull-request
         labels: auto-pr
+        assignees: zinen
 
     - name: Save npm failure logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
