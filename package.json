@@ -8,11 +8,12 @@
     "watchFile:index": "nodemon ./index.js",
     "index all": "node ./index.js all",
     "index": "node ./index.js",
-    "analyseLastScrape":"node ./test/analyseLastScrape/test.js"
+    "analyseLastScrape": "node ./test/analyseLastScrape/test.js",
+    "release": "release-it --dry-run"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zinen/rabatten-scraper.git"
+    "url": "https://github.com/zinen/rabatten-scraper.git"
   },
   "homepage": "https://github.com/zinen/rabatten-scraper#readme",
   "bugs": {
@@ -22,18 +23,29 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.5",
     "dotenv": "^8.2.0",
     "node-fetch": "^2.6.1",
-    "puppeteer": "2.0.0"
+    "puppeteer": "^5.5.0"
   },
   "devDependencies": {
-    "inquirer": "^7.0.1",
-    "nodemon": "^2.0.2"
+    "inquirer": "^7.3.3",
+    "release-it": "^14.2.2"
   },
   "nodemonConfig": {
     "ignore": [
       "*.json"
     ]
+  },
+  "optionalDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "release-it": {
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    }
   }
 }
