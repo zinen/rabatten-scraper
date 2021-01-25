@@ -1,0 +1,30 @@
+name: Make release and test it
+
+on:
+   push:
+     branches:
+       - main
+
+   pull_request:
+     branches:
+       - main
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm ci
+      - run: npm test
+
+  release-github:
+    needs: test
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+      - run: npm ci
+      - run: npm run release -- minor --ci
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
