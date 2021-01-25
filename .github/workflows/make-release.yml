@@ -4,12 +4,14 @@ on:
    push:
      branches:
        - main
+  
 
    pull_request:
      branches:
        - main
+   
 jobs:
-  test:
+  npm-test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -17,11 +19,16 @@ jobs:
       - uses: actions/setup-node@v1
         env:
          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
-      - run: npm ci
-      - run: npm test
+
+      - name: npm install and test
+        run: |
+         npm ci
+         npm test
+         echo ${{ GITHUB_ACTOR }}
+         echo "$GITHUB_ACTOR"
 
   release-github:
-    needs: test
+    needs: npm-test
     runs-on: ubuntu-latest
     if: github.event_name == 'push'
     steps:
@@ -34,6 +41,6 @@ jobs:
         env:
          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
       - run: npm ci
-      - run: npm run release -- minor --ci
+      - run: npm run release -- patch --ci
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
