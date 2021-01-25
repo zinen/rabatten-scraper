@@ -13,7 +13,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        
       - uses: actions/setup-node@v1
+        env:
+         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
       - run: npm ci
       - run: npm test
 
@@ -23,7 +26,13 @@ jobs:
     if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v2
+      - run: |
+           git config --global user.email "bot_${{ github.event_name }}@users.noreply.github.com"
+           git config --global user.name "bot_${{ github.event_name }}"
+           
       - uses: actions/setup-node@v1
+        env:
+         PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
       - run: npm ci
       - run: npm run release -- minor --ci
         env:
