@@ -8,7 +8,8 @@
     "watchFile:index": "nodemon ./index.js",
     "index all": "node ./index.js all",
     "index": "node ./index.js",
-    "analyseLastScrape": "node ./test/analyseLastScrape/test.js",
+    "analyseLastScrape": "node ./test/analyseLastScrape.test.js",
+    "test": "node ./test/confirmJsonDist.test.js",
     "release": "release-it --dry-run"
   },
   "repository": {
