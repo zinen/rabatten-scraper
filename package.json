@@ -10,7 +10,7 @@
     "index": "node ./index.js",
     "analyseLastScrape": "node ./test/analyseLastScrape.test.js",
     "test": "node ./test/confirmJsonDist.test.js",
-    "release": "release-it --dry-run"
+    "release": "release-it"
   },
   "repository": {
     "type": "git",
