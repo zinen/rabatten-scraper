@@ -1,6 +1,6 @@
 'use strict'
-const myFunc = require('./../../modules/myFunc.js')
-const { holderService } = require('./../../settings.js')
+const myFunc = require('./../modules/myFunc.js')
+const { holderService } = require('./../settings.js')
 
 /**
  * Compare the 2 newest data scrapes
