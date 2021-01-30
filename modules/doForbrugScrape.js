@@ -1,32 +1,36 @@
 'use strict'
-const myPuppeteer = require('./my_puppeteer.js')
+const myPuppeteer = require('./myPuppeteer.js')
 // Add standard JS es6 fetch to node
 const fetch = require('node-fetch')
-// Cherio is a HTML interpreter
+// Cheerio is a HTML interpreter
 const cheerio = require('cheerio')
 
 /**
  * Perform scape of data
- * @param {Object} browserHolder Puppeteer browser object
- * @param {Array<Object>} [masterData=null] Option array containing objects with earlier results
- * @returns {Array<Object>} Array containing objects with results
+ * @param {Object} PupPool Puppeteer pool
+ * @param {Array<Object>} [masterData=null] Optional array containing objects with earlier results
+ * @param {Function} returnDataToMainThread Callback function called on every successfully scrape
+ * @param {string} saveDataKey Optional string returned as first argument in callback above
  */
-async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
+async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThread, saveDataKey = 'empty') {
   try {
     // const browser = await myPuppeteer.setupBrowser(browserHolder)
-    let scrapeData
     PupPool.use(async (browser) => {
       const page = await myPuppeteer.setupPage(browser)
       console.log('Forbrugsforeningen: Data scrape search page starting')
       // No login page here
       // ....
-      // Go to the page with search result of all webshops
-      scrapeData = await scrapeMainPage(page)
+      // Go to the page with search result of all web shops
+      const scrapeData = await scrapeMainPage(page)
       console.log('Forbrugsforeningen: Data scrape search page ending')
-      page.close()
-    }).then(async () => {
-      scrapeData = await scrapeElementPages(PupPool, scrapeData, masterData)
-      console.log('Forbrugsforeningen: Data scrape external sites done')
+      await page.close()
+      return scrapeData
+    }).then(async (scrapeData) => {
+      // Loop scraped data and find the link the the external site
+      scrapeElementPages(PupPool, scrapeData, masterData)
+      // console.log('Forbrugsforeningen: Data scrape external sites done')
+    }).catch(err => {
+      console.log(err)
     })
 
     // Debug: Insert test data from a predefined object
@@ -83,17 +87,17 @@ async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
       await page.waitForTimeout(50)
     }
     // Scrape data from the search result page
-    const scrapeData = await page.evaluate(() => {
+    return page.evaluate(() => {
       const sectionList = []
       const sectionElms = document.querySelectorAll('section.grouped-list__group-content')
       sectionElms.forEach((sectionElements) => {
         const holderJson = {}
         try {
-          holderJson.name = sectionElements.querySelector('span.grouped-list__shop-name').innerText
+          holderJson.name = sectionElements.querySelector('span.grouped-list__shop-name').textContent.trim()
           // Mark the element in scope
           // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
           holderJson.localLink = sectionElements.querySelector('a').href
-          holderJson.discount = sectionElements.querySelector('.grouped-list__col--2 > span').innerText
+          holderJson.discount = sectionElements.querySelector('.grouped-list__col--2 > span').textContent.trim()
           // Replace dot with commas, remove trailing zero after commas
           holderJson.discount = holderJson.discount ? holderJson.discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
         } catch (error) {
@@ -103,15 +107,14 @@ async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
       })
       return sectionList
     })
-    return scrapeData
   }
 
   async function scrapeElementPages (pool, scrapeData, masterData) {
     // page.setDefaultTimeout(10000)
-    const dataLenght = scrapeData.length
+    const dataLength = scrapeData.length
     let i1 = 1000
     let i2 = 0
-    for await (const dataPoint of scrapeData) {
+    for (const dataPoint of scrapeData) {
       i1++
       i2++
       if (i1 > 19) {
@@ -125,12 +128,14 @@ async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
             if (index > -1 && masterData[index].remoteLink) {
               dataPoint.remoteLink = masterData[index].remoteLink
               dataPoint.masterData = true
+              returnDataToMainThread(saveDataKey, dataPoint)
               continue
             }
           }
-          const foundLink = await fetchForbrugLink(dataPoint.localLink)
+          const foundLink = await fetchLink(dataPoint.localLink)
           if (foundLink == null) {
-            dataPoint.err3 = 'No link to external site was found on local element page'
+            dataPoint.err3 = 'Err03: No link to external site was found on local element page'
+            returnDataToMainThread(saveDataKey, dataPoint)
             continue
           }
           dataPoint.remoteLink0 = foundLink
@@ -139,22 +144,24 @@ async function doForbrugScrape (browserHolder, masterData = null, PupPool) {
               const page = await myPuppeteer.setupPage(browser)
               await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
               dataPoint.remoteLink = await page.evaluate('document.domain')
-              page.close()
+              await page.close()
             } catch (error) {
-              dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
+              dataPoint.err4 = 'Err04: Error inside pool: ' + error.name
             }
+            returnDataToMainThread(saveDataKey, dataPoint)
           })
         } else {
-          dataPoint.err1 = 'No link was found'
+          dataPoint.err5 = 'Err05: No link was found'
+          returnDataToMainThread(saveDataKey, dataPoint)
         }
       } catch (error) {
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
+        returnDataToMainThread(saveDataKey, dataPoint)
       }
     }
-    return scrapeData
   }
 
-  async function fetchForbrugLink (url) {
+  async function fetchLink (url) {
     let response
     // Try the fetching two times
     try {

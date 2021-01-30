@@ -1,4 +1,4 @@
-// Fron: https://github.com/latesh/puppeteer-pool
+// From: https://github.com/latesh/puppeteer-pool
 const genericPool = require('generic-pool')
 const puppeteer = require('puppeteer')
 

@@ -1,36 +1,40 @@
 'use strict'
-const myPuppeteer = require('./my_puppeteer.js')
+const myPuppeteer = require('./myPuppeteer.js')
+
+const holder = {}
 
 /**
  * Perform scape of data
- * @param {Object} browserHolder Puppeteer browser object
+ * @param {Object} PupPool Puppeteer pool
  * @param {Array<Object>} [masterData=null] Optional array containing objects with earlier results
- * @returns {Array<Object>} Array containing objects with results
+ * @param {Function} returnDataToMainThread Callback function called on every successfully scrape
+ * @param {string} saveDataKey Optional string returned as first argument in callback above
  */
-async function doLogbuyScrape (browserHolder, masterData = null) {
+async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThread, saveDataKey = 'empty') {
   try {
-    const browser = await myPuppeteer.setupBrowser(browserHolder)
-    const page = await myPuppeteer.setupPage(browser)
-    // Go to login page and login
-    console.log('Logbuy: Performing login')
-    await goLogin(page)
-    // Go to search page and scrape the content
-    console.log('Logbuy: Data scrape search page starting')
-    let scrapeData = await scrapeMainPage(page)
-    console.log('Logbuy: Data scrape search page ending')
+    // const browser = await myPuppeteer.setupBrowser(browserHolder)
+    PupPool.use(async (browser) => {
+      const page = await myPuppeteer.setupPage(browser)
+      // Go to login page and login
+      console.log('Logbuy: Performing login')
+      await goLogin(page)
+      // Go to search page and scrape the content
+      console.log('Logbuy: Data scrape search page starting')
+      const scrapeData = await scrapeMainPage(page)
+      console.log('Logbuy: Data scrape search page ending')
+      await page.close()
+      return scrapeData
+    }).then(async (scrapeData) => {
     // Debug: Insert test data from a file
     // let scrapeData = await testDataFile()
     // Debug: Insert test data from a predefined object
     // let scrapeData = testDataConst()
     // Loop scraped data and find the link the the external site
-    scrapeData = await scrapeElementPages(page, scrapeData, masterData)
-    console.log('Logbuy: Data scrape external sites done')
-    try {
-      await browser.close()
-    } catch (error) {
-      console.log(error.message)
-    }
-    return scrapeData
+      scrapeElementPages(PupPool, scrapeData, masterData)
+      // console.log('Logbuy: Data scrape external sites done')
+    }).catch(err => {
+      console.log(err)
+    })
   } catch (err) {
     console.log('--Error---')
     console.log(err)
@@ -46,6 +50,8 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       page.waitForNavigation(),
       page.click('#ctl00_ctl00_Content_content_LinkButton_Login')
     ])
+    // Store cookies as this site requires login
+    holder.logbuyCookies = await page.cookies('https://www.mylogbuy.com')
   }
 
   async function scrapeMainPage (page) {
@@ -63,11 +69,11 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
         for (const element of tableWithData) {
           const holderJson = {}
           try {
-            holderJson.name = element.querySelector('.name').innerText
+            holderJson.name = element.querySelector('.name').textContent.trim()
             // Mark the element in scope
             // element.querySelector('.name').style.border = 'thick solid red'
             holderJson.localLink = element.parentElement.href
-            holderJson.discount = element.querySelector('.ribbon-wrapper').innerText
+            holderJson.discount = element.querySelector('.ribbon-wrapper').textContent.trim()
           } catch (error) {
             holderJson.err1 = 'Err01: Scraping search result page: ' + error.name
           }
@@ -87,6 +93,16 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
       }))
     return scrapeData
   }
+
+  // async function scrapeMainPage (page) {
+  //   return [
+  //     {
+  //       name: '\n                        \n                            Winefamly\n                        \n                    ',
+  //       localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19268&SupplierClickArea=SearchList&ViewType=Normal',
+  //       discount: '10 %'
+  //     }
+  //   ]
+  // }
 
   // Debug: force test specific sites
   //   function testDataConst () {// eslint-disable-line
@@ -147,12 +163,12 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
   //     return [testData[7]]
   //   }
 
-  async function scrapeElementPages (page, scrapeData, masterData) {
-    page.setDefaultTimeout(15000)
+  async function scrapeElementPages (pool, scrapeData, masterData) {
+    // page.setDefaultTimeout(15000)
     const dataLength = scrapeData.length
     let i1 = 100
     let i2 = 0
-    for await (const dataPoint of scrapeData) {
+    for (const dataPoint of scrapeData) {
       i1++
       i2++
       if (i1 > 59) {
@@ -166,74 +182,83 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
             if (index > -1 && masterData[index].remoteLink) {
               dataPoint.remoteLink = masterData[index].remoteLink
               dataPoint.masterData = true
+              returnDataToMainThread(saveDataKey, dataPoint)
               continue
             }
           }
-          await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
-          // Debug: Destroy primary link
-          // await page.evaluate(() => {
-          //   document.querySelector('#ctl00_ctl00_Content_Content_HyperLink_WebSite:not(.displayNone)').href = 'https://gardenrestaurant.dk/'
-          // })
-          // See if either priority 1 or 2 button is found
-          const linkPriority1 = await page.$('#ctl00_ctl00_Content_Content_HyperLink_WebSite:not(.displayNone)')
-          let linkPriority2 = await page.$('.listingwrapper .button-green')
-          if (linkPriority1) {
+          pool.use(async (browser) => {
             try {
-              const foundLink = await page.$eval('#ctl00_ctl00_Content_Content_HyperLink_WebSite', element => element.href)
-              dataPoint.remoteLink0 = foundLink
-              try {
-                await page.goto(foundLink, { waitUntil: 'networkidle2' })
-              } catch (error) {
-                // A few pages requests images in a forever loop, this is a fix for that
-                await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+              const page = await myPuppeteer.setupPage(browser)
+              // Restore login cookies
+              await page.setCookie(...holder.logbuyCookies)
+              await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
+              // Debug: Destroy primary link
+              // await page.evaluate(() => {
+              //   document.querySelector('#ctl00_ctl00_Content_Content_HyperLink_WebSite:not(.displayNone)').href = 'https://gardenrestaurant.dk/'
+              // })
+              // See if either priority 1 or 2 button is found
+              const linkPriority1 = await page.$('#ctl00_ctl00_Content_Content_HyperLink_WebSite:not(.displayNone)')
+              let linkPriority2 = await page.$('.listingwrapper .button-green')
+              if (linkPriority1) {
+                try {
+                  const foundLink = await page.$eval('#ctl00_ctl00_Content_Content_HyperLink_WebSite', element => element.href)
+                  dataPoint.remoteLink0 = foundLink
+                  await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+                  dataPoint.remoteLink = await page.evaluate('document.domain')
+                  if ((dataPoint.remoteLink).contains('tradedoubler.com')) {
+                    await page.waitForNavigation()
+                    dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
+                  }
+                  returnDataToMainThread(saveDataKey, dataPoint)
+                  return
+                } catch (error) {
+                  if (linkPriority2 != null) {
+                    dataPoint.err0 = 'Priority 1 link following failed. Trying link 2'
+                    // Go back to the page with links to external site
+                    await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
+                    dataPoint.remoteLinkPri1 = dataPoint.remoteLink0
+                    // Must re-define linkPriority2 do to page navigation
+                    linkPriority2 = await page.$('.listingwrapper .button-green')
+                  } else {
+                    dataPoint.err0 = 'Priority 1 link following failed. No link 2 found'
+                    returnDataToMainThread(saveDataKey, dataPoint)
+                    return
+                  }
+                }
               }
-              dataPoint.remoteLink = await page.evaluate('document.domain')
-              if ((dataPoint.remoteLink).contains('tradedoubler.com')) {
-                await page.waitForNavigation()
+              if (linkPriority2) {
+                await linkPriority2.click()
+                await page.waitForTimeout(2500)
+                const frame = page.frames().find(frame => (frame.url()).includes('deal'))
+                if (!frame) {
+                  throw new Error('No frame was found')
+                }
+                const foundLink = await frame.$eval('#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal', element => element.href)
+                dataPoint.remoteLink0 = foundLink
+                try {
+                  await page.goto(foundLink, { waitUntil: 'networkidle2' })
+                } catch (error) {
+                  // A few pages requests images in a forever loop, this is a fix for that
+                  await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+                }
                 dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
-              }
-              continue
-            } catch (error) {
-              if (linkPriority2 != null) {
-                dataPoint.err4 = 'Priority 1 link following failed. Trying link 2'
-                // Go back to the page with links to external site
-                await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
-                dataPoint.remoteLinkPri1 = dataPoint.remoteLink0
-                // Must re-define linkPriority2 do to page navigation
-                linkPriority2 = await page.$('.listingwrapper .button-green')
               } else {
-                dataPoint.err4 = 'Priority 1 link following failed. No link 2 found'
-                continue
+                dataPoint.err3 = 'Err03: No link to external site was found on local element page'
               }
-            }
-          }
-          if (linkPriority2) {
-            await linkPriority2.click()
-            await page.waitForTimeout(2500)
-            const frame = page.frames().find(frame => (frame.url()).includes('deal'))
-            if (!frame) {
-              throw new Error('No frame was found')
-            }
-            const foundLink = await frame.$eval('#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal', element => element.href)
-            dataPoint.remoteLink0 = foundLink
-            try {
-              await page.goto(foundLink, { waitUntil: 'networkidle2' })
             } catch (error) {
-              // A few pages requests images in a forever loop, this is a fix for that
-              await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+              dataPoint.err4 = 'Err04: Error inside pool: ' + error.name
             }
-            dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
-          } else {
-            dataPoint.err3 = 'No link to external site was found on local element page'
-          }
+            returnDataToMainThread(saveDataKey, dataPoint)
+          })
         } else {
-          dataPoint.err1 = 'No link was found from result page'
+          dataPoint.err5 = 'Err05: No link was found from result page'
+          returnDataToMainThread(saveDataKey, dataPoint)
         }
       } catch (error) {
         dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
+        returnDataToMainThread(saveDataKey, dataPoint)
       }
     }
-    return scrapeData
   }
 
   /**

@@ -3,28 +3,30 @@ const { doForbrugScrape } = require('./modules/doForbrugScrape.js')
 const { doLogbuyScrape } = require('./modules/doLogbuyScrape.js')
 const { doCoopScrape } = require('./modules/doCoopScrape.js')
 const { doAeldreScrape } = require('./modules/doAeldreScrape.js')
+// const { doTestScrape } = require('./modules/doTestScrape.js')
 const myFunc = require('./modules/myFunc.js')
 // const { lastFileContent, readDir, readFile } = require('./modules/myFunc.js')
 require('dotenv').config()
 const inquirer = require('inquirer')
 const { initPuppeteerPool } = require('./modules/puppeteer-pool.js')
-let browserHolder
+const { holderService } = require('./settings.js')
+const startTime = new Date().toISOString()
 
 // Returns a generic-pool instance
 const pool = initPuppeteerPool({
-  max: 7, // default
-  min: 0, // default
+  max: 5,
+  min: 0,
   // how long a resource can stay idle in pool before being removed
   idleTimeoutMillis: 30000, // default.
   // maximum number of times an individual resource can be reused before being destroyed; set to 0 to disable
-  maxUses: 50, // default
+  maxUses: 10,
   // function to validate an instance prior to use; see https://github.com/coopernurse/node-pool#createpool
   validator: () => Promise.resolve(true), // defaults to always resolving true
   // validate resource before borrowing; required for `maxUses and `validator`
   testOnBorrow: true, // default
   // For all opts, see opts at https://github.com/coopernurse/node-pool#createpool
   puppeteerArgs: {
-    headless: false, // default is true
+    // headless: false, // default is true
     // slowMo: 50, // only for debugging
     devtools: false, // default is false
     ignoreHTTPSErrors: true, // default is false
@@ -177,9 +179,9 @@ async function compareLast (filePath) {
       removedServices: oldestData,
       newLink: newLinkArray,
       _analyse: {
-        oldFile: dirContent[dirContent.length - 1],
+        oldFile: dirContent[dirContent.length - 2],
         oldFileLength: oldestLength,
-        newFile: dirContent[dirContent.length - 2],
+        newFile: dirContent[dirContent.length - 1],
         newFileLength: newestLength,
         removedLength: oldestData.length,
         addedLength: newestData.length,
@@ -195,12 +197,12 @@ async function makeDistData () {
   // Format: Array, containing arrays of ..
   // [Remote link, company name, discount amount, local link]
   const outputFilePath = './dist/'
-  for await (const service of holderService) {
+  for await (const service of holderService.getServices()) {
     // Skip test part of holderService
     if (service.name === 'test') { continue }
     try {
       const holder = []
-      const lastScrapedData = JSON.parse(await myFunc.lastFileContent(service.scrapeOutPath))
+      const lastScrapedData = JSON.parse(await myFunc.lastFileContent(holderService[service].scrapeOutPath))
       for await (const dataPoint of lastScrapedData) {
         if (dataPoint.name && dataPoint.localLink && dataPoint.discount && dataPoint.remoteLink) {
           let URL = dataPoint.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
@@ -216,7 +218,7 @@ async function makeDistData () {
           holder.push([URL, dataPoint.name, dataPoint.discount, dataPoint.localLink])
         }
       }
-      await myFunc.writeFile(outputFilePath + service.distOutFile, JSON.stringify(holder))
+      await myFunc.writeFile(outputFilePath + holderService[service].distOutFile, JSON.stringify(holder))
     } catch (error) {
       console.log('--Error---')
       console.log(error)
@@ -236,7 +238,8 @@ var questions = [
     type: 'list',
     name: 'scrapeService',
     message: 'Where to scrape data from?',
-    choices: [holderService[1].name, holderService[2].name, holderService[3].name, holderService[4].name, 'All'],
+    choices: holderService.getServices(),
+    // [holderService[1].name, holderService[2].name, holderService[3].name, holderService[4].name, 'All'],
     filter: function (val) {
       return val.toLowerCase()
     },
@@ -266,20 +269,68 @@ var questions = [
     type: 'list',
     name: 'analyseService',
     message: 'Where to analyse data from?',
-    choices: [
-      { name: holderService[0].name, value: holderService[0].scrapeOutPath },
-      { name: holderService[1].name, value: holderService[1].scrapeOutPath },
-      { name: holderService[2].name, value: holderService[2].scrapeOutPath },
-      { name: holderService[3].name, value: holderService[3].scrapeOutPath },
-      { name: holderService[4].name, value: holderService[4].scrapeOutPath }
-    ],
+    choices: holderService.getServiceObject('scrapeOutPath', null),
+
+    // [
+    //   { name: holderService[0].name, value: holderService[0].scrapeOutPath },
+    //   { name: holderService[1].name, value: holderService[1].scrapeOutPath },
+    //   { name: holderService[2].name, value: holderService[2].scrapeOutPath },
+    //   { name: holderService[3].name, value: holderService[3].scrapeOutPath },
+    //   { name: holderService[4].name, value: holderService[4].scrapeOutPath }
+    // ],
     when: async function (answers) {
       return answers.action === 'Analyse earlier data scraped'
     }
   }
 ]
 
-async function saveScrape (input, filePath) {
+const savedDataFromScrape = {}
+async function saveFromScrape (service = 'empty', data = {}) {
+  // If object does not contain the key of content of service, make an array before pushing data
+  if (!Object.prototype.hasOwnProperty.call(savedDataFromScrape, service)) {
+    savedDataFromScrape[service] = []
+  }
+  savedDataFromScrape[service].push(data)
+}
+
+async function prepareSaveToFile (inputData = { empty: [] }) {
+  // console.log('inputData keys', Object.keys(inputData))
+  for (const service of Object.keys(inputData)) {
+    if (Object.prototype.hasOwnProperty.call(holderService, service)) {
+      saveToFile(inputData[service], holderService[service].scrapeOutPath)
+    } else {
+      saveToFile(inputData[service], holderService.test.scrapeOutPath)
+    }
+  }
+}
+
+async function poolWatcher () {
+  async function delay (msSec) {
+    return new Promise(resolve => {
+      setTimeout(() => resolve('DelayTimeout'), msSec)
+    })
+  }
+  // Fix: sometimes before a job is finished and before just before a new one is
+  //  pending this while loop just went false. Looking at saved data fixes this.
+  let timeout = 10 // Timeout in seconds
+  while (timeout > 0 && Object.keys(savedDataFromScrape).length === 0) {
+    await delay(1000)
+    timeout--
+  }
+  console.log('Startup timeout ended, watching pool now.')
+
+  while (pool.borrowed > 0 || pool.pending > 0) {
+    console.log(`Pool is still working. Active: ${pool.borrowed}, pending: ${pool.pending}`)
+    await delay(17000)
+  }
+  console.log('Puppeteer pool is not in use anymore. Draining pool now.')
+  pool.drain().then(() => pool.clear())
+  await prepareSaveToFile(savedDataFromScrape)
+  if (makeDistOnDone) { makeDistData() }
+  console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
+}
+
+async function saveToFile (input, filePath) {
   if (input) {
     const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
     const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
@@ -301,12 +352,11 @@ async function run () {
   // }
 
   console.log(JSON.stringify(answers, null, '  '))
-  const startTime = new Date().toISOString()
+
   let filePath = './scraped-data/test/'
   let result
   if (answers.action === 'Build distribution') {
     makeDistData()
-    return
   } else if (answers.action === 'Analyse earlier data scraped') {
     switch (answers.analyseAction) {
       case 'Look though all data':
@@ -319,79 +369,65 @@ async function run () {
         result = await compareLast(answers.analyseService)
         break
     }
+    saveToFile(result, filePath)
   } else if (answers.scrapeService === 'all') {
     runAll(answers.scrapeMasterData)
-    return
   } else if (answers.action === 'Scrape data from web') {
     let lastScrapedData
+    filePath = holderService[answers.scrapeService].scrapeOutPath
     if (answers.scrapeService === 'forbrugsforeningen') {
-      filePath = './scraped-data/forb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await lastFileContent(filePath)) : null
-      result = await doForbrugScrape(browserHolder, lastScrapedData, pool)
+      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
+      // doTestScrape(pool, lastScrapedData, saveFromScrape, answers.scrapeService)
+      doForbrugScrape(pool, lastScrapedData, saveFromScrape, answers.scrapeService)
     } else if (answers.scrapeService === 'logbuy') {
-      filePath = './scraped-data/logb/'
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doLogbuyScrape(browserHolder, lastScrapedData)
+      doLogbuyScrape(pool, lastScrapedData, saveFromScrape, answers.scrapeService)
     } else if (answers.scrapeService === 'coop') {
-      filePath = './scraped-data/coop/'
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doCoopScrape(browserHolder, lastScrapedData)
+      doCoopScrape(pool, lastScrapedData, saveFromScrape, answers.scrapeService)
     } else if (answers.scrapeService === 'aeldresagen') {
-      filePath = './scraped-data/aeld/'
       lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doAeldreScrape(browserHolder, lastScrapedData)
+      doAeldreScrape(pool, lastScrapedData, saveFromScrape, answers.scrapeService)
     }
-    // pool.drain().then(() => pool.clear())
+    poolWatcher()
+  } else {
+    throw new Error('No choices matched anything')
   }
-
-  saveScrape(result, filePath)
-  // Print to console both start and finish time
-  console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
 }
-// init()
 
 async function initForb (masterData) {
-  const filePath = './scraped-data/forb/'
-  const lastScrapedData = masterData ? JSON.parse(await lastFileContent(filePath)) : null
-  const result = await doForbrugScrape(browserHolder, lastScrapedData, pool)
-  await saveScrape(result, filePath)
+  const filePath = holderService.forbrugsforeningen.scrapeOutPath
+  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
+  doForbrugScrape(pool, lastScrapedData, saveFromScrape, 'forbrugsforeningen')
 }
 
 async function initLogb (masterData) {
-  const filePath = './scraped-data/logb/'
+  const filePath = holderService.logbuy.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+  doLogbuyScrape(pool, lastScrapedData, saveFromScrape, 'logbuy')
 }
 
 async function initCoop (masterData) {
-  const filePath = './scraped-data/coop/'
+  const filePath = holderService.coop.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doCoopScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+  doCoopScrape(pool, lastScrapedData, saveFromScrape, 'coop')
 }
 
 async function initAeld (masterData) {
-  const filePath = './scraped-data/aeld/'
+  const filePath = holderService.aeldresagen.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doAeldreScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+  doAeldreScrape(pool, lastScrapedData, saveFromScrape, 'aeldresagen')
 }
 
+let makeDistOnDone = false
 async function runAll (masterData = true) {
   console.log(new Date().toISOString() + ' Running all scrapes now')
-  Promise.all(
-    [
-      initForb(masterData),
-      initLogb(masterData),
-      initCoop(masterData),
-      initAeld(masterData)
-    ]
-  ).then(() => {
-    makeDistData()
-    console.log(new Date().toISOString() + ' Runing all scrapes ended')
-    pool.drain().then(() => pool.clear())
-  })
+  makeDistOnDone = true
+  initForb(masterData)
+  initLogb(masterData)
+  initCoop(masterData)
+  initAeld(masterData)
+  poolWatcher()
 }
 
 // Decide how to run code
@@ -399,4 +435,5 @@ if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
   runAll()
 } else {
   run()
+  // console.log(holderService.getServiceScrapeObject('name'))
 }
