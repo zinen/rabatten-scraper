@@ -31,8 +31,8 @@ const pool = initPuppeteerPool({
     args: [
       '--disable-infobars',
       // '--window-position=960,10',
-      '--ignore-certifcate-errors',
-      '--ignore-certifcate-errors-spki-list',
+      '--ignore-certificate-errors',
+      '--ignore-certificate-errors-spki-list',
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-dev-shm-usage',
