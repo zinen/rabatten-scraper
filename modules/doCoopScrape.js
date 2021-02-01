@@ -124,7 +124,7 @@ async function doCoopScrape (browserHolder, masterData = null) {
     }
     const body = await response.text()
     const $ = cheerio.load(body)
-    return $('.link a').attr('href')
+    return $('section a').attr('href')
   }
 }
 
