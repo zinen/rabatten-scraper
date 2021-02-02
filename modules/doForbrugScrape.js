@@ -39,48 +39,48 @@ async function doForbrugScrape (browserHolder, masterData = null) {
     process.exitCode = 1
   }
 
-// Debug: force test specific sites
-//   function testDataConst () {// eslint-disable-line
-//     const testData = [
-//       {
-//         name: '0: Err02: Search for remote link: TypeError',
-//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
-//       },
-//       {
-//         name: '1: Err02: Search for remote link: TimeoutError',
-//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
-//       },
-//       {
-//         name: '2: Err02: Search for remote link: Error',
-//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
-//       },
-//       {
-//         name: '3: Err02: Search for remote link: TypeError',
-//         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
-//       },
-//       {
-//         name: 'test',
-//         localLink: 'about:blank'
-//       }
-//     ]
-//     return [testData[0], testData[3]]
-//   }
+  // Debug: force test specific sites
+  //   function testDataConst () {// eslint-disable-line
+  //     const testData = [
+  //       {
+  //         name: '0: Err02: Search for remote link: TypeError',
+  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
+  //       },
+  //       {
+  //         name: '1: Err02: Search for remote link: TimeoutError',
+  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
+  //       },
+  //       {
+  //         name: '2: Err02: Search for remote link: Error',
+  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
+  //       },
+  //       {
+  //         name: '3: Err02: Search for remote link: TypeError',
+  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
+  //       },
+  //       {
+  //         name: 'test',
+  //         localLink: 'about:blank'
+  //       }
+  //     ]
+  //     return [testData[0], testData[3]]
+  //   }
 
   async function scrapeMainPage (page) {
     await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
     // Wait for first data to be retrieved
-    await page.waitFor('.grouped-list__group-content:nth-of-type(1)')
-    await page.waitFor(1000)
+    await page.waitForSelector('.grouped-list__group-content:nth-of-type(1)')
+    await page.waitForTimeout(1000)
     // Fix: Press down and wait, the page might reload for some weird reason
     await page.keyboard.press('PageDown')
     await Promise.race([
       page.waitForNavigation(),
-      page.waitFor(5000)
+      page.waitForTimeout(5000)
     ])
     // Move down the page to reveal the search results
     while (!(await page.$('#search-results > div.search-result-page__footer[style*="display: block"]'))) {
       await page.keyboard.press('PageDown')
-      await page.waitFor(50)
+      await page.waitForTimeout(50)
     }
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {

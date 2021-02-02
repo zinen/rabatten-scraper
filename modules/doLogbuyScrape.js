@@ -53,7 +53,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     const scrapeData = []
     do {
       // Scrape result page's next page
-      await page.waitFor('div.searchwrapper:not(.add)')
+      await page.waitForSelector('div.searchwrapper:not(.add)')
       scrapeData.push(...await page.evaluate(() => {
         // Class .add is used at adds placed within search results
         // Class .add is used for short limited discount and is not relevant
@@ -88,64 +88,64 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
     return scrapeData
   }
 
-// Debug: force test specific sites
-//   function testDataConst () {// eslint-disable-line
-//     const testData = [
-//       {
-//         name: '0: Har både direkte link og sekundær',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19244&AddressId=162104&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '1: Har kun sekundær link(det i en iframe)',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2233&AddressId=161146&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '2: Har både direkte link og sekundær, men det direkte link virker ikke - nu virker det igen',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '3: Intet hjemmeside link',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=160147&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '4: Ingen net forbindelse til siden',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18403&AddressId=160471&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '5: Sekundær link knap er lille',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19038&AddressId=161777&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '6: Timeout fejl, scrape den forsøgte sides URL',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17695&AddressId=159707&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '7: Accepter ikke tradedoubler.com links, afvent redirect',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '8: Siden henter ikke færdig, scrape fejler derfor',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '9: Siden giver timeout flere gange i træk',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18730&AddressId=161417&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '10: Siden giver ingen URL fra sig',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19019&AddressId=161746&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: '11: Endte på chromewebdata',
-//         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal'
-//       },
-//       {
-//         name: 'test',
-//         localLink: 'about:blank'
-//       }
-//     ]
-//     return [testData[7]]
-//   }
+  // Debug: force test specific sites
+  //   function testDataConst () {// eslint-disable-line
+  //     const testData = [
+  //       {
+  //         name: '0: Har både direkte link og sekundær',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19244&AddressId=162104&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '1: Har kun sekundær link(det i en iframe)',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2233&AddressId=161146&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '2: Har både direkte link og sekundær, men det direkte link virker ikke - nu virker det igen',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '3: Intet hjemmeside link',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=160147&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '4: Ingen net forbindelse til siden',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18403&AddressId=160471&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '5: Sekundær link knap er lille',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19038&AddressId=161777&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '6: Timeout fejl, scrape den forsøgte sides URL',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17695&AddressId=159707&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '7: Accepter ikke tradedoubler.com links, afvent redirect',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3810&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '8: Siden henter ikke færdig, scrape fejler derfor',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18922&AddressId=161618&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '9: Siden giver timeout flere gange i træk',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18730&AddressId=161417&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '10: Siden giver ingen URL fra sig',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19019&AddressId=161746&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: '11: Endte på chromewebdata',
+  //         localLink: 'https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2146&SupplierClickArea=SearchList&ViewType=Normal'
+  //       },
+  //       {
+  //         name: 'test',
+  //         localLink: 'about:blank'
+  //       }
+  //     ]
+  //     return [testData[7]]
+  //   }
 
   async function scrapeElementPages (page, scrapeData, masterData) {
     page.setDefaultTimeout(15000)
@@ -209,7 +209,7 @@ async function doLogbuyScrape (browserHolder, masterData = null) {
           }
           if (linkPriority2) {
             await linkPriority2.click()
-            await page.waitFor(2500)
+            await page.waitForTimeout(2500)
             const frame = page.frames().find(frame => (frame.url()).includes('deal'))
             if (!frame) {
               throw new Error('No frame was found')

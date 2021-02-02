@@ -40,7 +40,7 @@ async function doAeldreScrape (browserHolder, masterData = null) {
     page.setDefaultTimeout(240 * 1000)
     // Go to last page no 1000 on search page to load pages from 1-1000 in one go
     await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludosort=date%3Ddesc&cludopage=1000', { waitUntil: 'domcontentloaded' })
-    await page.waitFor(220 * 1000)
+    await page.waitForTimeout(220 * 1000)
     // Scrape data from the search result page
     const scrapeData = await page.evaluate(() => {
       const sectionList = []
