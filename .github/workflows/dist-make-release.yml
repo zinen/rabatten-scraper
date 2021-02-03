@@ -1,14 +1,17 @@
-name: Make release and test it
+name: Test & release dist files
 
 on:
    push:
      branches:
        - main
+     paths:
+       - 'dist/**'
   
-
    pull_request:
      branches:
        - main
+     paths:
+       - 'dist/**'
    
 jobs:
   npm-test:
@@ -24,7 +27,6 @@ jobs:
         run: |
          npm ci
          npm test
-         echo "GITHUB_ACTOR = $GITHUB_ACTOR"
          
       - name: Dump GitHub context
         env:
