@@ -14,8 +14,8 @@ async function run () {
         let result
         try { result = JSON.parse(fileContent) } catch { isValidJSON = false }
         assert.ok(isValidJSON, `Expected content of ${file} to be parse-able as JSON`)
-        assert.notStrictEqual(result.length, 0, `Expected length of ${file} to be more than 0, result was ${result.length}`)
         assert.ok(result instanceof Array, `Expected content of ${file} to be an array`)
+        assert.notStrictEqual(result.length, 0, `Expected length of ${file} to be more than 0, result was ${result.length}`)
         assert.ok(result[0] instanceof Array, `Expected content of ${file} to be an array of arrays`)
       } catch (error) {
         console.warn(error.message)
