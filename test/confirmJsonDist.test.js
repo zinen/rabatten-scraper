@@ -11,8 +11,9 @@ async function run () {
       let isValidJSON = true
       let result
       try { result = JSON.parse(fileContent) } catch { isValidJSON = false }
-      assert.ok(isValidJSON)
-      assert.notStrictEqual(result.length.length, 0)
+      assert.ok(isValidJSON, `Expected content of ${file} to be parse-able as JSON`)
+      assert.notStrictEqual(result.length.length, 0, `Expected length of ${file} to be more then 0, result was ${result.length.length}`)
+      console.log(`\x1b[32m✓\x1b[0m Content of ${file} was found ok`)
     }
     console.log('\x1b[32m✓\x1b[0m All tests completed successfully. Files inside ./dist is parsable as JSON')
   } catch (error) {
