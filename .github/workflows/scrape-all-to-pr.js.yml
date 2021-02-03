@@ -62,7 +62,7 @@ jobs:
     - name: Create Pull Request # Does so only if any files in repo have changed
       uses: peter-evans/create-pull-request@v3
       with:
-        # token: ${{ secrets.PAT }}
+        token: ${{ secrets.MY_GITHUB_PAT }}
         commit-message: New scrape
         committer: bot_${{ github.event_name }} <bot_${{ github.event_name }}@users.noreply.github.com>
         # author cant be changed from owner when using PAT issue#48
