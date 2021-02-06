@@ -36,6 +36,10 @@ module.exports = {
       scrapeFunc () { doAeldreScrape() },
       distOutFile: 'aeld.json'
     },
+    /**
+     * Get services
+     * @returns {array} Array of services
+     */
     getServices (inputKey = null, ignoreKey = 'test') {
       const keys = Object.keys(this)
       for (let index = keys.length - 1; index > -1; index--) {
@@ -50,6 +54,12 @@ module.exports = {
       }
       return keys
     },
+    /**
+     * Get services as object
+     * @param {*} inputKey input key
+     * @param {string} [ignoreKey='test'] ignore this key in output
+     * @returns {object} Object of service as a key and inputKey as value
+     */
     getServiceObject (inputKey, ignoreKey = 'test') {
       const keys = Object.keys(this)
       for (let index = keys.length - 1; index > -1; index--) {
