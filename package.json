@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "index": "node ./index.js",
-    "index all": "node ./index.js all", 
+    "index all": "node ./index.js all",
     "analyseLastScrape": "node ./test/analyseLastScrape.test.js",
     "test": "node ./test/confirmJsonDist.test.js",
     "release": "release-it"
@@ -31,7 +31,7 @@
   },
   "devDependencies": {
     "inquirer": "^7.3.3",
-    "nodemon": "^14.2.2"
+    "release-it": "^14.2.2"
   },
   "nodemonConfig": {
     "ignore": [
