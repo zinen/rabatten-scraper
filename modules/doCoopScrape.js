@@ -1,5 +1,5 @@
 'use strict'
-const myPuppeteer = require('./myPuppeteer.js')
+const myPuppeteer = require('./my-puppeteer.js')
 // Add standard JS es6 fetch to node
 const fetch = require('node-fetch')
 // Cheerio is a HTML interpreter
@@ -17,10 +17,10 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
     // const browser = await myPuppeteer.setupBrowser(browserHolder)
     PupPool.use(async (browser) => {
       const page = await myPuppeteer.setupPage(browser)
-      console.log('Coop: Data scrape search page starting')
       // No login page here
       // ....
       // Go to search page and scrape the content
+      console.log('Coop: Data scrape search page starting')
       const scrapeData = await scrapeMainPage(page)
       console.log('Coop: Data scrape search page ending')
       await page.close()
@@ -38,30 +38,36 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
     console.log('---------')
     process.exitCode = 1
   }
+
   async function scrapeMainPage (page) {
-    await page.goto('https://partnerfordele.coop.dk/?tag=alle', { waitUntil: 'networkidle2' })
-    // Scrape data from the search result page
-    return page.evaluate(() => {
-      const sectionList = []
-      const sectionElms = document.querySelectorAll('.partner:not(.hidden)')
-      sectionElms.forEach((sectionElements) => {
-        const holderJson = {}
-        try {
-          holderJson.name = sectionElements.querySelector('.partner-name').textContent.trim()
-          // Mark the element in scope
-          // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
-          holderJson.localLink = sectionElements.querySelector('.partner-name a').href
-          holderJson.discount = sectionElements.querySelector('.bubble-wrapper').textContent.trim()
-          // Replace dot with commas, remove trailing zero after commas
-          holderJson.discount = holderJson.discount ? holderJson.discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
-        } catch (error) {
-          holderJson.err1 = 'Err01: Scraping search result page: ' + error.name
-        }
-        sectionList.push(holderJson)
+    try {
+      await page.goto('https://partnerfordele.coop.dk/?tag=alle', { waitUntil: 'networkidle2' })
+      // Scrape data from the search result page
+      return page.$$eval('.partner:not(.hidden)', elements => {
+        return elements.map((element, index, elementArray) => {
+          elementArray[index] = {}
+          try {
+            // Get headline of discount
+            elementArray[index].name = element.querySelector('.partner-name').textContent.trim()
+            // Mark the element in scope
+            // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
+            // Get link to mre info about discount
+            elementArray[index].localLink = element.querySelector('.partner-name a').href
+            // Get sub info about discount/amount of discount
+            elementArray[index].discount = element.querySelector('.bubble-wrapper').textContent.trim()
+            // Replace dot with commas, remove trailing zero after commas
+            elementArray[index].discount = elementArray[index].discount ? elementArray[index].discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
+          } catch (error) {
+            elementArray[index].err1 = 'Err01: Scraping search result page: ' + error.message
+          }
+          return elementArray[index]
+        })
       })
-      return sectionList
-    })
+    } catch (error) {
+      console.error('Coop: Scraping main page ended in error.', error)
+    }
   }
+
   async function scrapeElementPages (pool, scrapeData, masterData) {
     // page.setDefaultTimeout(10000)
     const dataLength = scrapeData.length
@@ -98,7 +104,7 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
               await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
               dataPoint.remoteLink = await page.evaluate('document.domain')
             } catch (error) {
-              dataPoint.err4 = 'Err04: Error inside pool: ' + error.name
+              dataPoint.err4 = 'Err04: Error inside pool: ' + error.message
             }
             returnDataToMainThread(saveDataKey, dataPoint)
           })
@@ -107,7 +113,7 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
           returnDataToMainThread(saveDataKey, dataPoint)
         }
       } catch (error) {
-        dataPoint.err2 = 'Err02: Search for remote link: ' + error.name
+        dataPoint.err2 = 'Err02: Search for remote link: ' + error.message
         returnDataToMainThread(saveDataKey, dataPoint)
       }
     }
