@@ -3,16 +3,45 @@ name: Scrape all sites and make a pull request
 on:
 #   push:
 #     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-#     paths: 
-#       - .github/workflows/scrape-all-to-pr.js.yml
+  pull_request:
+    branches: [ main ]
+    paths: 
+      - .github/workflows/scrape-all-to-pr.js.yml
 
   schedule:
     - cron:  '15 2 3 * *'
 
 jobs:
-  scrape:
+  scrape-forbrugsforeningen:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v2
+      
+    - name: Node install and run
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: |
+        npm ci
+        node . forbrugsforeningen
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v2
+      with:
+        name: forbrugsforeningen-npm-logs
+        path: |
+          /home/runner/.npm/_logs/*
+
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: forbrugsforeningen-artifact
+        path: ./scraped-data/forb
+        retention-days: 1
+
+  scrape-logbuy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
@@ -29,9 +58,123 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm ci
-    - run: npm run index all
-    - run: npm run analyseLastScrape
+    - run: |
+        npm ci
+        node . logbuy
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v2
+      with:
+        name: logbuy-npm-logs
+        path: |
+          /home/runner/.npm/_logs/*
+
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: logbuy-artifact
+        path: ./scraped-data/logb
+        retention-days: 1
+
+  scrape-coop:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v2
+
+    - name: Node install and run
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: |
+        npm ci
+        node . coop
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v2
+      with:
+        name: coop-npm-logs
+        path: |
+          /home/runner/.npm/_logs/*
+
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: coop-artifact
+        path: ./scraped-data/coop
+        retention-days: 1
+
+  scrape-aeldresagen:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v2
+      
+    - name: Node install and run
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: |
+        npm ci
+        node . aeldresagen
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v2
+      with:
+        name: aeldresagen-npm-logs
+        path: |
+          /home/runner/.npm/_logs/*
+
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: aeldresagen-artifact
+        path: ./scraped-data/aeld
+        retention-days: 1
+
+  make-dist:
+    needs: [scrape-forbrugsforeningen, scrape-logbuy, scrape-coop, scrape-aeldresagen]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v2
+
+    - name: get artifact from forbrugsforeningen scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: forbrugsforeningen-artifact
+        path: ./scraped-data/forb
+
+    - name: get artifact from logbuy scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: logbuy-artifact
+        path: ./scraped-data/logb
+
+    - name: get artifact from coop scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: coop-artifact
+        path: ./scraped-data/coop
+
+    - name: get artifact from aeldresagen scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: aeldresagen-artifact
+        path: ./scraped-data/aeld
+
+
+    - name: Node install and run
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: |
+        npm ci
+        node . dist
+        npm run analyseLastScrape
 
     - name: Collect log files to make body for pull request
       id: get-pr-body
@@ -59,35 +202,41 @@ jobs:
         # Save variable as an output
         echo ::set-output name=body::$pr_body
 
-    - name: Create Pull Request # Does so only if any files in repo have changed
-      uses: peter-evans/create-pull-request@v3
-      with:
-        token: ${{ secrets.MY_GITHUB_PAT }}
-        commit-message: New scrape
-        committer: bot_${{ github.event_name }} <bot_${{ github.event_name }}@users.noreply.github.com>
-        # author cant be changed from owner when using PAT issue#48
-        branch: auto-new-scrape
-        delete-branch: true
-        title: New scrape
-        body: |
-          New scrape performed
-          
-          ${{ steps.get-pr-body.outputs.body }}
-
-          *Auto-generated by [create-pull-request][1]*
-
-          [1]: https://github.com/peter-evans/create-pull-request
-        labels: auto-pr
-        assignees: zinen
-
-    - name: Save npm failure logs as artifact
-      if: ${{ failure() }} # Perform this step if some error happened
+    - name: temporarily made dist files artifact
       uses: actions/upload-artifact@v2
       with:
-        name: npm-logs
-        path: |
-          /home/runner/.npm/_logs/*
-  
+        name: dist-artifact
+        path: ./dist
+        retention-days: 1
+
+    - name: temporarily scrape files artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: scraped-data-artifact
+        path: ./scraped-data
+        retention-days: 1
+
+    # - name: Create Pull Request # Does so only if any files in repo have changed
+    #   uses: peter-evans/create-pull-request@v3
+    #   with:
+    #     token: ${{ secrets.MY_GITHUB_PAT }}
+    #     commit-message: New scrape
+    #     committer: bot_${{ github.event_name }} <bot_${{ github.event_name }}@users.noreply.github.com>
+    #     # author cant be changed from owner when using PAT issue#48
+    #     branch: auto-new-scrape
+    #     delete-branch: true
+    #     title: New scrape
+    #     body: |
+    #       New scrape performed
+          
+    #       ${{ steps.get-pr-body.outputs.body }}
+
+    #       *Auto-generated by [create-pull-request][1]*
+
+    #       [1]: https://github.com/peter-evans/create-pull-request
+    #     labels: auto-pr
+    #     assignees: zinen
+        
     - name: Save logs as artifact
       if: ${{ always() }} # Perform this step no matter any errors
       uses: actions/upload-artifact@v2
