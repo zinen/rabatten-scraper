@@ -57,14 +57,14 @@ async function compareLast (filePath) {
 }
 
 async function run () {
-  for (const service of holderService) {
+  for (const service of holderService.getServices()) {
     if (service.name === 'test') { continue }
     try {
-      let result = await compareLast(service.scrapeOutPath)
+      let result = await compareLast(holderService[service].scrapeOutPath)
       result = JSON.stringify(result, null, 2)
-      await myUtil.writeFile('./logs/analyseLastScrape/' + service.name + '.json', result)
+      await myUtil.writeFile('./logs/analyseLastScrape/' + holderService[service].name + '.json', result)
     } catch (error) {
-      console.log(error.message)
+      console.log(error)
     }
   }
 }
