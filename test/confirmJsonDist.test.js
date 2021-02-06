@@ -1,15 +1,15 @@
 'use strict'
-const myFunc = require('./../modules/myFunc.js')
+const myUtil = require('./../modules/my-utilities.js')
 const assert = require('assert').strict
 
 let errorHappened = false
 async function run () {
   try {
-    const dirContent = await myFunc.readDir('./dist')
+    const dirContent = await myUtil.readDir('./dist')
     assert.notStrictEqual(dirContent.length, 0, `Expected content of ./dist to more than 0 files, result was ${dirContent.length}`)
     for (const file of dirContent) {
       try {
-        const fileContent = await myFunc.readFile(file)
+        const fileContent = await myUtil.readFile(file)
         let isValidJSON = true
         let result
         try { result = JSON.parse(fileContent) } catch { isValidJSON = false }
