@@ -43,6 +43,7 @@ async function doTestScrape (PupPool = null, masterData = null, returnDataToMain
   for (const dataPoint of testDataArray) {
     returnDataToMainThread('forbrugsforeningen', dataPoint)
   }
+  global.eventEmitter.emit('jobFinished', saveDataKey)
 }
 
 exports.doTestScrape = doTestScrape

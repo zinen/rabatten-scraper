@@ -70,7 +70,8 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
       }
       await delay(10000)
     }
-    console.log(`Logbuy: queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    console.log(`Logbuy: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
   async function goLogin (page) {

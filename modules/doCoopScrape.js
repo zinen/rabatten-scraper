@@ -117,6 +117,7 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
         returnDataToMainThread(saveDataKey, dataPoint)
       }
     }
+    global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
   async function fetchLink (url) {

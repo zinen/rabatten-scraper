@@ -10,6 +10,24 @@ const inquirer = require('inquirer')
 const { initPuppeteerPool } = require('./modules/my-puppeteer.js')
 const { holderService } = require('./settings.js')
 const startTime = new Date().toISOString()
+const EventEmitter = require('events')
+global.eventEmitter = new EventEmitter()
+const holder = {
+  jobsActive: 0,
+  jobQueueDone: []
+}
+
+global.eventEmitter.addListener('jobFinished', (jobInfo = null) => {
+  // Subtract a number from the job queue
+  holder.jobsActive--
+  if (jobInfo) {
+    holder.jobQueueDone.push(jobInfo)
+  }
+  if (holder.jobsActive === 0) {
+    // global.eventEmitter.removeListener('jobFinished')
+    poolWatcher()
+  }
+})
 
 // Returns a generic-pool instance
 const pool = initPuppeteerPool()
@@ -191,21 +209,18 @@ async function makeDistData () {
   }
 }
 
-const savedDataFromScrape = {}
+holder.savedDataFromScrape = {}
 async function saveFromScrape (service = 'empty', data = {}) {
   // If object does not contain the key of content of service, make an array before pushing data
-  if (!Object.prototype.hasOwnProperty.call(savedDataFromScrape, service)) {
-    savedDataFromScrape[service] = []
+  if (!Object.prototype.hasOwnProperty.call(holder.savedDataFromScrape, service)) {
+    holder.savedDataFromScrape[service] = []
   }
-  savedDataFromScrape[service].push(data)
+  holder.savedDataFromScrape[service].push(data)
   // As this function should get called during active scraps. Reset watchdog timer on call
-
-  // timeoutId.unref()
-  global.activityTimer.refresh()
+  if (holder.poolWatching) { holder.activityTimer.refresh() }
 }
 
 async function prepareSaveToFile (inputData = { empty: [] }) {
-  // console.log('inputData keys', Object.keys(inputData))
   for (const service of Object.keys(inputData)) {
     if (Object.prototype.hasOwnProperty.call(holderService, service)) {
       await saveToFile(inputData[service], holderService[service].scrapeOutPath)
@@ -215,35 +230,39 @@ async function prepareSaveToFile (inputData = { empty: [] }) {
   }
 }
 
-async function poolWatcher () {
-  global.activity = true
-  global.activityTimer = setTimeout(() => {
-    global.activity = false
-    // process.exit(1)
-  }, 30 * 1000)
-  // Fix: sometimes before a job is finished and before just before a new one is
-  //  pending this while loop just went false. Looking at generated data fixes this.
-  // let timeout = 10 // Timeout in seconds
-  // while (timeout > 0 && Object.keys(savedDataFromScrape).length === 0) {
-  //   await myUtil.delay(1000)
-  //   timeout--
-  // }
-  console.log('Pool watcher started, watching now.')
+holder.watchDogTimer = setTimeout(() => {
+  console.warn('watchDogTimer timeout starting gently stop of process')
+  poolWatcher()
+  setTimeout(() => {
+    console.error('watchDogTimer hard terminating process')
+    process.exit(1)
+  }, 2 * 60 * 1000)
+}, 28 * 60 * 1000) // 30 min is the longest run time allowed
 
-  while (pool.borrowed > 0 || pool.pending > 0 || global.activity) {
+async function poolWatcher () {
+  holder.activityTimer = setTimeout(() => {
+    console.error('Timeout ended process. Amount of jobs not done:', holder.jobsActive)
+    console.error('Registered finished jobs are:', holder.jobQueueDone)
+    holder.activityTimerTimeout = true
+  }, 60 * 1000)
+  console.log('Pool watcher started, watching now.')
+  holder.poolWatching = true
+
+  while ((pool.borrowed > 0 || pool.pending > 0) && !holder.activityTimerTimeout) {
     console.log(`Pool is still working. Active: ${pool.borrowed}, pending: ${pool.pending}`)
-    await myUtil.delay(17000)
+    await myUtil.delay(3000)
   }
-  if (global.watchDogTimerTimeout) {
-    console.error('Watchdog timer timeout; forcing pool draining now')
+  if (holder.activityTimerTimeout) {
+    console.error('Watchdog timer timeout; forcing pool draining now.')
   } else {
     console.log('Puppeteer pool is not in use anymore. Draining pool now.')
-    clearTimeout(global.watchDogTimer)
+    clearTimeout(holder.activityTimer)
   }
   pool.drain().then(() => pool.clear())
-  await prepareSaveToFile(savedDataFromScrape)
-  if (makeDistOnDone) { makeDistData() }
+  await prepareSaveToFile(holder.savedDataFromScrape)
+  if (holder.makeDistOnDone) { makeDistData() }
   console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
+  clearTimeout(holder.watchDogTimer)
 }
 
 async function saveToFile (input, filePath) {
@@ -277,7 +296,6 @@ async function runInquirer () {
       name: 'scrapeService',
       message: 'Where to scrape data from?',
       choices: holderService.getServices(),
-      // [holderService[1].name, holderService[2].name, holderService[3].name, holderService[4].name, 'All'],
       filter: function (val) {
         return val.toLowerCase()
       },
@@ -355,7 +373,6 @@ async function runInquirer () {
         initAeld(answers.scrapeMasterData)
         break
     }
-    poolWatcher()
   } else {
     throw new Error('No choices matched anything')
   }
@@ -365,35 +382,38 @@ async function initForb (masterData = true) {
   const filePath = holderService.forbrugsforeningen.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
   doForbrugScrape(pool, lastScrapedData, saveFromScrape, 'forbrugsforeningen')
+  holder.jobsActive++
 }
 
 async function initLogb (masterData = true) {
   const filePath = holderService.logbuy.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
   doLogbuyScrape(pool, lastScrapedData, saveFromScrape, 'logbuy')
+  holder.jobsActive++
 }
 
 async function initCoop (masterData = true) {
   const filePath = holderService.coop.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
   doCoopScrape(pool, lastScrapedData, saveFromScrape, 'coop')
+  holder.jobsActive++
 }
 
 async function initAeld (masterData = true) {
   const filePath = holderService.aeldresagen.scrapeOutPath
   const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
   doAeldreScrape(pool, lastScrapedData, saveFromScrape, 'aeldresagen')
+  holder.jobsActive++
 }
 
-let makeDistOnDone = false
+holder.makeDistOnDone = false
 async function runAll (masterData = true) {
   console.log(new Date().toISOString() + ' Running all scrapes now')
-  makeDistOnDone = true
+  holder.makeDistOnDone = true
   initForb()
   initLogb()
   initCoop()
   initAeld()
-  poolWatcher()
 }
 
 // Decide how to run code
@@ -417,10 +437,9 @@ if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
       break
     default:
   }
-  poolWatcher()
 } else if (process.argv.length > 2) {
   console.log(
-    `Second argument did not match a known option. Try:
+`Second argument did not match a known option. Try:
     all - to scrape all and make new distribution files
     dist - to make new distribution files from latest scrapes
     forbrugsforeningen - to scrape forbrugsforeningen
@@ -435,5 +454,4 @@ or no argument at all the start inquire.`
   runAll()
 } else {
   runInquirer()
-  // console.log(holderService.getServiceScrapeObject('name'))
 }

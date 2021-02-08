@@ -72,6 +72,7 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
       await delay(10000)
     }
     console.log(`Forbrugsforeningen: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
   // Debug: force test specific sites
