@@ -27,31 +27,31 @@ exports.delayErr = delayErr
 /**
  * Write/overwrite data to file.
  * If the folder does not exist it gets created.
- * @param {string} inFileName - Filename to write to.
+ * @param {string} fileContent - Filename to write to.
  * @param {string} inContent - Content to write to the file.
  */
-async function writeFile (inFileName, inContent) {
-  if (typeof inFileName !== 'string') { throw new TypeError('String file name is missing') }
+async function writeFile (fileContent, inContent) {
+  if (typeof fileContent !== 'string') { throw new TypeError('String file name is missing') }
   if (typeof inContent !== 'string') { throw new TypeError('String content is missing') }
   await new Promise(resolve => {
     // First check if the folder exists
     // Replace \\ with / in the file path
-    const folderPath = inFileName.replace(/\\/g, '/').split('/').slice(0, -1).join('/') + '/'
-    fs.access(folderPath, fs.constants.F_OK, (err) => {
+    const filePath = fileContent.replace(/\\/g, '/').split('/').slice(0, -1).join('/') + '/'
+    fs.access(filePath, fs.constants.F_OK, (err) => {
       if (err) {
-        fs.mkdirSync(folderPath, { recursive: true })
+        fs.mkdirSync(filePath, { recursive: true })
       }
       resolve()
     })
   })
   // Then save the file
   return new Promise((resolve, reject) => {
-    fs.writeFile(inFileName, inContent, 'utf8', function (err) {
+    fs.writeFile(fileContent, inContent, 'utf8', function (err) {
       if (err) {
         console.warn('\x1b[31mAn error occurred while writing to file.\x1b[0m')
         reject(err)
       } else {
-        console.log('\x1b[32mData written to file: "' + inFileName + '"\x1b[0m')
+        console.log('\x1b[32mData written to file: "' + fileContent + '"\x1b[0m')
         resolve()
       }
     })
@@ -61,12 +61,13 @@ exports.writeFile = writeFile
 
 /**
    * Reads file content.
-   * @param {string} file - File to read.
+   * @param {string} filePath - File to read.
    * @returns {Promise<string>} - Content of file as string.
    */
-async function readFile (file) {
+async function readFile (filePath) {
+  if (typeof filePath !== 'string') { throw new TypeError('String filePath is missing') }
   return new Promise((resolve, reject) => {
-    fs.readFile(file, 'utf8', (err, data) => {
+    fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
         reject(err)
       }
@@ -82,6 +83,7 @@ exports.readFile = readFile
    * @returns {Promise} - Resolves if delete successful
    */
 function deleteFile (filePath) {
+  if (typeof filePath !== 'string') { throw new TypeError('String filePath is missing') }
   return new Promise((resolve, reject) => {
     fs.unlink(filePath, (err) => {
       if (err) {
@@ -100,6 +102,7 @@ exports.deleteFile = deleteFile
    * @returns {Promise<Array>} - Content of dir as full path in a array.
    */
 function readDir (filePath) {
+  if (typeof filePath !== 'string') { throw new TypeError(`String filePath is missing, ${filePath}`) }
   return new Promise((resolve, reject) => {
     fs.readdir(filePath, 'utf8', (err, data) => {
       if (err) {
@@ -119,6 +122,7 @@ exports.readDir = readDir
  * @returns {Promise<string>} Content of the file or null if empty folder.
  */
 async function lastFileContent (filePath) {
+  if (typeof filePath !== 'string') { throw new TypeError('String filePath is missing') }
   const fileContent = await readDir(filePath)
   if (fileContent.length === 0) { return null }
   const lastFile = fileContent[fileContent.length - 1]
@@ -126,6 +130,25 @@ async function lastFileContent (filePath) {
   return lastFileContent
 }
 exports.lastFileContent = lastFileContent
+
+/**
+ * Deletes content of a folder.
+ * @param {string} filePath File path to folder.
+ * @returns {Promise<array>} Content of the folder. Empty if all files was deleted.
+ */
+async function clearFolder (filePath) {
+  if (typeof filePath !== 'string') { throw new TypeError('String filePath is missing') }
+  try {
+    const content = await readDir(filePath)
+    content.forEach(async (element) => {
+      await deleteFile(element)
+    })
+    return true
+  } catch (error) {
+    return false
+  }
+}
+exports.clearFolder = clearFolder
 
 /**
  * Evaluate a fair number to divide the input into, for debugging loops

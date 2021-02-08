@@ -1,5 +1,11 @@
 {
     "cSpell.words": [
-        "rabatten"
-    ]
+        "Sagen",
+        "ældre",
+        "rabatten",
+        "Ældre"
+    ],
+    "cSpell.ignoreWords": [
+    ],
+    "standard.autoFixOnSave": true
 }

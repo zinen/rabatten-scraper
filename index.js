@@ -3,13 +3,34 @@ const { doForbrugScrape } = require('./modules/doForbrugScrape.js')
 const { doLogbuyScrape } = require('./modules/doLogbuyScrape.js')
 const { doCoopScrape } = require('./modules/doCoopScrape.js')
 const { doAeldreScrape } = require('./modules/doAeldreScrape.js')
-const myFunc = require('./modules/myFunc.js')
-// const { lastFileContent, readDir, readFile } = require('./modules/myFunc.js')
+// const { doTestScrape } = require('./modules/doTestScrape.js')
+const myUtil = require('./utils/my-utilities.js')
 require('dotenv').config()
 const inquirer = require('inquirer')
+const { initPuppeteerPool } = require('./modules/my-puppeteer.js')
 const { holderService } = require('./settings.js')
+const startTime = new Date().toISOString()
+const EventEmitter = require('events')
+global.eventEmitter = new EventEmitter()
+const holder = {
+  jobsActive: 0,
+  jobQueueDone: []
+}
 
-let browserHolder
+global.eventEmitter.addListener('jobFinished', (jobInfo = null) => {
+  // Subtract a number from the job queue
+  holder.jobsActive--
+  if (jobInfo) {
+    holder.jobQueueDone.push(jobInfo)
+  }
+  if (holder.jobsActive === 0) {
+    // global.eventEmitter.removeListener('jobFinished')
+    poolWatcher()
+  }
+})
+
+// Returns a generic-pool instance
+const pool = initPuppeteerPool()
 
 /**
  * Analyse the last last file in dir, sorted by name.
@@ -17,7 +38,7 @@ let browserHolder
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function analyseData (filePath) {
-  const data = JSON.parse(await myFunc.lastFileContent(filePath))
+  const data = JSON.parse(await myUtil.lastFileContent(filePath))
   console.log('Length of data: ' + data.length)
   const lengthData = data.length
   let i1 = 0
@@ -86,7 +107,7 @@ async function analyseData (filePath) {
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function returnErrors (filePath) {
-  const data = JSON.parse(await myFunc.lastFileContent(filePath))
+  const data = JSON.parse(await myUtil.lastFileContent(filePath))
   const newData = []
   for (const point of data) {
     if ((point.err2 || point.err1 || point.err3 || point.err4) && !point.remoteLink) {
@@ -105,11 +126,11 @@ async function returnErrors (filePath) {
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function compareLast (filePath) {
-  const dirContent = await myFunc.readDir(filePath)
+  const dirContent = await myUtil.readDir(filePath)
   if (dirContent.length > 1) {
     console.log('Comparing 2 newest file content now')
-    const newestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 1]))
-    const oldestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 2]))
+    const newestData = JSON.parse(await myUtil.readFile(dirContent[dirContent.length - 1]))
+    const oldestData = JSON.parse(await myUtil.readFile(dirContent[dirContent.length - 2]))
     const newestLength = newestData.length
     const oldestLength = oldestData.length
     const newLinkArray = []
@@ -140,9 +161,9 @@ async function compareLast (filePath) {
       removedServices: oldestData,
       newLink: newLinkArray,
       _analyse: {
-        oldFile: dirContent[dirContent.length - 1],
+        oldFile: dirContent[dirContent.length - 2],
         oldFileLength: oldestLength,
-        newFile: dirContent[dirContent.length - 2],
+        newFile: dirContent[dirContent.length - 1],
         newFileLength: newestLength,
         removedLength: oldestData.length,
         addedLength: newestData.length,
@@ -158,12 +179,12 @@ async function makeDistData () {
   // Format: Array, containing arrays of ..
   // [Remote link, company name, discount amount, local link]
   const outputFilePath = './dist/'
-  for await (const service of holderService) {
+  for await (const service of holderService.getServices()) {
     // Skip test part of holderService
     if (service.name === 'test') { continue }
     try {
       const holder = []
-      const lastScrapedData = JSON.parse(await myFunc.lastFileContent(service.scrapeOutPath))
+      const lastScrapedData = JSON.parse(await myUtil.lastFileContent(holderService[service].scrapeOutPath))
       for await (const dataPoint of lastScrapedData) {
         if (dataPoint.name && dataPoint.localLink && dataPoint.discount && dataPoint.remoteLink) {
           let URL = dataPoint.remoteLink.replace(/^\w+:?\/\/(?:www\.)?\.?([^/]+)\/?.*$/, '$1').toLowerCase()
@@ -179,7 +200,7 @@ async function makeDistData () {
           holder.push([URL, dataPoint.name, dataPoint.discount, dataPoint.localLink])
         }
       }
-      await myFunc.writeFile(outputFilePath + service.distOutFile, JSON.stringify(holder))
+      await myUtil.writeFile(outputFilePath + holderService[service].distOutFile, JSON.stringify(holder))
     } catch (error) {
       console.log('--Error---')
       console.log(error)
@@ -188,89 +209,142 @@ async function makeDistData () {
   }
 }
 
-var questions = [
-  {
-    type: 'list',
-    name: 'action',
-    message: 'Action to perform?',
-    choices: ['Scrape data from web', 'Analyse earlier data scraped', 'Build distribution']
-  },
-  {
-    type: 'list',
-    name: 'scrapeService',
-    message: 'Where to scrape data from?',
-    choices: [holderService[1].name, holderService[2].name, holderService[3].name, holderService[4].name, 'All'],
-    filter: function (val) {
-      return val.toLowerCase()
-    },
-    when: async function (answers) {
-      return answers.action === 'Scrape data from web'
-    }
-  },
-  {
-    type: 'confirm',
-    name: 'scrapeMasterData',
-    message: 'Allow the scrape to rely on earlier scrapes result?',
-    default: true,
-    when: async function (answers) {
-      return answers.action === 'Scrape data from web'
-    }
-  },
-  {
-    type: 'list',
-    name: 'analyseAction',
-    message: 'Which analyse to run?',
-    choices: ['Look though all data', 'Return only data with errors', 'Compare with last'],
-    when: function (answers) {
-      return answers.action === 'Analyse earlier data scraped'
-    }
-  },
-  {
-    type: 'list',
-    name: 'analyseService',
-    message: 'Where to analyse data from?',
-    choices: [
-      { name: holderService[0].name, value: holderService[0].scrapeOutPath },
-      { name: holderService[1].name, value: holderService[1].scrapeOutPath },
-      { name: holderService[2].name, value: holderService[2].scrapeOutPath },
-      { name: holderService[3].name, value: holderService[3].scrapeOutPath },
-      { name: holderService[4].name, value: holderService[4].scrapeOutPath }
-    ],
-    when: async function (answers) {
-      return answers.action === 'Analyse earlier data scraped'
-    }
+holder.savedDataFromScrape = {}
+async function saveFromScrape (service = 'empty', data = {}) {
+  // If object does not contain the key of content of service, make an array before pushing data
+  if (!Object.prototype.hasOwnProperty.call(holder.savedDataFromScrape, service)) {
+    holder.savedDataFromScrape[service] = []
   }
-]
+  holder.savedDataFromScrape[service].push(data)
+  // As this function should get called during active scraps. Reset watchdog timer on call
+  if (holder.poolWatching) { holder.activityTimer.refresh() }
+}
 
-async function saveScrape (input, filePath) {
-  if (input) {
-    const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
-    const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
-    const dateString = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
-    const setFilename = filePath + dateString + '.json'
-    await myFunc.writeFile(setFilename, jsonContent)
-  } else {
-    console.log('No data to save to ' + filePath)
+async function prepareSaveToFile (inputData = { empty: [] }) {
+  for (const service of Object.keys(inputData)) {
+    if (Object.prototype.hasOwnProperty.call(holderService, service)) {
+      await saveToFile(inputData[service], holderService[service].scrapeOutPath)
+    } else {
+      await saveToFile(inputData[service], holderService.test.scrapeOutPath)
+    }
   }
 }
 
-async function run () {
+holder.watchdogTimer = setTimeout(() => {
+  console.warn('watchdogTimer timeout starting gently stop of process')
+  poolWatcher()
+  setTimeout(() => {
+    console.error('watchdogTimer hard terminating process')
+    process.exit(1)
+  }, 2 * 60 * 1000)
+}, 28 * 60 * 1000) // 30 min is the longest run time allowed
+// Unref makes node process end even if this timer has not fired
+holder.watchdogTimer.unref()
+
+async function poolWatcher () {
+  holder.activityTimer = setTimeout(() => {
+    console.error('Timeout ended process. Amount of jobs not done:', holder.jobsActive)
+    console.error('Registered finished jobs are:', holder.jobQueueDone)
+    holder.activityTimerTimeout = true
+  }, 60 * 1000)
+  console.log('Pool watcher started, watching now.')
+  holder.poolWatching = true
+
+  while ((pool.borrowed > 0 || pool.pending > 0) && !holder.activityTimerTimeout) {
+    console.log(`Pool is still working. Active: ${pool.borrowed}, pending: ${pool.pending}`)
+    await myUtil.delay(3000)
+  }
+  if (holder.activityTimerTimeout) {
+    console.error('Watchdog timer timeout; forcing pool draining now.')
+  } else {
+    console.log('Puppeteer pool is not in use anymore. Draining pool now.')
+    clearTimeout(holder.activityTimer)
+  }
+  pool.drain().then(() => pool.clear())
+  await prepareSaveToFile(holder.savedDataFromScrape)
+  if (holder.makeDistOnDone) { makeDistData() }
+  console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
+}
+
+async function saveToFile (input, filePath) {
+  try {
+    if (input) {
+      const date = new Date().toISOString() // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
+      const jsonContent = JSON.stringify(input, null, 2) // Convert to JSON
+      const dateString = date.replace(/:/g, '').split('.')[0] // Get UTC timestamp e.g. 2019-11-13T114410 for scarped at 12:44:10 23'th november 2019
+      const setFilename = filePath + dateString + '.json'
+      await myUtil.writeFile(setFilename, jsonContent)
+    } else {
+      console.log('No data to save to ' + filePath)
+    }
+  } catch (error) {
+    console.log(error)
+    console.log('Data input', input)
+    console.log('filePath input', filePath)
+  }
+}
+
+async function runInquirer () {
+  const questions = [
+    {
+      type: 'list',
+      name: 'action',
+      message: 'Action to perform?',
+      choices: ['Scrape data from web', 'Analyse earlier data scraped', 'Build distribution']
+    },
+    {
+      type: 'list',
+      name: 'scrapeService',
+      message: 'Where to scrape data from?',
+      choices: holderService.getServices(),
+      filter: function (val) {
+        return val.toLowerCase()
+      },
+      when: async function (answers) {
+        return answers.action === 'Scrape data from web'
+      }
+    },
+    {
+      type: 'confirm',
+      name: 'scrapeMasterData',
+      message: 'Allow the scrape to rely on earlier scrapes result?',
+      default: true,
+      when: async function (answers) {
+        return answers.action === 'Scrape data from web'
+      }
+    },
+    {
+      type: 'list',
+      name: 'analyseAction',
+      message: 'Which analyse to run?',
+      choices: ['Look though all data', 'Return only data with errors', 'Compare with last'],
+      when: function (answers) {
+        return answers.action === 'Analyse earlier data scraped'
+      }
+    },
+    {
+      type: 'list',
+      name: 'analyseService',
+      message: 'Where to analyse data from?',
+      choices: holderService.getServiceObject('scrapeOutPath', null),
+      when: async function (answers) {
+        return answers.action === 'Analyse earlier data scraped'
+      }
+    }
+  ]
   const answers = await inquirer.prompt(questions)
   // const answers =
   // {
   //   action: 'Scrape data from web',
-  //   scrapeService: 'coop',
-  //   scrapeMasterData: false
+  //   scrapeService: 'aeldresagen',
+  //   scrapeMasterData: true
   // }
 
-  console.log(JSON.stringify(answers, null, '  '))
-  const startTime = new Date().toISOString()
-  let filePath = './scraped-data/test/'
-  let result
+  console.log('inquirer answers noted:', JSON.stringify(answers, null, '  '))
   if (answers.action === 'Build distribution') {
     makeDistData()
-    return
   } else if (answers.action === 'Analyse earlier data scraped') {
+    let result
     switch (answers.analyseAction) {
       case 'Look though all data':
         result = await analyseData(answers.analyseService)
@@ -282,84 +356,103 @@ async function run () {
         result = await compareLast(answers.analyseService)
         break
     }
+    saveToFile(result, './scraped-data/test/')
   } else if (answers.scrapeService === 'all') {
     runAll(answers.scrapeMasterData)
-    return
   } else if (answers.action === 'Scrape data from web') {
-    let lastScrapedData
-    if (answers.scrapeService === 'forbrugsforeningen') {
-      filePath = './scraped-data/forb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doForbrugScrape(browserHolder, lastScrapedData)
-    } else if (answers.scrapeService === 'logbuy') {
-      filePath = './scraped-data/logb/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doLogbuyScrape(browserHolder, lastScrapedData)
-    } else if (answers.scrapeService === 'coop') {
-      filePath = './scraped-data/coop/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doCoopScrape(browserHolder, lastScrapedData)
-    } else if (answers.scrapeService === 'aeldresagen') {
-      filePath = './scraped-data/aeld/'
-      lastScrapedData = answers.scrapeMasterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-      result = await doAeldreScrape(browserHolder, lastScrapedData)
+    switch (answers.scrapeService) {
+      case 'forbrugsforeningen':
+        initForb(answers.scrapeMasterData)
+        break
+      case 'logbuy':
+        initLogb(answers.scrapeMasterData)
+        break
+      case 'coop':
+        initCoop(answers.scrapeMasterData)
+        break
+      case 'aeldresagen':
+        initAeld(answers.scrapeMasterData)
+        break
     }
   } else {
     throw new Error('No choices matched anything')
   }
-
-  saveScrape(result, filePath)
-  // Print to console both start and finish time
-  console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
-}
-// init()
-
-async function initForb (masterData) {
-  const filePath = './scraped-data/forb/'
-  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doForbrugScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
 }
 
-async function initLogb (masterData) {
-  const filePath = './scraped-data/logb/'
-  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doLogbuyScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+async function initForb (masterData = true) {
+  const filePath = holderService.forbrugsforeningen.scrapeOutPath
+  const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
+  doForbrugScrape(pool, lastScrapedData, saveFromScrape, 'forbrugsforeningen')
+  holder.jobsActive++
 }
 
-async function initCoop (masterData) {
-  const filePath = './scraped-data/coop/'
-  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doCoopScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+async function initLogb (masterData = true) {
+  const filePath = holderService.logbuy.scrapeOutPath
+  const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
+  doLogbuyScrape(pool, lastScrapedData, saveFromScrape, 'logbuy')
+  holder.jobsActive++
 }
 
-async function initAeld (masterData) {
-  const filePath = './scraped-data/aeld/'
-  const lastScrapedData = masterData ? JSON.parse(await myFunc.lastFileContent(filePath)) : null
-  const result = await doAeldreScrape(browserHolder, lastScrapedData)
-  await saveScrape(result, filePath)
+async function initCoop (masterData = true) {
+  const filePath = holderService.coop.scrapeOutPath
+  const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
+  doCoopScrape(pool, lastScrapedData, saveFromScrape, 'coop')
+  holder.jobsActive++
 }
 
+async function initAeld (masterData = true) {
+  const filePath = holderService.aeldresagen.scrapeOutPath
+  const lastScrapedData = masterData ? JSON.parse(await myUtil.lastFileContent(filePath)) : null
+  doAeldreScrape(pool, lastScrapedData, saveFromScrape, 'aeldresagen')
+  holder.jobsActive++
+}
+
+holder.makeDistOnDone = false
 async function runAll (masterData = true) {
   console.log(new Date().toISOString() + ' Running all scrapes now')
-  Promise.all(
-    [
-      initForb(masterData),
-      initLogb(masterData),
-      initCoop(masterData),
-      initAeld(masterData)
-    ]
-  ).then(() => {
-    makeDistData()
-    console.log(new Date().toISOString() + ' Running all scrapes ended')
-  })
+  holder.makeDistOnDone = true
+  initForb()
+  initLogb()
+  initCoop()
+  initAeld()
 }
 
 // Decide how to run code
 if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'all') {
   runAll()
+} else if (process.argv.length > 2 && process.argv[2].toLowerCase() === 'dist') {
+  makeDistData()
+} else if (process.argv.length > 2 && holderService.getServices().includes(process.argv[2].toLowerCase())) {
+  switch (process.argv[2].toLowerCase()) {
+    case 'forbrugsforeningen':
+      initForb()
+      break
+    case 'logbuy':
+      initLogb()
+      break
+    case 'coop':
+      initCoop()
+      break
+    case 'aeldresagen':
+      initAeld()
+      break
+    default:
+  }
+} else if (process.argv.length > 2) {
+  console.log(
+`Second argument did not match a known option. Try:
+    all - to scrape all and make new distribution files
+    dist - to make new distribution files from latest scrapes
+    forbrugsforeningen - to scrape forbrugsforeningen
+    logbuy - to scrape logbuy
+    coop - to scrape coop
+    aeldresagen - to scrape aeldresagen
+or no argument at all the start inquire.`
+  )
+  process.exit(1)
+} else if (process.env.CI === true) {
+  // Make sure CI runs don't require user input even with no arguments
+  runAll()
 } else {
-  run()
+  runInquirer()
 }

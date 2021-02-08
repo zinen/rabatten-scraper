@@ -1,18 +1,43 @@
 name: Scrape all sites and make a pull request
 
 on:
-#   push:
-#     branches: [ main ]
-#   pull_request:
-#     branches: [ main ]
-#     paths: 
-#       - .github/workflows/scrape-all-to-pr.js.yml
+  # push:
+  #   branches: [ main ]
+  # pull_request:
+  #   branches: [ main ]
+  #   paths: 
+  #     - .github/workflows/scrape-all-to-pr.js.yml
+  workflow_dispatch:
 
   schedule:
     - cron:  '15 2 3 * *'
 
 jobs:
+
   scrape:
+    strategy:
+      # Don't cancel the other jobs if one fails
+      fail-fast: false
+      matrix:
+        include: 
+            # Much of this matches content in ./settings.js
+          - discount-service: 'forbrugsforeningen'
+            store-scrapes: './scraped-data/forb'
+            artifact-name: 'forbrugsforeningen-artifact'
+            artifact-name-failure: 'forbrugsforeningen-npm-logs'
+          - discount-service: 'logbuy'
+            store-scrapes: './scraped-data/logb'
+            artifact-name: 'logbuy-artifact'
+            artifact-name-failure: 'logbuy-npm-logs'
+          - discount-service: 'coop'
+            store-scrapes: './scraped-data/coop'
+            artifact-name: 'coop-artifact'
+            artifact-name-failure: 'coop-npm-logs'
+          - discount-service: 'aeldresagen'
+            store-scrapes: './scraped-data/aeld'
+            artifact-name: 'aeldresagen-artifact'
+            artifact-name-failure: 'aeldresagen-npm-logs'
+            
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
@@ -29,26 +54,73 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
-    - run: npm ci
-    - run: npm run index all
-    - run: npm run analyseLastScrape
+    - run: |
+        npm ci
+        node . ${{ matrix.discount-service }}
+
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.artifact-name-failure}}
+        path: |
+          /home/runner/.npm/_logs/*
+
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.artifact-name}}
+        path: ${{ matrix.store-scrapes}}
+        retention-days: 1
+
+  make-dist:
+    if: ${{ always() }} # Perform this step no matter any errors
+    needs: scrape
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v2
+
+    - name: get artifact from forbrugsforeningen scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: forbrugsforeningen-artifact
+        path: ./scraped-data/forb
+
+    - name: get artifact from logbuy scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: logbuy-artifact
+        path: ./scraped-data/logb
+
+    - name: get artifact from coop scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: coop-artifact
+        path: ./scraped-data/coop
+
+    - name: get artifact from aeldresagen scrape run
+      uses: actions/download-artifact@master
+      with:
+        name: aeldresagen-artifact
+        path: ./scraped-data/aeld
+
+
+    - name: Node install and run
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - run: |
+        npm ci
+        node . dist
+        npm run analyseLastScrape
 
     - name: Collect log files to make body for pull request
       id: get-pr-body
       run: |
         outputFile=./logs/report.log
-        # Delete and make a new file
-        rm -f $outputFile
-        touch $outputFile
-        # Loop output files from analyse from last scrape
-        for inputFile in `find ./logs/analyseLastScrape/ -type f`
-        do
-          service=$(basename $inputFile .json)
-          countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-          countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-          countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-          echo " - **$service** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
-        done
+        # Run script
+        node ./utils/make-auto-pr-body.js $outputFile
         cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
@@ -79,17 +151,9 @@ jobs:
           [1]: https://github.com/peter-evans/create-pull-request
         labels: auto-pr
         assignees: zinen
-
-    - name: Save npm failure logs as artifact
-      if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
-      with:
-        name: npm-logs
-        path: |
-          /home/runner/.npm/_logs/*
-  
+        
     - name: Save logs as artifact
-      if: ${{ always() }} # Perform this step no matter any errors
+      if: ${{ failure() }} # Perform this step if some error happened
       uses: actions/upload-artifact@v2
       with:
         name: logs

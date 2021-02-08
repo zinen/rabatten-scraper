@@ -5,9 +5,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "watchFile:index": "nodemon ./index.js",
-    "index all": "node ./index.js all",
     "index": "node ./index.js",
+    "index all": "node ./index.js all",
     "analyseLastScrape": "node ./test/analyseLastScrape.test.js",
     "test": "node ./test/confirmJsonDist.test.js",
     "release": "release-it"
@@ -26,6 +25,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.5",
     "dotenv": "^8.2.0",
+    "generic-pool": "^3.7.1",
     "node-fetch": "^2.6.1",
     "puppeteer": "^5.5.0"
   },
@@ -38,9 +38,7 @@
       "*.json"
     ]
   },
-  "optionalDependencies": {
-    "nodemon": "^2.0.7"
-  },
+  "optionalDependencies": {},
   "release-it": {
     "github": {
       "release": true

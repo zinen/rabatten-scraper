@@ -1,5 +1,5 @@
 'use strict'
-const myFunc = require('./../modules/myFunc.js')
+const myUtil = require('../utils/my-utilities.js')
 const { holderService } = require('./../settings.js')
 
 /**
@@ -8,13 +8,13 @@ const { holderService } = require('./../settings.js')
  * @returns {Promise<Object>} Content of the file after analyses.
  */
 async function compareLast (filePath) {
-  const dirContent = await myFunc.readDir(filePath)
+  const dirContent = await myUtil.readDir(filePath)
   if (dirContent.length <= 2) {
     throw new Error(`Comparing files in ${filePath} require multiple files, ${dirContent.length} files was found`)
   }
   console.log(`Comparing content of 2 newest files now. Newest: ${dirContent[dirContent.length - 1]} Older: ${dirContent[dirContent.length - 2]}`)
-  const newestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 1]))
-  const oldestData = JSON.parse(await myFunc.readFile(dirContent[dirContent.length - 2]))
+  const newestData = JSON.parse(await myUtil.readFile(dirContent[dirContent.length - 1]))
+  const oldestData = JSON.parse(await myUtil.readFile(dirContent[dirContent.length - 2]))
   const newestLength = newestData.length
   const oldestLength = oldestData.length
   const newLinkArray = []
@@ -45,9 +45,9 @@ async function compareLast (filePath) {
     removedServices: oldestData,
     changedServices: newLinkArray,
     _analyse: {
-      oldFile: dirContent[dirContent.length - 1],
+      oldFile: dirContent[dirContent.length - 2],
       countOldFile: oldestLength,
-      newFile: dirContent[dirContent.length - 2],
+      newFile: dirContent[dirContent.length - 1],
       countNewFile: newestLength,
       countRemoved: oldestData.length,
       countAdded: newestData.length,
@@ -57,14 +57,16 @@ async function compareLast (filePath) {
 }
 
 async function run () {
-  for (const service of holderService) {
+  await myUtil.clearFolder('./logs/analyseLastScrape/')
+  for (const service of holderService.getServices()) {
     if (service.name === 'test') { continue }
     try {
-      let result = await compareLast(service.scrapeOutPath)
+      let result = await compareLast(holderService[service].scrapeOutPath)
+      result._analyse.name = holderService[service].name
       result = JSON.stringify(result, null, 2)
-      await myFunc.writeFile('./logs/analyseLastScrape/' + service.name + '.json', result)
+      await myUtil.writeFile('./logs/analyseLastScrape/' + service + '.json', result)
     } catch (error) {
-      console.log(error.message)
+      console.log(error)
     }
   }
 }
