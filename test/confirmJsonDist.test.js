@@ -1,5 +1,5 @@
 'use strict'
-const myUtil = require('./../modules/my-utilities.js')
+const myUtil = require('./../utils/my-utilities.js')
 const assert = require('assert').strict
 
 let errorHappened = false

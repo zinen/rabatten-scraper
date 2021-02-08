@@ -1,5 +1,5 @@
 'use strict'
-const myUtil = require('./../modules/my-utilities.js')
+const myUtil = require('../utils/my-utilities.js')
 const { holderService } = require('./../settings.js')
 
 /**
@@ -45,9 +45,9 @@ async function compareLast (filePath) {
     removedServices: oldestData,
     changedServices: newLinkArray,
     _analyse: {
-      oldFile: dirContent[dirContent.length - 1],
+      oldFile: dirContent[dirContent.length - 2],
       countOldFile: oldestLength,
-      newFile: dirContent[dirContent.length - 2],
+      newFile: dirContent[dirContent.length - 1],
       countNewFile: newestLength,
       countRemoved: oldestData.length,
       countAdded: newestData.length,
@@ -57,12 +57,14 @@ async function compareLast (filePath) {
 }
 
 async function run () {
+  await myUtil.clearFolder('./logs/analyseLastScrape/')
   for (const service of holderService.getServices()) {
     if (service.name === 'test') { continue }
     try {
       let result = await compareLast(holderService[service].scrapeOutPath)
+      result._analyse.name = holderService[service].name
       result = JSON.stringify(result, null, 2)
-      await myUtil.writeFile('./logs/analyseLastScrape/' + holderService[service].name + '.json', result)
+      await myUtil.writeFile('./logs/analyseLastScrape/' + service + '.json', result)
     } catch (error) {
       console.log(error)
     }
