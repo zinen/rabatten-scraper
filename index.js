@@ -230,14 +230,16 @@ async function prepareSaveToFile (inputData = { empty: [] }) {
   }
 }
 
-holder.watchDogTimer = setTimeout(() => {
-  console.warn('watchDogTimer timeout starting gently stop of process')
+holder.watchdogTimer = setTimeout(() => {
+  console.warn('watchdogTimer timeout starting gently stop of process')
   poolWatcher()
   setTimeout(() => {
-    console.error('watchDogTimer hard terminating process')
+    console.error('watchdogTimer hard terminating process')
     process.exit(1)
   }, 2 * 60 * 1000)
 }, 28 * 60 * 1000) // 30 min is the longest run time allowed
+// Unref makes node process end even if this timer has not fired
+holder.watchdogTimer.unref()
 
 async function poolWatcher () {
   holder.activityTimer = setTimeout(() => {
@@ -262,7 +264,6 @@ async function poolWatcher () {
   await prepareSaveToFile(holder.savedDataFromScrape)
   if (holder.makeDistOnDone) { makeDistData() }
   console.log('Script ran from ' + startTime + ' to ' + new Date().toISOString())
-  clearTimeout(holder.watchDogTimer)
 }
 
 async function saveToFile (input, filePath) {
