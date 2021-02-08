@@ -10,38 +10,33 @@ on:
 
   schedule:
     - cron:  '15 2 3 * *'
+    
 
 jobs:
-  scrape-forbrugsforeningen:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout 
-      uses: actions/checkout@v2
-      
-    - name: Node install and run
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - run: |
-        npm ci
-        node . forbrugsforeningen
 
-    - name: Save npm failure logs as artifact
-      if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
-      with:
-        name: forbrugsforeningen-npm-logs
-        path: |
-          /home/runner/.npm/_logs/*
-
-    - name: temporarily save scrape data to artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: forbrugsforeningen-artifact
-        path: ./scraped-data/forb
-        retention-days: 1
-
-  scrape-logbuy:
+  scrape:
+    strategy:
+      # Don't cancel the other jobs if one fails
+      fail-fast: false
+      matrix:
+        include: 
+          - discount-service: 'forbrugsforeningen'
+            store-scrapes: './scraped-data/forb'
+            artifact-name: 'forbrugsforeningen-artifact'
+            artifact-name-failure: 'forbrugsforeningen-npm-logs'
+          - discount-service: 'logbuy'
+            store-scrapes: './scraped-data/logb'
+            artifact-name: 'logbuy-artifact'
+            artifact-name-failure: 'logbuy-npm-logs'
+          - discount-service: 'coop'
+            store-scrapes: './scraped-data/coop'
+            artifact-name: 'coop-artifact'
+            artifact-name-failure: 'coop-npm-logs'
+          - discount-service: 'aeldresagen'
+            store-scrapes: './scraped-data/aeld'
+            artifact-name: 'aeldresagen-artifact'
+            artifact-name-failure: 'aeldresagen-npm-logs'
+            
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
@@ -60,83 +55,26 @@ jobs:
         node-version: '12.x'
     - run: |
         npm ci
-        node . logbuy
+        node . ${{ matrix.discount-service }}
 
     - name: Save npm failure logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
       uses: actions/upload-artifact@v2
       with:
-        name: logbuy-npm-logs
+        name: ${{ matrix.artifact-name-failure}}
         path: |
           /home/runner/.npm/_logs/*
 
     - name: temporarily save scrape data to artifact
       uses: actions/upload-artifact@v2
       with:
-        name: logbuy-artifact
-        path: ./scraped-data/logb
-        retention-days: 1
-
-  scrape-coop:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout 
-      uses: actions/checkout@v2
-
-    - name: Node install and run
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - run: |
-        npm ci
-        node . coop
-
-    - name: Save npm failure logs as artifact
-      if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
-      with:
-        name: coop-npm-logs
-        path: |
-          /home/runner/.npm/_logs/*
-
-    - name: temporarily save scrape data to artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: coop-artifact
-        path: ./scraped-data/coop
-        retention-days: 1
-
-  scrape-aeldresagen:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Checkout 
-      uses: actions/checkout@v2
-      
-    - name: Node install and run
-      uses: actions/setup-node@v1
-      with:
-        node-version: '12.x'
-    - run: |
-        npm ci
-        node . aeldresagen
-
-    - name: Save npm failure logs as artifact
-      if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
-      with:
-        name: aeldresagen-npm-logs
-        path: |
-          /home/runner/.npm/_logs/*
-
-    - name: temporarily save scrape data to artifact
-      uses: actions/upload-artifact@v2
-      with:
-        name: aeldresagen-artifact
-        path: ./scraped-data/aeld
+        name: ${{ matrix.artifact-name}}
+        path: ${{ matrix.store-scrapes}}
         retention-days: 1
 
   make-dist:
-    needs: [scrape-forbrugsforeningen, scrape-logbuy, scrape-coop, scrape-aeldresagen]
+    if: ${{ always() }} # Perform this step no matter any errors
+    needs: scrape
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
@@ -180,18 +118,8 @@ jobs:
       id: get-pr-body
       run: |
         outputFile=./logs/report.log
-        # Delete and make a new file
-        rm -f $outputFile
-        touch $outputFile
-        # Loop output files from analyse from last scrape
-        for inputFile in `find ./logs/analyseLastScrape/ -type f`
-        do
-          service=$(basename $inputFile .json)
-          countNewFile=$( cat $inputFile | jq -r "._analyse.countNewFile" )
-          countAdded=$( cat $inputFile | jq -r "._analyse.countAdded" )
-          countRemoved=$( cat $inputFile | jq -r "._analyse.countRemoved" )
-          echo " - **$service** - total entries $countNewFile (new $countAdded / removed $countRemoved)">> $outputFile
-        done
+        # Run script
+        node ./utils/make-auto-pr-body.js $outputFile
         cat $outputFile
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
@@ -238,7 +166,7 @@ jobs:
     #     assignees: zinen
         
     - name: Save logs as artifact
-      if: ${{ always() }} # Perform this step no matter any errors
+      if: ${{ failure() }} # Perform this step if some error happened
       uses: actions/upload-artifact@v2
       with:
         name: logs
