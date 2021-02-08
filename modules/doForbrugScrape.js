@@ -75,33 +75,6 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
-  // Debug: force test specific sites
-  //   function testDataConst () {// eslint-disable-line
-  //     const testData = [
-  //       {
-  //         name: '0: Err02: Search for remote link: TypeError',
-  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002256936'
-  //       },
-  //       {
-  //         name: '1: Err02: Search for remote link: TimeoutError',
-  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002104949'
-  //       },
-  //       {
-  //         name: '2: Err02: Search for remote link: Error',
-  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002092983'
-  //       },
-  //       {
-  //         name: '3: Err02: Search for remote link: TypeError',
-  //         localLink: 'https://www.forbrugsforeningen.dk/businesssearch//1002255526'
-  //       },
-  //       {
-  //         name: 'test',
-  //         localLink: 'about:blank'
-  //       }
-  //     ]
-  //     return [testData[0], testData[3]]
-  //   }
-
   async function scrapeMainPage (page) {
     try {
       holder.lastScrapeMain = []
@@ -207,55 +180,6 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
       dataPoint.err2 = 'Err02: Search for remote link: ' + error.message
       returnDataToMainThread(saveDataKey, dataPoint)
     }
-    // page.setDefaultTimeout(10000)
-    // const dataLength = scrapeData.length
-    // let i1 = 1000
-    // let i2 = 0
-    // for (const dataPoint of scrapeData) {
-    //   i1++
-    //   i2++
-    //   if (i1 > 19) {
-    //     console.log('Forbrugsforeningen: External scrape at #' + i2 + ' out of: ' + dataLength + ' [' + Math.floor(i2 / dataLength * 100) + ' %]')
-    //     i1 = 0
-    //   }
-    //   try {
-    //     if (dataPoint.localLink) {
-    //       if (masterData) {
-    //         const index = masterData.findIndex(element => element.localLink === dataPoint.localLink)
-    //         if (index > -1 && masterData[index].remoteLink) {
-    //           dataPoint.remoteLink = masterData[index].remoteLink
-    //           dataPoint.masterData = true
-    //           returnDataToMainThread(saveDataKey, dataPoint)
-    //           continue
-    //         }
-    //       }
-    //       const foundLink = await fetchLink(dataPoint.localLink)
-    //       if (foundLink == null) {
-    //         dataPoint.err3 = 'Err03: No link to external site was found on local element page'
-    //         returnDataToMainThread(saveDataKey, dataPoint)
-    //         continue
-    //       }
-    //       dataPoint.remoteLink0 = foundLink
-    //       pool.use(async (browser) => {
-    //         try {
-    //           const page = await myPuppeteer.setupPage(browser)
-    //           await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
-    //           dataPoint.remoteLink = await page.evaluate('document.domain')
-    //           await page.close()
-    //         } catch (error) {
-    //           dataPoint.err4 = 'Err04: Error inside pool: ' + error.message
-    //         }
-    //         returnDataToMainThread(saveDataKey, dataPoint)
-    //       })
-    //     } else {
-    //       dataPoint.err5 = 'Err05: No link was found'
-    //       returnDataToMainThread(saveDataKey, dataPoint)
-    //     }
-    //   } catch (error) {
-    //     dataPoint.err2 = 'Err02: Search for remote link: ' + error.message
-    //     returnDataToMainThread(saveDataKey, dataPoint)
-    //   }
-    // }
   }
 
   async function fetchLink (url) {
