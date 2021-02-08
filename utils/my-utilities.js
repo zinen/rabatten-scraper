@@ -138,11 +138,15 @@ exports.lastFileContent = lastFileContent
  */
 async function clearFolder (filePath) {
   if (typeof filePath !== 'string') { throw new TypeError('String filePath is missing') }
-  const content = await readDir(filePath)
-  content.forEach(async (element) => {
-    await deleteFile(element)
-  })
-  return readDir(filePath)
+  try {
+    const content = await readDir(filePath)
+    content.forEach(async (element) => {
+      await deleteFile(element)
+    })
+    return true
+  } catch (error) {
+    return false
+  }
 }
 exports.clearFolder = clearFolder
 
