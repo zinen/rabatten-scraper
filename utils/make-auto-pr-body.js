@@ -21,7 +21,7 @@ const run = async (outputFilePath = './logs/temp.log') => {
     const lastWeek = (new Date()).setDate((new Date()).getDate() - 7)
     if (timestampNewFile < lastWeek) {
       // console.error(`Date within ${filePath} show it was too old to be considered as new data.`)
-      outputText += ` - **${fileContent._analyse.name}** - No changes total entries ${fileContent._analyse.countNewFile}\n`
+      outputText += ` - **${fileContent._analyse.name}** - No changes to entries (last ${fileContent._analyse.countNewFile}) due to old scrape file\n`
 
       continue
     }
