@@ -71,7 +71,12 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
       }
       await delay(10000)
     }
-    console.log(`Aeldresagen: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    if (holder.firstQueueAmountDone > 0) {
+      console.log(`Aeldresagen: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    } else {
+      console.warn('Aeldresagen: No queue was generated. Something went wrong')
+      process.exitCode = 1
+    }
     global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 

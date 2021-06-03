@@ -70,7 +70,12 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
       }
       await delay(10000)
     }
-    console.log(`Logbuy: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    if (holder.Logbuy > 0) {
+      console.log(`Forbrugsforeningen: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+    } else {
+      console.warn('Logbuy: No queue was generated. Something went wrong')
+      process.exitCode = 1
+    }
     global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
