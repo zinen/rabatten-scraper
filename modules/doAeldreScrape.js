@@ -82,7 +82,7 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
       // Go to page no 30 (cludopage=30) on search page to load pages from 1-30 in one go.
       // There is 30 discounts pr page, and as of year 2020 page 18-22 is usually the last page.
       // Getting all the way up to page 30 should make sure this script can handel up to 900 discounts(at year 2020 discounts was 600)
-      await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludosort=date%3Ddesc&cludopage=30', { waitUntil: 'load' })
+      await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludosort=date%3Ddesc&cludopage=60', { waitUntil: 'load' })
       console.log('Aeldresagen: Main page is now loaded. Starting scrape now.')
       // Scrape data from the search result page the pages keeps getting generated while visiting
       // and so more and more data will be scrapes without navigating to a new page
@@ -97,13 +97,13 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
             if (index >= firstQueueAmount) {
               try {
                 // Get headline of discount
-                elementArray[index].name = element.querySelector('h2 a').textContent.trim()
+                elementArray[index].name = element.querySelector('h4').textContent.trim()
                 // Mark the element in scope
                 // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
                 // Get link to mre info about discount
                 elementArray[index].localLink = element.querySelector('a').href
                 // Get sub info about discount/amount of discount
-                elementArray[index].discount = element.querySelector('.common-list__item__info__value').textContent.trim()
+                elementArray[index].discount = element.querySelector('.m-offer__description.u-hidden--md-down').textContent.trim()
                 // Replace dot with commas, remove trailing zero after commas
                 elementArray[index].discount = elementArray[index].discount ? elementArray[index].discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
               } catch (error) {
