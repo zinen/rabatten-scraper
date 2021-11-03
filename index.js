@@ -23,8 +23,7 @@ global.eventEmitter.addListener('jobFinished', (jobInfo = null) => {
   if (jobInfo) {
     holder.jobQueueDone.push(jobInfo)
   }
-  if (holder.jobsActive === 0) {
-    // global.eventEmitter.removeListener('jobFinished')
+  if (holder.jobsActive === 0 ) {
     poolWatcher()
   }
 })
@@ -237,18 +236,20 @@ holder.watchdogTimer = setTimeout(() => {
     console.error('watchdogTimer hard terminating process')
     process.exit(1)
   }, 2 * 60 * 1000)
-}, 28 * 60 * 1000) // 30 min is the longest run time allowed
+}, 45 * 60 * 1000) // 2+45 min is the longest run time allowed
 // Unref makes node process end even if this timer has not fired
 holder.watchdogTimer.unref()
 
 async function poolWatcher () {
+  // Dont alow for multible pool watcher beeing run
+  if ( holder.poolWatching ) { return }
+  holder.poolWatching = true
+  console.log('Pool watcher started, watching now.')
   holder.activityTimer = setTimeout(() => {
     console.error('Timeout ended process. Amount of jobs not done:', holder.jobsActive)
     console.error('Registered finished jobs are:', holder.jobQueueDone)
     holder.activityTimerTimeout = true
   }, 60 * 1000)
-  console.log('Pool watcher started, watching now.')
-  holder.poolWatching = true
 
   while ((pool.borrowed > 0 || pool.pending > 0) && !holder.activityTimerTimeout) {
     console.log(`Pool is still working. Active: ${pool.borrowed}, pending: ${pool.pending}`)
