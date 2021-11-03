@@ -71,7 +71,7 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
       await delay(10000)
     }
     if (holder.firstQueueAmountDone > 0) {
-      console.log(`Forbrugsforeningen: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
+      console.log(`Logbuy: Queue of ${holder.firstQueueAmountDone} done. Ended process`)
     } else {
       console.warn('Logbuy: No queue was generated. Something went wrong')
       process.exitCode = 1
@@ -132,7 +132,7 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
           }
         }))
     } catch (error) {
-      console.error('Forbrugsforeningen: Scraping main page ended in error.', error)
+      console.error('Logbuy: Scraping main page ended in error.', error)
     }
     try {
       // Try to close the page any handing page
