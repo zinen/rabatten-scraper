@@ -52,9 +52,8 @@ jobs:
       
     - name: Node install and run
       uses: actions/setup-node@v1
-      with:
+      # with:
         # node-version: '12.x'
-        node-version: 'lts/*'
     - run: |
         npm ci
         node . ${{ matrix.discount-service }}
@@ -113,9 +112,8 @@ jobs:
 
     - name: Node install and run
       uses: actions/setup-node@v1
-      with:
+      # with:
         # node-version: '12.x'
-        node-version: 'lts/*'
     - run: |
         npm ci
         node . dist
