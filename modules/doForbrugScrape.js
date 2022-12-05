@@ -83,7 +83,7 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
   async function scrapeMainPage (page) {
     try {
       holder.lastScrapeMain = []
-      await page.goto('https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=180&cludoinputtype=standard', { waitUntil: 'networkidle2' })
+      await page.goto('https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=180&cludoinputtype=standard', { waitUntil: 'networkidle0' })
       // Wait for first data to be retrieved
       await page.waitForSelector('#search-results > div> ul > li.cludo-search-results-item')
       await page.waitForTimeout(1000)
