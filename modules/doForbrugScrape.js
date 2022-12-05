@@ -83,9 +83,9 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
   async function scrapeMainPage (page) {
     try {
       holder.lastScrapeMain = []
-      await page.goto('https://www.forbrugsforeningen.dk/search?q&w=True&s=False', { waitUntil: 'networkidle2' })
+      await page.goto('https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=180&cludoinputtype=standard', { waitUntil: 'networkidle2' })
       // Wait for first data to be retrieved
-      await page.waitForSelector('.grouped-list__group-content:nth-of-type(1)')
+      await page.waitForSelector('#search-results > div> ul > li.cludo-search-results-item')
       await page.waitForTimeout(1000)
       // Fix: Press down and wait, the page might reload for some weird reason
       await page.keyboard.press('PageDown')
@@ -102,20 +102,20 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
         await page.keyboard.press('PageDown')
         await page.waitForTimeout(500)
         holder.firstQueueAmount = holder.lastScrapeMainLength || 0
-        holder.lastScrapeMain = await page.$$eval('section.grouped-list__group-content', (elements, firstQueueAmount) => {
+        holder.lastScrapeMain = await page.$$eval('#search-results > div> ul > li.cludo-search-results-item', (elements, firstQueueAmount) => {
           return elements.map((element, index, elementArray) => {
           // Make empty object
             elementArray[index] = {}
             if (index >= firstQueueAmount) {
               try {
               // Get headline of discount
-                elementArray[index].name = element.querySelector('span.grouped-list__shop-name').textContent.trim()
+                elementArray[index].name = element.querySelector('h2').textContent.trim()
                 // Mark the element in scope
                 // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
                 // Get link to mre info about discount
                 elementArray[index].localLink = element.querySelector('a').href
                 // Get sub info about discount/amount of discount
-                elementArray[index].discount = element.querySelector('.grouped-list__col--2 > span').textContent.trim()
+                elementArray[index].discount = element.querySelector('.bonus').textContent.trim()
                 // Replace dot with commas, remove trailing zero after commas
                 elementArray[index].discount = elementArray[index].discount ? elementArray[index].discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
               } catch (error) {
@@ -131,7 +131,7 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
         holder.lastScrapeMain.splice(0, holder.firstQueueAmount)
         // Push new elements to job queue
         holder.firstQueueArray.push(...holder.lastScrapeMain)
-      } while (!(await page.$('#search-results > div.search-result-page__footer[style*="display: block"]')))
+      } while (!(await page.$('#cludo-load-more > button')))
       // Remember the total amount of elements send to the job queue
       holder.firstQueueAmount += holder.lastScrapeMain.length
       // Delete unused elements
