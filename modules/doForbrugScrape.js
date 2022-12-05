@@ -83,7 +83,11 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
   async function scrapeMainPage (page) {
     try {
       holder.lastScrapeMain = []
-      await page.goto('https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=180&cludoinputtype=standard', { waitUntil: 'networkidle0' })
+      // At December 2022 the last "cludopage" was 162. Settings it a ib higher to allow growth
+      const pages = 180
+      // Allowing for 1200 ms pr page
+      page.setDefaultTimeout(pages * 1200)
+      await page.goto(`https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=${pages}&cludoinputtype=standard`, { waitUntil: 'networkidle0' })
       // Wait for first data to be retrieved
       await page.waitForSelector('#search-results > div> ul > li.cludo-search-results-item')
       await page.waitForTimeout(1000)
