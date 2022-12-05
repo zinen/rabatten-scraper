@@ -205,7 +205,8 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     }
     const body = await response.text()
     const $ = cheerio.load(body)
-    return $('article > div.col.first > p > a').attr('href')
+    // Select elements with href that don't start with "mailto" or "tel"
+    return $('#partner-widget a:not([href^="mailto"],[href^="tel"])').attr('href')
   }
 }
 
