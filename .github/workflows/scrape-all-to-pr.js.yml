@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Create .env file
       run: |
@@ -51,7 +51,7 @@ jobs:
           cat .env
       
     - name: Node install and run
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       # with:
         # node-version: '12.x'
     - run: |
@@ -60,14 +60,14 @@ jobs:
 
     - name: Save npm failure logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.artifact-name-failure}}
         path: |
           /home/runner/.npm/_logs/*
 
     - name: temporarily save scrape data to artifact
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: ${{ matrix.artifact-name}}
         path: ${{ matrix.store-scrapes}}
@@ -79,7 +79,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: get artifact from forbrugsforeningen scrape run
       continue-on-error: true
@@ -111,7 +111,7 @@ jobs:
 
 
     - name: Node install and run
-      uses: actions/setup-node@v1
+      uses: actions/setup-node@v3
       # with:
         # node-version: '12.x'
     - run: |
@@ -133,10 +133,10 @@ jobs:
         pr_body="${pr_body//$'\n'/'%0A'}"
         pr_body="${pr_body//$'\r'/'%0D'}" 
         # Save variable as an output
-        echo ::set-output name=body::$pr_body
+        echo "{body}={$pr_body}" >> $GITHUB_OUTPUT
 
     - name: Create Pull Request # Does so only if any files in repo have changed
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v4
       with:
         token: ${{ secrets.MY_GITHUB_PAT }}
         commit-message: New scrape
@@ -158,7 +158,7 @@ jobs:
         
     - name: Save logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: logs
         path: |
