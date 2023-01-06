@@ -1,13 +1,13 @@
 {
   "name": "rabatten-scraper",
-  "version": "1.7.18",
+  "version": "1.8.0",
   "description": "Used to do web scraping of data for repo rabatten",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "index": "node ./index.js",
     "index all": "node ./index.js all",
-    "analyseLastScrape": "node ./test/analyseLastScrape.test.js",
+    "analyzeLastScrape": "node ./test/analyzeLastScrape.test.js",
     "test": "node ./test/confirmJsonDist.test.js",
     "release": "release-it"
   },

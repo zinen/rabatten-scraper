@@ -1,6 +1,6 @@
 'use strict'
 const myUtil = require('../utils/my-utilities.js')
-const { holderService } = require('./../settings.js')
+const { holderService } = require('../settings.js')
 
 /**
  * Compare the 2 newest data scrapes
@@ -44,7 +44,7 @@ async function compareLast (filePath) {
     addedServices: newestData,
     removedServices: oldestData,
     changedServices: newLinkArray,
-    _analyse: {
+    _analyze: {
       oldFile: dirContent[dirContent.length - 2],
       countOldFile: oldestLength,
       newFile: dirContent[dirContent.length - 1],
@@ -57,14 +57,14 @@ async function compareLast (filePath) {
 }
 
 async function run () {
-  await myUtil.clearFolder('./logs/analyseLastScrape/')
+  await myUtil.clearFolder('./logs/analyzeLastScrape/')
   for (const service of holderService.getServices()) {
     if (service.name === 'test') { continue }
     try {
       let result = await compareLast(holderService[service].scrapeOutPath)
-      result._analyse.name = holderService[service].name
+      result._analyze.name = holderService[service].name
       result = JSON.stringify(result, null, 2)
-      await myUtil.writeFile('./logs/analyseLastScrape/' + service + '.json', result)
+      await myUtil.writeFile('./logs/analyzeLastScrape/' + service + '.json', result)
     } catch (error) {
       console.log(error)
     }

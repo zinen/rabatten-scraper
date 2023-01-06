@@ -32,11 +32,11 @@ global.eventEmitter.addListener('jobFinished', (jobInfo = null) => {
 const pool = initPuppeteerPool()
 
 /**
- * Analyse the last last file in dir, sorted by name.
+ * Analyze the last last file in dir, sorted by name.
  * @param {string} filePath File path to do search in dir.
  * @returns {Promise<Object>} Content of the file after analyses.
  */
-async function analyseData (filePath) {
+async function analyzeData (filePath) {
   const data = JSON.parse(await myUtil.lastFileContent(filePath))
   console.log('Length of data: ' + data.length)
   const lengthData = data.length
@@ -85,7 +85,7 @@ async function analyseData (filePath) {
 
   // Add notes to files
   data.push({
-    name: '_analyse',
+    name: '_analyze',
     length: lengthData,
     countErr1: i1,
     countErr2: i2,
@@ -159,7 +159,7 @@ async function compareLast (filePath) {
       newServices: newestData,
       removedServices: oldestData,
       newLink: newLinkArray,
-      _analyse: {
+      _analyze: {
         oldFile: dirContent[dirContent.length - 2],
         oldFileLength: oldestLength,
         newFile: dirContent[dirContent.length - 1],
@@ -241,7 +241,7 @@ holder.watchdogTimer = setTimeout(() => {
 holder.watchdogTimer.unref()
 
 async function poolWatcher () {
-  // Dont alow for multible pool watcher beeing run
+  // Don't allow multiple pool watcher to run
   if ( holder.poolWatching ) { return }
   holder.poolWatching = true
   console.log('Pool watcher started, watching now.')
@@ -253,7 +253,7 @@ async function poolWatcher () {
 
   while ((pool.borrowed > 0 || pool.pending > 0) && !holder.activityTimerTimeout) {
     console.log(`Pool is still working. Active: ${pool.borrowed}, pending: ${pool.pending}`)
-    await myUtil.delay(3000)
+    await myUtil.delay(5000)
   }
   if (holder.activityTimerTimeout) {
     console.error('Watchdog timer timeout; forcing pool draining now.')
@@ -291,7 +291,7 @@ async function runInquirer () {
       type: 'list',
       name: 'action',
       message: 'Action to perform?',
-      choices: ['Scrape data from web', 'Analyse earlier data scraped', 'Build distribution']
+      choices: ['Scrape data from web', 'Analyze earlier data scraped', 'Build distribution']
     },
     {
       type: 'list',
@@ -316,20 +316,20 @@ async function runInquirer () {
     },
     {
       type: 'list',
-      name: 'analyseAction',
-      message: 'Which analyse to run?',
+      name: 'analyzeAction',
+      message: 'Which analyze to run?',
       choices: ['Look though all data', 'Return only data with errors', 'Compare with last'],
       when: function (answers) {
-        return answers.action === 'Analyse earlier data scraped'
+        return answers.action === 'Analyze earlier data scraped'
       }
     },
     {
       type: 'list',
-      name: 'analyseService',
-      message: 'Where to analyse data from?',
+      name: 'analyzeService',
+      message: 'Where to analyze data from?',
       choices: holderService.getServiceObject('scrapeOutPath', null),
       when: async function (answers) {
-        return answers.action === 'Analyse earlier data scraped'
+        return answers.action === 'Analyze earlier data scraped'
       }
     }
   ]
@@ -344,17 +344,17 @@ async function runInquirer () {
   console.log('inquirer answers noted:', JSON.stringify(answers, null, '  '))
   if (answers.action === 'Build distribution') {
     makeDistData()
-  } else if (answers.action === 'Analyse earlier data scraped') {
+  } else if (answers.action === 'Analyze earlier data scraped') {
     let result
-    switch (answers.analyseAction) {
+    switch (answers.analyzeAction) {
       case 'Look though all data':
-        result = await analyseData(answers.analyseService)
+        result = await analyzeData(answers.analyzeService)
         break
       case 'Return only data with errors':
-        result = await returnErrors(answers.analyseService)
+        result = await returnErrors(answers.analyzeService)
         break
       case 'Compare with last':
-        result = await compareLast(answers.analyseService)
+        result = await compareLast(answers.analyzeService)
         break
     }
     saveToFile(result, './scraped-data/test/')

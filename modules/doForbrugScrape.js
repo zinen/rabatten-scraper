@@ -12,7 +12,7 @@ const cheerio = require('cheerio')
  * @param {Function} returnDataToMainThread Callback function called on every successfully scrape
  * @param {string} saveDataKey Optional string returned as first argument in callback above
  */
-async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThread, saveDataKey = 'empty') {
+async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThread, saveDataKey = 'empty') {
   const holder = {
     firstQueueArray: [],
     firstQueueAmountDone: 0
@@ -38,8 +38,8 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     process.exitCode = 1
   }
 
-  async function queueWatcher () {
-    async function delay (msSec) {
+  async function queueWatcher() {
+    async function delay(msSec) {
       return new Promise(resolve => {
         setTimeout(() => resolve('DelayTimeout'), msSec)
       })
@@ -80,14 +80,14 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     global.eventEmitter.emit('jobFinished', saveDataKey)
   }
 
-  async function scrapeMainPage (page) {
+  async function scrapeMainPage(page) {
     try {
       holder.lastScrapeMain = []
-      // At December 2022 the last "cludopage" was 162. Settings it a ib higher to allow growth
+      // At January 2023 the last "cludopage" was 162. Settings it a bit higher to allow growth
       const pages = 180
-      // Allowing for 1200 ms pr page
-      page.setDefaultTimeout(pages * 1200)
-      await page.goto(`https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=${pages}&cludoinputtype=standard`, { waitUntil: 'networkidle0' })
+      // Allowing 2000 ms load time for each page
+      page.setDefaultTimeout(pages * 2000)
+      await page.goto(`https://www.forbrugsforeningen.dk/medlem/Soegeresultat#?cludoquery=*&cludopage=${pages}&cludoinputtype=standard`, { waitUntil: 'networkidle2' })
       // Wait for first data to be retrieved
       await page.waitForSelector('#search-results > div> ul > li.cludo-search-results-item')
       await page.waitForTimeout(1000)
@@ -100,19 +100,19 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
       // Scrape data from the search result page the page keeps getting more data when scrolling down
       // at the end a footer is loaded. This means no more discounts to scrape
       do {
-      // Move down the page to reveal the search results
+        // Move down the page to reveal the search results
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
-        await page.waitForTimeout(500)
+        await page.waitForTimeout(1500)
         holder.firstQueueAmount = holder.lastScrapeMainLength || 0
         holder.lastScrapeMain = await page.$$eval('#search-results > div> ul > li.cludo-search-results-item', (elements, firstQueueAmount) => {
           return elements.map((element, index, elementArray) => {
-          // Make empty object
+            // Make empty object
             elementArray[index] = {}
             if (index >= firstQueueAmount) {
               try {
-              // Get headline of discount
+                // Get headline of discount
                 elementArray[index].name = element.querySelector('h2').textContent.trim()
                 // Mark the element in scope
                 // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
@@ -135,7 +135,7 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
         holder.lastScrapeMain.splice(0, holder.firstQueueAmount)
         // Push new elements to job queue
         holder.firstQueueArray.push(...holder.lastScrapeMain)
-      } while (!(await page.$('#cludo-load-more > button')))
+      } while (holder.lastScrapeMainLength > holder.firstQueueAmount)
       // Remember the total amount of elements send to the job queue
       holder.firstQueueAmount += holder.lastScrapeMain.length
       // Delete unused elements
@@ -153,7 +153,7 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     holder.firstQueueGeneratingDone = true
   }
 
-  async function scrapeElementPages (dataPoint) {
+  async function scrapeElementPages(dataPoint) {
     try {
       if (dataPoint.localLink) {
         if (masterData) {
@@ -164,18 +164,60 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
             return returnDataToMainThread(saveDataKey, dataPoint)
           }
         }
-        const foundLink = await fetchLink(dataPoint.localLink)
-        if (foundLink == null) {
-          dataPoint.err3 = 'Err03: No link to external site was found on local element page'
-          return returnDataToMainThread(saveDataKey, dataPoint)
-        }
-        dataPoint.remoteLink0 = foundLink
         PupPool.use(async (browser) => {
           try {
             const page = await myPuppeteer.setupPage(browser)
-            await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
-            dataPoint.remoteLink = await page.evaluate('document.domain')
-            await page.close()
+            await page.goto(dataPoint.localLink, { waitUntil: 'networkidle0' })
+            // See if either priority 1 or 2 button is found. Priority 1 button usually leads directly to the remote page
+            // wheres the priority 2 button opens new url with button like  Priority 1 button
+            const linkPriority1 = await page.$('#partner-widget a')
+            let linkPriority2 = await page.$('#search-results li h2')
+            if (linkPriority1) {
+              try {
+                // const foundLink = await page.$eval('#partner-widget a:not([href^=\"mailto\"],[href^=\"tel\"])', element => element.href)
+                const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
+                dataPoint.remoteLink0 = foundLink
+                await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+                dataPoint.remoteLink = await page.evaluate('document.domain')
+                if ((dataPoint.remoteLink).contains('tradedoubler.com')) {
+                  await page.waitForNavigation()
+                  dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
+                }
+                return returnDataToMainThread(saveDataKey, dataPoint)
+              } catch (error) {
+                if (linkPriority2 != null) {
+                  dataPoint.err0 = 'Priority 1 link following failed. Trying link 2'
+                  // Go back to the page with links to external site
+                  await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
+                  dataPoint.remoteLinkPri1 = dataPoint.remoteLink0
+                  // Must re-define linkPriority2 do to page navigation
+                  linkPriority2 = await page.$('#search-results li h2')
+                } else {
+                  dataPoint.err0 = 'Priority 1 link following failed. No link 2 found'
+                  return returnDataToMainThread(saveDataKey, dataPoint)
+                }
+              }
+            }
+            if (linkPriority2) {
+              await linkPriority2.click()
+              await page.waitForNavigation()
+              // await page.waitForTimeout(2500)
+              // const frame = page.frames().find(frame => (frame.url()).includes('deal'))
+              // if (!frame) {
+              //   throw new Error('No frame was found')
+              // }
+              const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
+              dataPoint.remoteLink0 = foundLink
+              try {
+                await page.goto(foundLink, { waitUntil: 'networkidle2' })
+              } catch (error) {
+                // A few pages requests images in a forever loop, this is a fix for that
+                await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
+              }
+              dataPoint.remoteLink = await evalRedirects(await page.evaluate('document.domain'), page)
+            } else {
+              dataPoint.err3 = 'Err03: No link to external site was found on local element page'
+            }
           } catch (error) {
             dataPoint.err4 = 'Err04: Error inside pool: ' + error.message
           }
@@ -191,26 +233,28 @@ async function doForbrugScrape (PupPool, masterData = null, returnDataToMainThre
     }
   }
 
-  async function fetchLink (url) {
-    let response
-    // Try the fetching two times
-    try {
-      response = await fetch(url)
-    } catch (error1) {
-      console.error('\x1b[31mResponse error. Trying again\x1b[0m')
-      console.log(error1)
+  async function evalRedirects(URL, page) {
+    const reDirectSites = [
+      'tradedoubler.com/',
+      'doubleclick.net/',
+      'bit.ly/',
+      'salestring.com/',
+      'chrome-error://',
+      'www.google.com'
+    ]
+    if (reDirectSites.some(resource => URL.indexOf(resource) !== -1)) {
       try {
-        response = await fetch(url)
-      } catch (error2) {
-        console.error('\x1b[31mResponse error at second try.\x1b[0m')
-        throw error2
+        await page.waitForNavigation()
+      } catch (error) {
+        if (reDirectSites.some(resource => page.url().indexOf(resource) !== -1)) {
+          console.log('Waited for at redirects, but it didn\'t happen at: ' + URL)
+          throw new Error('Ended at redirection site')
+        }
       }
-      console.info('\x1b[33mResponse ok at second try.\x1b[0m')
+      return page.evaluate('document.domain')
+    } else {
+      return URL
     }
-    const body = await response.text()
-    const $ = cheerio.load(body)
-    // Select elements with href that don't start with "mailto" or "tel"
-    return $('#partner-widget a:not([href^="mailto"],[href^="tel"])').attr('href')
   }
 }
 

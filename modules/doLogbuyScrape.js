@@ -80,12 +80,13 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
   }
 
   async function goLogin (page) {
-    await page.goto('https://www.mylogbuy.com/WebPages/Login/loginFrame.aspx?ReturnUrl=', { waitUntil: 'networkidle2' })
-    await page.type('#ctl00_ctl00_Content_content_TextBox_Email', process.env.LOGBUY_USER)
-    await page.type('#ctl00_ctl00_Content_content_TextBox_Password', process.env.LOGBUY_PASS)
+    await page.goto('https://www.mylogbuy.com/WebPages/Login/Login.aspx?ReturnUrl=', { waitUntil: 'networkidle2' })
+    await page.type('#ctl00_Content_TextBox_Email', process.env.LOGBUY_USER)
+    await page.type('#ctl00_Content_TextBox_Password', process.env.LOGBUY_PASS)
     await Promise.all([
       page.waitForNavigation(),
-      page.click('#ctl00_ctl00_Content_content_LinkButton_Login')
+      // page.click('#ctl00_Content_LinkButton_Login') // puppeteer click don't work do to a cookie popup
+      page.$eval('#ctl00_Content_LinkButton_Login', el => el.click())
     ])
     // Store cookies as this site requires login
     holder.logbuyCookies = await page.cookies('https://www.mylogbuy.com')

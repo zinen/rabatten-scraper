@@ -117,7 +117,7 @@ jobs:
     - run: |
         npm ci
         node . dist
-        npm run analyseLastScrape
+        npm run analyzeLastScrape
 
     - name: Collect log files to make body for pull request
       id: get-pr-body
