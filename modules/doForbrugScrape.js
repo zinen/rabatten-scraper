@@ -167,8 +167,7 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
         PupPool.use(async (browser) => {
           try {
             const page = await myPuppeteer.setupPage(browser)
-            await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
-            await page.waitForTimeout(500)
+            await page.goto(dataPoint.localLink, { waitUntil: 'networkidle0' })
             // See if either priority 1 or 2 button is found. Priority 1 button usually leads directly to the remote page
             // wheres the priority 2 button opens new url with button like  Priority 1 button
             const linkPriority1 = await page.$('#partner-widget a')

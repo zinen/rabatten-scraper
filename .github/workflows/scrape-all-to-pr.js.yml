@@ -133,7 +133,7 @@ jobs:
         pr_body="${pr_body//$'\n'/'%0A'}"
         pr_body="${pr_body//$'\r'/'%0D'}" 
         # Save variable as an output
-        echo "{body}={$pr_body}" >> $GITHUB_OUTPUT
+        echo "body=$pr_body" >> $GITHUB_OUTPUT
 
     - name: Create Pull Request # Does so only if any files in repo have changed
       uses: peter-evans/create-pull-request@v4
