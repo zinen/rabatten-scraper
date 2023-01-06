@@ -167,14 +167,14 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
         PupPool.use(async (browser) => {
           try {
             const page = await myPuppeteer.setupPage(browser)
-            await page.goto(dataPoint.localLink, { waitUntil: 'networkidle0' })
+            await page.goto(dataPoint.localLink, { waitUntil: 'networkidle2' })
+            await page.waitForTimeout(500)
             // See if either priority 1 or 2 button is found. Priority 1 button usually leads directly to the remote page
             // wheres the priority 2 button opens new url with button like  Priority 1 button
             const linkPriority1 = await page.$('#partner-widget a')
             let linkPriority2 = await page.$('#search-results li h2')
             if (linkPriority1) {
               try {
-                // const foundLink = await page.$eval('#partner-widget a:not([href^=\"mailto\"],[href^=\"tel\"])', element => element.href)
                 const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
                 dataPoint.remoteLink0 = foundLink
                 await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
@@ -200,12 +200,7 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
             }
             if (linkPriority2) {
               await linkPriority2.click()
-              await page.waitForNavigation()
-              // await page.waitForTimeout(2500)
-              // const frame = page.frames().find(frame => (frame.url()).includes('deal'))
-              // if (!frame) {
-              //   throw new Error('No frame was found')
-              // }
+              await page.waitForTimeout(2500)
               const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
               dataPoint.remoteLink0 = foundLink
               try {

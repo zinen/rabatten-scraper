@@ -231,13 +231,15 @@ async function prepareSaveToFile (inputData = { empty: [] }) {
 
 holder.watchdogTimer = setTimeout(() => {
   console.warn('watchdogTimer timeout starting gently stop of process')
+  holder.activityTimerTimeout = true
   poolWatcher()
   setTimeout(() => {
     console.error('watchdogTimer hard terminating process')
     process.exit(1)
   }, 2 * 60 * 1000)
-}, 45 * 60 * 1000) // 2+45 min is the longest run time allowed
-// Unref makes node process end even if this timer has not fired
+}, 58 * 60 * 1000) // 2+58 min is the longest run time allowed
+// Unref makes node able to end process even if this timer has not fired
+// without it this time will keep the program running
 holder.watchdogTimer.unref()
 
 async function poolWatcher () {
