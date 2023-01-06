@@ -104,7 +104,7 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
-        await page.waitForTimeout(1500)
+        await page.waitForTimeout(8000)
         holder.firstQueueAmount = holder.lastScrapeMainLength || 0
         holder.lastScrapeMain = await page.$$eval('#search-results > div> ul > li.cludo-search-results-item', (elements, firstQueueAmount) => {
           return elements.map((element, index, elementArray) => {
