@@ -71,9 +71,9 @@ jobs:
         # Define pull request body to be used in laster steps
         pr_body=$( cat $outputFile )
         # Replace some badly handled characters with Unicode characters
-        pr_body="${pr_body//'%'/'%25'}"
-        pr_body="${pr_body//$'\n'/'%0A'}"
-        pr_body="${pr_body//$'\r'/'%0D'}" 
+        # pr_body="${pr_body//'%'/'%25'}"
+        # pr_body="${pr_body//$'\n'/'%0A'}"
+        # pr_body="${pr_body//$'\r'/'%0D'}" 
         # Save variable as an output
         echo "body=$pr_body" >> $GITHUB_OUTPUT
 
