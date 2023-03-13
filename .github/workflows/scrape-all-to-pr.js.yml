@@ -52,6 +52,7 @@ jobs:
         branch: auto-new-scrape
         delete-branch: true
         title: New scrape
+        base: zinen-patch-1
         body: |
           New scrape performed
           
