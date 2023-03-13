@@ -12,8 +12,45 @@ on:
 
 jobs:
 
+  scrape:
+    strategy:
+      # Don't cancel the other jobs if one fails
+      fail-fast: false
+      matrix:
+        include: 
+            # Much of this matches content in ./settings.js
+          - discount-service: 'coop'
+            store-scrapes: './scraped-data/coop'
+            artifact-name: 'coop-artifact'
+            artifact-name-failure: 'coop-npm-logs'
+            
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout 
+      uses: actions/checkout@v3
+
+    - name: Node install and run
+      uses: actions/setup-node@v3
+    - run: |
+        npm ci
+        node . ${{ matrix.discount-service }}
+    - name: Save npm failure logs as artifact
+      if: ${{ failure() }} # Perform this step if some error happened
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.artifact-name-failure}}
+        path: |
+          /home/runner/.npm/_logs/*
+    - name: temporarily save scrape data to artifact
+      uses: actions/upload-artifact@v3
+      with:
+        name: ${{ matrix.artifact-name}}
+        path: ${{ matrix.store-scrapes}}
+        retention-days: 1
+
   make-dist:
     if: ${{ always() }} # Perform this step no matter any errors
+    needs: scrape
     runs-on: ubuntu-latest
     steps:
     - name: Checkout 
