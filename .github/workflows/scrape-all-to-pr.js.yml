@@ -3,8 +3,6 @@ name: Scrape all sites and make a pull request
 on:
   push:
     branches: [ zinen-patch-1 ]
-    paths: 
-      - .github/workflows/scrape-all-to-pr.js.yml
   pull_request:
     branches: [ zinen-patch-1 ]
 
