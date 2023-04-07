@@ -5,7 +5,7 @@ const genericPool = require('generic-pool')
 module.exports = {
   initPuppeteerPool: ({
     // Based on: https://github.com/latesh/puppeteer-pool
-    max = 5, // default
+    max = process.env.POOL_SIZE || 5, // default
     // optional. if you set this, make sure to drain() (see step 3)
     min = 0, // default
     // specifies how long a resource can stay idle in pool before being removed

@@ -85,7 +85,7 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
     await page.type('#ctl00_Content_TextBox_Password', process.env.LOGBUY_PASS)
     await Promise.all([
       page.waitForNavigation(),
-      // page.click('#ctl00_Content_LinkButton_Login') // puppeteer click don't work do to a cookie popup
+      // page.click('#ctl00_Content_LinkButton_Login') // puppeteer click don't work due to a cookie popup
       page.$eval('#ctl00_Content_LinkButton_Login', el => el.click())
     ])
     // Store cookies as this site requires login

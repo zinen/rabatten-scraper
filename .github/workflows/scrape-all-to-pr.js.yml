@@ -48,6 +48,7 @@ jobs:
           touch .env
           echo 'LOGBUY_USER=${{ secrets.LOGBUY_USER }}' >> .env
           echo 'LOGBUY_PASS=${{ secrets.LOGBUY_PASS }}' >> .env
+          echo 'POOL_SIZE=7' >> .env
           cat .env
       
     - name: Node install and run
