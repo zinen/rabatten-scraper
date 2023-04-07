@@ -104,7 +104,11 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
         await page.keyboard.press('PageDown')
-        await page.waitForTimeout(8000)
+        await page.waitForTimeout(4000)
+        await page.keyboard.press('PageDown')
+        await page.keyboard.press('PageDown')
+        await page.keyboard.press('PageDown')
+        await page.waitForTimeout(4000)
         holder.firstQueueAmount = holder.lastScrapeMainLength || 0
         holder.lastScrapeMain = await page.$$eval('#search-results > div> ul > li.cludo-search-results-item', (elements, firstQueueAmount) => {
           return elements.map((element, index, elementArray) => {
@@ -145,7 +149,6 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
       console.error('Forbrugsforeningen: Scraping main page ended in error.', error)
     }
     try {
-      // Try to close the page any handing page
       await page.close()
     } catch (error) {
       // No need to handle error just don't stop the process
@@ -170,11 +173,11 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
             await page.goto(dataPoint.localLink, { waitUntil: 'networkidle0' })
             // See if either priority 1 or 2 button is found. Priority 1 button usually leads directly to the remote page
             // wheres the priority 2 button opens new url with button like  Priority 1 button
-            const linkPriority1 = await page.$('#partner-widget a')
+            const linkPriority1 = await page.$('#partner-widget a:not([href^="mailto"],[href^="tel"])')
             let linkPriority2 = await page.$('#search-results li h2')
             if (linkPriority1) {
               try {
-                const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
+                const foundLink = await page.$eval('#partner-widget a:not([href^="mailto"],[href^="tel"])', element => element.href)
                 dataPoint.remoteLink0 = foundLink
                 await page.goto(foundLink, { waitUntil: 'domcontentloaded' })
                 dataPoint.remoteLink = await page.evaluate('document.domain')
@@ -200,7 +203,7 @@ async function doForbrugScrape(PupPool, masterData = null, returnDataToMainThrea
             if (linkPriority2) {
               await linkPriority2.click()
               await page.waitForTimeout(2500)
-              const foundLink = await page.$eval('#partner-widget a[href^="http"]', element => element.href)
+              const foundLink = await page.$eval('#partner-widget a:not([href^="mailto"],[href^="tel"])', element => element.href)
               dataPoint.remoteLink0 = foundLink
               try {
                 await page.goto(foundLink, { waitUntil: 'networkidle2' })
