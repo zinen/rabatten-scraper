@@ -1,9 +1,5 @@
 'use strict'
 const myPuppeteer = require('./my-puppeteer.js')
-// Add standard JS es6 fetch to node
-const fetch = require('node-fetch')
-// Cheerio is a HTML interpreter
-const cheerio = require('cheerio')
 
 /**
  * Perform scape of data

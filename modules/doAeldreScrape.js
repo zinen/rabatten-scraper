@@ -23,7 +23,13 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
     PupPool.use(async (browser) => {
       const page = await myPuppeteer.setupPage(browser)
       // No login page here
-      // ....
+      await page.goto('https://www.aeldresagen.dk/', { waitUntil: 'networkidle2' })
+      // Click cookie popup if it is found
+      await Promise.race([
+        page.click('#declineButton'),
+        page.waitForTimeout(5000)
+      ])
+      await page.waitForTimeout(500)
       // Go to search page and scrape the content
       console.log('Aeldresagen: Data scrape search page starting')
       await scrapeMainPage(page)
@@ -83,11 +89,12 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
   async function scrapeMainPage (page) {
     try {
       holder.lastScrapeMain = []
-      page.setDefaultTimeout(140 * 1000)
       // Go to page no 30 (cludopage=30) on search page to load pages from 1-30 in one go.
-      // There is 30 discounts pr page, and as of year 2020 page 18-22 is usually the last page.
+      // There are 30 discounts pr page and as of year 2020 page 18-22 is usually the last page.
       // Getting all the way up to page 30 should make sure this script can handel up to 900 discounts(at year 2020 discounts was 600)
-      await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludosort=date%3Ddesc&cludopage=60', { waitUntil: 'load' })
+      const pages = 60
+      page.setDefaultTimeout(pages * 5000)
+      await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludopage='+pages, { waitUntil: 'load' })
       console.log('Aeldresagen: Main page is now loaded. Starting scrape now.')
       // Scrape data from the search result page the pages keeps getting generated while visiting
       // and so more and more data will be scrapes without navigating to a new page
