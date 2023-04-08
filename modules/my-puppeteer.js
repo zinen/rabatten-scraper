@@ -126,7 +126,7 @@ module.exports = {
     ]
     await page.setRequestInterception(true)
     page.on('request', request => {
-      const requestUrl = request._url.split('?')[0].split('#')[0]
+      const requestUrl = request.url().split('?')[0].split('#')[0]
       if (
         blockedResourceTypes.indexOf(request.resourceType()) !== -1 ||
         skippedResources.some(resource => requestUrl.indexOf(resource) !== -1)

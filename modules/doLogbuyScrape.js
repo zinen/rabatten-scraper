@@ -136,7 +136,6 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
       console.error('Logbuy: Scraping main page ended in error.', error)
     }
     try {
-      // Try to close the page any handing page
       await page.close()
     } catch (error) {
       // No need to handle error just don't stop the process
