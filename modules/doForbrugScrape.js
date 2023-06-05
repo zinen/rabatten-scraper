@@ -149,6 +149,7 @@ async function scrapeMainPage(page) {
     delete holder.lastScrapeMainLength
   } catch (error) {
     console.error('Forbrugsforeningen: Scraping main page ended in error.', error)
+    await page.screenshot({ path: './logs/forb/scrapeMainFault.png' })
   }
   try {
     await page.close()

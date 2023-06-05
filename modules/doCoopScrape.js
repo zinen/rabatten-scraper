@@ -65,6 +65,7 @@ async function doCoopScrape (PupPool, masterData = null, returnDataToMainThread,
       })
     } catch (error) {
       console.error('Coop: Scraping main page ended in error.', error)
+      await page.screenshot({ path: './logs/coop/scrapeMainFault.png' })
     }
   }
 
