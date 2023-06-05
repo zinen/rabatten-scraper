@@ -139,6 +139,7 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
       delete holder.lastScrapeMainLength
     } catch (error) {
       console.error('Aeldresagen: Scraping main page ended in error.', error)
+      await page.screenshot({ path: './logs/aeldre/scrapeMainFault.png' })
     }
     try {
       await page.close()

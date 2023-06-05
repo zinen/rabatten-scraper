@@ -80,14 +80,19 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
   }
 
   async function goLogin (page) {
-    await page.goto('https://www.mylogbuy.com/WebPages/Login/Login.aspx?ReturnUrl=', { waitUntil: 'networkidle2' })
-    await page.type('#ctl00_Content_TextBox_Email', process.env.LOGBUY_USER)
-    await page.type('#ctl00_Content_TextBox_Password', process.env.LOGBUY_PASS)
-    await Promise.all([
-      page.waitForNavigation(),
-      // page.click('#ctl00_Content_LinkButton_Login') // puppeteer click don't work due to a cookie popup
-      page.$eval('#ctl00_Content_LinkButton_Login', el => el.click())
-    ])
+    try {
+      await page.goto('https://www.mylogbuy.com/WebPages/Login/Login.aspx?ReturnUrl=', { waitUntil: 'networkidle2' })
+      await page.type('#ctl00_Content_TextBox_Email', process.env.LOGBUY_USER)
+      await page.type('#ctl00_Content_TextBox_Password', process.env.LOGBUY_PASS)
+      await Promise.all([
+        page.waitForNavigation(),
+        // page.click('#ctl00_Content_LinkButton_Login') // puppeteer click don't work due to a cookie popup
+        page.$eval('#ctl00_Content_LinkButton_Login', el => el.click())
+      ])
+    } catch (error) {
+      await page.screenshot({ path: './logs/logbuy/goLoginFault.png' })
+      throw error
+    }
     // Store cookies as this site requires login
     holder.logbuyCookies = await page.cookies('https://www.mylogbuy.com')
   }
@@ -134,6 +139,7 @@ async function doLogbuyScrape (PupPool, masterData = null, returnDataToMainThrea
         }))
     } catch (error) {
       console.error('Logbuy: Scraping main page ended in error.', error)
+      await page.screenshot({ path: './logs/logbuy/scrapeMainFault.png' })
     }
     try {
       await page.close()
