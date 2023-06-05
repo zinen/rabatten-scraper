@@ -66,6 +66,7 @@ jobs:
         name: ${{ matrix.artifact-name-failure}}
         path: |
           /home/runner/.npm/_logs/*
+          ./logs/*
 
     - name: temporarily save scrape data to artifact
       uses: actions/upload-artifact@v3
