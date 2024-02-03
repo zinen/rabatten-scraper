@@ -85,28 +85,28 @@ jobs:
 
     - name: get artifact from forbrugsforeningen scrape run
       continue-on-error: true
-      uses: actions/download-artifact@3
+      uses: actions/download-artifact@v3
       with:
         name: forbrugsforeningen-artifact
         path: ./scraped-data/forb
 
     - name: get artifact from logbuy scrape run
       continue-on-error: true
-      uses: actions/download-artifact@3
+      uses: actions/download-artifact@v3
       with:
         name: logbuy-artifact
         path: ./scraped-data/logb
 
     - name: get artifact from coop scrape run
       continue-on-error: true
-      uses: actions/download-artifact@3
+      uses: actions/download-artifact@v3
       with:
         name: coop-artifact
         path: ./scraped-data/coop
 
     - name: get artifact from aeldresagen scrape run
       continue-on-error: true
-      uses: actions/download-artifact@3
+      uses: actions/download-artifact@v3
       with:
         name: aeldresagen-artifact
         path: ./scraped-data/aeld
