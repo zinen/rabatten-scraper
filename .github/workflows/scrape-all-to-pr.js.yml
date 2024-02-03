@@ -73,7 +73,7 @@ jobs:
       with:
         name: ${{ matrix.artifact-name}}
         path: ${{ matrix.store-scrapes}}
-        retention-days: 1
+        retention-days: 3
 
   make-dist:
     if: ${{ always() }} # Perform this step no matter any errors
