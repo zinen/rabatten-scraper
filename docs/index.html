@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discount Search</title>
+    <style>
+        /* Basic styling for demonstration purposes */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: 100%;
+            max-width: 90%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Discount Search</h1>
+    <input type="text" id="searchInput" placeholder="Search...">
+    <ul id="discountList"></ul>
+</div>
+
+<script>
+    // Array to store all discount data
+    let allDiscounts = [];
+
+    // Function to fetch and combine discount data from multiple sources
+    async function fetchAndCombineData() {
+        const urls = [
+            'https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/coop.json',
+            'https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/logbuy.json',
+            'https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/forbrugsforeningen.json',
+            'https://cdn.jsdelivr.net/gh/zinen/rabatten-scraper@latest/dist/aeld.json'
+        ];
+
+        for (const url of urls) {
+            try {
+                const response = await fetch(url);
+                const data = await response.json();
+                allDiscounts.push(...data);
+            } catch (error) {
+                console.error('Error fetching data from', url, ':', error);
+            }
+        }
+    }
+
+    // Function to filter discounts based on search input
+    function filterDiscounts() {
+        const searchTerm = searchInput.value.toLowerCase();
+        const discountList = document.getElementById('discountList');
+        discountList.innerHTML = '';
+
+        allDiscounts.forEach(discount => {
+            const [domain, title, amount, link] = discount;
+            if (domain.toLowerCase().includes(searchTerm) || title.toLowerCase().includes(searchTerm)) {
+                const li = document.createElement('li');
+                // Creating link for the title
+                const titleLink = document.createElement('a');
+                titleLink.href = 'https://' + domain;
+                titleLink.textContent = title;
+                titleLink.target = '_blank';
+
+                // li.innerHTML = `<strong>${domain}</strong>: `;
+                li.appendChild(titleLink);
+                li.innerHTML += ` - ${amount} (<a href="${link}" target="_blank">Details</a>)`;
+
+                discountList.appendChild(li);
+            }
+        });
+    }
+
+    // Initial setup
+    fetchAndCombineData().then(() => {
+        filterDiscounts();
+        searchInput.addEventListener('input', filterDiscounts);
+    });
+</script>
+
+</body>
+</html>
