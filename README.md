@@ -3,6 +3,10 @@ Used to scrape data to be used in chrome browser extension [Rabatten](https://gi
 
 Uses [Puppeteer](https://github.com/puppeteer/puppeteer#readme) a library for [Node.js](https://nodejs.org/) to scrape javascript heavy sites.
 
+## Pages:
+
+Demo site is found here https://zinen.github.io/rabatten-scraper/ you can search though discounts here.
+
 ## How it works
 Most sites are scraped like this:
  1. *Login on site (if required)*
