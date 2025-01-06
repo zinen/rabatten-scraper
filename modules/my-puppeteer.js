@@ -15,6 +15,7 @@ module.exports = {
     testOnBorrow = true,
     puppeteerArgs = {
       // headless: false, // default is true
+      headless: 'new', // default is true
     // slowMo: 50, // only for debugging
       devtools: false, // default is false
       ignoreHTTPSErrors: true, // default is false

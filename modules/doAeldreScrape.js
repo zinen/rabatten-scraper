@@ -92,7 +92,8 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
       // Go to page no 30 (cludopage=30) on search page to load pages from 1-30 in one go.
       // There are 30 discounts pr page and as of year 2020 page 18-22 is usually the last page.
       // Getting all the way up to page 30 should make sure this script can handel up to 900 discounts(at year 2020 discounts was 600)
-      const pages = 60
+      // 2025-01-06: Pages are set to 90 handling around 900 discounts. Note that some are duplicates or adds. pages=60 will only get 600 discounts
+      const pages = 90
       page.setDefaultTimeout(pages * 5000)
       await page.goto('https://www.aeldresagen.dk/tilbud-og-rabatter/tilbud/alle-tilbud-og-rabatter#?cludoquery=*&cludopage='+pages, { waitUntil: 'load' })
       console.log('Aeldresagen: Main page is now loaded. Starting scrape now.')
@@ -102,20 +103,24 @@ async function doAeldreScrape (PupPool, masterData = null, returnDataToMainThrea
       do {
         await page.waitForTimeout(5000)
         holder.firstQueueAmount = holder.lastScrapeMainLength || 0
-        holder.lastScrapeMain = await page.$$eval('ul.common-list__list > li', (elements, firstQueueAmount) => {
+        holder.lastScrapeMain = await page.$$eval('div.cludo-search-results > ul > li', (elements, firstQueueAmount) => {
           return elements.map((element, index, elementArray) => {
             // Make empty object
             elementArray[index] = {}
             if (index >= firstQueueAmount) {
               try {
                 // Get headline of discount
-                elementArray[index].name = element.querySelector('h4').textContent.trim()
+                elementArray[index].name = element.querySelector('h2').textContent.trim()
                 // Mark the element in scope
                 // sectionElements.querySelector('span.grouped-list__shop-name').style.border = 'thick solid red'
-                // Get link to mre info about discount
+                // Get link to more info about discount
                 elementArray[index].localLink = element.querySelector('a').href
                 // Get sub info about discount/amount of discount
-                elementArray[index].discount = element.querySelector('.m-offer__description.u-hidden--md-down').textContent.trim()
+                // The discount can be found in one of two elements. The first one here have the most precise discount. The secund one is a fallback
+                let discountElement = element.querySelector('.o-list-card__rebate') || element.querySelector('.o-list-card__splashtext')
+                // Debug coloring:
+                // discountElement.style.border = 'thick solid red'
+                elementArray[index].discount = discountElement.textContent.trim()
                 // Replace dot with commas, remove trailing zero after commas
                 elementArray[index].discount = elementArray[index].discount ? elementArray[index].discount.replace(/\./gi, ',').replace(/\.0|,0/gi, '') : null
               } catch (error) {
