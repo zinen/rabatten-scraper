@@ -61,7 +61,7 @@ jobs:
 
     - name: Save npm failure logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.artifact-name-failure}}
         path: |
@@ -69,7 +69,7 @@ jobs:
           ./logs/*
 
     - name: temporarily save scrape data to artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: ${{ matrix.artifact-name}}
         path: ${{ matrix.store-scrapes}}
@@ -85,28 +85,28 @@ jobs:
 
     - name: get artifact from forbrugsforeningen scrape run
       continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: forbrugsforeningen-artifact
         path: ./scraped-data/forb
 
     - name: get artifact from logbuy scrape run
       continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: logbuy-artifact
         path: ./scraped-data/logb
 
     - name: get artifact from coop scrape run
       continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: coop-artifact
         path: ./scraped-data/coop
 
     - name: get artifact from aeldresagen scrape run
       continue-on-error: true
-      uses: actions/download-artifact@v3
+      uses: actions/download-artifact@v4
       with:
         name: aeldresagen-artifact
         path: ./scraped-data/aeld
@@ -160,7 +160,7 @@ jobs:
         
     - name: Save logs as artifact
       if: ${{ failure() }} # Perform this step if some error happened
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: logs
         path: |
