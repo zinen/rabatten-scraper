@@ -1,6 +1,6 @@
 {
   "name": "rabatten-scraper",
-  "version": "1.9.18",
+  "version": "1.9.19",
   "description": "Used to do web scraping of data for repo rabatten",
   "type": "commonjs",
   "main": "index.js",
