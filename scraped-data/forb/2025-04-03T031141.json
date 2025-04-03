@@ -1,0 +1,5089 @@
+[
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedgaden-77",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hostrupvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendervig-klitvej-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kirkehoejen-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holstebrovej-19",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-rosenvangs-alle-189a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kirkebakken-15",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-reberbanegade-3",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vejlevej-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-randers-storcenter-merkurvej-55",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storebaeltsvej-7d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-toftevej-8",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storegade-194",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-jellingvej-127",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sct-klemensgade-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-903",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-edwin-rahrs-vej-69",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-aalborg-storcenter-hobrovej-452",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-roedovre-centrum-114",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-vestsjaellandscentret-10",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-biblioteksvej-56",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-bjergbygade-47",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-janesvej-9",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederikssundsvej-175",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vodskovvej-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-egelundsvej-5",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hylkedalsvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ribe-landevej-71",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ishoej-strandvej-78",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-eremitageparken-315",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-4d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-clausholmsvej-6",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-esrumvej-128",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-birkeroed-kongevej-158",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vroldvej-31",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sjaellandsgade-125",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-stevnsvej-72",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ndr-ringvej-118",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-diagonalvejen-33",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendervang-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Bonnie Dyrecenter",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bonnie-dyrecenter/bonnie-dyrecenter-roedovre-centrum-169",
+    "discount": "5%",
+    "remoteLink": "www.xn--bonniedyrecenter-rdovre-2mc.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gl-hobrovej-82",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nyborgvej-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedvejen-141",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vejlevej-117",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederiksvaerkvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-simons-bakke-30",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-padevaenget-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-raadhusgade-65",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-grenaavej-528",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-roskildevej-117",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerregade-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hoejvangsvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tommy Hilfiger, Ginsborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ginsborg/tommy-hilfiger-ginsborg-lyngby-storcenter",
+    "discount": "4,5%",
+    "remoteLink": "www.ginsborg.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-flensborgvej-54",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-27",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-havkaervej-114",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-falkoner-alle-21",
+    "discount": "7%",
+    "remoteLink": "www.eventyrsport.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-strandbygade-21",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-merkurvej-1c-st-62",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten Sylvest",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-sylvest-baltorpvej-2",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-naestved-storcenter-3-28",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-lyngby-storcenter-1",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-nygade-1",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-ros-torv-1-st",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-valby-langgade-31",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-harald-lunds-gade-7",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-70",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vroldvej-31",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-trianglen-4",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-randersvej-20",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-ryesgade-23",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-rolighedsvej-6",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-slotsgade-2",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vonsildvej-30",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-56",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-finlandsgade-17",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-arne-jacobsens-alle-12",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-aalborg-storcenter-hobrovej-452",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-roedovre-centrum-114",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-padevaenget-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-simons-bakke-30",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-raadhusgade-65",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-grenaavej-528",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-roskildevej-117",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerregade-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hoejvangsvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tommy Hilfiger, Ginsborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ginsborg/tommy-hilfiger-ginsborg-lyngby-storcenter",
+    "discount": "4,5%",
+    "remoteLink": "www.ginsborg.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-flensborgvej-54",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-27",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-havkaervej-114",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-m-p-bruuns-gade-25",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-roedovre-centrum-202",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-herningcentret-merkurvej-7",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-randers-storcenter-merkurvej-55",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-roedovre-centrum-127",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-philip-heymans-alle-17",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-baltorpvej-2",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-aalborg-storcenter-hobrovej-452",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-herningcentret-merkurvej-7",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-randers-storcenter-merkurvej-55",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-roedovre-centrum-127",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-philip-heymans-alle-17",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-reberbanegade-3",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-exnersgade-20",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-roedovre-centrum-125",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-arne-jacobsens-alle-12",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-lyngby-storcenter-1",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-roedovre-centrum-196",
+    "discount": "2%",
+    "remoteLink0": "https://www.power.dk/?utm_source=forbrugerforeningen&utm_medium=paid&utm_campaign=Roedovre",
+    "remoteLink": "www.power.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-milnersvej-47",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vejers-havvej-7",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-arnbjerg-centret-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-solvang-2",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-wichmandsvej-2-4",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-algade-58",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-noerre-voldgade-21",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-frederikssundsvej-154d",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-gammel-kongevej-121",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-banevolden-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holbaekvej-60-d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederikssundsvej-356",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Dalle Valle",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dalle-valle/dalle-valle-arne-jacobsens-alle-12",
+    "discount": "10%",
+    "remoteLink": "dallevalle.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hornbaekvej-115",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-roedovre-centrum-154",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-slotsarkaderne-butik-1",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holmelund-32",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kliplev-industrivej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sandvedvej-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Emmerys",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/emmerys/emmerys-m-p-bruuns-gade-25",
+    "discount": "6%",
+    "remoteLink": "emmerys.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-gammel-landevej-1a",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Aveny Guld-Sølv-Ure",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/aveny-guld-soelv-ure/aveny-guld-soelv-ure-roedovre-centrum-136",
+    "discount": "9%",
+    "remoteLink": "aveny.dk",
+    "masterData": true
+  },
+  {
+    "name": "Hl Mode",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/hl-mode/hl-mode-bymidten-17-19",
+    "discount": "9%",
+    "remoteLink": "hl-mode.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-stenbjergvej-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-odensevej-98-100",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Hl Mode",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/hl-mode/hl-mode-bymidten-17-19",
+    "discount": "9%",
+    "remoteLink": "hl-mode.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-lystrupvej-53",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koebenhavnsvej-54",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-laegaardvej-140",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-snejbjerg-hovedgade-38",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-valby-langgade-31",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Gundtoft",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/gundtoft/gundtoft-kolding-storcenter",
+    "discount": "9%",
+    "remoteLink": "www.gundtoft.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-apollovej-33",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-peder-rimmensgade-5",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-munkholmvej-107",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-elmegade-20",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedgaden-77",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hostrupvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendervig-klitvej-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kirkehoejen-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holstebrovej-19",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-rosenvangs-alle-189a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kirkebakken-15",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-reberbanegade-3",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vejlevej-12",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-randers-storcenter-merkurvej-55",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storebaeltsvej-7d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-toftevej-8",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storegade-194",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-birgersvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-jellingvej-127",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sct-klemensgade-3",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-903",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-edwin-rahrs-vej-69",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-peter-bangs-vej-61",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-odensevej-98-100",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-lystrupvej-53",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koebenhavnsvej-54",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-laegaardvej-140",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerregade-60",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-danmarksgade-43",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-thorupvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skagensvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-bredgade-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-frederiksvaerksgade-17",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-helsingoervej-19",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ringstedgade-167",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kongevejen-242",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-stormgade-206",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-glskivevej-71",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kirkevej-177-179",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Sinnerup Vanløse",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sinnerup/sinnerup-vanloese-vanloese-torv-1-1-2",
+    "discount": "5%",
+    "remoteLink": "www.sinnerup.dk",
+    "masterData": true
+  },
+  {
+    "name": "Gundtoft",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/gundtoft/gundtoft-kolding-storcenter",
+    "discount": "9%",
+    "remoteLink": "www.gundtoft.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-apollovej-33",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-peder-rimmensgade-5",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-munkholmvej-107",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-elmegade-20",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-87",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skaerbaekvej-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-buddinge-hovedgade-125",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Atlas Biograferne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/atlas-biograferne/atlas-biograferne-roedovre-centrum-96",
+    "discount": "12%",
+    "remoteLink0": "https://www.atlasbio.dk/",
+    "remoteLink": "www.atlasbio.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-kalvebod-brygge-59",
+    "discount": "5%",
+    "remoteLink0": "https://www.neye.dk/",
+    "remoteLink": "www.neye.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-reventlowsgade-12",
+    "discount": "Anden fordel",
+    "remoteLink0": "https://www.lsb.dk/lob/fbf/fordele/loenkonto-medlemsfordel?utm_source=partnersite&utm_medium=artikel&utm_campaign=5_procent&utm_content=fbf",
+    "remoteLink": "www.lsb.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kystvejen-24",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-14",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-englandsvej-22",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-wichmandsvej-2-4",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-arnbjerg-centret-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vejers-havvej-7",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skaerbaekvej-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-87",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Atlas Biograferne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/atlas-biograferne/atlas-biograferne-roedovre-centrum-96",
+    "discount": "12%",
+    "remoteLink0": "https://www.atlasbio.dk/",
+    "remoteLink": "www.atlasbio.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dirks Jewellery",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dirks-jewellery/dirks-jewellery-roedovre-centrum-1g-st-57",
+    "discount": "9%",
+    "remoteLink": "dirksjewellery.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-slotsarkaderne-butik-125",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-soender-torv-2",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-herningcentret-merkurvej-1a",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-skovvangen-42",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ny-esbjergvej-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gamle-by-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nordensvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skovvej-30",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterbro-35",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-k-p-danoesvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-herredsgade-28",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-11-13",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-35-d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koebenhavnsvej-107",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-stagehoejvej-2-a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-falkoner-alle-21",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-hoersholm-midtpunkt-54",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergaardsvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedgaden-79",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-roskildevej-316",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-rugaardsvej-280",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-munkerisvej-50",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-strevelinsvej-11a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nyraad-hovedgade-33",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterhavsvej-57",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-funder-bygade-49",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-laegaardsvej-2a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-poulsgade-2-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestermarksvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nybovej-37",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-roskildevej-360",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koege-bugt-motorvejen-295b",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-m-p-bruuns-gade-25",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-strandvejen-76",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-soendre-alle-7",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-maarkaervej-15-a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soroevej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kometvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederiksvaerksgade-87",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestmotorvejen-367b",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-waves-over-boelgen-15d",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vardevej-98",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-lundvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kalundborgvej-55",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-nytorv-27",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestre-boulevard-6",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hadsundvej-43",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aalborgvej-40",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-tjoerring-hovedgade-39",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vrejlevvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kaervej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-bymidten-29-31",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-gl-vardevej-230",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storegade-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-egevangen-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Müllers Guldsmedje",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/muellers-guldsmedje/muellers-guldsmedje-ros-torv-1-st4",
+    "discount": "9%",
+    "remoteLink": "mullersguldsmedje.dk",
+    "masterData": true
+  },
+  {
+    "name": "Müllers Guldsmedie",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/muellers-guldsmedje/muellers-guldsmedie-egedal-centret-26",
+    "discount": "9%",
+    "remoteLink": "mullersguldsmedje.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-tjoerring-hovedgade-39",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vrejlevvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soendergade-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kaervej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skovvej-30",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterbro-35",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-groenbaekvej-9",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-grenaavej-189",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-exnersgade-20",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-laurits-olesensvej-1",
+    "discount": "6%",
+    "remoteLink": "www.silvan.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-herningcentret-merkurvej-1c",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-haldagervej-48",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Røverkøb",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/roeverkoeb/roeverkoeb-roedovre-centrum-118",
+    "discount": "9%",
+    "remoteLink": "www.roverkob.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-bymidten-23",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterbrogade-44",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-fredensborgvej-41-b",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gladsaxe-moellevej-33",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-simmerstedvej-52",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hjortespringvej-24",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-karrebaekvej-5",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koktvedvej-37",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerrebro-23-27",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-oerbaekvej-75",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.toejeksperten.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-oerbaekvej-75",
+    "discount": "9%",
+    "remoteLink0": "https://www.pawsko.dk/",
+    "remoteLink": "pawsko.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-skjernvej-68",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oestergade-52",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aaroesundvej-84",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aabenraa-landevej-118",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-lyngby-storcenter-1",
+    "discount": "5%",
+    "remoteLink": "www.sikkerrejse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Delfin Sengecenter",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/delfin-sengecenter/delfin-sengecenter-solroed-center-42",
+    "discount": "8%",
+    "remoteLink": "www.delfinsengecenter.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bon Gout",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bon-gout/bon-gout-roedovre-centrum-94",
+    "discount": "9%",
+    "remoteLink": "kuffertthomsen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bon Gout",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bon-gout/bon-gout-farum-bytorv-23",
+    "discount": "9%",
+    "remoteLink": "kuffertthomsen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Q-Park Waterfront",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/q-park/q-park-waterfront-tuborg-havnevej",
+    "discount": "10%",
+    "remoteLink": "www.q-park.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lash Care",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lash-care/lash-care-strandmarksvej-18-1",
+    "discount": "10%",
+    "remoteLink": "lash-care.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-over-boelgen-2b-2",
+    "discount": "5%",
+    "remoteLink": "www.sikkerrejse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Karma Bruuns Galleri",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-karma/cafe-karma-bruuns-galleri-mp-bruuns-gade-25",
+    "discount": "10%",
+    "remoteLink": "cafekarma.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-kongevejs-centret-4-1",
+    "discount": "5%",
+    "remoteLink": "www.sikkerrejse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-roedovre-centrum",
+    "discount": "5%",
+    "remoteLink": "www.sikkerrejse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-naestved-storcenter-3",
+    "discount": "4,5%",
+    "remoteLink": "www.wagner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lots",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lots/lots-roedovre-centrum-135",
+    "discount": "10%",
+    "remoteLink": "lotsfashion.dk",
+    "masterData": true
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-naestved-storcenter-3",
+    "discount": "4,5%",
+    "remoteLink": "www.wagner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Karma Bruuns Galleri",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-karma/cafe-karma-bruuns-galleri-mp-bruuns-gade-25",
+    "discount": "10%",
+    "remoteLink": "cafekarma.dk",
+    "masterData": true
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-nordens-plads-8a",
+    "discount": "6%",
+    "remoteLink": "www.silvan.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-noerregade-16",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-algade-12",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-kongensgade-54",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-kordilgade-18",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-nytorv-9d",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-ringvej-syd-102",
+    "discount": "5%",
+    "remoteLink": "www.bauhaus.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-torvegade-12",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-lyngby-hovedgade-60",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-torvegade-12",
+    "discount": "9%",
+    "remoteLink": "pawsko.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-nytorv-9d",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-ringvej-syd-102",
+    "discount": "5%",
+    "remoteLink": "www.bauhaus.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-soendergade-69",
+    "discount": "5%",
+    "remoteLink": "bahne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soebaekken-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kastanievej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hostrupvej-41",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-stygge-krumpensvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-silkeborgvej-300",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-viborgvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gaerumvej-38-40",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gladsaxevej-88-94",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-k-p-danoesvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-herredsgade-28",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-11-13",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-35-d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-storegade-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-egevangen-4",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Müllers Guldsmedje",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/muellers-guldsmedje/muellers-guldsmedje-ros-torv-1-st4",
+    "discount": "9%",
+    "remoteLink": "mullersguldsmedje.dk",
+    "masterData": true
+  },
+  {
+    "name": "Müllers Guldsmedie",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/muellers-guldsmedje/muellers-guldsmedie-egedal-centret-26",
+    "discount": "9%",
+    "remoteLink": "mullersguldsmedje.dk",
+    "masterData": true
+  },
+  {
+    "name": "Femilet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/femilet/femilet-reberbanegade-3",
+    "discount": "9%",
+    "remoteLink": "www.femilet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-naesbyvej-51",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hoeng-landevej-10",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ringstedvej-26",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-velkomstcenter-syd-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-middelfartvej-509-511",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-svogerslev-hovedgade-78",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-bjerrevej-144",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-loftbrovej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergade-35",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedvejen-11",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-hoersholm-midtpunkt-54",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestergaardsvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-baltorpvej-2",
+    "discount": "5%",
+    "remoteLink": "www.neye.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aabenraavej-5-a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-loejtoftevej-24",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-strandvejen-76",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-soendre-alle-7",
+    "discount": "Anden fordel",
+    "remoteLink": "www.lsb.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-maarkaervej-15-a",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soroevej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kometvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederiksvaerksgade-87",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestmotorvejen-367b",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-koebenhavns-lufthavn-terminal-4",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nygade-21",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-islevdalvej-170",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koebenhavnsvej-80",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Mad Med Mere Rødovre Centrum",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/mad-med-mere/mad-med-mere-roedovre-centrum-roedovre-centrum-75",
+    "discount": "9%",
+    "remoteLink": "mmm-rc.dk",
+    "masterData": true
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-kalvebod-brygge-59",
+    "discount": "6%",
+    "remoteLink": "www.silvan.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-hobrovej-452",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-hoersholm-midtpunkt-88",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-espergaerde-centret",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sprogoevej-1",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-islevdalvej-170",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koebenhavnsvej-80",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Mad Med Mere Rødovre Centrum",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/mad-med-mere/mad-med-mere-roedovre-centrum-roedovre-centrum-75",
+    "discount": "9%",
+    "remoteLink": "mmm-rc.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-soebaekken-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-kastanievej-2",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hostrupvej-41",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-reberbanegade-3",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-niels-gyldingsgade-10",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-koebenhavns-lufthavn-terminal-2",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerregade-36",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-himmelev-sognevej-95",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-banevolden-16",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holbaekvej-60-d",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-frederikssundsvej-356",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Dalle Valle",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dalle-valle/dalle-valle-arne-jacobsens-alle-12",
+    "discount": "10%",
+    "remoteLink": "dallevalle.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hornbaekvej-115",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-roedovre-centrum-154",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-slotsarkaderne-butik-1",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-holmelund-32",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-bogensevej-23",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-nybovej-37",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-roskildevej-360",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-koege-bugt-motorvejen-295b",
+    "discount": "30 Øre/L",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aalborgvej-210",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-noerrebro-23-27",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hilleroedvej-118-b",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterhavsvej-15",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-jagtvej-213-215",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hilleroedvej-118-b",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oestergade-32",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vesterhavsvej-15",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oestergade-52",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aasumvej-39",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oerbaekvej-87",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aabenraa-landevej-118",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-aaroesundvej-84",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-gammel-aarhusvej-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oernumvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-jagtvej-213-215",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Evidensia Kolding Dyrehospital",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/evidensia/evidensia-kolding-dyrehospital-eliassensvej-5",
+    "discount": "9%",
+    "remoteLink": "evidensia.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-bremerholm-1",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-munkholmvej-107",
+    "discount": "10%",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "masterData": true
+  },
+  {
+    "name": "Europcar Hillerød",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-hilleroed-langesvej-4-6",
+    "discount": "9%",
+    "remoteLink": "www.europcar.dk",
+    "masterData": true
+  },
+  {
+    "name": "Volvo København - Nellemann",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/volvo-nellemann/volvo-koebenhavn-nellemann-bryggervangen-39",
+    "discount": "10%",
+    "remoteLink": "nellemann.dk",
+    "masterData": true
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-vestergaardsvej-11",
+    "discount": "10%",
+    "remoteLink": "daekpartner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-engvej-15",
+    "discount": "10%",
+    "remoteLink": "sds.dk",
+    "masterData": true
+  },
+  {
+    "name": "Taxi 4 x 27",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/taxi-4x27/taxi-4-x-27-omraade-odense-kommune",
+    "discount": "5%",
+    "remoteLink": "4x27.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-syrenvej-2",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Mauritz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-mauritz/cafe-mauritz-nytorv-3",
+    "discount": "7%",
+    "remoteLink": "cafemauritz.dk",
+    "masterData": true
+  },
+  {
+    "name": "Butlers",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/butlers/butlers-rolighedsvej-14",
+    "discount": "5%",
+    "remoteLink": "butlers.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-hovedvejen-197",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Femilet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/femilet/femilet-algade-30",
+    "discount": "9%",
+    "remoteLink": "www.femilet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-trykkerivej-4",
+    "discount": "10%",
+    "remoteLink": "sds.dk",
+    "masterData": true
+  },
+  {
+    "name": "Farumhus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/farumhus/farumhus-vasevej-109",
+    "discount": "6%",
+    "remoteLink": "webshop-farumhus.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X EL-Ladestation",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-ladestation/uno-x-el-ladestation-koebenhavnsvej-107",
+    "discount": "5%",
+    "remoteLink": "unoxmobility.dk",
+    "masterData": true
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-rorupvej-1",
+    "discount": "10%",
+    "remoteLink": "sds.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-kongensgade-31",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Femilet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/femilet/femilet-nytorv-15",
+    "discount": "9%",
+    "remoteLink": "www.femilet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-noerregade-8",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-havkaervej-114",
+    "discount": "10%",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-gammelgaardsvej-93",
+    "discount": "6%",
+    "remoteLink": "www.silvan.dk",
+    "masterData": true
+  },
+  {
+    "name": "Parma Pasta",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/parma-pasta/parma-pasta-roedovre-centrum-94",
+    "discount": "10%",
+    "remoteLink": "parmapasta.dk",
+    "masterData": true
+  },
+  {
+    "name": "Parma Pasta",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/parma-pasta/parma-pasta-city-2",
+    "discount": "10%",
+    "remoteLink": "parmapasta.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe A",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-a/cafe-a-solroed-center-115",
+    "discount": "10%",
+    "remoteLink": "www.cafe-a.dk",
+    "masterData": true
+  },
+  {
+    "name": "Parma Pasta",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/parma-pasta/parma-pasta-lyngby-storcenter-1",
+    "discount": "10%",
+    "remoteLink": "parmapasta.dk",
+    "masterData": true
+  },
+  {
+    "name": "Center Ure",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/center-ure-lyngby-storcenter",
+    "discount": "9%",
+    "remoteLink": "centerure.dk",
+    "masterData": true
+  },
+  {
+    "name": "Ballerup Ure, Guld & Sølv",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ballerup-ure-guld-soelv-baltorpvej-2",
+    "discount": "9%",
+    "remoteLink": "nh-jorgensen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe M Aalborg Storcenter",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-m-aalborg-storcenter-aalborg-storcenter-hobrovej-452",
+    "discount": "10%",
+    "remoteLink": "cafekarma.dk",
+    "masterData": true
+  },
+  {
+    "name": "Valby Tandklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/valby-tandklinik-spinderiet-valby-torvegade-17-2",
+    "discount": "5%",
+    "remoteLink": "valbytandklinik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tandklinikken Smil.nu",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/tandklinikken-smilnu-nivaa-center-40b",
+    "discount": "5%",
+    "remoteLink": "smil.nu",
+    "masterData": true
+  },
+  {
+    "name": "The American Restaurant & Diner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/the-american-restaurant-diner-arne-jacobsens-alle-12",
+    "discount": "9%",
+    "remoteLink": "www.theamericanfields.dk",
+    "masterData": true
+  },
+  {
+    "name": "Creme De La Creme",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/creme-de-la-creme/creme-de-la-creme-stengade-54",
+    "discount": "9%",
+    "remoteLink": "www.cremedelacreme.dk",
+    "masterData": true
+  },
+  {
+    "name": "Kim Q Hairdesign",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/kim-q-hairdesign-kalvebod-brygge-59",
+    "discount": "10%",
+    "remoteLink": "www.kimqhairdesign.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tidens Brille",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/tidens-brille-holte-stationsvej-18",
+    "discount": "9%",
+    "remoteLink": "tidensbrille.dk",
+    "masterData": true
+  },
+  {
+    "name": "Centerslagteren",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/centerslagteren-egedal-centret-28",
+    "discount": "8%",
+    "remoteLink": "centerslagter.dk",
+    "masterData": true
+  },
+  {
+    "name": "Værløse Optik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/vaerloese-optik-bymidten-108",
+    "discount": "9%",
+    "remoteLink": "www.vaerloeseoptik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Valby Tandplejeklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/valby-tandplejeklinik-spinderiet-valby-torvegade-17-2",
+    "discount": "5%",
+    "remoteLink": "valbytandklinik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Brilleriet.dk",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/brillerietdk-espergaerde-centret",
+    "discount": "9%",
+    "remoteLink": "www.brilleriet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tidens Brille",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/tidens-brille-holte-stationsvej-18",
+    "discount": "9%",
+    "remoteLink": "tidensbrille.dk",
+    "masterData": true
+  },
+  {
+    "name": "Centerslagteren",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/centerslagteren-egedal-centret-28",
+    "discount": "8%",
+    "remoteLink": "centerslagter.dk",
+    "masterData": true
+  },
+  {
+    "name": "Værløse Optik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/vaerloese-optik-bymidten-108",
+    "discount": "9%",
+    "remoteLink": "www.vaerloeseoptik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bash Burger og Grill",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bash-burger-og-grill-ros-torv-1-147",
+    "discount": "10%",
+    "remoteLink": "bashburger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Milano, Restaurant og Pizza",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/milano-restaurant-og-pizza-arne-jacobsens-alle-12",
+    "discount": "9%",
+    "remoteLink": "milanofields.dk",
+    "masterData": true
+  },
+  {
+    "name": "Magnussen Optik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/magnussen-optik-ishoej-by-center-lille-torv",
+    "discount": "9%",
+    "remoteLink": "www.magnussenoptik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-herningcentret-merkurvej-1b",
+    "discount": "4,5%",
+    "remoteLink": "www.wagner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Venus & Mars Xl",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/venus-mars-xl/venus-mars-xl-roedovre-centrum-123",
+    "discount": "9%",
+    "remoteLink": "www.venusogmarsxl.dk",
+    "masterData": true
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-falkoner-alle-21",
+    "discount": "5%",
+    "remoteLink0": "https://www.neye.dk/",
+    "remoteLink": "www.neye.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestvejen-95",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sallingvej-6",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hadsundvej-1",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Friluftsland",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/friluftsland/friluftsland-arne-jacobsens-alle-12",
+    "discount": "9%",
+    "remoteLink0": "https://www.friluftsland.dk/",
+    "remoteLink": "www.friluftsland.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-axeltorv-1-3",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-sct-hansgade-18",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-gl-vardevej-247",
+    "discount": "5%",
+    "remoteLink": "www.bauhaus.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-soendergade-47",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-kongevejen-36",
+    "discount": "10%",
+    "remoteLink": "daekpartner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-vestergaardsvej-11",
+    "discount": "10%",
+    "remoteLink": "daekpartner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-engvej-15",
+    "discount": "10%",
+    "remoteLink": "sds.dk",
+    "masterData": true
+  },
+  {
+    "name": "Taxi 4 x 27",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/taxi-4x27/taxi-4-x-27-omraade-odense-kommune",
+    "discount": "5%",
+    "remoteLink": "4x27.dk",
+    "masterData": true
+  },
+  {
+    "name": "Taxi 4 x 27",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/taxi-4x27/taxi-4-x-27-omraade-koebenhavns-kommune",
+    "discount": "5%",
+    "remoteLink": "4x27.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-gammel-lyngvej-23b",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-paderup-boulevard-2",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-stormgade-155",
+    "discount": "2%",
+    "remoteLink": "www.power.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-amagerbrogade-148",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Loop Horsens",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-horsens-hoeegh-guldbergsgade-36",
+    "discount": "10%",
+    "remoteLink": "loopfitness.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-dalgas-boulevard-15",
+    "discount": "5%",
+    "remoteLink": "www.sikkerrejse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Nordic Tea",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/nordic-tea/nordic-tea-moellestraede-6-stth",
+    "discount": "9%",
+    "remoteLink": "nordic-tea.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-axeltorv-1-3",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-sct-hansgade-18",
+    "discount": "9%",
+    "remoteLink": "cafevivaldi.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-gl-vardevej-247",
+    "discount": "5%",
+    "remoteLink": "www.bauhaus.dk",
+    "masterData": true
+  },
+  {
+    "name": "The Square - Arp-Hansen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/arp-hansen-hoteller/the-square-arp-hansen-raadhuspladsen-14",
+    "discount": "9%",
+    "remoteLink": "www.thesquare.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-jegstrupvej-16",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Volvo Roskilde - Nellemann",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/volvo-nellemann/volvo-roskilde-nellemann-betonvej-1",
+    "discount": "10%",
+    "remoteLink": "nellemann.dk",
+    "masterData": true
+  },
+  {
+    "name": "Volvo Roskilde - Nellemann",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/volvo-nellemann/volvo-roskilde-nellemann-betonvej-1",
+    "discount": "10%",
+    "remoteLink": "nellemann.dk",
+    "masterData": true
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-mileparken-2",
+    "discount": "10%",
+    "remoteLink": "sds.dk",
+    "masterData": true
+  },
+  {
+    "name": "Gundtoft",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/gundtoft/gundtoft-kongensgade-32",
+    "discount": "9%",
+    "remoteLink": "www.gundtoft.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-soeborg-hovedgade-108",
+    "discount": "6%",
+    "remoteLink": "lagkagehuset.dk",
+    "masterData": true
+  },
+  {
+    "name": "Begravelses Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/begravelses-service/begravelses-service-bernstorffsvej-13a",
+    "discount": "9%",
+    "remoteLink": "bs.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smarteyes",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/smarteyes/smarteyes-hospitalsgade-2c",
+    "discount": "9%",
+    "remoteLink": "www.smarteyes.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smarteyes",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/smarteyes/smarteyes-broedregade-1",
+    "discount": "9%",
+    "remoteLink": "www.smarteyes.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-torvet-19",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-noerregade-1",
+    "discount": "4,5%",
+    "remoteLink": "www.toejeksperten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-centervej-1",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-loekkenvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-soeborg-hovedgade-71",
+    "discount": "Anden fordel",
+    "remoteLink0": "https://www.lsb.dk/lob/fbf/fordele/loenkonto-medlemsfordel?utm_source=partnersite&utm_medium=artikel&utm_campaign=5_procent&utm_content=fbf",
+    "remoteLink": "www.lsb.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-markedsgade-23",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sdr-havnegade-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Zenz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/zenz-oekologisk-frisoer/zenz-falkoner-alle-21",
+    "discount": "9%",
+    "remoteLink0": "https://www.zenzshop.dk/",
+    "remoteLink": "www.zenzshop.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Røverkøb",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/roeverkoeb/roeverkoeb-holte-midtpunkt-30",
+    "discount": "9%",
+    "remoteLink0": "https://www.roverkob.dk/",
+    "remoteLink": "www.roverkob.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oestergade-60",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-loekkenvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oestergade-27-29",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.uno-x.fbf.nu",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-vestvejen-95",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oesterbro-75",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Jack & Jones",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/jack-jones/jack-jones-aalborg-storcenter-hobrovej-452",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Aalborg%20Storcenter,%20Hobrovej%20452,+9200+Aalborg%20SV",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Jack & Jones",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/jack-jones/jack-jones-randers-storcenter-merkurvej-55",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Randers%20Storcenter,%20Merkurvej%2055,+8960+Randers%20S%C3%98",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Femilet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/femilet/femilet-sct-mathias-gade-29",
+    "discount": "9%",
+    "remoteLink0": "https://www.femilet.dk/",
+    "remoteLink": "www.femilet.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Europcar Kastrup",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-kastrup-koebenhavns-lufthavn-terminal-3",
+    "discount": "9%",
+    "remoteLink0": "https://www.europcar.dk/",
+    "remoteLink": "www.europcar.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Europcar Kastrup",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-kastrup-koebenhavns-lufthavn-terminal-3",
+    "discount": "9%",
+    "remoteLink0": "https://www.europcar.dk/",
+    "remoteLink": "www.europcar.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco/imerco-home-espergaerde-centret",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Esperg%C3%A6rde%20Centret%20,,+3060+Esperg%C3%A6rde",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-vestergaardsvej-2",
+    "discount": "2%",
+    "remoteLink0": "https://www.power.dk/?utm_source=forbrugerforeningen&utm_medium=paid&utm_campaign=Naestved",
+    "remoteLink": "www.power.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Røverkøb",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/roeverkoeb/roeverkoeb-amagerbrogade-66",
+    "discount": "9%",
+    "remoteLink0": "https://www.roverkob.dk/",
+    "remoteLink": "www.roverkob.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-frederik-winthers-vej-4",
+    "discount": "6%",
+    "remoteLink0": "https://www.silvan.dk/",
+    "remoteLink": "www.silvan.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-ellebjergvej-80",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wakeup Copenhagen - Arp-Hansen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/arp-hansen-hoteller/wakeup-copenhagen-arp-hansen-borgergade-11",
+    "discount": "9%",
+    "remoteLink0": "https://www.wakeupcopenhagen.dk/",
+    "remoteLink": "www.wakeupcopenhagen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Brdr. Friis Møbler",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/brdr-friis-moebler/brdr-friis-moebler-gladsaxevej-311",
+    "discount": "3%",
+    "remoteLink0": "https://www.brdr-friis.dk/",
+    "remoteLink": "www.brdr-friis.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-mp-bruuns-gade-25",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/M.P.%20Bruuns%20Gade%2025,+8000+Aarhus%20C",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-groenlandsvej-3b",
+    "discount": "7%",
+    "remoteLink0": "https://www.eventyrsport.dk/",
+    "remoteLink": "www.eventyrsport.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-algade-32",
+    "discount": "7%",
+    "remoteLink0": "https://www.eventyrsport.dk/",
+    "remoteLink": "www.eventyrsport.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Evidensia Brønshøj Dyreklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/evidensia/evidensia-broenshoej-dyreklinik-frederikssundsvej-195-b",
+    "discount": "9%",
+    "remoteLink0": "https://www.evidensia.dk/dyreklinik/broenshoej-dyreklinik/",
+    "remoteLink": "evidensia.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Xl-byg Knud Larsen Byggecenter",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/xl-byg/xl-byg-knud-larsen-byggecenter-gammel-koege-landevej-515-537",
+    "discount": "6%",
+    "remoteLink0": "https://www.byggecenter.dk/",
+    "remoteLink": "www.byggecenter.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-hoersholm-midtpunkt-154",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/H%C3%B8rsholm%20Midtpunkt%20154,+2970+H%C3%B8rsholm",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-arne-jacobsens-alle-12",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Arne%20Jacobsens%20Alle%2012,+2300+K%C3%B8benhavn%20S",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-nygade-1",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Nygade%201,+3600+Frederikssund",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-ahlgade-50",
+    "discount": "5%",
+    "remoteLink0": "https://www.bahne.dk/",
+    "remoteLink": "bahne.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Paw Sko",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/paw-sko/paw-sko-frejasvej-18",
+    "discount": "9%",
+    "remoteLink0": "https://www.pawsko.dk/",
+    "remoteLink": "pawsko.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-oestergade-30",
+    "discount": "5%",
+    "remoteLink0": "https://www.bahne.dk/",
+    "remoteLink": "bahne.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-finlandsgade-17",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Finlandsgade%2017,+8200+Aarhus%20N",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-ros-torv-1-1-st",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Ro's%20Torv%201%201%20st,+4000+Roskilde",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-gl-vardevej-230",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Gl.%20Vardevej%20230,+6715+Esbjerg%20N",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-waves-over-boelgen-21a",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Waves,%20Over%20B%C3%B8lgen%2021A,+2670+Greve",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-soendertorv-2",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/S%C3%B8ndertorv%202,+7100+Vejle",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bahne",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bahne/bahne-oestergade-4",
+    "discount": "5%",
+    "remoteLink0": "https://www.bahne.dk/",
+    "remoteLink": "bahne.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-baltorpvej-2",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Baltorpvej%202,+2750+Ballerup",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sports World x Sportmaster",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sportmaster/sports-world-x-sportmaster-gl-vardevej-230",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Gl.%20Vardevej%20230,+6715+Esbjerg%20N",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-silkeborgvej-2",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-store-torvegade-96",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sallingvej-6",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-sdr-havnegade-3",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-markedsgade-23",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Røverkøb",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/roeverkoeb/roeverkoeb-holte-midtpunkt-30",
+    "discount": "9%",
+    "remoteLink0": "https://www.roverkob.dk/",
+    "remoteLink": "www.roverkob.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Zenz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/zenz-oekologisk-frisoer/zenz-falkoner-alle-21",
+    "discount": "9%",
+    "remoteLink0": "https://www.zenzshop.dk/",
+    "remoteLink": "www.zenzshop.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-oesterbakken-64",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-hovedgaden-39",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Gundtoft",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/gundtoft/gundtoft-oerbaekvej-75",
+    "discount": "9%",
+    "remoteLink0": "https://www.gundtoft.dk/",
+    "remoteLink": "www.gundtoft.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-randers-storcenter-merkurvej-55",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.toejeksperten.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lån & Spar Bank A/S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/laan-spar/laan-spar-bank-as-soeborg-hovedgade-71",
+    "discount": "Anden fordel",
+    "remoteLink0": "https://www.lsb.dk/lob/fbf/fordele/loenkonto-medlemsfordel?utm_source=partnersite&utm_medium=artikel&utm_campaign=5_procent&utm_content=fbf",
+    "remoteLink": "www.lsb.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-finlandsgade-17",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.toejeksperten.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Thiele",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/thiele/thiele-waves-over-boelgen-6b1",
+    "discount": "10%",
+    "remoteLink0": "https://www.google.com/maps/place/Waves,%20Over%20B%C3%B8lgen%206B1,+2670+Greve",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-godthaabsvej-55",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-kp-danoesvej-4",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Thiele",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/thiele/thiele-arne-jacobsens-alle-12",
+    "discount": "10%",
+    "remoteLink0": "https://www.google.com/maps/place/Arne%20Jacobsens%20Alle%2012,+2300+K%C3%B8benhavn%20S",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Thiele",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/thiele/thiele-spinderiet-bomuldsgade-7",
+    "discount": "10%",
+    "remoteLink0": "https://www.google.com/maps/place/Spinderiet,%20Bomuldsgade%207,+2500+Valby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Thiele",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/thiele/thiele-randers-storcenter-merkurvej-55",
+    "discount": "10%",
+    "remoteLink0": "https://www.google.com/maps/place/Randers%20Storcenter,%20Merkurvej%2055,+8960+Randers%20S%C3%98",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "The Spot Cafe",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/the-spot-cafe/the-spot-cafe-ros-torv-1-st26",
+    "discount": "7%",
+    "remoteLink0": "https://www.google.com/maps/place/Ro's%20Torv%201,st.26,+4000+Roskilde",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-ny-oestergade-12",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Loop Aalborg C",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-aalborg-c-sjaellandsgade-16-22",
+    "discount": "10%",
+    "remoteLink0": "https://loopfitness.com/da/aalborg-c/",
+    "remoteLink": "loopfitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-hovedvejen-11",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Emmerys",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/emmerys/emmerys-store-kongensgade-97",
+    "discount": "6%",
+    "remoteLink0": "https://www.emmerys.dk/",
+    "remoteLink": "emmerys.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco-home/imerco-home-nytorv-27",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Nytorv%2027,+9000+Aalborg",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-niels-gyldingsgade-10",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco-home/imerco-home-finlandsgade-17",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Finlandsgade%2017,+8200+Aarhus%20N",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco-home/imerco-home-spinderiet-spinderigade-4",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Spinderiet,%20Spinderigade%204,+2500+Valby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco-home/imerco-home-nygade-1",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Nygade%201,+3600+Frederikssund",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sinnerup Aalborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/sinnerup/sinnerup-aalborg-nytorv-18-20",
+    "discount": "5%",
+    "remoteLink0": "https://www.sinnerup.dk/",
+    "remoteLink": "sinnerup.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco-home/imerco-home-hoersholm-midtpunkt-83",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/H%C3%B8rsholm%20Midtpunkt%2083,+2970+H%C3%B8rsholm",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wakeup Copenhagen - Arp-Hansen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/arp-hansen-hoteller/wakeup-copenhagen-arp-hansen-carsten-niebuhrs-gade-11",
+    "discount": "9%",
+    "remoteLink0": "https://www.wakeupcopenhagen.dk/",
+    "remoteLink": "www.wakeupcopenhagen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Skoringen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/skoringen/skoringen-slotsarkaderne-butik-14",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/SlotsArkaderne,%20butik%2014,+3400+Hiller%C3%B8d",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-ved-broen-2-a",
+    "discount": "9%",
+    "remoteLink0": "http://cafevivaldi.dk/",
+    "remoteLink": "cafevivaldi.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-industrivej-7",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x/uno-x-godthaabsvej-55",
+    "discount": "30 Øre/L",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-haraldsvej-64-d",
+    "discount": "10%",
+    "remoteLink0": "https://daekpartner.dk/dine-fordele/samarbejdspartnere/forbrugsforeningen/",
+    "remoteLink": "daekpartner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-tangmosevej-87",
+    "discount": "10%",
+    "remoteLink0": "https://daekpartner.dk/dine-fordele/samarbejdspartnere/forbrugsforeningen/",
+    "remoteLink": "daekpartner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Loop Assens",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-assens-soendre-ringvej-12",
+    "discount": "10%",
+    "remoteLink0": "https://loopfitness.dk/centre/loop-fitness-assens/",
+    "remoteLink": "loopfitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-algade-42",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.xn--tjeksperten-ggb.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sand Concept Store Ginsborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ginsborg/sand-concept-store-ginsborg-lyngby-storcenter-1",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.google.com/maps/place/Lyngby%20Storcenter%201,+2800+Kgs.%20Lyngby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Buddy Legetøj",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/buddy-legetoej/buddy-legetoej-herningcentret-merkurvej-17",
+    "discount": "8%",
+    "remoteLink0": "https://www.google.com/maps/place/HerningCentret,%20Merkurvej%2017,+7400+Herning",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Quickpoint",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/quickpoint/quickpoint-storegade-225c",
+    "discount": "10%",
+    "remoteLink0": "https://www.quickpoint.dk/forbrugsforeningen/?utm_medium=rabataftaler&utm_source=forbrugsforeningen.dk",
+    "remoteLink": "www.quickpoint.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-opnoerplads-2",
+    "discount": "5%",
+    "remoteLink0": "https://www.sikkerrejse.dk/",
+    "remoteLink": "www.sikkerrejse.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-baadehavnsgade-20",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Mauritz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-mauritz/cafe-mauritz-skibhusvej-96",
+    "discount": "7%",
+    "remoteLink0": "https://cafemauritz.dk/",
+    "remoteLink": "cafemauritz.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Q-Park Magasin Aarhus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/q-park/q-park-magasin-aarhus-aaboulevarden-70",
+    "discount": "10%",
+    "remoteLink0": "https://www.q-park.dk/",
+    "remoteLink": "www.q-park.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-torvegade-36",
+    "discount": "5%",
+    "remoteLink0": "https://www.neye.dk/",
+    "remoteLink": "www.neye.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-nordhavnsvej-2",
+    "discount": "2%",
+    "remoteLink0": "https://www.power.dk/?utm_source=forbrugerforeningen&utm_medium=paid&utm_campaign=Haderslev",
+    "remoteLink": "www.power.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-fabriksparken-43",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-graham-bells-vej-27",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-groenlandsvej-10",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Stuhr",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/stuhr/stuhr-kongevejscentret-2",
+    "discount": "9%",
+    "remoteLink0": "https://www.stuhr.dk/",
+    "remoteLink": "stuhr.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Go2fitness",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/go2fitness/go2fitness-hovedgaden-60e",
+    "discount": "10%",
+    "remoteLink0": "https://www.go2fitness.dk/",
+    "remoteLink": "go2fitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Gundtoft",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/gundtoft/gundtoft-torvegade-6",
+    "discount": "9%",
+    "remoteLink0": "https://www.gundtoft.dk/",
+    "remoteLink": "www.gundtoft.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Go2fitness",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/go2fitness/go2fitness-tuse-byvej-8",
+    "discount": "10%",
+    "remoteLink0": "https://www.go2fitness.dk/",
+    "remoteLink": "go2fitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Nyt Syn Bistrup Optik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/nyt-syn/nyt-syn-bistrup-optik-vasevej-109",
+    "discount": "9%",
+    "remoteLink0": "https://www.nytsyn.dk/",
+    "remoteLink": "www.nytsyn.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Nyt Syn Dianalund",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/nyt-syn/nyt-syn-dianalund-torvet-11-a",
+    "discount": "9%",
+    "remoteLink0": "https://www.nytsyn.dk/",
+    "remoteLink": "www.nytsyn.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Monkey Glasses",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/monkey-glasses/monkey-glasses-faelledvej-16",
+    "discount": "10%",
+    "remoteLink0": "https://www.monkeyglasses.dk/",
+    "remoteLink": "www.monkeyglasses.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Butik Charlotte",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/butik-charlotte/butik-charlotte-egedal-centret-20-24",
+    "discount": "7%",
+    "remoteLink0": "https://www.google.com/maps/place/Egedal%20Centret%2020-24,+3660+Stenl%C3%B8se",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco København S",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco/imerco-koebenhavn-s-reberbanegade-3",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Reberbanegade%203,+2300+K%C3%B8benhavn%20S",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Europcar Aarhus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-aarhus-soender-alle-35",
+    "discount": "9%",
+    "remoteLink0": "https://www.europcar.dk/",
+    "remoteLink": "www.europcar.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Europcar Aarhus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-aarhus-soender-alle-35",
+    "discount": "9%",
+    "remoteLink0": "https://www.europcar.dk/",
+    "remoteLink": "www.europcar.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Skoringen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/skoringen/skoringen-stuerups-plads-1",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/St%C3%BCrups%20Plads%201,+3000+Helsing%C3%B8r",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-industrivej-19",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco/imerco-home-strandmarksvej-20",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Strandmarksvej%2020,+2650+Hvidovre",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-gaaskaergade-38-44",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-soendergade-32",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.wagner.dk/",
+    "remoteLink": "www.wagner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-groenningen-1",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Q-Park Illum",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/q-park/q-park-illum-silkegade-4",
+    "discount": "10%",
+    "remoteLink0": "https://www.q-park.dk/",
+    "remoteLink": "www.q-park.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Memira Øjenklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/memira/memira-oejenklinik-banegaardspladsen-1-1",
+    "discount": "7%",
+    "remoteLink0": "https://www.memira.dk/fbf",
+    "remoteLink": "www.memira.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Pipi Legetøj",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/pipi-legetoej/pipi-legetoej-amagerbrogade-201",
+    "discount": "9%",
+    "remoteLink0": "https://www.xn--pipilegetj-8cb.dk/",
+    "remoteLink": "xn--pipilegetj-8cb.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dantes Restaurant og Pizzeria",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dantes-restaurant-og-pizzeria-solroed-center-8",
+    "discount": "10%",
+    "remoteLink0": "https://www.dantes.dk/",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Companys",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/companys/companys-lyngby-storcenter",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/Lyngby%20Storcenter%20,,+2800+Kgs.%20Lyngby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-kolding-storcenter-skovvangen-42",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.wagner.dk/",
+    "remoteLink": "www.wagner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lindbergh",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/lindbergh-aalborg-storcenter-hobrovej-452",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.wagner.dk/",
+    "remoteLink": "www.wagner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-vesterbrogade-10",
+    "discount": "6%",
+    "remoteLink0": "https://www.silvan.dk/",
+    "remoteLink": "www.silvan.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Ny Trio Biler ApS",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ny-trio-biler/ny-trio-biler-aps-broendbytoften-7",
+    "discount": "9%",
+    "remoteLink0": "https://www.triobiler.dk/",
+    "remoteLink": "www.triobiler.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-sigrunsvej-40",
+    "discount": "5%",
+    "remoteLink0": "https://www.bauhaus.dk/",
+    "remoteLink": "www.bauhaus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe A",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-a/cafe-a-oerbaekvej-75",
+    "discount": "10%",
+    "remoteLink0": "http://cafe-a.dk/",
+    "remoteLink": "www.cafe-a.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Mauritz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-mauritz/cafe-mauritz-sjaellandsgade-33",
+    "discount": "7%",
+    "remoteLink0": "https://cafemauritz.dk/",
+    "remoteLink": "cafemauritz.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Companys",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/companys/companys-spinderiet-bomuldsgade-4",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/Spinderiet,%20Bomuldsgade%204,+2500+Valby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-vejlevej-55",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Vero Moda",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/vero-moda/vero-moda-farum-bytorv-43",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/Farum%20Bytorv%2043,+3520+Farum",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Løberen Hillerød",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loeberen/loeberen-hilleroed-slangerupgade-4",
+    "discount": "7%",
+    "remoteLink0": "https://www.loberen.dk/",
+    "remoteLink": "loberen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Home of Carlsberg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/home-of-carlsberg/home-of-carlsberg-gamle-carlsberg-vej-11",
+    "discount": "14%",
+    "remoteLink0": "https://www.homeofcarlsberg.com/",
+    "remoteLink": "homeofcarlsberg.com",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Unik Optik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/unik-optik/unik-optik-hoersholm-midtpunkt-60",
+    "discount": "11%",
+    "remoteLink0": "https://www.google.com/maps/place/H%C3%B8rsholm%20Midtpunkt%2060,+2970+H%C3%B8rsholm",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-soendergade-5-7",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.xn--tjeksperten-ggb.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uldgalleriet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uldgalleriet/uldgalleriet-jernbanegade-7",
+    "discount": "9%",
+    "remoteLink0": "https://www.uldgalleriet.dk/",
+    "remoteLink": "www.uldgalleriet.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-marmorvej-19",
+    "discount": "5%",
+    "remoteLink0": "https://www.sikkerrejse.dk/",
+    "remoteLink": "www.sikkerrejse.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-industrivej-20",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-fabrikvej-2",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-sluseholmen-19b",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-noerrekobbel-23",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Izanel Copenhagen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/izanel/izanel-copenhagen-godthaabsvej-64a",
+    "discount": "10%",
+    "remoteLink0": "https://www.izanel.dk/",
+    "remoteLink": "izanel.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-algade-42",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.xn--tjeksperten-ggb.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-haraldsvej-64-d",
+    "discount": "10%",
+    "remoteLink0": "https://daekpartner.dk/dine-fordele/samarbejdspartnere/forbrugsforeningen/",
+    "remoteLink": "daekpartner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/daekpartner/daekpartner-tangmosevej-87",
+    "discount": "10%",
+    "remoteLink0": "https://daekpartner.dk/dine-fordele/samarbejdspartnere/forbrugsforeningen/",
+    "remoteLink": "daekpartner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Loop Assens",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-assens-soendre-ringvej-12",
+    "discount": "10%",
+    "remoteLink0": "https://loopfitness.dk/centre/loop-fitness-assens/",
+    "remoteLink": "loopfitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Sand Concept Store Ginsborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ginsborg/sand-concept-store-ginsborg-lyngby-storcenter-1",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.google.com/maps/place/Lyngby%20Storcenter%201,+2800+Kgs.%20Lyngby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-baadehavnsgade-20",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-opnoerplads-2",
+    "discount": "5%",
+    "remoteLink0": "https://www.sikkerrejse.dk/",
+    "remoteLink": "www.sikkerrejse.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-engvej-7",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Taxi 4 x 27",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/taxi-4x27/taxi-4-x-27-omraade-esbjerg-kommune",
+    "discount": "5%",
+    "remoteLink0": "https://www.4x27.dk/",
+    "remoteLink": "4x27.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-dandyvej-9",
+    "discount": "5%",
+    "remoteLink0": "https://www.bauhaus.dk/",
+    "remoteLink": "www.bauhaus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Q-Park Filosoffen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/q-park/q-park-filosoffen-filosofgangen-1",
+    "discount": "10%",
+    "remoteLink0": "https://www.q-park.dk/",
+    "remoteLink": "www.q-park.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Lagkagehuset",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/lagkagehuset/lagkagehuset-banegaardspladsen-3",
+    "discount": "6%",
+    "remoteLink0": "https://www.lagkagehuset.dk/",
+    "remoteLink": "lagkagehuset.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Vivaldi",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-vivaldi/cafe-vivaldi-foldegade-33",
+    "discount": "9%",
+    "remoteLink0": "http://cafevivaldi.dk/cafe/Vejle",
+    "remoteLink": "cafevivaldi.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Valentin",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-valentin/cafe-valentin-rungsted-havn-16",
+    "discount": "10%",
+    "remoteLink0": "https://www.valentinrungsted.dk/",
+    "remoteLink": "www.cafevalentin.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-sct-mathias-centret-1",
+    "discount": "5%",
+    "remoteLink0": "https://www.neye.dk/",
+    "remoteLink": "www.neye.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Neye",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/neye/neye-kongensgade-78",
+    "discount": "5%",
+    "remoteLink0": "https://www.neye.dk/",
+    "remoteLink": "www.neye.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-herlev-hovedgade-17",
+    "discount": "2%",
+    "remoteLink0": "https://www.power.dk/?utm_source=forbrugerforeningen&utm_medium=paid&utm_campaign=Herlev",
+    "remoteLink": "www.power.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Rinas Hundeskole",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/rinas-hundeskole/rinas-hundeskole-prags-boulevard-49-b7",
+    "discount": "8%",
+    "remoteLink0": "https://www.rinashundeskole.dk/",
+    "remoteLink": "www.rinashundeskole.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Quickpoint",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/quickpoint/quickpoint-odensevej-121",
+    "discount": "10%",
+    "remoteLink0": "https://www.quickpoint.dk/forbrugsforeningen/?utm_medium=rabataftaler&utm_source=forbrugsforeningen.dk",
+    "remoteLink": "www.quickpoint.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Power",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/power/power-groenlandsvej-22",
+    "discount": "2%",
+    "remoteLink0": "https://www.power.dk/?utm_source=forbrugerforeningen&utm_medium=paid&utm_campaign=Frederikshavn",
+    "remoteLink": "www.power.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wagner",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/wagner/wagner-storegade-10",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.wagner.dk/",
+    "remoteLink": "www.wagner.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Quickpoint",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/quickpoint/quickpoint-ringstedgade-207",
+    "discount": "10%",
+    "remoteLink0": "https://www.quickpoint.dk/forbrugsforeningen/?utm_medium=rabataftaler&utm_source=forbrugsforeningen.dk",
+    "remoteLink": "www.quickpoint.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Quickpoint",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/quickpoint/quickpoint-bymosevej-22",
+    "discount": "10%",
+    "remoteLink0": "https://www.quickpoint.dk/forbrugsforeningen/?utm_medium=rabataftaler&utm_source=forbrugsforeningen.dk",
+    "remoteLink": "www.quickpoint.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-vestvejen-95",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Loop Aalborg SØ",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-aalborg-soe-gugvej-217",
+    "discount": "10%",
+    "remoteLink0": "http://www.loopfitness.dk/da/aalborg",
+    "remoteLink": "loopfitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-stormgade-206",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-helsingoervej-19",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Hl Mode",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/hl-mode/hl-mode-vesterbrogade-11",
+    "discount": "9%",
+    "remoteLink0": "https://www.hl-mode.dk/",
+    "remoteLink": "hl-mode.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Hl Mode",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/hl-mode/hl-mode-stjernegade-11",
+    "discount": "9%",
+    "remoteLink0": "https://www.hl-mode.dk/",
+    "remoteLink": "hl-mode.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Holmer Guld Sølv Ure",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/holmer-guld-soelv-ure/holmer-guld-soelv-ure-herlev-torv-19",
+    "discount": "9%",
+    "remoteLink0": "https://www.guldsmed-holmer.dk/",
+    "remoteLink": "guldsmed-holmer.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Puls",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/puls/puls-noerregade-36",
+    "discount": "9%",
+    "remoteLink0": "https://www.pulswebshop.dk/",
+    "remoteLink": "www.pulswebshop.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-oestergade-1",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.toejeksperten.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Meny",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/meny/meny-solroed-center-35",
+    "discount": "2%",
+    "remoteLink0": "https://www.google.com/maps/place/Solr%C3%B8d%20Center%2035,+2680+Solr%C3%B8d%20Strand",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Butlers",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/butlers/butlers-farum-bytorv-51",
+    "discount": "5%",
+    "remoteLink0": "https://www.butlers.dk/",
+    "remoteLink": "butlers.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Danske Lægers Vaccinations Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/dlvs-vaccinations-service/danske-laegers-vaccinations-service-vejlevej-1",
+    "discount": "5%",
+    "remoteLink0": "https://www.sikkerrejse.dk/",
+    "remoteLink": "www.sikkerrejse.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "2Ø",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/2oe/2oe-ahlgade-60",
+    "discount": "10%",
+    "remoteLink0": "https://www.2oe.dk/",
+    "remoteLink": "2oe.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-moellegade-14-22",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Ginsborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ginsborg/ginsborg-falkoner-alle-21",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.google.com/maps/place/Falkoner%20Alle%2021,+2000+Frederiksberg",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Feriebolig København",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/fbf-ferieboliger/feriebolig-koebenhavn-islands-brygge-36-b-6-1",
+    "discount": "12%",
+    "remoteLink0": "https://fbf.bookhus.dk/House/1485",
+    "remoteLink": "fbf.bookhus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Ishøj",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco/imerco-ishoej-ishoej-by-center-lille-torv",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Ish%C3%B8j%20By%20Center,%20Lille%20Torv%20,,+2635+Ish%C3%B8j",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Q-Park Grønnegade",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/q-park/q-park-groennegade-groennegade",
+    "discount": "10%",
+    "remoteLink0": "https://www.q-park.dk/",
+    "remoteLink": "www.q-park.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Feriebolig København",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/fbf-ferieboliger/feriebolig-koebenhavn-weidekampsgade-69-4-tv",
+    "discount": "12%",
+    "remoteLink0": "https://fbf.bookhus.dk/House/1482",
+    "remoteLink": "fbf.bookhus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-viborgvej-23",
+    "discount": "7%",
+    "remoteLink0": "https://www.eventyrsport.dk/",
+    "remoteLink": "www.eventyrsport.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Imerco Home",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/imerco/imerco-home-espergaerde-centret",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Esperg%C3%A6rde%20Centret%20,,+3060+Esperg%C3%A6rde",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wakeup Aarhus - Arp-Hansen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/arp-hansen-hoteller/wakeup-aarhus-arp-hansen-m-p-bruuns-gade-27",
+    "discount": "9%",
+    "remoteLink0": "https://www.wakeupcopenhagen.dk/",
+    "remoteLink": "www.wakeupcopenhagen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Wakeup Copenhagen - Arp-Hansen",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/arp-hansen-hoteller/wakeup-copenhagen-arp-hansen-borgergade-11",
+    "discount": "9%",
+    "remoteLink0": "https://www.wakeupcopenhagen.dk/",
+    "remoteLink": "www.wakeupcopenhagen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-groenlandsvej-3b",
+    "discount": "7%",
+    "remoteLink0": "https://www.eventyrsport.dk/",
+    "remoteLink": "www.eventyrsport.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Companys",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/companys/companys-lyngby-storcenter",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/Lyngby%20Storcenter%20,,+2800+Kgs.%20Lyngby",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Evidensia Brønshøj Dyreklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/evidensia/evidensia-broenshoej-dyreklinik-frederikssundsvej-195-b",
+    "discount": "9%",
+    "remoteLink0": "https://www.evidensia.dk/dyreklinik/broenshoej-dyreklinik/",
+    "remoteLink": "evidensia.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Europcar Sønderborg",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/europcar/europcar-soenderborg-soenderborg-lufthavn",
+    "discount": "9%",
+    "remoteLink0": "https://www.europcar.dk/",
+    "remoteLink": "www.europcar.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/eventyrsport/eventyrsport-japanvej-7",
+    "discount": "7%",
+    "remoteLink0": "https://www.eventyrsport.dk/",
+    "remoteLink": "www.eventyrsport.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Silvan",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/silvan/silvan-vesterbrogade-10",
+    "discount": "6%",
+    "remoteLink0": "https://www.silvan.dk/",
+    "remoteLink": "www.silvan.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Ny Trio Biler ApS",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/ny-trio-biler/ny-trio-biler-aps-broendbytoften-7",
+    "discount": "9%",
+    "remoteLink0": "https://www.triobiler.dk/",
+    "remoteLink": "www.triobiler.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Vero Moda",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/vero-moda/vero-moda-reberbanegade-3",
+    "discount": "9%",
+    "remoteLink0": "https://www.google.com/maps/place/Reberbanegade%203,+2300+K%C3%B8benhavn%20S",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bauhaus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bauhaus/bauhaus-sigrunsvej-40",
+    "discount": "5%",
+    "remoteLink0": "https://www.bauhaus.dk/",
+    "remoteLink": "www.bauhaus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Cafe Mauritz",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/cafe-mauritz/cafe-mauritz-sjaellandsgade-33",
+    "discount": "7%",
+    "remoteLink0": "https://cafemauritz.dk/",
+    "remoteLink": "cafemauritz.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Jack & Jones",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/jack-jones/jack-jones-kolding-storcenter-skovvangen-42",
+    "discount": "5%",
+    "remoteLink0": "https://www.google.com/maps/place/Kolding%20Storcenter,%20Skovvangen%2042,+6000+Kolding",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-industrivej-42",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-valby-langgade-36",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.xn--tjeksperten-ggb.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Vinslottet",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/vinslottet/vinslottet-haandvaerkerbyen-42",
+    "discount": "7%",
+    "remoteLink0": "https://www.vinslottet.dk/",
+    "remoteLink": "vinslottet.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Super Dæk Service",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/super-daek-service/super-daek-service-fabriksvej-3",
+    "discount": "10%",
+    "remoteLink0": "https://www.sds.dk/",
+    "remoteLink": "sds.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Bilsyn Plus",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/bilsyn-plus/bilsyn-plus-bistrupvej-126",
+    "discount": "7,5%",
+    "remoteLink0": "https://bilsynplus.dk/birkeroed.html",
+    "remoteLink": "bilsynplus.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Meny",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/meny/meny-kongevejscentret-6",
+    "discount": "2%",
+    "remoteLink0": "https://www.dalgaardsupermarked.dk/",
+    "remoteLink": "dalgaardsupermarked.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-ahlgade-30-a",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.xn--tjeksperten-ggb.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Tøjeksperten",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/toejeksperten/toejeksperten-oestergade-30",
+    "discount": "4,5%",
+    "remoteLink0": "https://www.toejeksperten.dk/",
+    "remoteLink": "www.toejeksperten.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Loop Randers SV",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/loop-fitness/loop-randers-sv-gl-stationsvej-3",
+    "discount": "10%",
+    "remoteLink0": "http://www.loopfitness.dk/da/randers-sv",
+    "remoteLink": "loopfitness.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Smarteyes",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/smarteyes/smarteyes-hoersholm-midtpunkt-41",
+    "discount": "9%",
+    "remoteLink0": "https://www.smarteyes.dk/",
+    "remoteLink": "www.smarteyes.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Smarteyes",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/smarteyes/smarteyes-banegaardspladsen-1",
+    "discount": "9%",
+    "remoteLink0": "https://www.smarteyes.dk/",
+    "remoteLink": "www.smarteyes.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Uno-X bilvask",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/uno-x-bilvask/uno-x-bilvask-oestergade-32",
+    "discount": "10%",
+    "remoteLink0": "https://www.uno-x.fbf.nu/",
+    "remoteLink": "www.forbrugsforeningen.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Memira Øjenklinik",
+    "localLink": "https://www.forbrugsforeningen.dk/medlem/memira/memira-oejenklinik-ringstedgade-18-1",
+    "discount": "7%",
+    "remoteLink0": "https://www.memira.dk/fbf",
+    "remoteLink": "www.memira.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  }
+]
