@@ -1,0 +1,2607 @@
+[
+  {
+    "name": "Dækpartner",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21247&AddressId=171629&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "daekpartner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Shell",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1116&AddressId=170707&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "b2c.shellservice.dk",
+    "masterData": true
+  },
+  {
+    "name": "Invita",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17772&AddressId=159779&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.invita.dk",
+    "masterData": true
+  },
+  {
+    "name": "Circle K",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20204&AddressId=166253&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "landing.logbuy.dk",
+    "masterData": true
+  },
+  {
+    "name": "Scandic Hotels",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2359&AddressId=161484&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.scandichotels.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mosaikhjørnet",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=301&AddressId=20605&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.mosaikhjornet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sadolin/Nordsjø Glostrup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17&AddressId=16394&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 25 %",
+    "remoteLink": "www.sadolin-glostrup.dk",
+    "masterData": true
+  },
+  {
+    "name": "Q8",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2233&AddressId=161146&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.q8.dk",
+    "masterData": true
+  },
+  {
+    "name": "Matas",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20263&AddressId=166717&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "6 %",
+    "remoteLink": "www.matas.dk",
+    "masterData": true
+  },
+  {
+    "name": "Synoptik",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19961&AddressId=164290&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "www.synoptik.dk",
+    "masterData": true
+  },
+  {
+    "name": "Elgiganten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21292&AddressId=171708&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Carglass A/S",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=493&AddressId=162590&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Eventyrsport",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1282&AddressId=167142&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.eventyrsport.dk",
+    "masterData": true
+  },
+  {
+    "name": "Krøgers Have",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21171&AddressId=171538&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.kroegershave.dk",
+    "masterData": true
+  },
+  {
+    "name": "JT Låse og Sikring",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=14&AddressId=16300&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "jtlaase.dk",
+    "masterData": true
+  },
+  {
+    "name": "Kaiser Sport & Ortopædi",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20678&AddressId=169003&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 - 15 %",
+    "remoteLink": "kaisersport.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bilglas Gruppen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3920&AddressId=166775&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "bilglasgruppensjaelland.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Vanløse",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20273&AddressId=164599&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "RODEO",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18646&AddressId=169823&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "33 %",
+    "remoteLink": "www.rodeocph.dk",
+    "masterData": true
+  },
+  {
+    "name": "Dyrup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=22&AddressId=138680&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 25 %",
+    "remoteLink": "dyrupkbh.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri BikeShop Amager",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3284&AddressId=133164&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Herlev",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19042&AddressId=161783&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smarteyes",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18379&AddressId=164146&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "remoteLink": "www.smarteyes.dk",
+    "masterData": true
+  },
+  {
+    "name": "Garant Brønshøj",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=319&AddressId=16423&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 - 15 %",
+    "remoteLink": "www.garant.nu",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Taastrup og København Ø",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1259&AddressId=91866&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flise Bent",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2492&AddressId=98140&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "flisebent.dk",
+    "masterData": true
+  },
+  {
+    "name": "Promaling.dk (Beckers Farvecenter)",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=104&AddressId=140928&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "50 %",
+    "remoteLink": "promaling.dk",
+    "masterData": true
+  },
+  {
+    "name": "Vibholm Guld og Sølv",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17078&AddressId=171388&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 12 %",
+    "remoteLink": "vibholm.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Hvidovre",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20272&AddressId=164598&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flytbedst",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17204&AddressId=143853&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "flytbedst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Hvidovre",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=863&AddressId=61925&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "GreenMind",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20574&AddressId=166875&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 %",
+    "remoteLink": "greenmind.dk",
+    "masterData": true
+  },
+  {
+    "name": "Thiele",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2478&AddressId=164622&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.thiele.dk",
+    "masterData": true
+  },
+  {
+    "name": "PLUS1 Tandlægeklinik",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17702&AddressId=159714&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "plus1.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Albertslund",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20271&AddressId=164597&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "SteamRex",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19266&AddressId=162145&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "steamrex.com",
+    "masterData": true
+  },
+  {
+    "name": "Dinitrol",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=994&AddressId=164513&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "dinitrol.stadel.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Glostrup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20274&AddressId=172259&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=20274",
+    "remoteLink": "www.fribikeshop.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Drømmeland",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20120&AddressId=164463&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 - 15 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Swapfiets",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21770&AddressId=172225&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Home of Carlsberg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21723&AddressId=172373&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Roccamore",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21271&AddressId=171787&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Fri BikeShop Ballerup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20680&AddressId=169010&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Aku Spa",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21410&AddressId=171794&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "8 - 34 %",
+    "remoteLink": "www.akuspa.com",
+    "masterData": true
+  },
+  {
+    "name": "Vestergaard Møbler",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1948&AddressId=100180&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 25 %",
+    "remoteLink": "vester-moebler.dk",
+    "masterData": true
+  },
+  {
+    "name": "Pedalatleten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19352&AddressId=162267&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 - 15 %",
+    "remoteLink": "www.pedalatleten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Jagtvej",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21686&AddressId=172172&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Crowne Plaza Hotel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20876&AddressId=169083&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.cpcopenhagen.dk",
+    "masterData": true
+  },
+  {
+    "name": "JumpYard",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20286&AddressId=164601&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "jumpyard.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Lyngbyvej",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=608&AddressId=31733&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Kitchen Living Dining",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19855&AddressId=162819&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 20 %",
+    "remoteLink": "www.kitchenlivingdining.com",
+    "masterData": true
+  },
+  {
+    "name": "Face Up SkinCare",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=661&AddressId=47314&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "faceupskincare.dk",
+    "masterData": true
+  },
+  {
+    "name": "Løberen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1297&AddressId=161334&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.loberen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fjällräven Brand Store Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=16633&AddressId=142276&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fjallraven.com",
+    "masterData": true
+  },
+  {
+    "name": "House of Salt",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19376&AddressId=171585&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "remoteLink": "www.houseofsalt.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Søborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=969&AddressId=69117&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "FlotteGulve.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17293&AddressId=156963&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "flottegulve.dk",
+    "masterData": true
+  },
+  {
+    "name": "CityFys Wellness DGI Byen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3918&AddressId=94227&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.secure-booker.com",
+    "masterData": true
+  },
+  {
+    "name": "SIXT – Biludlejning & Mini-Lease",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=349&AddressId=171568&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 - 15 %",
+    "remoteLink": "www.sixt.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sovino restauranter",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21423&AddressId=171849&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "sovinobrands.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri BikeShop Nørrebro",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=16683&AddressId=142312&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "Frederiksberggårdens Tandklinik",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17765&AddressId=159758&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.godtand.dk",
+    "masterData": true
+  },
+  {
+    "name": "Friis Nielsen Automobiler",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3061&AddressId=116772&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "remoteLink": "fnauto.dk",
+    "masterData": true
+  },
+  {
+    "name": "Pigen & Diamanten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=711&AddressId=53162&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "pigenogdiamanten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bomae",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18899&AddressId=161599&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "bomae.dk",
+    "masterData": true
+  },
+  {
+    "name": "RackBuddy",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18987&AddressId=161704&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink": "www.rackbuddy.dk",
+    "masterData": true
+  },
+  {
+    "name": "Grannys House",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1837&AddressId=166778&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "grannyshouse.dk",
+    "masterData": true
+  },
+  {
+    "name": "Burger Palace",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19030&AddressId=161764&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "burgerpalace.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tectyl",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18539&AddressId=161105&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "tectyldanmark.dk",
+    "masterData": true
+  },
+  {
+    "name": "Planet Nusa",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19927&AddressId=164873&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.planetnusa.com",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Frederiksberg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=496&AddressId=18247&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Surf og Ski Greve",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18769&AddressId=161449&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "22 %",
+    "remoteLink": "surfogskigreve.dk",
+    "masterData": true
+  },
+  {
+    "name": "QuickPoint",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1151&AddressId=171965&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=34057",
+    "remoteLink": "www.quickpoint.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=1151"
+  },
+  {
+    "name": "Snedkeriet Dupont",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21291&AddressId=171697&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Garant Herlev",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20143&AddressId=164484&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 - 15 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Fri Bikeshop Valby",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21242&AddressId=171609&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 - 10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Wallmans Cirkusbygningen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2386&AddressId=139223&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "10 - 20 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Tennisshoppen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20258&AddressId=171802&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Badmintonshoppen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20257&AddressId=171801&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Philips - Personlig pleje",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2570&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "40 %",
+    "remoteLink": "www.philips.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sembo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2563&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "9 %",
+    "remoteLink": "www.sembo.dk",
+    "masterData": true
+  },
+  {
+    "name": "Travlr",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2553&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "accounts.logbuy.travlr.com",
+    "masterData": true
+  },
+  {
+    "name": "Stena Line",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2313&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 20 %",
+    "remoteLink": "www.stenaline.dk",
+    "masterData": true
+  },
+  {
+    "name": "NOVASOL",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2236&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.novasol.dk",
+    "masterData": true
+  },
+  {
+    "name": "Inkclub.com",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2122&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.inkclub.com",
+    "masterData": true
+  },
+  {
+    "name": "Interhome",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1964&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "www.interhome.dk",
+    "masterData": true
+  },
+  {
+    "name": "Olivers Petfood",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1951&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.olivers.dk",
+    "masterData": true
+  },
+  {
+    "name": "Risskov Bilferie",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1683&AddressId=161335&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 %",
+    "remoteLink": "www.risskov-bilferie.dk",
+    "masterData": true
+  },
+  {
+    "name": "C. Møllmann & Co.",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1456&AddressId=93340&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "cmoellmann.dk",
+    "masterData": true
+  },
+  {
+    "name": "EuroFlorist",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1363&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink": "visma-fordelansatte.blomstergave.dk",
+    "masterData": true
+  },
+  {
+    "name": "Albatros Rejser",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=1347&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 %",
+    "remoteLink": "www.albatros.dk",
+    "masterData": true
+  },
+  {
+    "name": "Intimo - Undertøj med stil",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=992&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "17 %",
+    "remoteLink": "intimo.dk",
+    "masterData": true
+  },
+  {
+    "name": "FotoSjov",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=724&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "40 %",
+    "remoteLink": "www.fotosjov.dk",
+    "masterData": true
+  },
+  {
+    "name": "Legeakademiet",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=557&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "legeakademiet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Apollo Rejser",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=440&AddressId=26792&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "Tilbud",
+    "remoteLink": "www.apollorejser.dk",
+    "masterData": true
+  },
+  {
+    "name": "Apple",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=151&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "2 - 10 %",
+    "remoteLink": "www.apple.com",
+    "masterData": true
+  },
+  {
+    "name": "SAXO Premium",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=83&AddressId=16400&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.saxo.com",
+    "masterData": true
+  },
+  {
+    "name": "Europcar",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3&AddressId=161522&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 12 %",
+    "remoteLink": "www.europcar.com",
+    "masterData": true
+  },
+  {
+    "name": "Bach & Nielsen Fodterapi & Indlæg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21667&AddressId=172164&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.bachognielsen.dk",
+    "masterData": true
+  },
+  {
+    "name": "No8 Roskilde",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18614&AddressId=161330&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "no8.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger farver i Nærum",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19940&AddressId=164158&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "35 %",
+    "remoteLink": "flugger-naerum.dk",
+    "masterData": true
+  },
+  {
+    "name": "Comwell",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19454&AddressId=162438&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "comwell.com",
+    "masterData": true
+  },
+  {
+    "name": "Farum, Birkerød, Hillerød - Pava Center",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3451&AddressId=161742&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 15 %",
+    "remoteLink": "farumpavacenter.dk",
+    "masterData": true
+  },
+  {
+    "name": "Exklusiv Guld & Sølv",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20256&AddressId=164586&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "exklusivguld.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fri Bikeshop Farum",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20270&AddressId=164596&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.fribikeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Farver Farum",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21576&AddressId=172125&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "remoteLink": "www.farveriget.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flying Superkids",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19004&AddressId=161728&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "flyingsuperkids.com",
+    "masterData": true
+  },
+  {
+    "name": "Klinik Zenit",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21368&AddressId=171962&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "klinik-zenit.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fodmandens Fod og smerteklinik",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20352&AddressId=164875&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink": "www.laserterapeuten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Greve Pejsecenter",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18577&AddressId=161275&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 - 15 %",
+    "remoteLink": "grevepejsecenter.dk",
+    "masterData": true
+  },
+  {
+    "name": "Klinik Genstart",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20918&AddressId=169695&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "klinikgenstart.dk",
+    "masterData": true
+  },
+  {
+    "name": "Advokat Michael von Kauffmann - Møderet for Højesteret",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=55&AddressId=157768&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "45 %",
+    "remoteLink": "www.kauffmann.dk",
+    "masterData": true
+  },
+  {
+    "name": "Hjortskov Advokatfirma",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=95&AddressId=16246&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "remoteLink": "hjortskovadv.dk",
+    "masterData": true
+  },
+  {
+    "name": "Pejse-Centret - Hellerup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=182&AddressId=16359&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink": "www.pejse-centret.dk",
+    "masterData": true
+  },
+  {
+    "name": "Padelshoppen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20255&AddressId=171800&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "LokalBolig",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21152&AddressId=171608&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Ketshop",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21471&AddressId=171882&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Brdr. Krogsbøll Flytteforretning",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3694&AddressId=172255&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 - 50 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=3694",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=3694",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Fri BikeShop Vallensbæk Strand",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20691&AddressId=169014&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Godt Smil Tandlægerne",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19991&AddressId=172073&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "50 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Steak-out.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18880&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "steak-out.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smageriet",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18859&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.smageriet.dk",
+    "masterData": true
+  },
+  {
+    "name": "PUMA",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18835&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "eu.puma.com",
+    "masterData": true
+  },
+  {
+    "name": "LensWay",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18683&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.lensway.dk",
+    "masterData": true
+  },
+  {
+    "name": "Avis Biludlejning",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18677&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.avis.dk",
+    "masterData": true
+  },
+  {
+    "name": "IDEALservice",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18665&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "idealservice.dk",
+    "masterData": true
+  },
+  {
+    "name": "EASIS",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18573&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "easis.dk",
+    "masterData": true
+  },
+  {
+    "name": "Falck Vejhjælp Danmark",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18566&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.falck.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mofibo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18500&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "33 %",
+    "remoteLink": "mofibo.com",
+    "masterData": true
+  },
+  {
+    "name": "Andlight",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18398&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "andlight.dk",
+    "masterData": true
+  },
+  {
+    "name": "Billigtoner.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18020&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "remoteLink": "www.billigtoner.dk",
+    "masterData": true
+  },
+  {
+    "name": "Eurocamp",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17987&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "www.eurocamp.dk",
+    "masterData": true
+  },
+  {
+    "name": "Feriecenter Øster Hurup",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17719&AddressId=159734&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 20 %",
+    "remoteLink": "www.vandlandsferie.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mackabler.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17391&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "mackabler.dk",
+    "masterData": true
+  },
+  {
+    "name": "Supervin",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17231&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.supervin.dk",
+    "masterData": true
+  },
+  {
+    "name": "CEWE.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17155&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.cewe.dk",
+    "masterData": true
+  },
+  {
+    "name": "TrendyLiving",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=16325&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.trendyliving.dk",
+    "masterData": true
+  },
+  {
+    "name": "Wistore",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=15702&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "wistore.dk",
+    "masterData": true
+  },
+  {
+    "name": "Radisson Hotels",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3733&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "3 %",
+    "remoteLink": "www.radissonhotels.com",
+    "masterData": true
+  },
+  {
+    "name": "Sembo - Disneyland",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3518&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "9 %",
+    "remoteLink": "www.sembo.dk",
+    "masterData": true
+  },
+  {
+    "name": "Homeshop.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3375&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "3 %",
+    "remoteLink": "www.homeshop.dk",
+    "masterData": true
+  },
+  {
+    "name": "DEICHMANN",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3373&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.deichmann.com",
+    "masterData": true
+  },
+  {
+    "name": "Cocopanda",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2873&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.cocopanda.dk",
+    "masterData": true
+  },
+  {
+    "name": "Cykelexperten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=7&AddressId=159614&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Fri BikeShop Rødovre",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3997&AddressId=140560&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=3997",
+    "remoteLink": "www.fribikeshop.dk",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "Butik Kjærulff",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=160&AddressId=28968&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Bloom Treatment",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21850&AddressId=172372&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "EMS Cph",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21119&AddressId=171509&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 30 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Flowering.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19300&AddressId=162208&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Errant",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20086&AddressId=164584&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "VeloVita.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21494&AddressId=171909&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "FARFETCH",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19558&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.farfetch.com",
+    "masterData": true
+  },
+  {
+    "name": "Newline",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19554&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "www.newlinesport.dk",
+    "masterData": true
+  },
+  {
+    "name": "Skjorten.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19530&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "skjorten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lenovo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19504&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.lenovo.com",
+    "masterData": true
+  },
+  {
+    "name": "Kokken & Jomfruen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19495&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.kokken-jomfruen.dk",
+    "masterData": true
+  },
+  {
+    "name": "FLOWR.DK - Priser inkl. alt",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19492&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "flowr.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mine Arvinger",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19452&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "minearvinger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lille kanin",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19449&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "lillekanin.dk",
+    "masterData": true
+  },
+  {
+    "name": "Packyard",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19445&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 20 %",
+    "remoteLink": "packyard.dk",
+    "masterData": true
+  },
+  {
+    "name": "HelloFresh",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19389&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "37 %",
+    "remoteLink": "www.hellofresh.dk",
+    "masterData": true
+  },
+  {
+    "name": "Kalos",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19308&AddressId=162215&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "kalos.dk",
+    "masterData": true
+  },
+  {
+    "name": "Desires",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19247&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "desires.dk",
+    "masterData": true
+  },
+  {
+    "name": "FashionDeluxe",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19140&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 - 15 %",
+    "remoteLink": "www.fashiondeluxe.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sif Jakobs Jewellery",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19561&AddressId=162612&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Symaskine Torvet",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=15930&AddressId=172371&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=15930",
+    "remoteLink": "symaskinetorvet.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=15930",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Fri Bikeshop KBH NV & KBH Ø",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3085&AddressId=116899&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "IKONO Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21699&AddressId=172182&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Ulrik Storm",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21832&AddressId=172258&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Friluftsland",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3609&AddressId=135476&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "STUHR",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21697&AddressId=172183&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Tivoli - Entrébilletter, Turpas & Tivolikort",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19457&AddressId=162465&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "CLINIC MOI",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21430&AddressId=171796&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Omnium",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21490&AddressId=171954&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Swappie",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19895&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "swappie.com",
+    "masterData": true
+  },
+  {
+    "name": "Meguiar´s",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19893&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "meguiars.dk",
+    "masterData": true
+  },
+  {
+    "name": "Fitness Engros",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19890&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "fitnessengros.dk",
+    "masterData": true
+  },
+  {
+    "name": "VinGuruen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19876&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "vinguruen.dk",
+    "masterData": true
+  },
+  {
+    "name": "Prop & Pagne",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19875&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.propogpagne.dk",
+    "masterData": true
+  },
+  {
+    "name": "Den 1. Hjælp",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19872&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "den1hjaelp.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sortesokker.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19871&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "22 %",
+    "remoteLink": "www.sortesokker.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sæsonvine",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19863&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink": "saesonvine.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tjarry",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19842&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "tjarry.dk",
+    "masterData": true
+  },
+  {
+    "name": "LforLiving",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19834&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "lforliving.dk",
+    "masterData": true
+  },
+  {
+    "name": "Expedia",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19823&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "1,5 - 3 %",
+    "remoteLink": "www.expedia.dk",
+    "masterData": true
+  },
+  {
+    "name": "Ledpaneler",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19822&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.ledpaneler.dk",
+    "masterData": true
+  },
+  {
+    "name": "Lammeuld.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19818&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "lammeuld.dk",
+    "masterData": true
+  },
+  {
+    "name": "LivLabs",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19801&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "zestalnow.com",
+    "masterData": true
+  },
+  {
+    "name": "AIRE Ancient Baths",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19798&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "beaire.com",
+    "masterData": true
+  },
+  {
+    "name": "Theis Vine",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19791&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "6 %",
+    "remoteLink": "www.theis-vine.dk",
+    "masterData": true
+  },
+  {
+    "name": "NordVPN",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19790&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "69 %",
+    "remoteLink": "nordvpn.com",
+    "masterData": true
+  },
+  {
+    "name": "Anders And & Co",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19764&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "helsegrossisten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19761&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "helsegrossisten.dk",
+    "masterData": true
+  },
+  {
+    "name": "Hemphilia",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19760&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "hemphilia.dk",
+    "masterData": true
+  },
+  {
+    "name": "Euroman",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19576&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "54 - 58 %",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "Eurowoman",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19575&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "54 - 58 %",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "ALT for damerne",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19574&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "55 - 59 %",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "Gastro",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19573&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "65 - 69 %",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "Boligliv",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19572&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "56 - 58 %",
+    "remoteLink": "www.mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "VVSdeluxe",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19560&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "www.vvsdeluxe.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danblomster.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18921&AddressId=161615&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Lirum Larum Leg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2439&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "RetNemt Måltidskasser",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2406&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "35 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "H. Lynggaard Guld - Sølv A/S",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17909&AddressId=159875&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err3": "Err03: No link to external site was found on local element page"
+  },
+  {
+    "name": "Auto Spa Virum - Eksklusiv Bilpleje",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21796&AddressId=172249&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Klinik Hos le Dous",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21366&AddressId=171783&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "GreenEtiq - økologisk certificeret & 100% vegansk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20437&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "green-etiq.dk",
+    "masterData": true
+  },
+  {
+    "name": "Flügger Webshop",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20433&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "www.flugger.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mentorix",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20428&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "mentorix.dk",
+    "masterData": true
+  },
+  {
+    "name": "Dansk Aktionærforening",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20419&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.shareholders.dk",
+    "masterData": true
+  },
+  {
+    "name": "Skagenfood",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20400&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "remoteLink": "skagenfood.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danishhifi",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20385&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "danishhifi.dk",
+    "masterData": true
+  },
+  {
+    "name": "DanskAloeVera",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20384&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "danskaloevera.dk",
+    "masterData": true
+  },
+  {
+    "name": "SUUBZ",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20379&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.suubz.com",
+    "masterData": true
+  },
+  {
+    "name": "Madudefra",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20360&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "madudefra.dk",
+    "masterData": true
+  },
+  {
+    "name": "GINBUTLER",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20347&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "ginbutler.dk",
+    "masterData": true
+  },
+  {
+    "name": "Avilé",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20339&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.avile.dk",
+    "masterData": true
+  },
+  {
+    "name": "Gouda Rejseforsikring",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20330&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.gouda.dk",
+    "masterData": true
+  },
+  {
+    "name": "Bendixen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20329&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "bendixen-thisted.dk",
+    "masterData": true
+  },
+  {
+    "name": "Spiritium Cocktails",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20325&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.spiritium.dk",
+    "masterData": true
+  },
+  {
+    "name": "Ostsee Resort Dampland",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20320&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 15 %",
+    "remoteLink": "www.ostsee-resort-dampland.de",
+    "masterData": true
+  },
+  {
+    "name": "Padelgeek",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20300&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "padelgeek.com",
+    "masterData": true
+  },
+  {
+    "name": "nsleep",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20292&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "nsleep.dk",
+    "masterData": true
+  },
+  {
+    "name": "NORDSUS",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20282&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "nordsus.dk",
+    "masterData": true
+  },
+  {
+    "name": "STRONGER",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20276&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.strongerlabel.com",
+    "masterData": true
+  },
+  {
+    "name": "Bornholm Spirits",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20275&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "bornholmspirits.com",
+    "masterData": true
+  },
+  {
+    "name": "Winther Vin",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20247&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "winthervin.dk",
+    "masterData": true
+  },
+  {
+    "name": "Tromborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20228&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.tromborg.store",
+    "masterData": true
+  },
+  {
+    "name": "Shark Gaming",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20198&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 - 25 %",
+    "remoteLink": "sharkgaming.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smartbox",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20193&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.smartbox.com",
+    "masterData": true
+  },
+  {
+    "name": "AEG",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20185&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.aeg.dk",
+    "masterData": true
+  },
+  {
+    "name": "Electrolux",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20184&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.electrolux.dk",
+    "masterData": true
+  },
+  {
+    "name": "Best Travel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20172&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "www.besttravel.dk",
+    "masterData": true
+  },
+  {
+    "name": "Royal Design",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20136&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "buy.getgifted.com",
+    "masterData": true
+  },
+  {
+    "name": "Xbox",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20135&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "buy.getgifted.com",
+    "masterData": true
+  },
+  {
+    "name": "Ticketmaster",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20134&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "remoteLink": "buy.getgifted.com",
+    "masterData": true
+  },
+  {
+    "name": "Nintendo eShop",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20130&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 %",
+    "remoteLink": "buy.getgifted.com",
+    "masterData": true
+  },
+  {
+    "name": "H&M",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20099&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "6 %",
+    "remoteLink": "buy.getgifted.com",
+    "masterData": true
+  },
+  {
+    "name": "Mixx Travel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19954&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.mixxtravel.dk",
+    "masterData": true
+  },
+  {
+    "name": "Danish Granola Company",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19943&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.danishgranolacompany.dk",
+    "masterData": true
+  },
+  {
+    "name": "ComputerSalg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19942&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "2 - 25 %",
+    "remoteLink": "www.computersalg.dk",
+    "masterData": true
+  },
+  {
+    "name": "Naturligolie - hudpleje",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19937&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 55 %",
+    "remoteLink": "naturligolie.dk",
+    "masterData": true
+  },
+  {
+    "name": "E-revisor",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19926&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "e-revisor.dk",
+    "masterData": true
+  },
+  {
+    "name": "Mystery Makers - Escape room i København",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20905&AddressId=169418&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Happydays A/S",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=982&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=41502",
+    "remoteLink": "www.happydays.nu"
+  },
+  {
+    "name": "SEGA gardinbussen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20883&AddressId=169426&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "22 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=46851",
+    "remoteLink": "sega.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=20883"
+  },
+  {
+    "name": "Homeroom",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18913&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Bunchwell",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21754&AddressId=172222&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 25 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=47345",
+    "remoteLink": "www.bunchwell.com"
+  },
+  {
+    "name": "DecoFarver.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18903&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Shaping New Tomorrow",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18895&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 - 10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "TaxHelper",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20987&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "www.taxhelper.dk",
+    "masterData": true
+  },
+  {
+    "name": "TYRA - af Hanne Fabricius",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20954&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "landing.logbuy.dk",
+    "masterData": true
+  },
+  {
+    "name": "Story House Egmont",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20947&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "mitblad.dk",
+    "masterData": true
+  },
+  {
+    "name": "CLEAR CARATS",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20895&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "clearcarats.dk",
+    "masterData": true
+  },
+  {
+    "name": "Anholt Gin",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20885&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "www.anholt-gin.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sephora",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20832&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "www.sephora.dk",
+    "masterData": true
+  },
+  {
+    "name": "Nortlander – Danmarks førende Alpine skirejsebureau",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20738&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.nortlander.dk",
+    "masterData": true
+  },
+  {
+    "name": "Pier 5 Hotel - Aalborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20720&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "pier5.dk",
+    "masterData": true
+  },
+  {
+    "name": "Peak 12 Hotel - Viborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20719&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "peak12.dk",
+    "masterData": true
+  },
+  {
+    "name": "Airport Hotel - Aalborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20718&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "airporthotel.dk",
+    "masterData": true
+  },
+  {
+    "name": "Billund Airport Hotel - Billund",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20717&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "hotelbillund.dk",
+    "masterData": true
+  },
+  {
+    "name": "Scheelsminde  - Aalborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20715&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "scheelsminde.dk",
+    "masterData": true
+  },
+  {
+    "name": "Hotel Royal - Aarhus",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20714&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "hotelroyal.dk",
+    "masterData": true
+  },
+  {
+    "name": "Villa Provence Hotel - Aarhus",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20713&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "villaprovence.dk",
+    "masterData": true
+  },
+  {
+    "name": "JESPERHUS",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20688&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.jesperhus.dk",
+    "masterData": true
+  },
+  {
+    "name": "ABCforsikring",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20665&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "abcforsikring.dk",
+    "masterData": true
+  },
+  {
+    "name": "Modekompagniet",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20562&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "modekompagniet.dk",
+    "masterData": true
+  },
+  {
+    "name": "Woods_Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20556&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "remoteLink": "woodscopenhagen.com",
+    "masterData": true
+  },
+  {
+    "name": "Animondo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20520&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "6 %",
+    "remoteLink": "animondo.dk",
+    "masterData": true
+  },
+  {
+    "name": "Handyhand",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20516&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "handyhand.dk",
+    "masterData": true
+  },
+  {
+    "name": "MENY Vin",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20515&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink": "shop.meny.dk",
+    "masterData": true
+  },
+  {
+    "name": "Amalo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20514&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.amalo.dk",
+    "masterData": true
+  },
+  {
+    "name": "Smartphoto",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18816&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "IDEAL OF SWEDEN",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18693&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "16 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Happy Helper - Privat Rengøring",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18585&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Ventoux",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18757&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "7 - 15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=35159",
+    "remoteLink": "ventouxbike.dk"
+  },
+  {
+    "name": "ByFlou.com",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18267&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "16 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Factor",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21184&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "40 %",
+    "remoteLink": "www.factormeals.dk",
+    "masterData": true
+  },
+  {
+    "name": "Kurhotel Skodsborg",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21114&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "app.mews.com",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Væksthuset",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21087&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Odette",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21086&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Gemini",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21085&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Theo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21084&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Norrlyst",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21083&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "Restaurant Gabrielle",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21082&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "remoteLink": "norrlyst.dk",
+    "masterData": true
+  },
+  {
+    "name": "HOLME Gardiner",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21036&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 - 35 %",
+    "remoteLink": "www.holmeaps.dk",
+    "masterData": true
+  },
+  {
+    "name": "GO DREAM",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17787&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "12 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=17787",
+    "remoteLink": "www.godream.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=17787",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "TABLETCOVERS.DK",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17317&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Roskilde Pava Center",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=976&AddressId=69389&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=976&addressId=69389",
+    "err0": "Priority 1 link following failed. No link 2 found"
+  },
+  {
+    "name": "ZWILLING.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18249&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "20 - 25 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=18249",
+    "remoteLink": "www.zwilling.com",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=18249",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Danland feriecenter",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3795&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "10 - 30 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "DanCenter",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=15528&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "10 - 30 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Greenline.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3622&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "GreenWash",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21287&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "book.greenwash.nu",
+    "masterData": true
+  },
+  {
+    "name": "Samlino",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21234&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "www.samlino.dk",
+    "masterData": true
+  },
+  {
+    "name": "VitaePro",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21208&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 - 50 %",
+    "remoteLink": "www.vitaepro.dk",
+    "masterData": true
+  },
+  {
+    "name": "FairRENTE -  din opsparing fortjener bedre",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21200&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink": "fairrente.dk",
+    "masterData": true
+  },
+  {
+    "name": "Padellife",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21186&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink": "padellife.dk",
+    "masterData": true
+  },
+  {
+    "name": "Molly&My",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=18209&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "13 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=18209",
+    "remoteLink": "www.mollyogmy.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "Sunweb",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3602&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "MOBILCOVERS.DK",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=17316&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "15 - 25 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=17316",
+    "remoteLink": "www.mobilcovers.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "ULRICH DESIGN since 1951",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3596&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "Bodystore",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3563&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "BilligVVS.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3297&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "3 %",
+    "err4": "Err04: Error inside pool: Navigation timeout of 30000 ms exceeded"
+  },
+  {
+    "name": "Chokoladehimlen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=3273&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Copenhagen Dream",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19516&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Pixum",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19543&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Just Eat Gavekort",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19529&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "4 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "BookBeat",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19545&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "Tilbud",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=43210",
+    "remoteLink": "www.bookbeat.com"
+  },
+  {
+    "name": "DAY ET",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19392&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "15 - 20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Zalando",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=2940&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=2940",
+    "remoteLink": "www.zalando.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=2940",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "PanzerGlass®",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19375&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "JBL",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19474&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "10 - 20 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=45120",
+    "remoteLink": "dk.jbl.com"
+  },
+  {
+    "name": "LampeGuru",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19359&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "adidas",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19335&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Podimo",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19460&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "Tilbud",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=43533",
+    "remoteLink": "go.podimo.com",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=19460"
+  },
+  {
+    "name": "Hotels.com",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19357&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Sinful",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19348&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Tapetforum.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19321&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Sanzi Beauty",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19281&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Zoologisk Have i København",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19088&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Bodylab",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19816&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Brandshop",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19746&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Acer",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20297&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "PlantsByFLOWR.DK",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20231&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Aarstiderne",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19577&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "20 - 25 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=41084",
+    "remoteLink": "www.aarstiderne.com"
+  },
+  {
+    "name": "KitchenAid",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20178&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Daniel Wellington",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19968&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Spring Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19957&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Comforth Scandinavia",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=19787&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=19787",
+    "remoteLink": "comforth.dk",
+    "err0": "Priority 1 link following failed. Trying link 2",
+    "remoteLinkPri1": "https://www.mylogbuy.com/WebPages/Redirects/LinkToSupplier.aspx?SupplierInfoId=19787",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Vinterbaderen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20212&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=41919",
+    "remoteLink": "vinterbaderen.dk"
+  },
+  {
+    "name": "Netfisk.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20957&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Allente",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20094&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=47065",
+    "remoteLink": "www.allente.dk"
+  },
+  {
+    "name": "SHOE BIZ COPENHAGEN",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20944&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Philips Hue",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20932&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "15 - 25 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "ABOUT YOU",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20881&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Housekeepr",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20854&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Dyson",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20552&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Nike",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21166&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Danhostel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21158&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Munkebjerg Hotel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21164&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Compumail",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21150&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "2 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Audo Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21147&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "20 - 35 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Natruba",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21148&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Kildemoes",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20722&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "38 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=47440",
+    "remoteLink": "www.kildemoes.dk"
+  },
+  {
+    "name": "LABFRESH",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21146&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "DH Wines",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21143&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Pandasia",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21140&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "MinVinduespolering",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21137&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Stylemekka",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21132&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Lloyd",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21122&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "Tilbud",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Shooting Tiger",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21120&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 30 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Wheeling",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21111&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Betterfeast",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21115&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "50 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Den Sidste Flaske",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=20571&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=43030",
+    "remoteLink": "densidsteflaske.dk"
+  },
+  {
+    "name": "Vargen & Thor",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21102&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Interflora",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21081&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Maanesten",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21037&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "SteelSeries",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21035&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 25 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Sleepbetter.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21299&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Namly",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21298&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "25 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Nul-alger.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21108&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "40 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=44971",
+    "remoteLink": "nul-alger.dk"
+  },
+  {
+    "name": "Growtek.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21025&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "JK Sikring",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21294&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "UkraineBoost",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21290&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Basic+Ally",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21285&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Loop Earplugs",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21284&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "16 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Football Travel",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21282&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Nordic Gear",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21279&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "TrainGamia",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21273&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "LiveOplev",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21270&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Pharmadrops",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21269&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "30 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Sisi Copenhagen",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21283&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 - 15 %",
+    "remoteLink0": "https://www.mylogbuy.com/WebPages/Redirects/BuyOrder.aspx?dealid=47321",
+    "remoteLink": "sisicph.dk"
+  },
+  {
+    "name": "JJXX",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21260&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "JACK & JONES",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21259&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=SpecialOffer",
+    "discount": "15 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "GANT",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21252&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "8 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "BNA Boardshop",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21251&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "DearBaby",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21258&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "15 - 25 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Onlinemaling.dk",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21249&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "50 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Sports World",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21241&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "6 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Small Danish Hotels",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21229&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "9 %",
+    "err4": "Err04: Error inside pool: No frame was found"
+  },
+  {
+    "name": "Beautycos",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21222&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "5 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Bosch",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21215&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "ECOOKING",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21214&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "20 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Studio Buus",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21197&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  },
+  {
+    "name": "Racketlife",
+    "localLink": "https://www.mylogbuy.com/WebPages/ShowDeal/default.aspx?SupplierInfoId=21193&ContentSet=B2C&SupplierClickArea=SearchList&ViewType=Normal",
+    "discount": "10 %",
+    "err4": "Err04: Error inside pool: Error: failed to find element matching selector \"#ctl00_ctl00_Content_ClickOut_HyperLink_GoToDeal\""
+  }
+]
