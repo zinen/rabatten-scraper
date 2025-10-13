@@ -54,7 +54,7 @@ jobs:
   release-github:
     # needs: npm-test
     # 👇 If manually triggered, skip dependency on npm-test
-    needs: ${{ github.event_name != 'workflow_dispatch' && 'npm-test' || '' }}
+    needs: [npm-test]
     runs-on: ubuntu-latest
     # 👇 Run only for pushes OR manual triggers
     if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
