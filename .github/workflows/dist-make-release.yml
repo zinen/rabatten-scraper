@@ -51,13 +51,11 @@ jobs:
           RUNNER_CONTEXT: ${{ toJson(runner) }}
         run: echo "$RUNNER_CONTEXT"
 
-  release-github:
-    # needs: npm-test
-    # 👇 If manually triggered, skip dependency on npm-test
-    needs: [npm-test]
+  release-after-test:
+    needs: npm-test
     runs-on: ubuntu-latest
     # 👇 Run only for pushes OR manual triggers
-    if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
+    if: github.event_name == 'push'
     steps:
       - uses: actions/checkout@v3
       - run: |
@@ -91,3 +89,19 @@ jobs:
         env:
           RUNNER_CONTEXT: ${{ toJson(runner) }}
         run: echo "$RUNNER_CONTEXT"
+        
+  release-manual:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v3
+      - run:  |
+           git config --global user.email "bot_${{ github.event_name }}@users.noreply.github.com"
+           git config --global user.name "bot_${{ github.event_name }}"
+      - uses: actions/setup-node@v3
+        env:
+          PUPPETEER_SKIP_CHROMIUM_DOWNLOAD: 'true'
+      - run: npm ci
+      - run: npm run release -- patch --ci
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
