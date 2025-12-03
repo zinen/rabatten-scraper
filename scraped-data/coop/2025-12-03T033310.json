@@ -1,0 +1,107 @@
+[
+  {
+    "name": "Bonus på forsikringer",
+    "localLink": "https://partnerfordele.coop.dk/coop-forsikringer-fra-topdanmark/",
+    "discount": "Få 250 kr, i velkomstbonus",
+    "remoteLink": "www.coopforsikringer.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK El",
+    "localLink": "https://partnerfordele.coop.dk/ok-el/",
+    "discount": "Få 500 kr, bonus",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "eesy",
+    "localLink": "https://partnerfordele.coop.dk/eesy/",
+    "discount": "500 kr, velkomstbonus",
+    "remoteLink": "accounts.cl.coop.dk",
+    "masterData": true
+  },
+  {
+    "name": "TUI",
+    "localLink": "https://partnerfordele.coop.dk/tui-rejser/",
+    "discount": "Op til 5% bonus på din rejse",
+    "remoteLink": "www.tui.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Naturgas",
+    "localLink": "https://partnerfordele.coop.dk/ok-naturgas/",
+    "discount": "120 kr, i årlig bonus",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Varmepumpe",
+    "localLink": "https://partnerfordele.coop.dk/ok-varmepumpe/",
+    "discount": "1,500 kr, bonus",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Fyringsolie",
+    "localLink": "https://partnerfordele.coop.dk/ok-fyringsolie/",
+    "discount": "75  kr, bonus pr, 100 l",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Gasfyr Tryghed",
+    "localLink": "https://partnerfordele.coop.dk/ok-gasfyr-tryghed/",
+    "discount": "Få 500 kr, i bonus",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Fri Vask",
+    "localLink": "https://partnerfordele.coop.dk/ok-fri-vask/",
+    "discount": "10 kr, i bonus hver måned",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "OK Parkering",
+    "localLink": "https://partnerfordele.coop.dk/ok-parkering/",
+    "discount": "3% bonus",
+    "remoteLink": "www.ok.dk",
+    "masterData": true
+  },
+  {
+    "name": "Sol og Strand",
+    "localLink": "https://partnerfordele.coop.dk/sol-og-strand/",
+    "discount": "5% bonus",
+    "remoteLink": "www.sologstrand.dk",
+    "masterData": true
+  },
+  {
+    "name": "Coop Bank",
+    "localLink": "https://partnerfordele.coop.dk/coop-bank/",
+    "discount": "Bonus på realkredit",
+    "remoteLink": "coopbank.dk",
+    "masterData": true
+  },
+  {
+    "name": "CEWE - fotoprodukter",
+    "localLink": "https://partnerfordele.coop.dk/cewe/",
+    "discount": "15% bonus på foto-produkter",
+    "remoteLink": "coop.cewe.dk",
+    "masterData": true
+  },
+  {
+    "name": "eesy internet",
+    "localLink": "https://partnerfordele.coop.dk/eesy-internet/",
+    "discount": "5% i månedlig bonus",
+    "remoteLink": "eesy.dk",
+    "masterData": true
+  },
+  {
+    "name": "Få bonus hos OK",
+    "localLink": "https://partnerfordele.coop.dk/ok-er-fulde-af-bonus/",
+    "discount": "OK er fulde af bonus",
+    "remoteLink": "partnerfordele.coop.dk",
+    "masterData": true
+  }
+]
